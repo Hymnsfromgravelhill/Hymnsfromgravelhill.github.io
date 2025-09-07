@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "SSF Songs",
+      "name": "Sacred Songs for Singing Saints (Songs of Thanksgiving & Praise)",
       "path": "data/ssfss_songs.min.json",
       "mapping": {
         "id": "id",
