@@ -145,3 +145,10 @@ a:hover{text-decoration:underline}
   .topbar,.detail-nav,.footer{display:none}
   .content{border:none;box-shadow:none}
 }
+
+.logo {
+  height: 32px;   /* adjust size as needed */
+  width: auto;    /* keeps proportions */
+  vertical-align: middle;
+  margin-right: 0.5rem; /* space between logo and text */
+}
