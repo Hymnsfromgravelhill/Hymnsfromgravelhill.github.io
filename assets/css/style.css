@@ -254,3 +254,26 @@ a:hover{text-decoration:underline}
     font-size:.85rem;
   }
 }
+
+
+:root{
+  /* fallback; JS below will set the real height */
+  --header-h: 56px;
+  --sa-top: env(safe-area-inset-top, 0px);
+}
+
+/* keep your header sticky if it already is */
+header{
+  position: sticky;
+  position: -webkit-sticky; /* iOS */
+  top: var(--sa-top);
+  z-index: 1003;
+}
+
+/* subbar sticks right under the header, everywhere */
+.subbar{
+  position: sticky;
+  position: -webkit-sticky; /* iOS */
+  top: calc(var(--header-h) + var(--sa-top));
+  z-index: 1002;            /* below header, above content */
+}

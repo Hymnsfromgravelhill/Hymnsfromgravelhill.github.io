@@ -310,6 +310,32 @@ function setupDetailButtons(){
   $('#printBtn').addEventListener('click', ()=> window.print());
 }
 
+let headerResizeObs;
+
+function updateHeaderHeight(){
+  const header = document.querySelector('header');
+  if (!header) return;
+  // Use device pixels (rounded) to avoid sub-pixel drift on zoom
+  const h = Math.ceil(header.getBoundingClientRect().height);
+  document.documentElement.style.setProperty('--header-h', h + 'px');
+}
+
+function watchHeader(){
+  updateHeaderHeight();
+  // Update on resize/orientation + whenever the header’s height changes
+  window.addEventListener('resize', updateHeaderHeight, { passive: true });
+  window.addEventListener('orientationchange', updateHeaderHeight);
+  if ('fonts' in document) document.fonts.ready.then(updateHeaderHeight).catch(()=>{});
+  if ('ResizeObserver' in window){
+    headerResizeObs?.disconnect?.();
+    const header = document.querySelector('header');
+    if (header){
+      headerResizeObs = new ResizeObserver(updateHeaderHeight);
+      headerResizeObs.observe(header);
+    }
+  }
+}
+
 const router = new Router();
 router.onRoute = (parts)=>{
   if (parts[0]==='hymn' && parts.length>=3){
@@ -334,5 +360,6 @@ router.onRoute = (parts)=>{
   setupDetailButtons();
   setupSubbarControls();
   setupListInteractions();
+  watchHeader();
   router.start();
 })();
