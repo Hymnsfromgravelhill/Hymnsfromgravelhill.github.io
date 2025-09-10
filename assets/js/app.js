@@ -9,6 +9,9 @@ const state = {
   rows: [],
   index: null,
   baseUrl: '',
+  sortMode: 'number',       // 'number' | 'alpha'
+  viewFavorites: false,     // false = all, true = favorites-only
+  favs: new Set(),          // current dataset favorites (ids)
 };
 
 // Opt out of SPA scroll memory so we control it explicitly
@@ -57,6 +60,80 @@ function normalizeRow(row, map){
   };
 }
 
+function datasetKey(){
+  const ds = state.datasets[state.currentDatasetIndex] || {};
+  return 'fav_' + (ds.path || String(state.currentDatasetIndex));
+}
+function loadFavorites(){
+  try{
+    state.favs = new Set(JSON.parse(localStorage.getItem(datasetKey()) || '[]'));
+  }catch{ state.favs = new Set(); }
+}
+function saveFavorites(){
+  localStorage.setItem(datasetKey(), JSON.stringify(Array.from(state.favs)));
+}
+function isFav(id){ return state.favs.has(id); }
+function toggleFav(id){
+  if (state.favs.has(id)) state.favs.delete(id); else state.favs.add(id);
+  saveFavorites();
+}
+function normalizeTitle(t=''){ return (t||'').toString().trim().toLowerCase(); }
+
+function sortRows(rows){
+  const out = [...rows];
+  if (state.sortMode === 'alpha'){
+    out.sort((a,b)=>{
+      const at = normalizeTitle(a.title), bt = normalizeTitle(b.title);
+      if (at !== bt) return at < bt ? -1 : 1;
+      const an = parseInt(a.number || '0',10), bn = parseInt(b.number || '0',10);
+      return an - bn;
+    });
+  } else {
+    out.sort((a,b)=>{
+      const an = parseInt(a.number || '0',10), bn = parseInt(b.number || '0',10);
+      return an - bn;
+    });
+  }
+  return out;
+}
+
+function filterFavorites(rows){
+  return state.viewFavorites ? rows.filter(r => state.favs.has(r.id)) : rows;
+}
+
+function updateFavButtonLabel(){
+  const btn = document.getElementById('favoritesToggle');
+  if (!btn) return;
+  const count = state.favs.size;
+  if (state.viewFavorites){
+    btn.textContent = `Show All`;
+    btn.setAttribute('aria-pressed','true');
+  } else {
+    btn.textContent = `Show Favorites (${count})`;
+    btn.setAttribute('aria-pressed','false');
+  }
+}
+
+function currentQuery(){
+  const input = document.getElementById('q');
+  return input ? input.value.trim() : '';
+}
+
+/** Compute rows based on query + favorites + sort and paint UI */
+function renderFromState(){
+  const q = currentQuery();
+  let base = q ? search(state.index, state.rows, q) : state.rows;
+  base = filterFavorites(base);
+  base = sortRows(base);
+  drawList(base);
+
+  const stats = document.getElementById('resultStats');
+  if (q && stats) stats.textContent = `${base.length} results for “${q}”${state.viewFavorites ? ' (favorites)' : ''}`;
+  else if (stats) stats.textContent = `${base.length} hymn${base.length===1?'':'s'}${state.viewFavorites ? ' (favorites)' : ''}`;
+
+  updateFavButtonLabel();
+}
+
 async function loadConfig(){
   const res = await fetch('config.json'); state.config = await res.json();
   state.baseUrl = state.config.baseUrl || '';
@@ -76,24 +153,35 @@ function renderDatasetPicker(){
 
 async function hydrate(){
   const ds = state.datasets[state.currentDatasetIndex];
-  $('#sourceLink').href = ds.path;
-  const res = await fetch(ds.path); const data = await res.json();
+  document.getElementById('sourceLink').href = ds.path;
+
+  const res = await fetch(ds.path);
+  const data = await res.json();
   const arr = Array.isArray(data) ? data : (data.hymns || data.items || data.rows || []);
-  state.rows = arr.map(r=> normalizeRow(r, ds.mapping||{}));
+  state.rows = arr.map(r => normalizeRow(r, ds.mapping||{}));
+
+  // (re)build search index with simpler precompute
   state.index = buildIndex(state.rows);
-  drawList(state.rows);
-  router.handle(); // apply route on dataset switch
+
+  // load favorites for this dataset and render
+  loadFavorites();
+  renderFromState();
+
+  // apply route if needed (e.g., deep link)
+  router.handle();
 }
 
 function drawList(rows){
-  const ul = $('#results');
-  ul.innerHTML = rows.map(r=> html`
+  const ul = document.getElementById('results');
+  ul.innerHTML = rows.map(r => html`
     <li data-id="${escapeHTML(r.id)}">
+      <button class="fav-btn" data-id="${escapeHTML(r.id)}" title="${isFav(r.id) ? 'Unfavorite' : 'Favorite'}" aria-label="${isFav(r.id) ? 'Unfavorite' : 'Favorite'}">
+        <i class="bi ${isFav(r.id) ? 'bi-star-fill' : 'bi-star'}"></i>
+      </button>
       <span class="hymn-no">${escapeHTML(r.number || '—')}</span>
       <a href="#/hymn/${state.currentDatasetIndex}/${encodeURIComponent(r.id)}" class="hymn-title">${escapeHTML(r.title || '(Untitled)')}</a>
     </li>
   `).join('');
-  $('#resultStats').textContent = rows.length ? `${rows.length} hymns` : 'No hymns';
 }
 
 function renderDetail(h){
@@ -163,23 +251,52 @@ function showDetail(id, push=true){
   if (push) location.hash = `#/hymn/${state.currentDatasetIndex}/${encodeURIComponent(id)}`;
 }
 
+function setupSubbarControls(){
+  const sortSelect = document.getElementById('sortSelect');
+  const favToggle  = document.getElementById('favoritesToggle');
+
+  // initialize from defaults
+  if (sortSelect) sortSelect.value = state.sortMode;
+
+  sortSelect?.addEventListener('change', ()=>{
+    state.sortMode = sortSelect.value === 'alpha' ? 'alpha' : 'number';
+    renderFromState();
+  });
+
+  favToggle?.addEventListener('click', ()=>{
+    state.viewFavorites = !state.viewFavorites;
+    renderFromState();
+  });
+
+  updateFavButtonLabel();
+}
+
+function setupListInteractions(){
+  const ul = document.getElementById('results');
+  ul.addEventListener('click', (e)=>{
+    const btn = e.target.closest('.fav-btn');
+    if (!btn) return;
+    e.preventDefault(); e.stopPropagation();
+
+    const id = btn.getAttribute('data-id');
+    toggleFav(id);
+
+    // If we’re in favorites view and it was unfavorited, remove it from the list
+    // Easiest: just re-render respecting current query/sort/filter
+    renderFromState();
+  });
+}
 
 function setupSearch(){
-  const input = $('#q');
-  const clearBtn = $('#clearBtn');
-  const run = ()=>{
-    const q = input.value.trim();
-    if (!q){
-      drawList(state.rows);
-      $('#resultStats').textContent = `${state.rows.length} hymns`;
-      return;
-    }
-    const results = search(state.index, state.rows, q);
-    drawList(results);
-    $('#resultStats').textContent = `${results.length} results for “${q}”`;
-  };
+  const input = document.getElementById('q');
+  const clearBtn = document.getElementById('clearBtn');
+
+  const run = ()=> renderFromState();
+
   input.addEventListener('input', run);
-  clearBtn.addEventListener('click', ()=>{ input.value=''; run(); input.focus(); });
+  clearBtn.addEventListener('click', ()=>{
+    input.value=''; run(); input.focus();
+  });
 }
 
 function setupDetailButtons(){
@@ -215,5 +332,7 @@ router.onRoute = (parts)=>{
   await hydrate();
   setupSearch();
   setupDetailButtons();
+  setupSubbarControls();
+  setupListInteractions();
   router.start();
 })();

@@ -9,27 +9,9 @@
   <title>Hymns from Gravel Hill</title>
   
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <meta name="theme-color" content="#0b0b0c">
 
-  <!-- Open Graph / Facebook / Messenger / WhatsApp 
-<link rel="canonical" href="https://hymns.fromgravelhill.ca/" />
-
-<meta property="og:title" content="Hymns from Gravel Hill" />
-<meta property="og:description" content="Browse and search hymn books online." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hymns.fromgravelhill.ca/" />
-
-<meta property="og:image" content="https://hymns.fromgravelhill.ca/assets/img/share.jpg" />
-<meta property="og:image:secure_url" content="https://hymns.fromgravelhill.ca/assets/img/share.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Hymns from Gravel Hill" />
-
-Twitter (WhatsApp ignores these, but keep for others)
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Hymns from Gravel Hill" />
-<meta name="twitter:description" content="Browse and search hymn books online." />
-<meta name="twitter:image" content="https://hymns.fromgravelhill.ca/assets/img/share.jpg" /> -->
 
 <!-- Open Graph -->
 <meta property="og:title" content="Hymns from Gravel Hill" />
@@ -44,7 +26,7 @@ Twitter (WhatsApp ignores these, but keep for others)
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Hymns from Gravel Hill" />
 <meta name="twitter:description" content="Browse and search hymn books online" />
-<meta name="twitter:image" content="{{ '/assets/img/hare.jpg' | relative_url }}" />
+<meta name="twitter:image" content="{{ '/assets/img/share.jpg' | relative_url }}" />
 
 
 <!-- Favicon -->
@@ -65,6 +47,19 @@ Twitter (WhatsApp ignores these, but keep for others)
     </nav>
   </header>
 
+<nav class="subbar" id="sortFavBar" aria-label="List controls">
+  <div class="left">
+    <label for="sortSelect" class="sr-only">Sort</label>
+    <select id="sortSelect">
+      <option value="number">Sort: Number (default)</option>
+      <option value="alpha">Sort: Alphabetical</option>
+    </select>
+  </div>
+  <div class="right">
+    <button id="favoritesToggle" aria-pressed="false" title="Show only favorites">Show Favorites (0)</button>
+  </div>
+</nav>
+  
   <main class="container">
     <section class="content" id="listView" aria-label="Hymn list">
       <div id="resultStats" class="muted"></div>
