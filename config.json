@@ -92,6 +92,29 @@
         "tune": "tuneName",
         "meter": "meter"
       }
+    },
+    {
+      "name": "Songs of Praise and Thanksgiving",
+      "path": "data/songs_of_praise_and_thanksgiving.json",
+      "mapping": {
+        "id": "id",
+        "number": "id",
+        "title": "title",
+        "lyrics": {
+          "joinArrays": [
+            "verses",
+            "chorus",
+            "addedChorus"
+          ],
+          "labels": {
+            "chorus": "Chorus:"
+          },
+          "separator": "\n"
+        },
+        "author": "author",
+        "tune": "tuneName",
+        "meter": "meter"
+      }
     }
   ]
 }
