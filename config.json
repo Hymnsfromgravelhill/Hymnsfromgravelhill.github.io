@@ -25,6 +25,29 @@
       }
     },
     {
+      "name": "New Believers Hymn Book",
+      "path": "data/NBHB.json",
+      "mapping": {
+        "id": "id",
+        "number": "id",
+        "title": "title",
+        "lyrics": {
+          "joinArrays": [
+            "verses",
+            "chorus",
+            "addedChorus"
+          ],
+          "labels": {
+            "chorus": "Chorus:"
+          },
+          "separator": "\n"
+        },
+        "author": "author",
+        "tune": "tuneName",
+        "meter": "meter"
+      }
+    },
+    {
       "name": "Sacred Songs for Singing Saints (Songs of Thanksgiving & Praise)",
       "path": "data/ssfss_songs.min.json",
       "mapping": {
