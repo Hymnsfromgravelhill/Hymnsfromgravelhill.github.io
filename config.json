@@ -13,7 +13,7 @@
     },
     {
       "name": "The Gospel Hymn Book (2001)",
-      "path": "hymnals/2001_GHB_Premium_NBHB.txt",
+      "path": "hymnals/2001_GHB.txt",
       "type": "txt"
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "Gospel Hymn Book UK (1996)",
-      "path": "hymnals/UKGHB-1996-premium_NBHB.txt",
+      "path": "hymnals/UKGHB-1996.txt",
       "type": "txt"
     },
     {
@@ -33,12 +33,12 @@
     },
     {
       "name": "Gospel Hymns [modern English]",
-      "path": "hymnals/Gospel_Hymns_Premium.txt",
+      "path": "hymnals/Gospel_Hymns.txt",
       "type": "txt"
     },
     {
       "name": "Good Old Gospel Hymns",
-      "path": "hymnals/Old_Gospel_premium.txt",
+      "path": "hymnals/Old_Gospel.txt",
       "type": "txt"
     },
     {
@@ -48,17 +48,17 @@
     },
     {
       "name": "Favorite Hymns",
-      "path": "hymnals/favoritehymnsPremium.txt",
+      "path": "hymnals/favoritehymns.txt",
       "type": "txt"
     },
     {
       "name": "The Children's Hymn Book 1987",
-      "path": "hymnals/childrensPremium.txt",
+      "path": "hymnals/childrens.txt",
       "type": "txt"
     },
     {
       "name": "Seed Sowers Hymnal 2015 Premium — SS2",
-      "path": "hymnals/SS2_premium.txt",
+      "path": "hymnals/SS2.txt",
       "type": "txt"
     },
     {
