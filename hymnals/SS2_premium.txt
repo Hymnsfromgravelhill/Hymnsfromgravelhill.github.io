@@ -1,0 +1,7686 @@
+--title
+Seed Sowers Hymnal 2015 Premium
+--additionalInfo
+Created for use at Bible camps
+--index
+146,42,38,1,2,108,3,52,147,4,148,5,130,55,6,149,46,102,150,53,54,151,43,109,44,45,35,47,131,48,103,152,56,7,49,132,51,57,110,8,58,153,50,60,9,10,61,156,59,133,11,12,13,154,62,63,64,135,112,65,134,14,104,113,155,136,16,111,67,114,66,116,157,68,15,159,69,160,70,137|copy,71,168,161,162,138,37,115,163,117,72,17,73,77,75|copy,164,165,166,18,78,19,140,82,80,20,39,141,74,21,76,118,84,83,119,142,105,22,79,23,40,121,24,85,120,106,81,167,122,25,143,123,169|copy,158,124,86,125,41,26,144,145,87,126,88,89,99,170,97|copy,95,27,90,91,28,96,93,100,101,92,29,127,98|copy,30,31,32,33,34,139,36,128,129,107,94
+--tags
+Copyrighted & Unavailable|copy
+--firstLineIsTitle
+true
+--useTopText
+true
+--useBottomText
+true
+--useMeter
+false
+--audioURL
+https://gospelriver.com/favtest/Music/BHB_Music/
+--audio
+1|Coronation.abc|Coronation
+1|Diadem.abc|Diadem
+1|Miles Lane.abc|Miles Lane
+2|Surrender.abc|Surrender
+3|Sagina.abc|Sagina
+4|Slane.abc|Slane
+#5|Before_the_Throne_of_God_Above.abc|Before the Throne of God Above
+6|Beautiful_River.abc|Beautiful River
+7|Great_is_Thy_Faithfulness.abc|Great is Thy faithfulness
+8|Leadeth.abc|Leadeth
+9|How_Deep_the_Fathers_Love_For_Us.abc|How Deep the Father's Love for Us
+10|Channels_Only.abc|Channels Only
+11|A_Little_While.abc|*A Little While / Shemah
+11|Raynolds.abc|Raynolds / Consolation
+11|within_the_veil.abc|Within the Veil
+12|Draw_Me_Nearer.abc|Draw Me Nearer / Nearness / I am Thine
+13|Orlington_BHB087.abc|*Orlington
+14|I_Stand_Amazed_in_the_Presence.abc|I Stand Amazed in the Presence
+15|In_Christ_Alone.abc|In Christ Alone
+16|Hyfrydol.abc|Hyfrydol
+16|My_Redeemer.abc|My Redeemer
+17|Gordon.abc|Clarendon Street / Gordon / Consolation
+18|Ortonville.abc|Ortonville
+19|Man_of_Sorrows.abc|Man of Sorrows / Hallelujah! What a Savior / Gethsemane
+20|More_About_Jesus.abc|More About Jesus
+21|In_the_Upper_Garden.abc|*In the Upper Garden
+21|Regent_Square.abc|Regent Square
+22|O_Store_Gud.abc|O Store Gud (adapted)
+23|Ebenezer.abc|Ebenezer
+23|All_That_Thrills_My_Soul_is_Jesus.abc|All That Thrills My Soul Is Jesus
+24||
+25|Fenwick.abc|Fenwick / Something for Jesus
+26|Hendon.abc|Hendon
+27|Belmont.abc|Belmont
+28|Kenosis.abc|Kenosis <i>[repeat last 2 lines]</i>
+29|Erie.abc|Erie / Converse
+29|Beecher.abc|Beecher
+30|Deep_Harmony.abc|Deep Harmony
+31|Ville_de_Havre.abc|It is well / Ville du Havre
+32|Mt_Zion.abc|Mt. Zion
+33|a_glorious_morrow.abc|Memories of Earth / A Glorious Morrow
+34|Who_Is_He.abc|Who is He?
+35|Hyfrydol.abc|Hyfrydol <div class="tuneFor">[A tune for: <span class="tuneForText">(Informal option) Love divine, all loves excelling</span>]</div>
+#36
+37|Woodworth.abc|Woodworth <div class="tuneFor">[A tune for: <span class="tuneForText">Just as I am without one plea</span>]</div>
+38|Hudson.abc|Hudson
+38|Sacra.abc|Sacra / Abney / Remember Me (Hull)
+39|Rockingham.abc|*Rockingham <div class="tuneFor">[A tune for: <span class="tuneForText">'Twas on that night / O spotless Lamb</span>]</div>
+#40
+41|Deerhurst.abc|Deerhurst
+#42
+#43
+#44 ok to use music
+45|el_shaddai.abc|El Shaddai
+#46
+#47
+#48
+#49
+#50
+51|Dijon.abc|Dijon
+51|Trust_in_Jesus.abc|Trust in Jesus
+#52
+#53
+54|Day_by_Day.abc|Blott En Dag / Day by Day
+#55 ok to use music
+56|Because_He_Lives.abc|Because He Lives
+57|Adelaide_Stebbins.abc|Adelaide (Stebbins)
+#58
+#59
+#60 ok to use music
+#61
+#62
+#63 can use music
+64|Assam.abc|Assam
+#65
+#66
+#67
+#68
+#69 ok to use music
+#70
+#71
+#72
+#73 ok to use music
+#74 ok to use music
+#75
+76|Excelsior.abc|Excelsior / Bethany [Nearer my God, to Thee]
+#77
+78|worship_his_majesty.abc|Majesty
+79|Lemmel.abc|Lemmel
+#80
+81|St_Gertrude.abc|St. Gertrude
+#82
+84|lloyd.abc|*Lloyd <div class="tuneFor">[A tune for: <span class="tuneForText">How sweet the Name of Jesus sounds</span>]</div>
+85|O_Store_Gud.abc|O Store Gud (adapted)
+#86|Some_Golden_Daybreak.abc|Some Golden Daybreak
+#87
+#88
+89|The_Love_of_God.abc|The Love of God
+#90
+91|What_a_Day_That_Will_Be.abc|What a Day That Will Be
+92|Showalter.abc|Showalter
+#93
+#94 ok to use music
+95|Jesus_Is_the_Sweetest_Name_I_Know.abc|Jesus Is the Sweetest Name I Know
+#96
+#97
+#98
+#99
+#100
+#101
+102|Marching_to_Zion.abc|Marching to Zion
+#103
+#104
+105|What_Did_He_Do.abc|What did He do
+#106
+#107
+108|Amazing_Grace_New_Britain.abc|New Britain
+109|Glory_to_His_Name.abc|Glory to His name
+110|Washed_in_the_Blood.abc|Washed in the blood
+111|Wondrous_Story.abc|Wondrous Story
+112|El_Nathan.abc|El Nathan
+113|Love_Lifted_Me.abc|Love Lifted Me
+114|No_One_Ever_Cared_For_Me_Like_Jesus.abc|No One Ever Cared For Me Like Jesus
+115|agnus_dei.abc|Agnus Dei
+116|Olander.abc|Olander
+117|Lifes_Railway_to_Heaven.abc|Life's railway to heaven
+118|hold_the_fort.abc|Hold the Fort
+119|Happy_Day.abc|Happy Day
+120|The_Old_Rugged_Cross.abc|The Old Rugged Cross
+#121  ok to use music
+122|Redeemed.abc|Redeemed
+123|Seeking_the_Lost.abc|Seeking the lost
+#124
+125|Promises.abc|Promises
+126|Hudson.abc|Hudson
+127|Plainfield.abc|Plainfield
+128|Power_in_the_Blood.abc|Power in the blood
+129|At_Calvary.abc|At Calvary
+#130|behold_he_comes.abc|Behold He Comes
+#131
+#132
+133|I_Am_So_Glad.abc|I am so glad
+#134
+135|Ive_Got_the_Joy.abc|I've Got the Joy
+136|Fishers_of_Men.abc|Fishers of men
+#137
+138|Jesus_Loves_Me_China.abc|China
+139|Wide_Wide_as_the_Ocean.abc|Wide, wide as the ocean
+#140
+141|My_God_is_So_Big.abc|My God is so big
+#142
+#143
+#144
+145|The_Bible_Stands.abc|The Bible stands
+#146
+#147
+#148
+#149
+#150
+#151
+#152
+#153
+#154
+#155
+#156
+#157
+#158
+#159
+#160
+#161
+162|Martyn.abc|Martyn
+#163
+#164
+#165
+#166
+#167
+#168
+#169
+#170
+--lyrics
+1
+
+
+
+All hail the power of Jesus' Name,
+Let angels prostrate fall;
+Let angels prostrate fall;
+Bring forth the royal diadem,
+
+c
+And crown . . . Him,
+Crown Him, crown Him,
+Crown Him and crown Him Lord of all!
+
+Sinners, whose love can ne'er forget,
+The wormwood and the gall,
+The wormwood and the gall.
+Go, spread your trophies at His feet,
+
+c
+And crown . . . Him,
+Crown Him, crown Him,
+Crown Him and crown Him Lord of all!
+
+O that with yonder sacred throng
+We at His feet may fall,
+We at His feet may fall;
+Join in the everlasting song,
+
+c
+And crown . . . Him,
+Crown Him, crown Him,
+Crown Him and crown Him Lord of all!
+
+s
+Engrandecido sea Dios
+en esta reunión,
+en esta reunión.
+Alegres, juntos a una voz,
+
+c
+Dad gloria, gloria, gloria, gloria,
+Gloria, gloria, gloria,
+Dad gloria a nuestro Dios.
+
+Durante el día que pasó
+la mano del Señor,
+la mano del Señor 
+de muchos males nos salvó.
+
+c
+Dad gloria, gloria, gloria, gloria,
+Gloria, gloria, gloria,
+Dad gloria a nuestro Dios.
+
+Pues hasta aquí nos ayudó
+y siempre proveerá
+y siempre proveerá.
+Con gratitud, placer y amor,
+
+c
+Dad gloria, gloria, gloria, gloria,
+Gloria, gloria, gloria,
+Dad gloria a nuestro Dios.
+
+
+2
+
+
+
+All to Jesus, I surrender;
+All to Him I freely give;
+I will ever love and trust Him,
+In His presence daily live.
+
+c
+I surrender all,
+I surrender all;
+All to Thee, my blessèd Savior,
+I surrender all.
+
+All to Jesus I surrender;
+Humbly at His feet I bow,
+Worldly pleasures all forsaken;
+Take me, Jesus, take me now.
+
+c
+I surrender all,
+I surrender all;
+All to Thee, my blessèd Savior,
+I surrender all.
+
+s
+Todo a Cristo yo me rindo
+con el fin de serle fiel.
+Para siempre quiero amarle
+y agradarle solo a Él.
+
+c
+Yo me rindo a Él,
+yo me rindo a Él,
+todo a Cristo yo me entrego,
+quiero serle fiel.
+
+Todo a Cristo yo me rindo,
+a sus pies postrado estoy;
+los placeres he dejado
+y le sigo desde hoy.
+
+c
+Yo me rindo a Él,
+yo me rindo a Él,
+todo a Cristo yo me entrego,
+quiero serle fiel.
+
+
+3
+
+
+
+And can it be that I should gain
+An interest in the Savior’s blood?
+Died He for me who caused His pain?
+For me, who Him to death pursued?
+Amazing love! How can it be
+That thou, my God, shouldst die for me?
+
+He left His Father’s throne above,
+So free, so infinite His grace;
+Emptied Himself of all but love,
+And bled for Adam’s helpless race;
+‘Tis mercy all, immense and free;
+For, O my God, it found out me.
+
+No condemnation now I dread;
+Jesus, and all in Him, is mine;
+Alive in Him, my living Head,
+And clothed in righteousness divine,
+Bold I approach the eternal throne,
+And claim the crown, through Christ, my own.
+
+s
+¿Cómo en su sangre pudo haber
+tanta ventura para mí, 
+si yo sus penas agravé
+y de su muerte causa fui?
+¿Hay maravilla cual su amor,
+morir por mí con tal dolor?
+
+Nada retiene al descender
+sino su amor y deidad.
+Todo lo entrega: gloria, prez,
+corona, trono, majestad.
+Ver redimidos es su afán,
+los tristes hijos de Adán.
+
+¡Jesús es mío! Vivo en Él,
+no temo ya condenación.
+Él es mi todo: paz, salud,
+justicia, luz y redención.
+Me guarda el trono eternal,
+por Él, corona celestial.
+
+
+4
+
+
+
+Be Thou my vision, O Lord of my heart;
+Naught be all else to me, save that Thou art.
+Thou my best thought by day or by night,
+Waking or sleeping, Thy presence my light.
+
+Be Thou my wisdom, be Thou my true word;
+I ever with Thee and Thou with me, Lord.
+Thou my great Father and I Thy true son,
+Thou in me dwelling and I with Thee one.
+
+Be Thou my shield and my sword for the fight;
+Be Thou my armor and be Thou my might.
+Thou my soul’s shelter, and Thou my high tower;
+Raise Thou me heav’nward, O power of my power.
+
+Riches I heed not, nor man's empty praise;
+Thou mine inheritance now and always.
+Thou and Thou only be first in my heart,
+High King of Heaven my treasure Thou art.
+
+s
+Oh Dios de mi alma, sé Tú mi visión,
+nada te aparte de mi corazón.
+Noche y día pienso yo en Ti,
+y tu presencia es luz para mí.
+
+Sabiduría sé Tú de mi ser,
+quiero a tu lado mi senda correr.
+Eres mi Padre eterno, tu hijo yo soy,
+siempre morando en un mismo amor.
+
+Sé mi Escudo y Espada en la lid,
+mi única Gloria, mi Dicha sin fin.
+De mi alma Amparo y fuerte Torreón,
+a las alturas condúceme, oh Dios.
+
+Riquezas vanas no anhelo, Señor,
+ni el hueco halago de la adulación.
+Tú eres mi herencia, mi rica porción,
+Rey de los cielos, tesoro mejor.
+
+
+5
+
+
+
+Before the throne of God above
+I have a strong, a perfect plea:
+A great high Priest whose Name is Love,
+Who ever lives and pleads for me.
+My name is graven on His hands,
+My name is written on His heart.
+I know that while in Heaven He stands,
+No tongue can bid me thence depart,
+No tongue can bid me thence depart.
+
+When Satan tempts me to despair
+And tells me of the guilt within,
+Upward I look and see Him there,
+Who made an end to all my sin.
+Because the sinless Savior died,
+My sinful soul is counted free;
+For God the just is satisfied
+To look on Him and pardon me,
+To look on Him and pardon me.
+
+Behold Him there, the risen Lamb,
+My perfect spotless righteousness;
+The great unchangeable I AM;
+The King of glory and of grace.
+One with Himself I cannot die;
+My soul is purchased by His blood.
+My life is hid with Christ on high,
+With Christ my Savior and my God! 
+With Christ my Savior and my God! 
+
+s
+Tengo ante el trono celestial
+un poderoso Defensor,
+un Sacerdote eternal,
+que por mí aboga con amor.
+Mi nombre ya grabado está
+sobre su mano y corazón,
+y mientras Cristo allí está
+seguro estoy de su perdón.
+Seguro estoy de su perdón.
+
+Al ser tentado a decaer,
+y ver el mal que hay en mí,
+mis ojos alzo hacia Aquel
+que eliminó mi culpa vil.
+Cuando el perfecto Salvador
+se entregó en mi lugar
+el justo Dios lo castigó
+y así me pudo perdonar.
+Y así me pudo perdonar.
+
+Ved al Cordero vivo hoy
+que con justicia me vistió,
+el inmutable, gran Yo Soy,
+el Rey de gracia, el Redentor.
+En Él jamás morir podré
+pues con su sangre me compró,
+y escondido estoy en Él,
+en Cristo, Dios, mi Salvador.
+En Cristo, Dios, mi Salvador.
+
+
+6
+
+
+
+Christians, go and tell of Jesus,
+How He died to save our souls;
+How that He from sin might free us,
+Suffered agonies untold.
+
+c
+Yes, we’ll go and tell of Jesus,
+The pure and holy, meek and lowly Jesus;
+Yes, we’ll go and tell of Jesus,
+Who died our souls to save.
+
+Tell the guilty of their danger,
+While they wander far from God;
+While they live to Christ a stranger,
+And reject His precious Word.
+
+c
+Yes, we’ll go and tell of Jesus,
+The pure and holy, meek and lowly Jesus;
+Yes, we’ll go and tell of Jesus,
+Who died our souls to save.
+
+Tell them of the joys of Heaven,
+Purchased by the Savior’s blood,
+How, that they might be forgiven,
+Jesus left His home above.
+
+c
+Yes, we’ll go and tell of Jesus,
+The pure and holy, meek and lowly Jesus;
+Yes, we’ll go and tell of Jesus,
+Who died our souls to save.
+
+Tell them how He hath ascended
+To prepare a home on high,
+Where all sorrows shall be ended,
+Where the saved shall never die.
+
+c
+Yes, we’ll go and tell of Jesus,
+The pure and holy, meek and lowly Jesus;
+Yes, we’ll go and tell of Jesus,
+Who died our souls to save.
+
+s
+Ve, cristiano, y predica
+de Jesús, tu Salvador.
+Sí, ve a todos y explica
+el mensaje de su amor.
+
+c
+Sí, iré a predicarles
+el santo y bendito evangelio.
+Sí, iré a explicarles
+el mensaje de su amor.
+
+Diles que ellos son culpables;
+que «ya condenados» son.
+Y con tonos muy amables,
+diles de la salvación.
+
+c
+Sí, iré a predicarles
+el santo y bendito evangelio.
+Sí, iré a explicarles
+el mensaje de su amor.
+
+Diles de celestes goces
+por la sangre de Jesús,
+que con penas tan atroces
+derramó en la cruenta cruz.
+
+c
+Sí, iré a predicarles
+el santo y bendito evangelio.
+Sí, iré a explicarles
+el mensaje de su amor.
+
+Diles que muy pronto viene,
+y que grande galardón
+reservado Cristo tiene
+para los que salvos son.
+
+c
+Sí, iré a predicarles
+el santo y bendito evangelio.
+Sí, iré a explicarles
+el mensaje de su amor.
+
+
+7
+
+Words: Thomas O. Chisholm. © 1923, Ren. 1951 Hope Publishing Company, Carol Stream, IL 60188. All rights reserved. Used by permission.
+
+Great is Thy faithfulness, O God my Father;
+There is no shadow of turning with Thee;
+Thou changest not, Thy compassions, they fail not;
+As Thou hast been, Thou forever wilt be.
+
+c
+Great is Thy faithfulness!  Great is Thy faithfulness!
+Morning by morning new mercies I see.
+All I have needed Thy hand hath provided;
+Great is Thy faithfulness, Lord, unto me!
+
+Summer and winter and springtime and harvest,
+Sun, moon and stars in their courses above
+Join with all nature in manifold witness
+To Thy great faithfulness, mercy and love.
+
+c
+Great is Thy faithfulness!  Great is Thy faithfulness!
+Morning by morning new mercies I see.
+All I have needed Thy hand hath provided;
+Great is Thy faithfulness, Lord, unto me!
+
+Pardon for sin and a peace that endureth,
+Thine own dear presence to cheer and to guide;
+Strength for today and bright hope for tomorrow,
+Blessings all mine, with ten thousand beside.
+
+c
+Great is Thy faithfulness!  Great is Thy faithfulness!
+Morning by morning new mercies I see.
+All I have needed Thy hand hath provided;
+Great is Thy faithfulness, Lord, unto me!
+
+s
+Es tu fidelidad tan grande, oh Padre;
+Tú dices la verdad, descanso allí.
+Tu luz rodea mi senda en el mundo,
+tu voz me anima, mi fuerza es en Ti.
+
+c
+¡Oh qué fidelidad!  ¡Oh qué fidelidad!
+Nunca me canso de darte loor.
+Cada mañana es nueva tu gracia;
+inalterable es tu gran amor.
+
+Los enemigos son muy poderosos;
+Tú eres mi Amigo, oh Dios, fuerte adalid.
+En la batalla me das hoy tu ayuda;
+vencido no seré, confiando en Ti.
+
+c
+¡Oh qué fidelidad!  ¡Oh qué fidelidad!
+Nunca me canso de darte loor.
+Cada mañana es nueva tu gracia;
+inalterable es tu gran amor.
+
+En tu presencia, oh Dios, hay gran descanso,
+dulce consolación, perfecta paz.
+Al ver las glorias de Cristo el Señor
+le hemos de celebrar siempre jamás.
+
+c
+¡Oh qué fidelidad!  ¡Oh qué fidelidad!
+Nunca me canso de darte loor.
+Cada mañana es nueva tu gracia;
+inalterable es tu gran amor.
+
+
+8
+
+
+
+He leadeth me! O blessed thought!
+O words with heavenly comfort fraught!
+Whate’er I do, where're I be,
+Still ’tis God’s hand that leadeth me.
+
+c
+He leadeth me, He leadeth me,
+By His own hand He leadeth me;
+His faithful follower I would be,
+For by His hand He leadeth me.
+
+Lord, I would clasp Thy hand in mine,
+Nor ever murmur or repine,
+Content, whatever lot I see,
+Since ‘tis God’s hand that leadeth me.
+
+c
+He leadeth me, He leadeth me,
+By His own hand He leadeth me;
+His faithful follower I would be,
+For by His hand He leadeth me.
+
+s
+Me guiará, ¡qué bendición!
+Dios me dará su dirección;
+en el camino en que iré
+o en lo que hoy me ocuparé.
+
+c
+Me guiará, me guiará;
+su mano siempre guiará,
+Me guiará, me guiará;
+su mano siempre guiará.
+
+El buen Pastor me lleva hoy
+seguro, y en su mano estoy.
+Así, jamás me perderé;
+descanso y paz en Él tendré.
+
+c
+Me guiará, me guiará;
+su mano siempre guiará,
+Me guiará, me guiará;
+su mano siempre guiará.
+
+
+9
+
+Copyright © 1995 Thankyou Music (PRS) (adm. worldwide at CapitolCMGPublishing.com excluding Europe which is adm. by Integritymusic.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+How deep the Father's love for us,
+How vast beyond all measure,
+That He should give His only Son,
+To make a wretch His treasure.
+How great the pain of searing loss,
+The Father turns His face away,
+As wounds which mar the chosen one,
+Bring many sons to glory.
+
+Behold the Man upon a cross,
+My sin upon His shoulders,
+Ashamed, I hear my mocking voice
+Call out among the scoffers.
+It was my sin that held Him there
+Until it was accomplished,
+His dying breath has brought me life;
+I know that it is finished.
+
+I will not boast in anything;
+No gifts, no power, no wisdom,
+But I will boast in Jesus Christ;
+His death and resurrection.
+Why should I gain from His reward?
+I cannot give an answer,
+But this I know with all my heart;
+His wounds have paid my ransom.
+
+
+10
+
+
+
+How I praise Thee, precious Savior,
+That Thy love laid hold of me;
+Thou hast saved and cleansed and filled me
+That I might Thy channel be.
+
+c
+Channels only, blessèd Master,
+But with all Thy wondrous power
+Flowing through us, Thou canst use us
+Every day and every hour.
+
+Just a channel full of blessing,
+To the thirsty hearts around;
+To tell out Thy full salvation
+All Thy loving message sound.
+
+c
+Channels only, blessèd Master,
+But with all Thy wondrous power
+Flowing through us, Thou canst use us
+Every day and every hour.
+
+Emptied that Thou shouldest fill me,
+A clean vessel in Thy hand;
+With no power but as Thou givest
+Graciously with each command.
+
+c
+Channels only, blessèd Master,
+But with all Thy wondrous power
+Flowing through us, Thou canst use us
+Every day and every hour.
+
+Witnessing Thy power to save me,
+Setting free from self and sin;
+Thou hast bought me to possess me,
+In Thy fullness, Lord, come in.
+
+c
+Channels only, blessèd Master,
+But with all Thy wondrous power
+Flowing through us, Thou canst use us
+Every day and every hour.
+
+s
+Por tu gracia ya salvados,
+constreñidos por tu amor,
+vasos limpios, consagrados,
+utilízanos, Señor.
+
+c
+Somos barro solamente,
+pero con tu gran poder,
+si nos llenas plenamente,
+bendición podremos ser.
+
+Yace el mundo en que vivimos
+en tinieblas, sin Jesús.
+Quiébranos, Señor, pedimos;
+haznos cántaros de luz.
+
+c
+Somos barro solamente,
+pero con tu gran poder,
+si nos llenas plenamente,
+bendición podremos ser.
+
+Ya vaciada la vasija,
+mucho aceite va a caber;
+que tu Espíritu dirija
+cien por ciento nuestro ser.
+
+c
+Somos barro solamente,
+pero con tu gran poder,
+si nos llenas plenamente,
+bendición podremos ser.
+
+Agua viva de la Fuente
+al sediento quieres dar;
+haznos oportunamente
+estos cántaros usar.
+
+c
+Somos barro solamente,
+pero con tu gran poder,
+si nos llenas plenamente,
+bendición podremos ser.
+
+
+11
+
+
+
+I am the Lord's! O joy beyond expression;
+O sweet response to voice of love Divine;
+Faith's joyous "Yes" to the assuring whisper,
+"Fear not! I have redeemed thee; thou art Mine."
+
+I am the Lord’s! Yes eagerly and gladly!
+Triumphantly and gratefully we sing.
+I am the Lord’s! It is the rock unfailing
+To which our storm-tossed souls in danger cling.
+
+I am the Lord's! Yet teach me all it meaneth;
+All it involves of love and loyalty,
+Of holy service, full and glad surrender,
+And unreserved obedience unto Thee.
+
+I am the Lord's! Yes, body, soul and spirit;
+They’re sealed and irrecoverably Thine;
+As Thou, beloved, in Thy grace and fullness
+Forever and forevermore art mine.
+
+s
+¡Soy del Señor! ¡Palabras tan sublimes!
+Dulce respuesta a su divino amor.
+“No temas, porque Yo te he redimido,
+mío eres tú”, me ha dicho el Salvador.
+
+¡Soy del Señor! Cantamos con aprecio,
+con voz de triunfo y de gratitud;
+asidos de esta roca inconmovible
+gozamos de su paz la plenitud.
+
+¡Soy del Señor! ¡Oh cuánto significa!
+Sí, ¡cuánto amor, lealtad, servicio fiel!
+La rendición total a sus deseos,
+y mi obediencia sin reserva a Él.
+
+¡Soy del Señor! Mi espíritu, alma y cuerpo
+tienen el sello de su propiedad.
+Así también por gracia infinita,
+mi Amado es mío por la eternidad.
+
+
+12
+
+
+
+I am Thine, O Lord, I have heard Thy voice,
+And it told Thy love to me;
+But I long to rise in the arms of faith
+And be closer drawn to Thee.
+
+c
+Draw me nearer, nearer blessed Lord
+To the cross where Thou hast died;
+Draw me nearer, nearer, nearer blessed Lord,
+To Thy precious, wounded side.
+
+Consecrate me now to Thy service, Lord
+By the power of grace divine.
+Let my soul look up with a steadfast hope
+And my will be lost in Thine.
+
+c
+Draw me nearer, nearer blessed Lord
+To the cross where Thou hast died;
+Draw me nearer, nearer, nearer blessed Lord,
+To Thy precious, wounded side.
+
+O the pure delight of a single hour
+That before Thy throne I spend,
+When I kneel in prayer, and with Thee, my God
+I commune as friend with friend!
+
+c
+Draw me nearer, nearer blessed Lord
+To the cross where Thou hast died;
+Draw me nearer, nearer, nearer blessed Lord,
+To Thy precious, wounded side.
+
+s
+Tuyo soy, Señor, sólo tuyo soy,
+redimido por tu amor;
+mas cual siervo fiel quiero yo seguir
+y más cerca estar de Ti.
+
+c
+Más cerca, cerca de Ti
+llévame, mi Salvador.
+Sí, más cerca, cerca yo quisiera estar
+de Ti, mi Salvador.
+
+Sólo a Ti, Jesús, me consagro hoy,
+constreñido por tu amor;
+y mi ser entero gozoso doy,
+a servirte a Ti, Señor.
+
+c
+Más cerca, cerca de Ti
+llévame, mi Salvador.
+Sí, más cerca, cerca yo quisiera estar
+de Ti, mi Salvador.
+
+¡Qué profunda paz y felicidad
+guardan hoy mi corazón!
+cuando por la fe puedo ver tu faz
+en más grata comunión.
+
+c
+Más cerca, cerca de Ti
+llévame, mi Salvador.
+Sí, más cerca, cerca yo quisiera estar
+de Ti, mi Salvador.
+
+
+13
+
+
+
+I bow me to Thy will, O God,
+And all Thy ways adore,
+And every day I live I’d seek
+To please Thee more and more.
+
+Why should I care, O blessed Lord,
+Since all my cares are Thine?
+Why not in triumph live, since Thou
+Hast made Thy triumphs mine?
+
+He always wins who sides with God.
+To him no chance is lost;
+God’s will is sweetest to him when
+It triumphs at his cost.
+
+Ill that God blesses is our good,
+And unblest good is ill;
+And all is right that seems most wrong
+If it be His sweet will.
+
+s
+Acepto, oh Dios, tu voluntad,
+alabo tu saber,
+y mientras viva yo acá, 
+más fiel te quiero ser.
+
+¿Por qué afanarme, oh Señor?
+si cuidarás de mí.
+Más bien, tranquilo viviré; 
+Tú estás conmigo aquí.
+
+Y siempre gana el que honra a Dios,
+no perderá jamás.
+Mejor cumplir tu voluntad, 
+aunque le cueste más.
+
+‘Mal’ que vendrá es bendición,
+si viene, oh Dios, de ti;
+y ‘bien’ que cause mucho mal,
+no quieres para mí.
+
+
+14
+
+
+
+I stand amazed in the presence
+Of Jesus the Nazarene.
+And wonder how He could love me,
+A sinner condemned, unclean.
+
+c
+How marvelous, how wonderful,
+And my song shall ever be,
+How marvelous, how wonderful,
+Is my Savior's love for me.
+
+He took my sins and my sorrows;
+He made them His very own;
+He bore the burden to Calvary
+And suffered and died alone.
+
+c
+How marvelous, how wonderful,
+And my song shall ever be,
+How marvelous, how wonderful,
+Is my Savior's love for me.
+
+s
+ Delante del Nazareno,
+pasmado me encuentro hoy.
+Sin ver en mí nada bueno
+me amó, aunque indigno soy.
+
+c
+¡Es de admirar! ¡qué asombro da!
+Con razón yo canto así.
+¡Es de admirar! ¡qué asombro da!
+¡Maravilloso amor por mí!
+
+En sufrimiento vicario
+mi carga Él asumió,
+y fue en la cruz del Calvario
+que, solo, Jesús murió.
+
+c
+¡Es de admirar! ¡qué asombro da!
+Con razón yo canto así.
+¡Es de admirar! ¡qué asombro da!
+¡Maravilloso amor por mí!
+
+
+15
+
+Copyright © 2002 Thankyou Music (PRS) (adm. worldwide at CapitolCMGPublishing.com excluding Europe which is adm. by Integritymusic.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+In Christ alone my hope is found;
+He is my light, my strength, my song;
+This cornerstone, this solid ground,
+Firm through the fiercest drought and storm.
+What heights of love, what depths of peace,
+When fears are stilled, when strivings cease!
+My comforter, my all in all;
+Here in the love of Christ I stand.
+
+In Christ alone, who took on flesh,
+Fullness of God in helpless babe!
+This gift of love and righteousness,
+Scorned by the ones He came to save.
+Till on that cross as Jesus died,
+The wrath of God was satisfied,
+For ev’ry sin on Him was laid;
+Here in the death of Christ I live.
+
+There in the ground His body lay,
+Light of the world by darkness slain;
+Then bursting forth in glorious day,
+Up from the grave He rose again!
+And as He stands in victory,
+Sin's curse has lost its grip on me;
+For I am His and He is mine,
+Bought with the precious blood of Christ.
+
+No guilt in life, no fear in death;
+This is the pow'r of Christ in me;
+From life's first cry to final breath,
+Jesus commands my destiny.
+No pow'r of hell, no scheme of man,
+Can ever pluck me from His hand;
+Till He returns or calls me home,
+Here in the pow'r of Christ I'll stand.
+
+
+16
+
+
+
+I will sing of my Redeemer,
+And His wondrous love to me.
+On the cruel cross He suffered,
+From the curse to set me free.
+
+c
+Sing, O sing of my Redeemer,
+With His blood He purchased me.
+On the cross He sealed my pardon,
+Paid the debt and set me free.
+
+I will sing of my Redeemer,
+And His heavenly love to me.
+He from death to life hath brought me,
+Son of God, with Him to be.
+
+c
+Sing, O sing of my Redeemer,
+With His blood He purchased me.
+On the cross He sealed my pardon,
+Paid the debt and set me free.
+
+s
+Gloria sea, gloria eterna, a Jesús, al que murió,
+al que por amor perfecto su preciosa vida dio.
+¡Gloria sea, gloria sea, a Aquel que nos rescató!
+¡Gloria sea, gloria sea, a Aquel que nos rescató!
+
+Sí, su amor es verdadero, nada lo podrá falsear.
+Firme anduvo hasta el madero; nunca pudo vacilar.
+¡Gloria sea, gloria sea, al que así nos supo amar!
+¡Gloria sea, gloria sea, al que así nos supo amar!
+
+Celebremos esa historia consumada con la cruz.
+Cantaremos siempre: «Gloria sea a Ti, Señor Jesús».
+¡Aleluya, aleluya, al que mora en alta luz!
+¡Aleluya, aleluya, al que mora en alta luz!
+
+
+17
+
+
+
+Lord Jesus, I love Thee, I know Thou art mine,
+My Rock and my Fortress, my Surety divine;
+My gracious Redeemer, my song shall be now,
+‘Tis Thou who art worthy, Lord Jesus, ‘tis Thou!
+
+I love Thee because Thou hast first lovèd me,
+And purchased my pardon on Calvary’s tree;
+I love Thee for wearing the thorns on Thy brow;
+‘Tis Thou who art worthy, Lord Jesus, ‘tis Thou!
+
+And when the bright morn of Thy glory shall come,
+And the children ascend to the Father’s glad home,
+I’ll shout with Thy likeness impressed on my brow,
+‘Tis Thou who art worthy, Lord Jesus, ‘tis Thou!
+
+s
+ Yo te amo Señor y eres mío, lo sé;
+mi roca y castillo, seguro estaré;
+mi gran Redentor, y mi Amado también;
+diré: “Tú eres digno, Tú sólo, amén”.
+
+ Me amaste mucho antes que te amara yo;
+tu muerte en la cruz mi perdón alcanzó.
+Espinas tan crueles llevaste en tu sien;
+diré: “Tú eres digno, Tú sólo, amén”.
+
+Muy pronto los cielos se iluminarán,
+los hijos del Padre a su hogar subirán.
+Llevando tu imagen, y gloria en mi sien,
+diré: “Tú eres digno, Tú sólo, amén”.
+
+
+18
+
+
+
+Majestic sweetness sits enthroned
+Upon the Savior’s brow;
+His head with radiant glories crowned,
+His lips with grace o’erflow.
+
+No mortal can with Him compare
+Among the sons of men;
+Fairer is He than all the fair
+Who fill the heav’nly train.
+
+Since from His bounty I receive
+Such proofs of love divine,
+Had I a thousand hearts to give,
+Lord, they should all be Thine.
+
+
+19
+
+
+
+“Man of Sorrows!” what a name
+For the Son of God, who came
+Ruined sinners to reclaim!
+Hallelujah! what a Savior!
+
+Bearing shame and scoffing rude
+In my place condemned He stood;
+Sealed my pardon with His blood;
+Hallelujah! what a Savior!
+
+Guilty, vile, and helpless, we;
+Spotless Lamb of God was He:
+“Full atonement,” can it be?
+Hallelujah! what a Savior!
+
+When he comes, our glorious King,
+All His ransomed home to bring,
+Then anew this song we'll sing:
+Hallelujah, what a Savior! 
+
+s
+Levantado fue Jesús
+en la vergonzosa cruz
+para darme la salud.
+¡Aleluya! ¡Gloria a Cristo!
+
+Soy yo indigno pecador;
+Él es justo Salvador;
+dio su vida en mi favor.
+¡Aleluya! ¡Gloria a Cristo!
+
+Por mis culpas yo me vi
+en peligro de morir;
+mas Jesús murió por mí.
+¡Aleluya! ¡Gloria a Cristo!
+
+El rescate a Dios pagó.
+«Consumado es», declaró.
+Dios por eso me aceptó.
+¡Aleluya! ¡Gloria a Cristo!
+
+
+20
+
+
+
+More about Jesus would I know,
+More of His grace to others show;
+More of His saving fullness see,
+More of His love, who died for me.
+
+c
+More, more about Jesus,
+More, more about Jesus,
+More of His saving fullness see,
+More of His love, who died for me.
+
+More about Jesus let me learn,
+More of His holy will discern;
+Spirit of God, my Teacher be,
+Showing the things of Christ to me.
+
+c
+More, more about Jesus,
+More, more about Jesus,
+More of His saving fullness see,
+More of His love, who died for me.
+
+More about Jesus in His word,
+Holding communion with my Lord;
+Hearing His voice in every line,
+Making each faithful saying mine.
+
+c
+More, more about Jesus,
+More, more about Jesus,
+More of His saving fullness see,
+More of His love, who died for me.
+
+More about Jesus on His throne,
+Riches in glory all His own;
+More of His kingdom’s sure increase,
+More of His coming, Prince of Peace.
+
+c
+More, more about Jesus,
+More, more about Jesus,
+More of His saving fullness see,
+More of His love, who died for me.
+
+s
+Más de Jesús quiero aprender,
+más de su gracia conocer,
+más del amor con que me amó,
+más de la cruz en que murió.
+
+c
+Más quiero amarle,
+más quiero honrarle;
+más de su salvación gozar,
+más de su dulce amor gustar.
+
+Más de Jesús quisiera hablar,
+más de su comunión gozar,
+más de sus dones recibir,
+más con los otros compartir.
+
+c
+Más, más de Jesús;
+más, más de Jesús;
+más de sus dones recibir,
+más con los otros compartir.
+
+Más de Jesús anhelo ver,
+más de su hermoso parecer,
+más de la gloria de su faz,
+más de su luz, más de su paz.
+
+c
+Más, más de Jesús;
+más, más de Jesús,
+más de la gloria de su faz,
+más de su luz, más de su paz.
+
+
+21
+
+
+
+My Redeemer! O what beauties
+In that lovely Name appear;
+None but Jesus, in His glories
+Shall the honored title wear.
+My Redeemer!
+Thou hast my salvation wrought.
+
+Mine by covenant, mine for ever,
+Mine by oath, and mine by blood,
+Mine&mdash;nor time the bond shall sever,
+Mine as an unchanging God.
+My Redeemer!
+O how sweet to call Thee mine!
+
+When in Heaven I see Thy glory,
+When before Thy throne I bow,
+Perfected I shall be like Thee,
+Fully Thy redemption know.
+My Redeemer!
+Then shall hear me shout His praise.
+
+s
+Redentor, ¡oh qué belleza
+en tal título se ve!
+Cristo sólo, con certeza,
+digno de llevarlo fue.
+Redentor, Redentor,
+¡qué alegría tuyo ser!
+
+En miseria sumergido,
+de Satán esclavo fui;
+Tú escuchaste mi gemido
+cuando sin valor me vi.
+Redentor, Redentor,
+Tú me diste libertad.
+
+Cuando en tu celeste gloria
+al final he de llegar,
+y con himnos de victoria
+tus loores entonar.
+Redentor, Redentor,
+¡qué alegría celestial!
+
+
+22
+
+Words: Stuart K. Hine. © 1949, 1953 The Stuart Hine Trust.<br>All rights in the USA, its territories and possessions,<br>except print rights, administered by Capitol CMG Publishing. USA,<br>North Central and South America print rights administered<br>by The Stuart Hine Trust. Rest of world rights administered by<br>Integrity Music UK. All rights reserved. Used by permission.
+
+O Lord my God, when I in awesome wonder
+Consider all the worlds Thy hands have made,
+I see the stars; I hear the rolling thunder,
+Thy power throughout the universe displayed.
+
+c
+Then sings my soul, My Savior God, to Thee,
+How great Thou art, how great Thou art.
+Then sings my soul, My Savior God, to Thee,
+How great Thou art, how great Thou art.
+
+And when I think that God, His Son not sparing,
+Sent Him to die, I scarce can take it in;
+That on the cross my burden gladly bearing.
+He bled and died to take away my sin.
+
+c
+Then sings my soul, My Savior God, to Thee,
+How great Thou art, how great Thou art.
+Then sings my soul, My Savior God, to Thee,
+How great Thou art, how great Thou art.
+
+When Christ shall come, with shout of acclamation,
+And take me home, what joy shall fill my heart!
+Then I shall bow, in humble adoration,
+And there proclaim, "My God, how great Thou art!"
+
+c
+Then sings my soul, My Savior God, to Thee,
+How great Thou art, how great Thou art.
+Then sings my soul, My Savior God, to Thee,
+How great Thou art, how great Thou art.
+
+s
+Señor mi Dios, al contemplar los cielos,
+el firmamento y las estrellas mil,
+al oír tu voz en los potentes truenos,
+y ver brillar el sol en su cenit:
+
+c
+Mi corazón entona la canción:
+«¡Cuán grande es Él, cuán grande es Él!»
+Mi corazón entona la canción:
+«¡Cuán grande es Él, cuán grande es Él!»
+
+Cuando recuerdo del amor divino
+que desde el cielo al Salvador envió,
+aquel Jesús, que por salvarnos vino
+y en una cruz sufrió, por mí murió:
+
+c
+Mi corazón entona la canción:
+«¡Cuán grande es Él, cuán grande es Él!»
+Mi corazón entona la canción:
+«¡Cuán grande es Él, cuán grande es Él!»
+
+Cuando el Señor me llame a su presencia,
+al dulce hogar, al cielo de esplendor,
+le adoraré, cantando la grandeza
+de su poder y de su gran amor.
+
+c
+Mi corazón entona la canción:
+«¡Cuán grande es Él, cuán grande es Él!»
+Mi corazón entona la canción:
+«¡Cuán grande es Él, cuán grande es Él!»
+
+
+23
+
+
+
+O the deep, deep love of Jesus!
+Vast, unmeasured, boundless, free:
+Rolling as a mighty ocean
+In its fullness over me:
+Underneath me, all around me,
+Is the current of Thy love,
+Leading onward, leading homeward
+To my glorious rest above.
+
+O the deep, deep love of Jesus!
+Love of every love the best;
+‘Tis an ocean vast of blessing,
+‘Tis a haven sweet of rest;
+O such love! The love of Jesus,
+‘Tis a heaven of heavens to me,
+And it lifts me up to glory,
+For it lifts me up to Thee.
+
+O the deep, deep love of Jesus!
+‘Twould take ages to explore,
+But a drop of all this ocean
+Or a grain from off its shore:
+Yet our hearts are beating highly,
+If our faith is sometimes dim,
+For the glory and the rapture
+We shall have when we have Him.
+
+s
+¡Oh, profundo amor de Cristo,
+vasto, inmerecido don!
+Cual océano infinito,
+ya me inunda el corazón.
+Me rodea, me sostiene
+la corriente de su amor;
+llévame continuamente
+hacia el gozo del Señor.
+
+¡Oh profundo amor de Cristo!
+Sus loores proclamad,
+pues su amor nos satisfizo
+y no cambiará jamás.
+¡Cómo cuida a sus amados,
+redimidos por su cruz!
+Comunión con Él gozamos
+cuando andamos en la luz.
+
+¡Oh profundo amor de Cristo,
+único, supremo amor!
+Cual un vasto mar bendito,
+cual hogar al viador.
+¡Oh profundo amor de Cristo!
+Pura gloria es para mí,
+que me eleva, salvo y listo,
+hacia el cielo, hacia Ti.
+
+
+24
+(English version is under copyright and is called "Oh what shall I render.")
+Public domain, author unknown. Latin American melody.
+
+¿Con qué pagaremos amor tan inmenso,
+que diste Tu vida por el pecador?
+En cambio recibes la ofrenda humilde,
+la ofrenda humilde, 
+Señor Jesucristo,
+de mi corazón.
+
+Y cuando la noche extiende su manto,
+mis ojos en llanto en ti fijaré;
+alzando mis ojos veré las estrellas
+yo sé que tras ellas, 
+cual Padre amoroso
+Tú velas por mi.
+
+No puedo pagarte con oro ni plata,
+el gran sacrificio que hiciste por mí.
+No tengo que darte por tanto amarme;
+recibe este canto, 
+mezclado con llanto,
+y mi corazón.
+
+
+25
+
+
+
+Savior! Thy dying love Thou gavest me,
+Nor should I aught withhold, my Lord, from Thee;
+In love my soul would bow, 
+My heart fulfill its vow,
+Some offering bring Thee now,
+Something for Thee.
+
+Give me a faithful heart, likeness to Thee,
+That each departing day henceforth may see
+Some work of love begun, 
+Some deed of kindness done,
+Some wanderer sought and won,
+Something for Thee.
+
+All that I am and have, Thy gifts so free
+In joy, in grief, through life, 
+O Lord, for Thee!
+And when Thy face I see, 
+My ransomed soul shall be through all eternity,
+Something for Thee.
+
+s
+Cristo, tu santo amor, diste a mí;
+cuando en la cruz, Señor, sufriste aquí.
+Acepto tu virtud
+y hoy en gratitud,
+cumplo con prontitud,
+me rindo a Ti.
+
+Un corazón de amor, quiero Jesús
+y que esté Señor, lleno de luz;
+así podré servir,
+el tiempo redimir,
+y almas dirigir,
+Señor, a Ti.
+
+Lo que yo tengo y soy, por tu favor.
+Alegre a Ti lo doy, Cristo Señor.
+Tu rostro yo veré
+contigo estaré,
+y siempre yo seré
+algo por Ti.
+
+
+26
+
+
+
+Take my life, and let it be
+Consecrated, Lord, to Thee;
+Take my moments and my days;
+Let them flow in ceaseless praise.
+
+Take my voice, and let me sing
+Always, only, for my King;
+Take my lips, and let them be
+Filled with messages from Thee.
+
+Take my silver and my gold,
+Not a mite would I withhold;
+Take my intellect, and use
+Every power as Thou shalt choose.
+
+Take my will, and make it Thine,
+It shall be no longer mine;
+Take my heart; it is Thine own.
+It shall be Thy royal throne.
+
+Take my love: my Lord, I pour
+At Thy feet its treasure-store;
+Take myself, and I will be
+Ever, only, all for Thee.
+
+s
+Quiero consagrarme hoy,
+sin reservas todo doy.
+Holocausto en el altar,
+sólo a Dios quiero agradar.
+
+Mis oídos abrirás;
+tuyo soy, me marcarás.
+Cual esclavo en la antigüedad,
+no me des mi libertad.
+
+Quiero que tu voluntad
+cumplas sin dificultad.
+Alfarero Tú serás;
+barro soy, que formarás.
+
+Esta voz podrás usar,
+tu Palabra al proclamar.
+Vaso humilde quiero ser
+en que muestres tu poder.
+
+Mi dinero quiero dar,
+nardo puro derramar
+a tus pies. Yo sé Señor,
+bien mereces lo mejor.
+
+
+27
+
+
+
+There is a fountain filled with blood,
+Drawn from Immanuel’s veins;
+And sinners plunged beneath that flood,
+Lose all their guilty stains.
+
+c
+Hallelujah to the Lamb!
+Who died on Mount Calvary
+Hallelujah, hallelujah, hallelujah, Amen.
+
+The dying thief rejoiced to see
+That fountain in his day;
+And there have I, as vile as he,
+Washed all my sins away.
+
+c
+Hallelujah to the Lamb!
+Who died on Mount Calvary
+Hallelujah, hallelujah, hallelujah, Amen.
+
+Dear dying Lamb! Thy precious blood
+Shall never lose its power
+Till all the ransomed Church of God
+Be saved, to sin no more.
+
+c
+Hallelujah to the Lamb!
+Who died on Mount Calvary
+Hallelujah, hallelujah, hallelujah, Amen.
+
+E’er since, by faith, I saw the stream
+Thy wounds supplied for me,
+Redeeming love has been my theme,
+And shall forever be.
+
+c
+Hallelujah to the Lamb!
+Who died on Mount Calvary
+Hallelujah, hallelujah, hallelujah, Amen.
+
+s
+Hay una fuente sin igual
+de sangre de Emanuel,
+en donde lava cada cual
+las manchas que hay en él.
+
+El malhechor se convirtió
+muriendo en una cruz,
+al ver la fuente en que lavó
+sus culpas por Jesús.
+
+Y yo también, cuan malo soy,
+lavarme allí podré,
+y en tanto que en el mundo estoy,
+su gloria cantaré.
+
+Tu sangre nunca perderá
+¡oh Cristo! su poder,
+y sólo en ella así podrá
+tu Iglesia salva ser.
+
+Desde que aquella fuente vi
+un solo tema sé:
+amor redimidor, y así
+cantando seguiré.
+
+
+28
+
+
+
+Thy life was given for me!
+Thy blood, O Lord, was shed
+That I might ransomed be
+And quickened from the dead.
+Thy life (Thy life) was given for me;
+What have I given for Thee?
+
+And Thou hast brought to me,
+Down from Thy home above,
+Salvation full and free,
+Thy pardon and Thy love.
+Great gifts (great gifts) Thou broughtest me;
+What have I brought to Thee?
+
+O let my life be given,
+My years for Thee be spent;
+World-fetters all be riven,
+And joy with suffering blent;
+To Thee (to Thee) my all I bring,
+My Savior and my King!
+
+And I have brought to thee,
+Down from My home above,
+Salvation full and free,
+My pardon and My love;
+I bring (I bring) rich gifts to thee,
+What hast thou brought to Me?
+
+s
+ Mi vida di por ti, 
+Mi sangre derramé.
+Por ti inmolado fui, 
+Por gracia te salvé.
+Por ti, por ti mi vida di,
+¿qué has hecho tú por Mí?
+
+ Mi celestial mansión,
+mi trono de esplendor,
+dejé por rescatar 
+al mundo pecador.
+Sí, todo Yo dejé por ti,
+¿qué dejas tú por Mí?
+
+ Reproches, aflicción 
+y angustias Yo sufrí.
+La copa amarga fue 
+que Yo por ti bebí.
+Reproches Yo por ti sufrí,
+¿qué sufres tú por Mí?
+
+ De mi celeste hogar 
+te traigo el rico don
+del Padre Dios de amor,
+la plena salvación.
+Mi don de amor te traigo a ti,
+¿qué ofreces tú por Mí?
+
+
+29
+
+
+
+What a friend we have in Jesus,
+All our sins and griefs to bear,
+What a privilege to carry
+Everything to God in prayer.
+O what peace we often forfeit,
+O what needless pain we bear,
+All because we do not carry
+Everything to God in prayer.
+
+Have we trials and temptations?
+Is there trouble anywhere?
+We should never be discouraged,
+Take it to the Lord in prayer.
+Can we find a friend so faithful
+Who will all our sorrows share?
+Jesus knows our every weakness;
+Take it to the Lord in prayer.
+
+Are we weak and heavy laden,
+Cumbered with a load of care?
+Precious Savior, still our Refuge;
+Take it to the Lord in prayer.
+Do thy friends despise, forsake thee?
+Take it to the Lord in prayer.
+In His arms He'll take and shield thee;
+Thou shalt find a solace there.
+
+s
+¡Oh! ¡qué amigo nos es Cristo!
+nuestras culpas Él llevó,
+y nos manda que llevemos
+todo a Dios en oración.
+¿Somos tristes, agobiados,
+y cargados de aflicción?
+Esto es porque no llevamos
+todo a Dios en oración.
+
+¿Te hallas débil y oprimido
+de cuidados y temor?
+A Jesús, refugio eterno,
+dile todo en oración.
+¿Te desprecian tus amigos?
+Cuéntale en oración;
+en sus brazos de amor tierno
+paz tendrá tu corazón.
+
+Jesucristo es nuestro amigo,
+de esto pruebas nos mostró;
+pues para llevar consigo
+al culpable, se humanó.
+El castigo de su pueblo
+en su muerte Él sufrió.
+Cristo es el amigo eterno,
+sólo en Él confío yo.
+
+
+30
+
+
+
+When I survey the wondrous Cross
+On which the Prince of Glory died,
+My richest gain I count but loss,
+And pour contempt on all my pride.
+
+Forbid it, Lord, that I should boast,
+Save in the Cross of Christ, my God;
+All the vain things that charm me most,
+I sacrifice them to His blood.
+
+See from His head, His hands, His feet,
+Sorrow and love flow mingled down;
+Did e’er such love and sorrow meet,
+Or thorns compose so rich a crown?
+
+Were the whole realm of nature mine
+That were an offering far too small;
+Love so amazing so divine
+Demands my heart, my life, my all!
+
+s
+La cruz sangrienta al contemplar
+do el Rey de gloria padeció,
+riquezas quiero despreciar
+y a la soberbia tengo horror.
+
+Mi gloria y mi blasón serán
+la cruz de Cristo mi Señor,
+y lo que di a la vanidad
+ya le dedico con amor.
+
+Sus manos, su costado y pies
+de sangre manaderos son,
+y las espinas de su sien,
+mi aleve culpa las clavó.
+
+¿Y qué podré yo darte a Ti
+a cambio de tan grande don?
+Es todo pobre, todo ruin;
+toma, oh Señor, mi corazón.
+
+
+31
+
+
+
+When peace like a river attendeth my way,
+When sorrows, like sea billows roll,
+Whatever my lot, Thou hast taught me to say,
+It is well, it is well with my soul.
+
+c
+It is well with my soul,
+It is well, it is well with my soul.
+
+Though Satan should buffet, though trials should come,
+Let this blest assurance control,
+That Christ hath regarded my helpless estate
+And hath shed His own blood for my soul.
+
+c
+It is well with my soul,
+It is well, it is well with my soul.
+
+My sin, O the bliss of this glorious thought!
+My sin, not in part, but the whole,
+Is nailed to His cross, and I bear it no more,
+Praise the Lord, praise the Lord, O my soul.
+
+c
+It is well with my soul,
+It is well, it is well with my soul.
+
+For me, be it Christ, be it Christ hence to live:
+If death's waters o'er me shall roll,
+No pang shall be mine, for in death as in life,
+Thou wilt whisper Thy peace to my soul.
+
+c
+It is well with my soul,
+It is well, it is well with my soul.
+
+s
+Si paz cual un río es aquí mi porción,
+si es cual las olas del mar;
+cualquiera mi suerte, es ya mi canción:
+"Está bien, con mi alma está bien".
+
+c
+Está bien... está bien...
+Está bien con mi alma está bien.
+
+Por más que Satán me tentare a mí,
+en esto consuelo tendré:
+que Cristo, al ver cuán perdido yo fuí,
+en la cruz por mi alma murió.
+
+c
+Está bien... está bien...
+Está bien con mi alma está bien.
+
+Pecado llevó, y las gracias le doy,
+completo el trabajo está;
+llevólo en la cruz y ya libre estoy,
+¡oh mi alma, bendice al Señor!
+
+c
+Está bien... está bien...
+Está bien con mi alma está bien.
+
+
+32
+
+
+
+When this passing world is done,
+When has sunk yon glaring sun,
+When I stand with Christ on high
+Looking o’er life’s history;
+Then, Lord, shall I fully know,
+Not till then, how much I owe.
+
+When I stand before the throne
+Dressed in beauty not my own;
+When I see Thee as Thou art,
+Love Thee with unsinning heart;
+Then, Lord, shall I fully know,
+Not till then, how much I owe.
+
+Chosen, not for good in me,
+Wakened up from wrath to flee;
+Hidden in the Saviour’s side,
+By the Spirit sanctified;
+Teach me, Lord, on earth to show
+By my love, how much I owe.
+
+When the praise of Heaven I hear,
+Loud as thunders to the ear,
+Loud as many water’s noise,
+Sweet as harp’s melodious voice;
+Then, Lord, shall I fully know,
+Not till then, how much I owe.
+
+s
+Al acabar la vida aquí
+en este mundo de pesar,
+para gozar en gloria allí
+y ante Ti, Señor, estar;
+entonces, sí, sabré mejor
+lo que te debo por tu amor.
+
+Al recibir, Señor Jesús,
+de Ti mi cuerpo celestial,
+y ante el trono de la luz
+servirte, libre ya del mal;
+entonces, sí, sabré mejor
+lo que te debo por tu amor.
+
+Al escuchar el dulce son
+del himno que te entonará
+en armoniosa perfección
+la Iglesia tuya en gloria allá;
+entonces, sí, sabré mejor
+lo que te debo por tu amor.
+
+Tú me buscaste en tu bondad
+y me salvaste por la fe.
+Que viva, pues, en santidad
+mientras aquí en el mundo esté.
+Ayúdame a mostrar mejor
+lo que te debo por tu amor.
+
+
+33
+
+
+
+When we reach our peaceful dwelling
+On the strong, eternal hills,
+And our praise to Him is swelling,
+Who the vast creation fills;
+When the paths of prayer and duty,
+And affliction all are trod,
+And we wake and see the beauty
+Of our Saviour and our God.
+
+c
+O, twill be a glorious morrow
+To a dark and stormy day,
+When we smile upon our sorrow,
+And the storms have passed away.
+
+With the Light of resurrection,
+When our changèd bodies glow,
+And we gain the full perfection
+Of the bliss begun below;
+When the life the flesh obscureth
+In each radiant form shall shine,
+And the joy that aye endureth
+Flashes forth in beams divine.
+
+c
+O, twill be a glorious morrow
+To a dark and stormy day,
+When we smile upon our sorrow,
+And the storms have passed away.
+
+Shall the memory be banished
+Of His kindness and His care,
+When the wants and woes are vanished,
+Which he loved to soothe and share?
+All the way by which He led us,
+All the grievings which He bore,
+All the patient love He taught us,
+Shall we think of them no more?
+
+c
+O, twill be a glorious morrow
+To a dark and stormy day,
+When we smile upon our sorrow,
+And the storms have passed away.
+
+s
+Cuando al fin en paz lleguemos
+a la patria celestial,
+al Señor alabaremos
+en concierto universal.
+Estas pruebas y aflicciones
+terrenales cesarán,
+y su faz, sin distracciones,
+nuestros ojos mirarán.
+
+c
+¡Oh qué día tan glorioso!
+Nubes negras ya no habrá
+cuando allá, en pleno gozo,
+Dios las penas quitará.
+
+Todos ya resucitados,
+nuestros cuerpos brillarán;
+y por Dios perfeccionados,
+al cumplir su eterno plan;
+aunque aquí, en las penumbras
+de este valle de dolor,
+fue difícil, entre sombras,
+ver propósitos de amor.
+
+c
+¡Oh qué día tan glorioso!
+Nubes negras ya no habrá
+cuando allá, en pleno gozo,
+Dios las penas quitará.
+
+Olvidar jamás podremos
+su cuidado y compasión,
+pues allá recordaremos
+su ternura en la aflicción.
+Nos guió por el camino,
+nuestras cargas Él llevó;
+con poder y amor divino,
+nunca nos abandonó.
+
+c
+¡Oh qué día tan glorioso!
+Nubes negras ya no habrá
+cuando allá, en pleno gozo,
+Dios las penas quitará.
+
+
+34
+
+
+
+Who is He in yonder stall
+At whose feet the shepherds fall?
+
+c
+'Tis the Lord! O wondrous story!
+'Tis the Lord! the King of glory!
+At His feet we humbly fall,
+Crown Him! crown Him, Lord of all!
+
+Lo! at midnight, who is He
+Prays in dark Gethsemane?
+
+c
+'Tis the Lord! O wondrous story!
+'Tis the Lord! the King of glory!
+At His feet we humbly fall,
+Crown Him! crown Him, Lord of all!
+
+Who is He on yonder tree
+Dies in grief and agony?
+
+c
+'Tis the Lord! O wondrous story!
+'Tis the Lord! the King of glory!
+At His feet we humbly fall,
+Crown Him! crown Him, Lord of all!
+
+Who is He that from the grave
+Comes to heal and help and save?
+
+c
+'Tis the Lord! O wondrous story!
+'Tis the Lord! the King of glory!
+At His feet we humbly fall,
+Crown Him! crown Him, Lord of all!
+
+Who is He that from His throne
+Rules through all the world alone?
+
+c
+'Tis the Lord! O wondrous story!
+'Tis the Lord! the King of glory!
+At His feet we humbly fall,
+Crown Him! crown Him, Lord of all!
+
+s
+¿Quién es Él que con baldón
+nace fuera del mesón?
+
+c
+Es Jesús, ¡oh qué historia!
+Es Jesús, el Rey de gloria.
+A sus pies es mi lugar,
+alabando sin cesar.
+
+¿Quién es Él que ora así,
+postrado en Getsemaní?
+
+c
+Es Jesús, ¡oh qué historia!
+Es Jesús, el Rey de gloria.
+A sus pies es mi lugar,
+alabando sin cesar.
+
+¿Quién es Él por hombres mil
+levantado en cruz tan vil?
+
+c
+Es Jesús, ¡oh qué historia!
+Es Jesús, el Rey de gloria.
+A sus pies es mi lugar,
+alabando sin cesar.
+
+¿Quién, pues, al resucitar,
+con poder puede salvar?
+
+c
+Es Jesús, ¡oh qué historia!
+Es Jesús, el Rey de gloria.
+A sus pies es mi lugar,
+alabando sin cesar.
+
+¿Quién es Él que bajará,
+y todo ojo le verá?
+
+c
+Es Jesús, ¡oh qué historia!
+Es Jesús, el Rey de gloria.
+A sus pies es mi lugar,
+alabando sin cesar.
+
+
+35
+
+
+
+Ever highest, clothed with glory,
+He the form of God possessed.
+All God is He was exactly;
+All God’s fullness He expressed.
+But to serve He did not treasure
+Honor He could rightly claim;
+With more grace than we can measure
+Lowly, bondslave He became.
+
+Servant’s form laid in a manger;
+Truly man yet holy still,
+Though to shame and grief no stranger,
+Undeterred, He did God’s will.
+He, untiring, patient, selfless
+Served His God so faithfully;
+God incarnate, moving homeless,
+Blessed the needy wondrously.
+
+To the depths His full devotion,
+Stooped, shame crowned, to do God’s will;
+In the depths He heaved wrath’s ocean
+Jesus bowed, submissive still.
+From the depths of lonely roaring,
+Raised by God approvingly
+To the height with all adoring,
+He sat down triumphantly.
+
+Highest honors now possessing,
+He has proper, purest fame;
+Jesus, Lord, all tongues confessing,
+Glorify His lowly Name.
+Kings and kingdoms will adore Him;
+Justice all the earth shall fill.
+Every foe will bow before Him
+Who had bowed to do God’s will.
+
+Jesus, Lord, we bow admiring;
+Others we would serve like Thee,
+Honor them by grace aspiring
+There through earth to Thee to see.
+May we learn to seek their blessing,
+One with them by love entwined,
+Through our acts and works confessing
+That we prize the Servant’s mind.
+
+
+36
+
+Dawn Rodgers/Eric Wyse<br>© 1989 Word Music, LLC and Dayspring Music, LLC<br>All Rights Reserved. Used By Permission
+
+Wonderful, merciful Savior,
+Precious Redeemer and Friend,
+Who would have thought that a Lamb could
+Rescue the souls of men?
+O You rescue the souls of men!
+
+c
+You are the One that we praise,
+You are the One we adore;
+You give the healing and grace
+Our hearts always hunger for,
+O our hearts always hunger for.
+
+Counselor, Comforter, Keeper,
+Spirit we long to embrace;
+You offer hope when our hearts have
+Hopelessly lost the way,
+O we've hopelessly lost the way.
+
+c
+You are the One that we praise,
+You are the One we adore;
+You give the healing and grace
+Our hearts always hunger for,
+O our hearts always hunger for.
+
+Almighty, infinite Father
+Faithfully loving Your own;
+Here in our weakness You find us
+Falling before Your throne,
+O we're falling before Your throne.
+
+c
+You are the One that we praise,
+You are the One we adore;
+You give the healing and grace
+Our hearts always hunger for,
+O our hearts always hunger for.
+
+
+37
+
+
+
+Just as I am, Thine own to be,
+Friend of the young, who lovest me.
+To consecrate myself to Thee,
+O Jesus Christ, I come, I come.
+
+In the glad morning of my day,
+My life to give, my vows to pay,
+With no reserve and no delay,
+With all my heart, I come, I come.
+
+Just as I am, young, strong, and free,
+To be the best that I can be
+For truth, and righteousness, and Thee,
+Lord of my life, I come, I come.
+
+And for Thy sake to win renown,
+And then to take the victor’s crown
+And at Thy feet to lay it down,
+O Master, Lord, I come, I come.
+
+
+38
+
+
+
+Alas, and did my Savior bleed, 
+And did my Sovereign die!
+Would He devote that sacred head 
+For sinners such as I?
+
+Was it for crimes that I have done, 
+He groaned upon the tree? 
+Amazing pity! Grace unknown! 
+And love beyond degree! 
+
+Well might the sun in darkness hide
+And shut its glories in,
+When God, the mighty Maker, died 
+For His own creature's sin. 
+
+Thus might I hide my blushing face 
+While His dear cross appears; 
+Dissolve my heart in thankfulness, 
+And melt mine eyes to tears. 
+
+But drops of tears can ne'er repay 
+The debt of love I owe. 
+Here, Lord, I give myself away; 
+'Tis all that I can do.
+
+
+39
+
+
+
+My glorious Victor, Prince Divine, 
+Clasp these surrendered hands in Thine; 
+At length my will is all Thine own, 
+Glad vassal of a Savior's throne. 
+
+My Master, lead me to Thy door; 
+Pierce this now willing ear once more: 
+Thy bonds are freedom; let me stay 
+With Thee, to toil, endure, obey. 
+
+Yes, ear and hand, and thought and will, 
+Use all in Thy dear slavery still! 
+Self's weary liberties I cast 
+Beneath Thy feet; there keep them fast. 
+
+Tread them still down; and then, I know, 
+These hands shall with Thy gifts o'erflow.
+And piercèd ears shall hear the tone 
+Which tells me Thou and I are one.
+
+
+40
+
+Copyright © 2005 Thankyou Music (PRS) (adm. worldwide at CapitolCMGPublishing.com excluding Europe which is adm. by Integritymusic.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+O to see the dawn of the darkest day;
+Christ on the road to Calvary,
+Tried by sinful men, torn and beaten then;
+Nailed to a cross of wood.
+
+c
+This the pow'r of the cross:
+Christ became sin for us,
+Took the blame, bore the wrath.
+We stand forgiven at the cross.
+
+O to see the pain written on Your face,
+Bearing the awesome weight of sin;
+Every bitter thought, every evil deed
+Crowning your bloodstained brow.
+
+c
+This the pow'r of the cross:
+Christ became sin for us,
+Took the blame, bore the wrath.
+We stand forgiven at the cross.
+
+Now the daylight flees, now the ground beneath
+Quakes as its Maker bows His head;
+Curtain torn in two, dead are raised to life,
+"Finished" the victory cry.
+
+c
+This the pow'r of the cross:
+Christ became sin for us,
+Took the blame, bore the wrath.
+We stand forgiven at the cross.
+
+O to see my name written in the wounds,
+For through Your suffering I am free.
+Death is crushed to death, life is mine to live,
+Won through Your selfless love.
+
+c
+This the pow'r of the cross
+Son of God slain for us
+What a love, what a cost!
+We stand forgiven at the cross!
+
+
+41
+
+
+
+Stricken, smitten, and afflicted,
+See Him dying on the tree!
+‘Tis the Christ by man rejected;
+Yes, my soul, ’tis He, ’tis He!
+Tis the long expected Prophet,
+David’s Son, yet David’s Lord;
+Proofs I see sufficient of it:
+‘Tis a true and faithful Word.
+
+Tell me, ye who hear Him groaning,
+Was there ever grief like His?
+Friends through fear His cause disowning,
+Foes insulting His distress:
+Many hands were raised to wound Him;
+None would interpose to save;
+But the deepest stroke that pierced Him
+Was the stroke that Justice gave.
+
+Ye who think of sin but lightly,
+Nor suppose the evil great,
+Here may view its nature rightly,
+Here its guilt may estimate.
+Mark the Sacrifice appointed!
+See Who bears the awful load!
+‘Tis the Word, the Lord’s Anointed,
+Son of Man, and Son of God.
+
+Here we have a firm foundation;
+Here the refuge of the lost.
+Christ the Rock of our salvation,
+Christ the Name of which we boast.
+Lamb of God for sinners wounded!
+Sacrifice to cancel guilt!
+None shall ever be confounded
+Who on Him their hope have built.
+
+
+42
+
+Copyright © 1998 Integrity's Hosanna! Music (ASCAP) Integrity's Hosanna! Music (ASCAP) (adm. at CapitolCMGPublishing.com) / Lensongs Publishing, Inc (ASCAP) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Above all powers, above all kings,
+Above all nature and all created things,
+Above all wisdom and all the ways of man,
+You were here before the world began.
+
+Above all kingdoms, above all thrones,
+Above all wonders the world has ever known,
+Above all wealth and treasures of the earth,
+There's no way to measure what You're worth.
+
+Crucified, laid behind the stone,
+You lived to die rejected and alone;
+Like a rose, trampled on the ground,
+You took the fall and thought of me
+Above all.
+
+
+43
+
+Copyright © 1921 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) / Original Public Domain Publisher () All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Down from His Glory
+Ever living story
+My God my Savior came
+And Jesus was His name;
+Born in a manger
+To His own, a stranger,
+A Man of sorrows, tears and agony
+
+c
+O, how I love Him, how I adore Him,
+My breath, my sunshine my all in all.
+The great Creator became my Savior,
+And all God's fullness dwelleth in Him.
+
+Without reluctance,
+Flesh and blood His substance,
+He took the form of man,
+Revealed the hidden plan.
+O, glorious myst'ry,
+Sacrifice of Calv'ry,
+And now I know Thou art the great "I AM"
+
+c
+O, how I love Him, how I adore Him,
+My breath, my sunshine my all in all.
+The great Creator became my Savior,
+And all God's fullness dwelleth in Him.
+
+
+44
+
+Written by KELLY CARPENTER. Copyright: © 1994 MERCY/VINEYARD PUBLISHING (ASCAP) ADMIN. IN NORTH AMERICA BY MUSIC SERVICES o/b/o VINEYARD MUSIC USA. All Rights Reserved. Used By Permission.
+
+Draw me close to You,
+never let me go;
+I lay it all down again 
+to hear You say that I'm Your friend.
+
+You are my desire, 
+no one else will do,
+'Cause nothing else can take Your place
+To feel the warmth of Your embrace.
+Help me find the way, 
+bring me back to You.
+
+c
+You're all I want;
+You're all I've ever needed.
+You're all I want;
+Help me know You are near.
+
+
+45
+
+Michael Card/John Thompson<br>© 1982 Mole End Music (Admin. by Word Music, LLC)<br>All Rights Reserved. Used By Permission.
+
+c
+El Shaddai, El Shaddai, El-Elyon na Adonai,
+Age to age you're still the same, By the power of the name.
+El Shaddai, El Shaddai, Erkamka na Adonai,
+We will praise and lift You high, El Shaddai.
+
+Through your love and through the ram, 
+You saved the son of Abraham;
+Through the power of your hand,
+Turned the sea into dry land.
+To the outcast on her knees,
+You were the God who really sees,
+And by Your might, You set Your children free.
+
+c
+El Shaddai, El Shaddai, El-Elyon na Adonai,
+Age to age you're still the same, By the power of the name.
+El Shaddai, El Shaddai, Erkamka na Adonai,
+We will praise and lift You high, El Shaddai.
+
+Through the years You've made it clear, 
+That the time of Christ was near,
+Though the people couldn't see, 
+What Messiah ought to be.
+Though Your Word contained the plan, 
+They just could not understand.
+Your most awesome work was done 
+Through the frailty of Your Son.
+
+c
+El Shaddai, El Shaddai, El-Elyon na Adonai,
+Age to age you're still the same, By the power of the name.
+El Shaddai, El Shaddai, Erkamka na Adonai,
+We will praise and lift You high, El Shaddai.
+
+
+46
+
+Written by BRIAN DOERKSEN. Copyright © 1998 VINEYARD SONGS (UK/EIRE) (PRS) ADMIN. IN NORTH AMERICA BY MUSIC SERVICES. All Rights Reserved. Used By Permission.
+
+Come, now is the time to worship!
+Come, now is the time to give your heart!
+Come, just as you are to worship!
+Come, just as you are before your God!
+Come!
+
+One day every tongue will confess you are God.
+One day every knee will bow.
+Still the greatest treasure remains for those
+Who gladly choose you now!
+
+c
+Come! Come! Come!
+
+
+47
+
+Copyright © 1983 Shepherd's Fold Music (BMI) River Oaks Music Company (BMI) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Every day they pass me by,
+I can see it in their eyes.
+Empty people filled with care,
+Headed who knows where?
+On they go through private pain,
+Living fear to fear.
+Laughter hides their silent cries,
+Only Jesus hears.
+
+c
+People need the Lord, people need the Lord.
+At the end of broken dreams, He's the open door.
+People need the Lord, people need the Lord.
+When will we realize, people need the Lord?
+
+We are called to take His light
+To a world where wrong seems right.
+What could be too great a cost
+For sharing life with one who's lost?
+Through His love our hearts can feel
+All the grief they bear.
+They must hear the Words of Life
+Only we can share.
+
+c
+People need the Lord, people need the Lord.
+At the end of broken dreams, He's the open door.
+People need the Lord, people need the Lord.
+When will we realize that we must give our lives?
+For people need the Lord.
+
+
+48
+
+Copyright © 1972 Cccm Music (ASCAP) Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Father I adore you;
+I lay my life before you.
+How I love you!
+
+Jesus I adore you;
+I lay my life before you.
+How I love you!
+
+Spirit I adore you;
+I lay my life before you.
+How I love you!
+
+
+49
+
+Copyright © 1988 Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Hail Jesus, you're my King;
+Your life frees me to sing.
+I will praise You all my days;
+You're perfect in all Your ways.
+
+Hail, Jesus, You're my Lord;
+I will obey Your Word.
+I want to see Your Kingdom come;
+Not my will but Yours be done.
+
+Glory, glory to the Lamb;
+You take me into the land.
+We will conquer in Your name
+And proclaim that Jesus reigns.
+
+Hail, hail, Lion of Judah;
+How powerful You are!
+Hail, hail, Lion of Judah!
+How wonderful You are!
+How wonderful You are!
+
+
+50
+
+Copyright © 2000 Birdwing Music (ASCAP) His & Hernandez Music (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+He's the Word of God.
+He's the King of kings.
+He's the Mighty One
+Who made everything.
+
+c
+He's the Alpha and Omega,
+The Beginning and the End,
+But best of all, He's my best friend.
+
+He's the Cornerstone,
+He's the great I AM,
+He's the Lord of lords
+Who will come again.
+
+c
+He's the Alpha and Omega,
+The Beginning and the End,
+But best of all, He's my best friend.
+
+For all He does,
+For all His ways,
+For all He is
+I give Him praise.
+
+He's the Prince of peace,
+He's the Bread of life,
+He's the Lamb of God
+Who was sacrificed.
+
+c
+He's the Alpha and Omega,
+The Beginning and the End,
+But best of all, He's my best friend.
+
+
+51
+
+
+
+Hast thou heard Him, seen Him, known Him?
+Is not thine a captured heart?
+“Chief among ten thousand” own Him,
+Joyful choose the better part.
+
+Idols once they won thee, charmed thee,
+Lovely things of time and sense;
+Gilded, thus does sin disarm thee,
+Honeyed lest thou turn thee hence.
+
+What has stripped the seeming beauty
+From the idols of the earth?
+Not the sense of right or duty,
+But the sight of peerless worth.
+
+Not the crushing of those idols,
+With its bitter void and smart,
+But the beaming of His beauty,
+The unveiling of His heart.
+
+‘Tis that look that melted Peter,
+‘Tis that face that Stephen saw,
+‘Tis that heart that wept with Mary,
+Can alone from idols draw.
+
+Draw, and win, and fill completely,
+Till the cup o'erflow the brim,
+What have we to do with idols,
+Who have companied with Him?
+
+
+52
+
+Copyright © 1984 Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+As the deer panteth for the water
+So my soul longeth after You;
+You alone are my heart's desire
+And I long to worship You.
+
+c
+You alone are my strength, my shield
+To you alone may my spirit yield;
+You alone are my heart's desire
+And I long to worship You.
+
+You are my friend and You are my brother
+Even though You are a king;
+I love You more than any other,
+So much more than anything.
+
+c
+You alone are my strength, my shield
+To you alone may my spirit yield;
+You alone are my heart's desire
+And I long to worship You.
+
+I want You more than gold or silver,
+Only You can satisfy;
+You alone are the real joy giver,
+And the apple of my eye.
+
+c
+You alone are my strength, my shield
+To you alone may my spirit yield;
+You alone are my heart's desire
+And I long to worship You.
+
+s
+<i>Note: This a totally different song that may be sung to the same tune</i>
+Tú, Señor Jesucristo,
+siempre meditabas en la verdad,
+escuchando la voz del Padre
+para hacer su voluntad.
+
+c
+Hazme hoy como Tú, Señor,
+con tus creencias y tu valor.
+Que yo esté convencido
+por la Biblia en toda convicción.
+
+Oh Señor Jesucristo,
+siempre dame más de tu gran fervor,
+para que viva tu ejemplo
+con firmeza, paz y amor.
+
+c
+Guíame al escudriñar
+mi Biblia hoy, para conformar
+mi vida y lo que yo creo
+a tu voluntad, Señor.
+
+Tú, Señor Jesucristo
+siempre aceptaste el plan de Dios.
+Es lo más provechoso para el hombre,
+y se vió en la cruz.
+
+c
+"Tú guardarás en completa paz
+a aquel cuyo pensamiento en ti
+persevera; porque
+en Ti ha confiado", oh Señor.
+
+
+53
+
+
+
+Cuán gloriosa será la mañana
+cuando venga Jesús el Salvador;
+las naciones unidas como hermanas,
+bienvenida daremos al Señor.
+
+c
+No habrá necesidad, de la luz el resplandor
+ni el sol dará su luz, ni tampoco su calor;
+allí llanto no habrá, ni tristeza, ni dolor,
+porque entonces Jesús el Rey del cielo
+para siempre será Consolador.
+
+Esperamos la mañana gloriosa
+para dar la bienvenida al Dios de amor
+donde todo será color de rosa
+en la santa fragancia del Señor.
+
+c
+No habrá necesidad, de la luz el resplandor
+ni el sol dará su luz, ni tampoco su calor;
+allí llanto no habrá, ni tristeza, ni dolor,
+porque entonces Jesús el Rey del cielo
+para siempre será Consolador.
+
+El cristiano fiel y verdadero
+y también el obrero de valor,
+y la Iglesia, esposa del Cordero,
+estarán en los brazos del Señor.
+
+c
+No habrá necesidad, de la luz el resplandor
+ni el sol dará su luz, ni tampoco su calor;
+allí llanto no habrá, ni tristeza, ni dolor,
+porque entonces Jesús el Rey del cielo
+para siempre será Consolador.
+
+
+54
+
+
+
+Day by day, and with each passing moment,
+Strength I find, to meet my trials here;
+Trusting in my Father’s wise bestowment,
+I’ve no cause for worry or for fear.
+He whose heart is kind beyond all measure
+Gives unto each day what He deems best;
+Lovingly, its part of pain and pleasure,
+Mingling toil with peace and rest. 
+
+Every day, the Lord Himself is near me
+With a special mercy for each hour;
+All my cares He fain would bear, and cheer me,
+He whose name is Counselor and Power;
+The protection of His child and treasure
+Is a charge that on Himself He laid;
+“As thy days, thy strength shall be in measure,”
+This the pledge to me He made.
+
+Help me then in every tribulation
+So to trust Thy promises, O Lord,
+That I lose not faith’s sweet consolation
+Offered me within Thy holy Word.
+Help me, Lord, when toil and trouble meeting,
+Ever to take, as from a father’s hand,
+One by one, the days, the moments fleeting,
+Till I reach the promised land.
+
+s
+ Día en día Cristo está conmigo;
+me consuela en medio del dolor,
+pues confiando en su poder eterno
+no me afano, ni me da temor.
+Sobrepuja todo entendimiento
+la perfecta paz del Salvador.
+En su amor tan grande e infinito
+siempre me dará lo que es mejor.
+
+ Día en día Cristo me acompaña
+y me brinda dulce comunión.
+Todos mis cuidados Él los lleva;
+a Él le entrego mi alma y corazón.
+No hay medida del amor supremo
+de mi bondadoso y fiel Pastor.
+Él me suple lo que necesito,
+pues el pan de vida es mi Señor.
+
+ Oh Señor, ayúdame este día
+a vivir de tal manera aquí
+que tu nombre esté glorificado,
+pues anhelo honrarte sólo a Ti.
+Con la diestra de tu gran justicia
+me sustentas en la turbación.
+Tus promesas son sostén y guía,
+siempre en ellas hay consolación.
+
+
+55
+
+Written by Grace Reese Adkins. Copyright: © 1948, Renewed 1976 Lillenas Publishing Company (admin. by Music Services) All Rights Reserved. SESAC. All Rights Reserved. Used By Permission.
+
+By and by when I look on His face,
+Beautiful face, thorn-shadowed face;
+By and by when I look on His face,
+I'll wish I had given Him more.
+
+c
+More, so much more,
+More of my love than I e'er gave before.
+By and by when I look on His face,
+I'll wish I had given Him more.
+
+By and by when He holds out His hands,
+Marvelous hands, welcoming hands;
+By and by when He holds out His hands,
+I'll wish I had given Him more.
+
+c
+More, so much more,
+More of my heart than I e'er gave before.
+By and by when I look on His hands,
+I'll wish I had given Him more.
+
+By and by when I kneel at His feet,
+Wonderful feet, nail-pierced feet;
+By and by when I look on His feet,
+I'll wish I had given Him more.
+
+c
+More, so much more,
+More of my life than I e'er gave before.
+By and by when I look on His feet,
+I'll wish I had given Him more.
+
+
+56
+
+Copyright © 1983 Hanna Street Music (BMI) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+God sent His Son; they called Him Jesus;
+He came to love, heal and forgive;
+He lived and died to buy my pardon;
+An empty grave is there to prove My Savior lives.
+
+c
+Because He lives, I can face tomorrow;
+Because He lives, all fear is gone;
+Because I know He holds the future,
+And life is worth the living just because He lives.
+
+How sweet to hold a newborn baby,
+And feel the pride, and joy He gives;
+But greater still the calm assurance,
+This child can face uncertain days Because He lives.
+
+c
+Because He lives, I can face tomorrow;
+Because He lives, all fear is gone;
+Because I know He holds the future,
+And life is worth the living just because He lives.
+
+And then one day I'll cross the river;
+I'll fight life's final war with pain;
+And then as death gives way to victory,
+I'll see the lights of Glory And I'll know He lives.
+
+c
+Because He lives, I can face tomorrow;
+Because He lives, all fear is gone;
+Because I know He holds the future,
+And life is worth the living just because He lives.
+
+
+57
+
+
+
+Have Thine own way, Lord! 
+Have Thine own way!
+Thou art the Potter, I am the clay;
+Mold me and make me after Thy will,
+While I am waiting, yielded and still.
+
+Have Thine own way, Lord!
+Have Thine own way!
+Search me and try me, Master, today;
+Whiter than snow, Lord, wash me just now,
+As in Thy presence humbly I bow.
+
+Have Thine own way, Lord!
+Have Thine own way!
+Hold o’er my being absolute sway!
+Fill with Thy Spirit till all shall see
+Christ only, always, living in me!
+
+s
+Haz lo que quieras de mí, Señor;
+Tú el Alfarero, yo el barro soy;
+dócil y humilde anhelo ser;
+cúmplase siempre en mí tu querer.
+
+Haz lo que quieras de mí, Señor;
+mírame y prueba mi corazón;
+que en mí no haya iniquidad
+pues tu presencia quiero gozar.
+
+Haz lo que quieras de mí, Señor;
+dueño absoluto sé de mi ser,
+para servirte con devoción,
+se manifieste así tu poder.
+
+
+58
+
+Copyright © 1969 Designer Music (SESAC) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+He left the splendor of Heaven,
+Knowing His destiny
+Was the lonely hill of Golgotha,
+There to lay down His life for me.
+
+c
+If that isn't love, the ocean is dry,
+There's no stars in the sky
+And the sparrow can't fly;
+If that isn't love then Heaven's a myth;
+There's no feeling like this
+If that isn't love.
+
+Even in death He remembered
+The thief hanging by his side;
+He spoke with love and compassion,
+Then He took him to paradise.
+
+c
+So this must be love; the ocean's not dry,
+There are stars in the sky
+And the sparrows can fly,
+So this must be love for Heaven's no myth;
+There's a feeling like this.
+O yes, this is love.
+
+
+59
+
+Copyright © 1942 Bridge Building Music (BMI) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+I am going to a city
+Where the streets with gold are laid,
+Where the tree of life is blooming
+And the roses never fade.
+
+c
+Here they bloom but for a season;
+Soon their beauty is decayed.
+I am going to a city
+Where the roses never fade.
+
+Loved ones gone to be with Jesus,
+In their robes of white arrayed,
+Now are waiting for my coming
+Where the roses never fade.
+
+c
+Here they bloom but for a season;
+Soon their beauty is decayed.
+I am going to a city
+Where the roses never fade.
+
+
+60
+
+Written by SCOTT UNDERWOOD. Copyright © 1994 MERCY/VINEYARD PUBLISHING (ASCAP) ADMIN. IN NORTH AMERICA BY MUSIC SERVICES o/b/o VINEYARD MUSIC USA. All Rights Reserved. Used By Permission.
+
+Holiness, holiness, is what I long for.
+Holiness is what I need.
+Holiness, holiness is what You
+Want from me. (Repeat 2x)
+
+c
+So, take my heart and form it.
+Take my mind and transform it.
+Take my will and conform it
+To Yours, to Yours, O Lord.
+
+Faithfulness, faithfulness is what I long for.
+Faithfulness is what I need.
+Faithfulness, faithfulness is what
+You want from me.
+
+c
+So, take my heart and form it.
+Take my mind and transform it.
+Take my will and conform it
+To Yours, to Yours, O Lord.
+
+Righteousness, righteousness is what I long for.
+Righteousness is what I need.
+Righteousness, righteousness is what
+You want from me.
+
+c
+So, take my heart and form it.
+Take my mind and transform it.
+Take my will and conform it
+To Yours, to Yours, O Lord.
+
+
+61
+
+Copyright © 1995 Thankyou Music (PRS) (adm. worldwide at CapitolCMGPublishing.com excluding Europe which is adm. by Integritymusic.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+How lovely is Your dwelling place,
+O Lord Almighty.
+For my soul longs and even faints for You,
+For here my heart is satisfied
+Within Your presence;
+I sing beneath the shadow of Your wings.
+
+c
+Better is one day in Your courts,
+Better is one day in Your house,
+Better is one day in Your courts,
+Than thousands elsewhere.
+One thing I ask and I would seek,
+To see Your beauty,
+To find You in the place Your glory dwells.
+
+My heart and flesh cry out
+For You, the living God;
+Your Spirit's water to my soul.
+I've tasted and I've seen;
+Come once again to me;
+I will draw near to You,
+I will draw near to You.
+
+c
+Better is one day in Your courts,
+Better is one day in Your house,
+Better is one day in Your courts,
+Than thousands elsewhere.
+
+
+62
+
+Copyright © 1950 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+I don’t know about tomorrow,
+I just live from day to day;
+I don’t borrow from its sunshine,
+For its skies may turn to gray.
+I don’t worry o’er the future,
+For I know what Jesus said,
+And today I’ll walk beside Him,
+For He knows what is ahead.
+
+c
+Many things about tomorrow
+I don’t seem to understand;
+But I know who holds tomorrow,
+And I know who holds my hand.
+
+Every step is getting brighter
+As the golden stairs I climb;
+Every burden’s getting lighter,
+Every cloud is silver-lined;
+There the sun is always shining,
+There no tear will dim the eye;
+At the ending of the rainbow,
+Where the mountains touch the sky.
+
+c
+Many things about tomorrow
+I don’t seem to understand;
+But I know who holds tomorrow,
+And I know who holds my hand.
+
+
+63
+
+Words © 1924, Ren. 1951 Hope Publishing Company, Carol Stream, IL 60188. All rights reserved.
+
+I have a song that Jesus gave me,
+It was sent from heav'n above;
+There never was a sweeter melody,
+'Tis a melody of Love.
+
+c
+In my heart there rings a melody,
+There rings a melody with Heaven's harmony;
+In my heart there rings a melody;
+There rings a melody of love.
+
+I love the Christ who died on Calv'ry,
+For He washed my sins away;
+He put within my heart a melody,
+And I know it's there to stay.
+
+c
+In my heart there rings a melody,
+There rings a melody with Heaven's harmony;
+In my heart there rings a melody;
+There rings a melody of love.
+
+‘Twill be my endless theme in glory,
+With the angels I will sing;
+‘Twill be a song with glorious harmony,
+When the courts of Heaven ring.
+
+c
+In my heart there rings a melody,
+There rings a melody with Heaven's harmony;
+In my heart there rings a melody;
+There rings a melody of love.
+
+
+64
+
+
+
+I have decided to follow Jesus;
+I have decided to follow Jesus;
+I have decided to follow Jesus;
+No turning back, no turning back.
+
+Though I may wonder, I still will follow;
+Though I may wonder, I still will follow;
+Though I may wonder, I still will follow;
+No turning back, no turning back.
+
+The world behind me, the cross before me;
+The world behind me, the cross before me;
+The world behind me, the cross before me;
+No turning back, no turning back.
+
+Though none go with me, still I will follow;
+Though none go with me, still I will follow;
+Though none go with me, still I will follow;
+No turning back, no turning back.
+
+s
+He decidido seguir a Cristo.
+He decidido seguir a Cristo.
+He decidido seguir a Cristo,
+no vuelvo atrás, no vuelvo atrás.
+
+La vida antigua ya he dejado.
+La vida antigua ya he dejado.
+La vida antigua ya he dejado,
+no vuelvo atrás, no vuelvo atrás.
+
+Atrás el mundo, la Cruz delante.
+Atrás el mundo, la Cruz delante.
+Atrás el mundo, la Cruz delante,
+no vuelvo atrás, no vuelvo atrás.
+
+Si otros vuelven, yo sigo a Cristo.
+Si otros vuelven, yo sigo a Cristo.
+Si otros vuelven, yo sigo a Cristo,
+no vuelvo atrás, no vuelvo atrás.
+
+
+65
+
+Copyright © 1978 House Of Mercy Music (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+I love you, Lord, 
+And I lift my voice
+To worship You. O my soul, rejoice!
+Take joy, my King, in what You hear;
+May it be a sweet, sweet sound 
+In Your ear.
+
+
+66
+
+
+
+I’m pressing on the upward way,
+New heights I’m gaining every day;
+Still praying as I’m onward bound,
+“Lord, plant my feet on higher ground.”
+
+c
+Lord, lift me up and let me stand,
+By faith, on Heaven’s table land,
+A higher plane than I have found;
+Lord, plant my feet on higher ground.
+
+My heart has no desire to stay
+Where doubts arise and fears dismay;
+Though some may dwell where those abound,
+My prayer, my aim, is higher ground.
+
+c
+Lord, lift me up and let me stand,
+By faith, on Heaven’s table land,
+A higher plane than I have found;
+Lord, plant my feet on higher ground.
+
+s
+La meta de mi vida aquí,
+Señor, es agradarte a Ti.
+Prosigo sin mirar atrás,
+y sé que Tú me guiarás.
+
+c
+Anímame siempre a seguir;
+ayúdame a más alto ir.
+Otro nivel alcanzaré,
+y más de Ti conoceré.
+
+No soy perfecto, ¡eso sé!,
+mas a la meta miraré;
+me extenderé para alcanzar
+el premio que me quieres dar.
+
+c
+Anímame siempre a seguir;
+ayúdame a más alto ir.
+Otro nivel alcanzaré,
+y más de Ti conoceré.
+
+
+67
+
+
+
+I will work for Jesus, trust Him and obey,
+Carry out His orders, serve Him day by day,
+In the ripened harvest, over hill and plain,
+Gleaning for the Master sheaves of golden grain.
+
+I will work for Jesus, till the shadows fall,
+Labor for the Master till I hear His call.
+In the dewy evening when the gleaners leave,
+I will come rejoicing, bringing in the sheaves.
+
+Gleaning some with gladness, gleaning some with tears
+On account of thistles with the golden ears,
+Trusting in the Savior, ever on I go,
+Up and down the hillside, gleaning to and fro.
+
+I shall never weary of the work I do,
+For the Lord will strengthen all the harvest thro'
+Laying down the sickle, when the end has come,
+I shall be admitted to the harvest home.
+
+
+68
+
+Copyright © 1949 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+I'm satisfied with just a cottage below,
+A little silver and a little gold,
+But in that city where the ransomed will shine,
+I want a gold one that's silver lined.
+
+c
+I've got a mansion just over the hilltop
+In that bright land where we'll never grow old,
+And some day yonder we will nevermore wander
+But walk on streets that are purest gold.
+
+Though often tempted, tormented, and tested,
+And like the prophet my pillow's a stone,
+And though I find here no permanent dwelling,
+I know He'll give me a mansion my own.
+
+c
+I've got a mansion just over the hilltop
+In that bright land where we'll never grow old,
+And some day yonder we will nevermore wander
+But walk on streets that are purest gold.
+
+Don't think me poor or deserted or lonely;
+I'm not discouraged, I'm Heaven bound.
+I'm but a pilgrim in search of the city;
+I want a mansion, a harp and a crown.
+
+c
+I've got a mansion just over the hilltop
+In that bright land where we'll never grow old,
+And some day yonder we will nevermore wander
+But walk on streets that are purest gold.
+
+
+69
+
+Written by ANDY PARK. Copyright © 1995 MERCY/VINEYARD PUBLISHING (ASCAP) ADMIN. IN NORTH AMERICA BY MUSIC SERVICES o/b/o VINEYARD MUSIC USA. All Rights Reserved. Used By Permission.
+
+In the secret, in the quiet place,
+In the stillness You are there;
+In the secret, in the quiet hour
+I wait only for You.
+
+c
+Cause, I want to know You more,
+I want to know You;
+I want to hear Your voice.
+I want to know You more,
+I want to touch You,
+I want to see Your face,
+I want to know You more.
+
+I am reaching for the highest goal
+That I might receive the prize;
+Pressing onward, pushing every hindrance aside,
+Out of my way.
+
+c
+Cause, I want to know You more,
+I want to know You;
+I want to hear Your voice.
+I want to know You more,
+I want to touch You,
+I want to see Your face,
+I want to know You more.
+
+
+70
+
+
+
+Is there a heart o’erbound by sorrow?
+Is there a life weighed down by care?
+Come to the cross, each burden bearing;
+All your anxiety—leave it there.
+
+c
+All your anxiety, all your care,
+Bring to the mercy seat, leave it there,
+Never a burden He cannot bear,
+Never a friend like Jesus!
+
+No other friend so keen to help you,
+No other friend so quick to hear,
+No other place to leave your burden,
+No other one to hear your prayer.
+
+c
+All your anxiety, all your care,
+Bring to the mercy seat, leave it there,
+Never a burden He cannot bear,
+Never a friend like Jesus!
+
+Come then at once; delay no longer!
+Heed His entreaty kind and sweet,
+You need not fear a disappointment;
+You shall find peace at the mercy seat.
+
+c
+All your anxiety, all your care,
+Bring to the mercy seat, leave it there,
+Never a burden He cannot bear,
+Never a friend like Jesus!
+
+
+71
+
+Copyright © 1969 Bud John Songs (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+It only takes a spark
+To get a fire going,
+And soon all those around,
+Can warm up in its glowing.
+That's how it is with God's love;
+Once you've experienced it,
+You spread His love to everyone;
+You want to pass it on.
+
+What a wondrous time is spring,
+When all the trees are budding;
+The birds begin to sing,
+The flowers start their blooming.
+That's how it is with God's love;
+Once you've experienced it, 
+You want to sing, "It's fresh like spring;" 
+You want to pass it on.
+
+I wish for you my friend,
+This happiness that I've found.
+You can depend on Him,
+It matters not where you're bound.
+I'll shout it from the mountain top, PRAISE GOD!
+I want the world to know;
+The Lord of love has come to me; 
+I want to pass it on.
+
+
+72
+
+Copyright © 2001 Thankyou Music (PRS) (adm. worldwide at CapitolCMGPublishing.com excluding Europe which is adm. by Integritymusic.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Light of the world,
+You stepped out into darkness,
+Opened my eyes, let me see;
+Beauty that made this heart adore you,
+Hope of a life spent with You.
+
+c
+Here I am to worship,
+Here I am to bow down,
+Here I am to say that You're my God.
+You're altogether lovely,
+Altogether worthy,
+Altogether wonderful to me.
+
+King of all days,
+O so highly exalted,
+Glorious in Heaven above.
+Humbly You came to the earth You created,
+All for love's sake became poor.
+
+c
+Here I am to worship,
+Here I am to bow down,
+Here I am to say that You're my God.
+You're altogether lovely,
+Altogether worthy,
+Altogether wonderful to me.
+
+I'll never know how much it cost
+To see my sin upon that cross.
+I'll never know how much it cost
+To see my sin upon that cross.
+
+c
+Here I am to worship,
+Here I am to bow down,
+Here I am to say that You're my God.
+You're altogether lovely,
+Altogether worthy,
+Altogether wonderful to me.
+
+
+73
+
+Written by Graham Kendrick. Copyright © 1987 Make Way Music (admin. by Music Services in the Western Hemisphere) All Rights Reserved. ASCAP. Used By Permission.
+
+Lord, the light of Your love is shining,
+In the midst of the darkness shining;
+Jesus, light of the world, shine upon us,
+Set us free by the truth You now bring us.
+Shine on me. Shine on me.
+
+c
+Shine, Jesus shine,
+Fill this land with the Father's glory.
+Blaze, Spirit blaze,
+Set our hearts on fire.
+Flow, river flow,
+Flood the nations with grace and mercy.
+Send forth Your Word
+Lord and let there be light.
+
+Lord I come to Your awesome presence,
+From the shadows into Your radiance,
+By the blood I may enter Your brightness,
+Search me, try me, consume all my darkness,
+Shine on me.  Shine on me.
+
+c
+Shine, Jesus shine,
+Fill this land with the Father's glory.
+Blaze, Spirit blaze,
+Set our hearts on fire.
+Flow, river flow,
+Flood the nations with grace and mercy.
+Send forth Your Word
+Lord and let there be light.
+
+As we gaze on Your kindly brightness.
+So our faces display Your likeness.
+Ever changing from glory to glory,
+Mirrored here may our lives tell Your story.
+Shine on me.  Shine on me.
+
+c
+Shine, Jesus shine,
+Fill this land with the Father's glory.
+Blaze, Spirit blaze,
+Set our hearts on fire.
+Flow, river flow,
+Flood the nations with grace and mercy.
+Send forth Your Word
+Lord and let there be light.
+
+
+74
+
+Written by Darlene Zschech. Copyright © 1993 Wondrous Worship (Administered by Music Services o/b/o Llano Music LLC) All Rights Reserved. Used By Permission.
+
+My Jesus, my Savior;
+Lord there is none like You.
+All of my days I want to praise
+The wonders of Your mighty love.
+
+My comfort, my Shelter,
+Tower of refuge and strength
+Let every breath, all that I am,
+Never cease to worship You.
+
+c
+Shout to the Lord, all the earth, let us sing
+Power and majesty, praise to the King!
+Mountains bow down and the seas will roar
+At the sound of Your name!
+I sing for joy at the work of Your hands;
+Forever I'll love You, forever I'll stand.
+Nothing compares to the promise I have in You.
+
+
+75
+
+John W. Thompson & Randy Scruggs. Copyright administrator unknown (Peer Music?).
+
+(C)
+Lord, prepare me to be a sanctuary,
+Pure and holy, tried and true;
+With thanksgiving, I'll be a living
+Sanctuary for You.
+
+It is you, Lord, who came to save
+The heart and soul of every man.
+It is you, Lord, who knows my weakness,
+Who gives me strength with Thine own hand.
+
+Lead me on, Lord, from temptation;
+Purify me from within.
+Fill my heart with Your Holy Spirit;
+Take away all my sin.
+
+
+76
+
+
+
+Nearer, my God, to Thee, nearer to Thee,
+E'en though it be a cross that raiseth me;
+Still all my song shall be:
+
+c
+Nearer, my God, to Thee,
+Nearer, my God, to Thee,
+Nearer to Thee.
+
+Though like the wanderer, the sun gone down,
+Darkness be over me, my rest a stone;
+Yet in my dreams I'd be:
+
+c
+Nearer, my God, to Thee,
+Nearer, my God, to Thee,
+Nearer to Thee.
+
+There let the way appear, steps unto Heaven:
+All that Thou sendest me, in mercy giv'n:
+Angels to beckon me:
+
+c
+Nearer, my God, to Thee,
+Nearer, my God, to Thee,
+Nearer to Thee.
+
+Or if on joyful wing, cleaving the sky,
+Sun, moon, and stars forgot,
+Upwards I fly, still all my song shall be:
+
+c
+Nearer, my God, to Thee,
+Nearer, my God, to Thee,
+Nearer to Thee.
+
+s
+Cerca de Ti, Señor, quiero morar;
+tu grande y tierno amor quiero gozar.
+Llena mi pobre ser, limpia mi corazón,
+hazme tu rostro ver en la aflicción.
+
+Mi pobre corazón inquieto está,
+por esta vida voy buscando paz.
+Mas sólo Tú, Señor, la paz me puedes dar;
+cerca de Ti, Señor, yo quiero estar.
+
+Pasos inciertos doy, el sol se va;
+mas si contigo estoy no temo ya.
+Himnos de gratitud  ferviente cantaré
+y fiel a Ti, Jesús, siempre seré.
+
+Día feliz veré, creyendo en Ti,
+en que yo habitaré cerca de Ti.
+Mi voz alabará tu dulce nombre allí
+y mi alma gozará cerca de Ti.
+
+
+77
+
+Copyright © 1989 Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Lord, I lift Your name on high;
+Lord, I love to sing Your praises.
+I'm so glad You're in my life;
+I'm so glad You came to save us.
+
+c
+You came from Heaven to earth to show the way
+From the earth to the cross my debt to pay.
+From the cross to the grave, from the grave to the sky,
+Lord, I lift Your name on high.
+
+
+78
+
+Copyright © 1984 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Majesty, worship His majesty.
+Unto Jesus, be all glory, Honor, and praise.
+Majesty, Kingdom authority
+Flow from His throne Unto His own; His anthem raise.
+So exalt, lift up on high The name of Jesus;
+Magnify, come glorify Christ Jesus the King.
+Majesty, worship His majesty.
+Jesus who died, now glorified, King of all Kings.
+
+
+79
+
+
+
+O soul, are you weary and troubled?
+No light in the darkness you see?
+There's light for a look at the Savior,
+And life more abundant and free!
+
+c
+Turn your eyes upon Jesus,
+Look full in His wonderful face,
+And the things of earth will grow strangely dim,
+In the light of His glory and grace.
+
+Through death into life everlasting
+He passed, and we follow Him there;
+Over us sin no more hath dominion,
+For more than conquerors we are!
+
+c
+Turn your eyes upon Jesus,
+Look full in His wonderful face,
+And the things of earth will grow strangely dim,
+In the light of His glory and grace.
+
+His Word shall not fail you—He promised;
+Believe Him, and all will be well:
+Then go to a world that is dying,
+His perfect salvation to tell!
+
+c
+Turn your eyes upon Jesus,
+Look full in His wonderful face,
+And the things of earth will grow strangely dim,
+In the light of His glory and grace.
+
+s
+Oh alma cansada y turbada,
+¿sin luz en tu senda andarás?
+Al Salvador mira y vive,
+del mundo la luz es su faz.
+
+c
+Pon tus ojos en Cristo,
+tan lleno de gracia y amor,
+y lo terrenal sin valor será
+a la luz del glorioso Señor.
+
+De muerte a vida eterna
+te llama el Salvador fiel.
+En ti no domine el pecado;
+Hay siempre victoria en Él.
+
+c
+Pon tus ojos en Cristo,
+tan lleno de gracia y amor,
+y lo terrenal sin valor será
+a la luz del glorioso Señor.
+
+Jamás faltará su promesa;
+Él dijo: “Contigo estoy”.
+Al mundo perdido ve pronto
+y anuncia la salvación hoy.
+
+c
+Pon tus ojos en Cristo,
+tan lleno de gracia y amor,
+y lo terrenal sin valor será
+a la luz del glorioso Señor.
+
+
+80
+
+
+
+Mine eyes have seen the glory
+Of the coming of the Lord;
+He is trampling out the vintage
+Where the grapes of wrath are stored;
+He hath loosed the fateful lightning
+Of His terrible swift sword;
+His truth is marching on.
+
+c
+Glory! Glory! Hallelujah!
+Glory! Glory! Hallelujah!
+Glory! Glory! Hallelujah!
+His truth is marching on.
+
+In the beauty of the lilies
+Christ was born across the sea,
+With a glory in His bosom
+That transfigures you and me;
+As He died to make men holy,
+Let us live to make men free,
+While God is marching on.
+
+c
+Glory! Glory! Hallelujah!
+Glory! Glory! Hallelujah!
+Glory! Glory! Hallelujah!
+His truth is marching on.
+
+s
+ Es el Dios de los ejércitos
+en quién yo confiaré
+y con címbalos de gozo
+al Señor exaltaré.
+Él despide los relámpagos
+más nunca temeré;
+Él es mi protector.
+
+c
+Gloria, gloria, aleluya. Gloria, gloria, aleluya.
+Gloria, gloria, aleluya. Jesús es el Señor.
+
+ En Belén de Palestina
+el Señor Jesús nació
+y después de treinta años
+en la cruenta cruz murió,
+pero vive para siempre
+pues la tumba ya venció.
+Su nombre alabaré.
+
+c
+Gloria, gloria, aleluya. Gloria, gloria, aleluya.
+Gloria, gloria, aleluya. Jesús es el Señor.
+
+
+81
+
+
+
+Onward, Christian soldiers, marching as to war,
+With the cross of Jesus going on before.
+Christ, the royal Master, leads against the foe;
+Forward into battle see His banners go!
+
+c
+Onward, Christian soldiers, marching as to war,
+With the cross of Jesus going on before.
+
+Like a mighty army moves the church of God;
+Brothers, we are treading where the saints have trod.
+We are not divided, all one body we,
+One in hope and doctrine, one in charity.
+
+c
+Onward, Christian soldiers, marching as to war,
+With the cross of Jesus going on before.
+
+Crowns and thrones may perish, kingdoms rise and wane,
+But the church of Jesus constant will remain.
+Gates of hell can never 'gainst that church prevail;
+We have Christ's own promise, and that cannot fail.
+
+c
+Onward, Christian soldiers, marching as to war,
+With the cross of Jesus going on before.
+
+s
+Firmes y adelante, huestes de la fe,
+sin temor alguno, que Jesús nos ve.
+Jefe soberano, Cristo al frente va,
+y la regia enseña tremolando está.
+
+c
+Firmes y adelante, huestes de la fe;
+sin temor alguno, que Jesús nos ve.
+
+Muévese potente la Iglesia de Dios;
+de los ya gloriosos marchamos en pos.
+Somos sólo un cuerpo, y uno es el Señor,
+una la esperanza, y uno nuestro amor.
+
+c
+Firmes y adelante, huestes de la fe;
+sin temor alguno, que Jesús nos ve.
+
+Tronos y coronas pueden perecer;
+de Jesús la Iglesia constante ha de ser.
+Nada en contra suya prevalecerá,
+porque la promesa nunca faltará.
+
+c
+Firmes y adelante, huestes de la fe;
+sin temor alguno, que Jesús nos ve.
+
+
+82
+
+Copyright © 1935 Bridge Building Music (BMI) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Men strive for the wealth of this wide, wicked world;
+They seek after honor and fame;
+So lavishly sporting their diamonds and pearls,
+They put the dear Saviour to shame.
+
+c
+I’d rather live in Heaven
+Than to own all earth’s silver and gold;
+I’d rather have Jesus
+Than the diamonds of a palace to hold;
+I’d rather be a beggar,
+Live in a shack by the road,
+Than to own all earth’s treasures,
+With no title to a future abode.
+
+They seem not to know that their treasures will rust,
+That thieves often break through and steal;
+Contented with pleasure, they follow their lust,
+With sorrow, their destiny seal.
+
+c
+I’d rather live in Heaven
+Than to own all earth’s silver and gold;
+I’d rather have Jesus
+Than the diamonds of a palace to hold;
+I’d rather be a beggar,
+Live in a shack by the road,
+Than to own all earth’s treasures,
+With no title to a future abode.
+
+What profit is found in earth’s silver and gold?
+How sad at the close of life’s day
+If, for the exchange one must lose his own soul,
+From Heaven’s door be turned away.
+
+c
+I’d rather live in Heaven
+Than to own all earth’s silver and gold;
+I’d rather have Jesus
+Than the diamonds of a palace to hold;
+I’d rather be a beggar,
+Live in a shack by the road,
+Than to own all earth’s treasures,
+With no title to a future abode.
+
+
+83
+
+Copyright © 1992 Kid Brothers Of St. Frank (ASCAP) Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+O God, You are my God
+And I will ever praise You.
+
+c
+O God, You are my God
+And I will ever praise You.
+
+I will seek You in the morning,
+And I will learn to walk in Your ways,
+And step by step You'll lead me,
+And I will follow You all of my days.
+
+c
+O God, You are my God
+And I will ever praise You.
+
+And I will follow You all of my days,
+And I will follow You all of my days,
+And step by step You'll lead me,
+And I will follow You all of my days.
+
+c
+O God, You are my God
+And I will ever praise You.
+
+
+84
+
+
+
+O for a closer walk with God,
+A calm and heavenly frame;
+A light to shine upon the road
+That leads me to the Lamb!
+
+Where is the blessedness I knew,
+When first I saw the Lord?
+Where is the soul refreshing view
+Of Jesus and His Word?
+
+What peaceful hours I once enjoyed!
+How sweet their memory still!
+But they have left an aching void
+The world can never fill.
+
+Return, O holy Dove, return,
+Sweet messenger of rest!
+I hate the sins that made Thee mourn,
+And drove Thee from my breast.
+
+The dearest idol I have known,
+Whate'er that idol be,
+Help me to tear it from Thy throne,
+And worship only Thee.
+
+So shall my walk be close with God,
+Calm and serene my frame;
+So purer light shall mark the road
+That leads me to the Lamb.
+
+
+85
+
+
+
+O when I think of all the many millions
+Who do not know the sound of Thy sweet name;
+Who do not know the miracle of Calvary,
+Who cannot yet Thy great salvation claim.
+
+c
+Then cries my soul "O, teach me how to pray!
+Until they know how great Thou art"
+Then cries my soul "O, teach me how to pray
+Until they know how great Thou art"
+
+And when they know that Jesus died to save them,
+And when they know that grace which He imparts;
+When Jesus shines His love divine within them
+When He transforms their sinful darkened hearts.
+
+c
+Then they shall sing, "My Savior God to Thee,
+How great Thou art! How great Thou art!"
+Then they shall sing, "My Savior God to Thee,
+How great Thou art! How great Thou art!"
+
+O joy to be part of this proclamation,
+To send the news: He knows, He loves, He cares;
+Lord, may I then in humble dedication,
+Renew my faith, my love, my zeal to Thee.
+
+c
+Then cries my heart, "O teach me, Lord, to care
+Until they know how great Thou art"
+Then cries my heart, "O teach me, Lord, to care
+Until they know how great Thou art"
+
+
+86
+
+Carl Blackmore<br>© 1934 Word Music, LLC<br>All Rights Reserved. Used By Permission.
+
+Some glorious morning sorrow will cease,
+Some glorious morning all will be peace;
+Heartaches all ended, schooldays all done,
+Heaven will open, Jesus will come.
+
+c
+Some golden daybreak, Jesus will come,
+Some golden daybreak, battles all won.
+He’ll shout the victory, break through the blue,
+Some golden daybreak, for me, for you.
+
+Sad hearts will gladden, all shall be bright,
+Goodbye forever to earth’s dark night;
+Changed in a moment, like Him to be,
+O, glorious daybreak, Jesus I’ll see.
+
+c
+Some golden daybreak, Jesus will come,
+Some golden daybreak, battles all won.
+He’ll shout the victory, break through the blue,
+Some golden daybreak, for me, for you.
+
+O what a meeting, there in the skies;
+No tears nor crying shall dim our eyes;
+Loved ones united eternally,
+O what a daybreak that morn will be!
+
+c
+Some golden daybreak, Jesus will come,
+Some golden daybreak, battles all won.
+He’ll shout the victory, break through the blue,
+Some golden daybreak, for me, for you.
+
+
+87
+
+© Copyright 1950, Renewed 1977. Hamblen Music Co./ASCAP (admin. By ClearBox Rights). All rights reserved. Used by permission.
+
+The chimes of time ring out the news, another day is through.
+Someone slipped and fell; was that someone you?
+You may have longed for added strength, your courage to renew.
+Do not be disheartened; I have news for you.
+
+c
+It is no secret, what God can do;
+What He's done for others, He'll do for you.
+With arms wide open, He'll pardon you.
+It is no secret what God can do.
+
+There is no night, for in His light, you'll never walk alone.
+You'll always feel at home, wherever you may roam.
+There is no power can conquer you while God is on our side.
+Take Him at His promise; don't run away and hide.
+
+c
+It is no secret, what God can do;
+What He's done for others, He'll do for you.
+With arms wide open, He'll pardon you.
+It is no secret what God can do.
+
+
+88
+
+Copyright © 1969 Bud John Songs (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+The law of the Lord is perfect,
+Converting the soul,
+The testimony of the Lord is sure,
+Making wise the simple.
+
+c
+More to be desired are they than gold,
+Yea, than much fine gold,
+Sweeter also than the honey and the honeycomb.
+
+The statutes of the Lord are right,
+Rejoicing the heart,
+The commandment of the Lord is pure,
+Enlightening the eyes.
+
+c
+More to be desired are they than gold,
+Yea, than much fine gold,
+Sweeter also than the honey and the honeycomb.
+
+The fear of the Lord is clean, 
+Enduring forever,
+The judgments of the Lord are true
+And righteous all together.
+
+c
+More to be desired are they than gold,
+Yea, than much fine gold,
+Sweeter also than the honey and the honeycomb.
+
+
+89
+
+
+
+The love of God is greater far
+Than tongue or pen can ever tell;
+It goes beyond the highest star,
+And reaches to the lowest hell.
+The guilty pair, bowed down with care,
+God gave His Son to win;
+His erring child He reconciled
+And pardoned from his sin.
+
+c
+O love of God, how rich and pure!
+How measureless and strong!
+It shall forevermore endure
+The saints' and angels' song.
+
+When years of time shall pass away,
+And earthly thrones and kingdoms fall,
+When men who here refuse to pray, 
+On rocks and hills and mountains call,
+God's love so sure shall still endure,
+All measureless and strong;
+Redeeming grace to Adam's race,
+The saints' and angels' song.
+
+c
+O love of God, how rich and pure!
+How measureless and strong!
+It shall forevermore endure
+The saints' and angels' song.
+
+Could we with ink the ocean fill,
+And were the skies of parchment made,
+Were every stalk on earth a quill,
+And every man a scribe by trade,
+To write the love of God above
+Would drain the ocean dry,
+Nor could the scroll contain the whole,
+Though stretched from sky to sky.
+
+c
+O love of God, how rich and pure!
+How measureless and strong!
+It shall forevermore endure
+The saints' and angels' song.
+
+s
+¡Oh amor de Dios! su inmensidad
+el hombre no podrá contar,
+ni comprender la gran verdad
+que Dios al hombre pudo amar.
+Cuando el pecar entró al hogar
+de Adán y Eva en Edén,
+Dios los sacó, mas prometió
+un Salvador también.
+
+c
+¡Oh amor de Dios! brotando está,
+inmensurable, eternal.
+Por las edades durará,
+inagotable raudal.
+
+Si fuera tinta todo el mar
+y todo el cielo un gran papel,
+y todo hombre un escritor,
+y cada hoja un pincel,
+para escribir de su existir,
+no bastarían jamás.
+Él me salvó, y me lavó;
+me da el cielo además.
+
+c
+¡Oh amor de Dios! brotando está,
+inmensurable, eternal.
+Por las edades durará,
+inagotable raudal.
+
+Y cuando el mundo pasará
+con cada trama y plan carnal,
+y todo reino caerá
+con cada trono mundanal,
+el gran amor del Redentor
+por siempre durará.
+La gran canción de salvación
+su pueblo entonará.
+
+c
+¡Oh amor de Dios! brotando está,
+inmensurable, eternal.
+Por las edades durará,
+inagotable raudal.
+
+
+90
+
+Copyright © 1982 Birdwing Music (ASCAP) Ears To Hear Music (ASCAP) Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+There is a Redeemer,
+Jesus, God's own Son,
+Precious Lamb of God, Messiah,
+Holy One.
+
+c
+Thank You, O my Father,
+For giving us Your Son,
+And leaving Your Spirit,
+'Til the work on earth is done.
+
+Jesus my Redeemer,
+Name above all names,
+Precious Lamb of God, Messiah,
+Hope for sinners slain.
+
+c
+Thank You, O my Father,
+For giving us Your Son,
+And leaving Your Spirit,
+'Til the work on earth is done.
+
+When I stand in Glory,
+I will see His face,
+And there I'll serve my King forever
+In that holy place.
+
+c
+Thank You, O my Father,
+For giving us Your Son,
+And leaving Your Spirit,
+'Til the work on earth is done.
+
+s
+<i>Note: This is not the same song, but may be sung to the same tune</i>
+El elegido Cristo,
+en la eternidad,
+lo enviaste desde el cielo
+a hacer tu santa voluntad.
+
+c
+Gracias, oh mi Padre,
+por darme tu amor.
+En la cruz el Cristo tuyo
+hizo todo a mi favor.
+
+El ofrecido Cristo
+una vez murió.
+En su cuerpo en el madero
+Él toda mi maldad llevó.
+
+c
+Gracias, oh mi Padre,
+por darme tu amor.
+En la cruz el Cristo tuyo
+hizo todo a mi favor.
+
+El exaltado Cristo,
+Él resucitó.
+A tu diestra para siempre,
+en gloria y majestad llegó.
+
+c
+Gracias, oh mi Padre,
+por darme tu amor.
+En la cruz el Cristo tuyo
+hizo todo a mi favor.
+
+
+91
+
+© Copyright 1955, Renewed 1983. Ben Speer Music/SESAC (admin. By ClearBox Rights). All rights reserved. Used by permission.
+
+There is coming a day 
+When no heartaches shall come,
+No more clouds in the sky, 
+No more tears to dim the eye;
+All is peace for evermore 
+On that happy golden shore;
+What a day, glorious day that will be!
+
+c
+What a day that will be, 
+When my Jesus I shall see,
+And I look upon His face, 
+The One who saved me by His grace;
+When He takes me by the hand
+And leads me through the Promised Land,
+What a day, glorious day that will be!
+
+There’ll be no sorrow there, 
+No more burdens to bear,
+No more sickness, no more pain, 
+No more parting over there;
+And forever I will be 
+With the One who died for me;
+What a day, glorious day that will be!
+
+c
+What a day that will be, 
+When my Jesus I shall see,
+And I look upon His face, 
+The One who saved me by His grace;
+When He takes me by the hand
+And leads me through the Promised Land,
+What a day, glorious day that will be!
+
+
+92
+
+
+
+What a fellowship, what a joy divine, 
+Leaning on the everlasting arms. 
+What a blessedness, what a peace is mine, 
+Leaning on the everlasting arms.
+
+c
+Leaning, leaning, 
+Safe and secure from all alarms;
+Leaning, leaning, 
+Leaning on the everlasting arms.
+
+What have I to dread, what have I to fear, 
+Leaning on the everlasting arms? 
+I have blessed peace with my Lord so near, 
+Leaning on the everlasting arms.
+
+c
+Leaning, leaning, 
+Safe and secure from all alarms;
+Leaning, leaning, 
+Leaning on the everlasting arms.
+
+s
+¡Qué felicidad, con Jesús estar!
+en los brazos del Señor Jesús.
+No se temerá del furioso mar,
+en los brazos del Señor Jesús.
+
+c
+Descansando en los brazos del Señor Jesús,
+descansando en los brazos del Señor Jesús.
+
+A Dios gracias doy que seguro estoy
+en los brazos del Señor Jesús.
+Redimido soy, y a la gloria voy
+en los brazos del Señor Jesús.
+
+c
+Descansando en los brazos del Señor Jesús,
+descansando en los brazos del Señor Jesús.
+
+
+93
+
+Psalm 25:1-4, 7
+
+Unto thee, O LORD, 
+do I lift up my soul
+Unto thee, O LORD, 
+do I lift up my soul.
+
+c
+O my God, 
+I trust in Thee:
+Let me not be ashamed,
+Let not mine enemies triumph over me.
+
+Yea, let none that wait
+On Thee be ashamed
+Yea, let none that wait
+On Thee be ashamed
+
+c
+O my God, 
+I trust in Thee:
+Let me not be ashamed,
+Let not mine enemies triumph over me.
+
+Show me Thy ways,
+Thy ways, O Lord.
+Show me Thy ways,
+Thy ways, O Lord.
+
+c
+O my God, I trust in Thee:
+Let me not be ashamed,
+Let not mine enemies triumph over me.
+
+Remember not
+The sins of my youth.
+Remember not
+The sins of my youth.
+
+c
+O my God, 
+I trust in Thee:
+Let me not be ashamed,
+Let not mine enemies triumph over me.
+
+
+94
+
+Written by Dennis Jernigan. © 2008 Shepherd’s Heart Music, Inc (Admin. By PraiseCharts.com). Used by Permission. All Rights Reserved.
+
+You are my strength when I am weak;
+You are the treasure that I seek;
+You are my all in all.
+Seeking You as a precious jewel,
+Lord, to give up I'd be a fool;
+You are my all in all.
+
+c
+Jesus, Lamb of God, 
+Worthy is your name;
+Jesus, Lamb of God, 
+Worthy is your name.
+
+Taking my sin, my cross, my shame,
+Rising again I bless your name;
+You are my all in all.
+When I fall down, You pick me up;
+When I am dry, You fill my cup;
+You are my all in all.
+
+c
+Jesus, Lamb of God, 
+Worthy is your name;
+Jesus, Lamb of God, 
+Worthy is your name.
+
+s
+<i>Note: this is a totally different song, but may be sung to the same tune</i>
+Eres mi Rey y Protector.
+Eres mi Dios y Rescatador.
+Eres mi buen Pastor.
+Eres mi Justo Mediador.
+Eres mi Santo Intercesor.
+Señor Jesús.
+
+c
+Cristo (mi Cristo), Salvador (Oh Salvador).
+Digno eres Tú, 
+Cristo (mi Cristo), Redentor (Oh Redentor).  
+Digno eres Tú.
+
+Me has amado sin razón
+y has ganado mi corazón
+por tu gran amor.
+Entonces a Ti me rindo hoy,
+cuanto tengo y lo que soy,
+por amor de Ti.
+
+c
+Cristo (mi Cristo), Salvador (Oh Salvador).
+Digno eres Tú, 
+Cristo (mi Cristo), Redentor (Oh Redentor).  
+Digno eres Tú.
+
+
+95
+
+
+
+There have been names that I have loved to hear,
+But never has there been a name so dear
+To this heart of mine, as the Name divine,
+The precious, precious name of Jesus.
+
+c
+Jesus is the sweetest Name I know,
+And He's just the same as His lovely name,
+And that's the reason why I love Him so;
+O Jesus is the sweetest Name I know.
+
+There is no name in earth or heav'n above,
+That we should give such honor and such love,
+As the blessed Name, let us all acclaim,
+That wondrous, glorious name of Jesus.
+
+c
+Jesus is the sweetest Name I know,
+And He's just the same as His lovely name,
+And that's the reason why I love Him so;
+O Jesus is the sweetest Name I know.
+
+And someday I shall see Him face to face,
+To thank and praise Him for His wondrous grace
+Which He gave to me, when He made me free,
+The blessed Son of God called Jesus.
+
+c
+Jesus is the sweetest Name I know,
+And He's just the same as His lovely name,
+And that's the reason why I love Him so;
+O Jesus is the sweetest Name I know.
+
+
+96
+
+Copyright © 1984 Meadowgreen Music Company (ASCAP) (adm. at CapitolCMGPublishing.com) / Word Music (ASCAP) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+c
+Thy Word is a lamp unto my feet
+and a light unto my path.
+Thy Word is a lamp unto my feet
+and a light unto my path.
+
+When I feel afraid, think I've lost my way,
+Still You're there right beside me.
+And nothing will I fear as long as You are near,
+Please be near me to the end.
+
+c
+Thy Word is a lamp unto my feet
+and a light unto my path.
+Thy Word is a lamp unto my feet
+and a light unto my path.
+
+I will not forget Your love for me and yet,
+My heart forever is wandering.
+Jesus, be my guide and hold me to Your side
+And I will love You to the end.
+
+c
+Thy Word is a lamp unto my feet
+and a light unto my path.
+Thy Word is a lamp unto my feet
+and a light unto my path.
+
+Nothing will I fear as long as You are near;
+Please be near me to the end.
+Nothing will I fear as long as You are near;
+Please be near me to the end.
+
+c
+Thy Word is a lamp unto my feet
+and a light unto my path.
+Thy Word is a lamp unto my feet
+and a light unto my path.
+
+
+97
+
+Christopher Machen &  Mike Harland. Administered by BMG Rights Management (US) LLC
+
+(C)
+There are moments on our journey 
+Following the Lord
+Where God illumines ev’ry step we take.
+There are times when circumstances 
+Make perfect sense to us,
+As we try to understand each move He makes.
+When the path grows dim 
+And our questions have no answers, turn to Him.
+
+c
+Bow the knee; trust the heart of your Father 
+When the answer goes beyond what you can see.
+Bow the knee; lift your eyes toward Heaven 
+And believe the One who holds eternity.
+And when you don’t understand 
+The purpose of His plan,
+In the presence of the King, bow the knee.
+
+There are days when clouds surround us, 
+And the rain begins to fall,
+The cold and lonely winds won’t cease to blow.
+And there seems to be no reason 
+For the suffering we feel;
+We are tempted to believe God does not know.
+When the storms arise, 
+Don’t forget we live by faith and not by sight.
+
+c
+Bow the knee; trust the heart of your Father 
+When the answer goes beyond what you can see.
+Bow the knee; lift your eyes toward Heaven 
+And believe the One who holds eternity.
+And when you don’t understand 
+The purpose of His plan,
+In the presence of the King, bow the knee.
+
+
+98
+
+Permission from UMG Music/PeerMusic could not be obtained to display this song.
+
+(C)
+When I am down and, O my soul, so weary;
+When troubles come and my heart burdened be;
+Then, I am still and wait here in the silence,
+Until You come and sit awhile with me.
+
+c
+You raise me up, so I can stand on mountains;
+You raise me up, to walk on stormy seas;
+I am strong, when I am on Your shoulders;
+You raise me up to more than I can be.
+
+There is no life, no life without its hunger;
+Each restless heart beats so imperfectly;
+But when You come and I am filled with wonder,
+Sometimes, I think I glimpse eternity.
+
+c
+You raise me up, so I can stand on mountains;
+You raise me up, to walk on stormy seas;
+I am strong, when I am on Your shoulders;
+You raise me up to more than I can be.
+
+
+99
+
+Copyright © 1970 Hanna Street Music (BMI) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+The market place is empty;  
+No more traffic in the streets.
+All the builders’ tools are silent,
+No more time to harvest wheat.
+Busy housewives cease their labours,
+In the courtroom no debate;
+Work on earth is all suspended
+As the King comes through the gate.
+
+c
+O, the King is coming,
+The King is coming.
+I just heard the trumpet sounding,
+And now His face I see.
+The King is coming,
+The King is coming.
+Praise God, He’s coming for me.
+
+Happy faces line the hallways,
+Those whose lives have been redeemed.
+Broken homes that He has mended,
+Those from prison He has freed.
+Little children and the aged
+Hand in hand stand all aglow,
+Who were crippled, broken, ruined,
+Clad in garments white as snow.
+
+c
+O, the King is coming,
+The King is coming.
+I just heard the trumpet sounding,
+And now His face I see.
+The King is coming,
+The King is coming.
+Praise God, He’s coming for me.
+
+I can hear the chariots rumble,
+I can see the marching throng,
+The flurry of God’s trumpets
+Spells the end of sin and wrong.
+Regal robes are now unfolding,
+Heaven’s grandstands all in place,
+Heaven’s choir is now assembled,
+Start to sing, “Amazing Grace.”
+
+c
+O, the King is coming,
+The King is coming.
+I just heard the trumpet sounding,
+And now His face I see.
+The King is coming,
+The King is coming.
+Praise God, He’s coming for me.
+
+
+100
+
+Copyright © 1982 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+We will glorify the King of Kings,
+We will glorify the Lamb,
+We will glorify the Lord of Lords,
+Who is the great I AM.
+
+Lord Jehovah reigns in majesty;
+We will bow before His throne,
+We will worship Him in righteousness,
+We will worship Him alone.
+
+He is Lord of Heaven, Lord of earth,
+He is Lord of all who live,
+He is Lord above the universe;
+All praise to Him we give.
+
+Hallelujah to the King of Kings,
+Hallelujah to the Lamb.
+Hallelujah to the Lord of Lords,
+Who is the great I AM.
+
+
+101
+
+Copyright © 1975 Lanny Wolfe Music (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+We’re part of the family
+That’s been born again,
+Part of the family
+Whose love has no end.
+Since Jesus has saved us
+And made us His own,
+Now we’re part of the family
+That’s on its way home.
+
+c
+Sometimes we laugh together;
+Sometimes we cry;
+Sometimes we share together
+Heartaches and sorrow.
+Sometimes we dream together
+Of how it will be 
+When we all get to Heaven
+In God’s family.
+
+When a brother in sorrow,
+We all share his grief
+When he walks through the valley,
+We all share relief.
+Together in sunshine,
+Together in rain,
+Together forever
+To His precious Name.
+
+c
+Sometimes we laugh together;
+Sometimes we cry;
+Sometimes we share together
+Heartaches and sorrow.
+Sometimes we dream together
+Of how it will be 
+When we all get to Heaven
+In God’s family.
+
+
+102
+
+
+
+Come, we that love the Lord,
+And let our joys be known;
+Join in a song with sweet accord,
+Join in a song with sweet accord
+And thus surround the throne,
+And thus surround the throne.
+
+c
+We're marching to Zion,
+Beautiful, beautiful Zion;
+We're marching upward to Zion,
+The beautiful city of God.
+
+Let those refuse to sing
+Who never knew our God;
+But children of the heavenly King,
+But children of the heavenly King
+May speak their joys abroad,
+May speak their joys abroad.
+
+c
+We're marching to Zion,
+Beautiful, beautiful Zion;
+We're marching upward to Zion,
+The beautiful city of God.
+
+The hill of Zion yields
+A thousand sacred sweets
+Before we reach the heavenly fields,
+Before we reach the heavenly fields,
+Or walk the golden streets,
+Or walk the golden streets.
+
+c
+We're marching to Zion,
+Beautiful, beautiful Zion;
+We're marching upward to Zion,
+The beautiful city of God.
+
+Then let our songs abound,
+And every tear be dry;
+We're marching through Immanuel's ground,
+We're marching through Immanuel's ground,
+To fairer worlds on high,
+To fairer worlds on high.
+
+c
+We're marching to Zion,
+Beautiful, beautiful Zion;
+We're marching upward to Zion,
+The beautiful city of God.
+
+
+103
+
+
+
+c
+Give me that old time salvation,
+Give me that old time salvation,
+Give me that old time salvation,
+It's good enough for me.
+
+It was good for our mothers, (repeeat)
+And it's good enough for me.
+
+Makes me love everybody (repeat)
+And it's good enough for me.
+
+It will do when I am dying (repeat)
+And it's good enough for me.
+
+It will take us all to Heaven (repeat)
+And it's good enough for me.
+
+
+104
+
+© Copyright 1950 John W. Peterson Music Company. All rights reserved. Used by permission. 
+
+I thirsted in the barren land of sin and shame,
+And nothing satisfying there I found;
+But to the blessed cross of Christ one day I came
+Where springs of living water did abound.
+
+c
+Drinking at the springs of living water,
+Happy now am I,
+My soul they satisfy,
+Drinking at the springs of living water,
+O wonderful and bountiful supply!
+
+How sweet the living water from the hills of God;
+It makes me glad and happy all the way.
+Now glory, grace and blessing mark the path I've trod;
+I'm shouting “Hallelujah” every day.
+
+c
+Drinking at the springs of living water,
+Happy now am I,
+My soul they satisfy,
+Drinking at the springs of living water,
+O wonderful and bountiful supply!
+
+
+105
+
+
+
+O listen to the wondrous story,
+Counted once among the lost;
+Yet One came down from Heaven's glory,
+Saving us at awful cost!
+
+c
+Girls: Who saved us from eternal loss?
+Guys: Who but God's Son upon the cross?
+Girls: What did He do?
+Guys: He died for you!
+Girls: Where is He now?
+Guys: Believe it thou,
+Both: In Heaven interceding!
+
+No angel could His place have taken,
+Highest of the high though he;
+The loved One on the cross forsaken,
+Was One of the Godhead three!
+
+c
+Girls: Who saved us from eternal loss?
+Guys: Who but God's Son upon the cross?
+Girls: What did He do?
+Guys: He died for you!
+Girls: Where is He now?
+Guys: Believe it thou,
+Both: In Heaven interceding!
+
+And yet this wondrous tale proceedeth,
+Stirring heart and tongue aflame!
+As our High Priest in Heav'n He pleadeth,
+And Christ Jesus is His Name!
+
+c
+Girls: Who saved us from eternal loss?
+Guys: Who but God's Son upon the cross?
+Girls: What did He do?
+Guys: He died for you!
+Girls: Where is He now?
+Guys: Believe it thou,
+Both: In Heaven interceding!
+
+Will you surrender to this Savior?
+To His scepter humbly bow?
+You, too, shall come to know His favor;
+He will save you, save you now.
+
+c
+Girls: Who saved us from eternal loss?
+Guys: Who but God's Son upon the cross?
+Girls: What did He do?
+Guys: He died for you!
+Girls: Where is He now?
+Guys: Believe it thou,
+Both: In Heaven interceding!
+
+
+106
+
+
+
+On Jordan's stormy banks I stand
+And cast a wishful eye
+To Canaan's fair and happy land,
+Where my possessions lie.
+
+c
+I am bound for the Promised Land,
+I am bound for the Promised Land;
+O who will come and go with me?
+I am bound for the Promised Land.
+
+O'er all those wide extended plains
+Shines one eternal day;
+There God the Son forever reigns
+And scatters night away.
+
+c
+I am bound for the Promised Land,
+I am bound for the Promised Land;
+O who will come and go with me?
+I am bound for the Promised Land.
+
+When I shall reach that happy place,
+I'll be forever blest,
+For I shall see my Father's face
+And in His bosom rest.
+
+c
+I am bound for the Promised Land,
+I am bound for the Promised Land;
+O who will come and go with me?
+I am bound for the Promised Land.
+
+
+107
+
+
+
+Yo soy pecador,
+y así nací.
+Yo soy transgresor,
+delante de Ti.
+De tu ley, me aparté,
+por mi paga del mal,
+me esperaba un castigo eternal.
+
+c
+Pero salvo soy;
+no me gloriaré.
+Por tu gracia hoy 
+tengo, por la fe,
+el gran don de salvación,
+gratuito de Ti,
+no por obras ni por mérito en mí.
+
+Dios al mundo amó,
+sin ninguna razón.
+Y a su Hijo dio,
+¡Oh, qué provisión!
+Todo aquel que cree en Él
+se perderá,
+más la vida eterna así tendrá.
+
+c
+Pero salvo soy;
+no me gloriaré.
+Por tu gracia hoy 
+tengo, por la fe,
+el gran don de salvación,
+gratuito de Ti,
+no por obras ni por mérito en mí.
+
+
+108
+
+
+
+Amazing grace! How sweet the sound
+That saved a wretch like me!
+I once was lost, but now am found;
+Was blind, but now I see.
+
+'Twas grace that taught my heart to fear,
+And grace my fears relieved;
+How precious did that grace appear
+The hour I first believed!
+
+Through many dangers, toils and snares,
+I have already come;
+'Tis grace hath brought me safe thus far,
+And grace will lead me home.
+
+When we’ve been there ten thousand years,
+Bright shining as the sun,
+We've no less days to sing God's praise
+Than when we'd first begun.
+
+s
+Sublime gracia del Señor
+que un infeliz salvó;
+fui ciego mas hoy miro yo,
+perdido y Él me halló.
+
+Su gracia me enseñó a temer;
+mis dudas ahuyentó;
+¡Oh cuán precioso fue a mi ser
+cuando Él me transformó!
+
+En los peligros o aflicción
+que yo he tenido aquí,
+su gracia siempre me libró
+y me guiará feliz.
+
+Y cuando en Sion por siglos mil
+brillando esté cual sol,
+yo cantaré por siempre allí
+su amor que me salvó.
+
+
+109
+
+
+
+Down from the glory the Savior came,
+Down to the Cross and the death of shame.
+Gazing in wonder I there exclaim:
+Jesus died for me!
+
+c
+Jesus died for me.
+Jesus died for me.
+This is my boast and this my song:
+Jesus died for me.
+
+There as my surety He firmly stood
+Paid for my ransom His precious blood,
+Died for my sins to bring me to God.
+Jesus died for me.
+
+c
+Jesus died for me.
+Jesus died for me.
+This is my boast and this my song:
+Jesus died for me.
+
+Now in the gospel He sends to thee
+News of salvation and pardon free.
+Whoso believeth, his song shall be:
+Jesus died for me.
+
+c
+Jesus died for me.
+Jesus died for me.
+This is my boast and this my song:
+Jesus died for me.
+
+s
+Desde la gloria el Salvador
+vino a morir por el pecador.
+Hasta la cruz fue con gran amor:
+Él murió por mí.
+
+c
+Él murió por mí,
+Él murió por mí;
+canto con gozo de mi Señor,
+Él murió por mí.
+
+Cristo pagó todo a mi favor,
+obra costosa del Redentor.
+Ya perdonado, no soy deudor:
+Él murió por mí.
+
+c
+Él murió por mí,
+Él murió por mí;
+canto con gozo de mi Señor,
+Él murió por mí.
+
+Grata noticia de salvación:
+ya no veré la condenación.
+Cristo llevó toda transgresión,
+Él murió por mí.
+
+c
+Él murió por mí,
+Él murió por mí;
+canto con gozo de mi Señor,
+Él murió por mí.
+
+
+110
+
+
+
+Have you been to Jesus for the cleansing power?
+Are you washed in the blood of the Lamb?
+Are you fully trusting in His grace this hour?
+Are you washed in the blood of the Lamb?
+
+c
+Are you washed in the blood,
+In the soul-cleansing blood of the Lamb?
+Are your garments spotless? Are they white as snow?
+Are you washed in the blood of the Lamb?
+
+Are you walking daily by the Savior’s side?
+Are you washed in the blood of the Lamb?
+Do you rest each moment in the Crucified?
+Are you washed in the blood of the Lamb?
+
+c
+Are you washed in the blood,
+In the soul-cleansing blood of the Lamb?
+Are your garments spotless? Are they white as snow?
+Are you washed in the blood of the Lamb?
+
+When the Bridegroom cometh will your robes be white?
+Are you washed in the blood of the Lamb?
+Will your soul be ready for the mansions bright,
+And be washed in the blood of the Lamb?
+
+c
+Are you washed in the blood,
+In the soul-cleansing blood of the Lamb?
+Are your garments spotless? Are they white as snow?
+Are you washed in the blood of the Lamb?
+
+s
+¿Has hallado en Cristo tu buen Salvador?
+¿Eres salvo por la sangre de Jesús?
+¿Por la fe descansas en el Redentor?
+¿Eres salvo por la sangre de Jesús?
+
+c
+Lávame, lávame,
+en tu sangre, oh Cordero de Dios,
+y con alma limpia me presentaré
+en tu hogar tan glorioso de amor.
+
+¿Vives siempre al lado de tu Salvador?
+¿Eres salvo por la sangre de Jesús?
+¿Del pecado eres siempre vencedor?
+¿Eres salvo por la sangre de Jesús?
+
+c
+Lávame, lávame,
+en tu sangre, oh Cordero de Dios,
+y con alma limpia me presentaré
+en tu hogar tan glorioso de amor.
+
+Si perdón y paz deseas, pecador,
+tu refugio es la sangre de Jesús.
+Si librarte quieres de eternal dolor,
+¡oh, acude a la sangre de Jesús!
+
+c
+Lávame, lávame,
+en tu sangre, oh Cordero de Dios,
+y con alma limpia me presentaré
+en tu hogar tan glorioso de amor.
+
+
+111
+
+
+
+I will sing the wondrous story
+Of the Christ who died for me;
+How He left His home in glory
+For the cross of Calvary. 
+
+c
+Yes, I’ll sing the wondrous story
+Of the Christ who died for me,
+Sing it with the saints in glory,
+Gathered by the crystal sea.
+
+I was lost, but Jesus found me,
+Found the sheep that went astray,
+Threw His loving arms around me,
+Drew me back into His way.
+
+c
+Yes, I’ll sing the wondrous story
+Of the Christ who died for me,
+Sing it with the saints in glory,
+Gathered by the crystal sea.
+
+I was bruised, but Jesus healed me,
+Faint was I from many a fall,
+Sight was gone, and fears possessed me,
+But He freed me from them all.
+
+c
+Yes, I’ll sing the wondrous story
+Of the Christ who died for me,
+Sing it with the saints in glory,
+Gathered by the crystal sea.
+
+He will keep me till the river
+Rolls its waters at my feet;
+Then He’ll bear me safely over,
+Where the loved ones I shall meet.
+
+c
+Yes, I’ll sing the wondrous story
+Of the Christ who died for me,
+Sing it with the saints in glory,
+Gathered by the crystal sea.
+
+s
+Cantaré la bella historia,
+que Jesús murió por mí;
+cómo allá en el Calvario
+dio su sangre carmesí.
+
+c
+Cantaré la bella historia
+de Jesús, mi Salvador;
+y con santos en la gloria
+a Jesús daré loor.
+
+Cristo vino a rescatarme;
+vil, perdido me encontró;
+con su mano fiel y tierna
+al redil Él me llevó.
+
+c
+Cantaré la bella historia
+de Jesús, mi Salvador;
+y con santos en la gloria
+a Jesús daré loor.
+
+Mis heridas y dolores
+el Señor Jesús sanó;
+del pecado y los temores
+su poder me libertó.
+
+c
+Cantaré la bella historia
+de Jesús, mi Salvador;
+y con santos en la gloria
+a Jesús daré loor.
+
+ En el río de la muerte
+el Señor me guardará.
+Es su amor tan fiel y fuerte
+que jamás me dejará.
+
+c
+Cantaré la bella historia
+de Jesús, mi Salvador;
+y con santos en la gloria
+a Jesús daré loor.
+
+
+112
+
+
+
+I know not why God’s wondrous grace
+To me He hath made known,
+Nor why unworthy, Christ in love
+Redeemed me for His own.
+
+c
+But “I know whom I have believed,
+And am persuaded that He is able,
+To keep that which I’ve committed
+Unto Him against that day”.
+
+I know not how this saving faith
+To me He did impart,
+Nor how believing in His word
+Wrought peace within my heart.
+
+c
+But “I know whom I have believed,
+And am persuaded that He is able,
+To keep that which I’ve committed
+Unto Him against that day”.
+
+I know not when my Lord may come,
+At night or noonday fair,
+Nor if I’ll walk the vale with Him
+Or meet Him in the air.
+
+c
+But “I know whom I have believed,
+And am persuaded that He is able,
+To keep that which I’ve committed
+Unto Him against that day”.
+
+s
+No sé por qué la gracia del Señor,
+a mí un día me alcanzó,
+ni sé por qué obró la salvación
+en un indigno como yo.
+
+c
+Más yo sé a quién he creído
+y es poderoso para guardarme
+seguro hasta el día
+en que venga Él por mí.
+
+No sé cómo es que su Espíritu
+convence al hombre de su error
+ni cómo obra en el corazón
+creando fe en el Señor.
+
+c
+Más yo sé a quién he creído
+y es poderoso para guardarme
+seguro hasta el día
+en que venga Él por mí.
+
+No sé cuándo el Señor regresará
+de noche o al amanecer,
+ni sé si por la muerte he de pasar
+o vivo subiré con Él.
+
+c
+Más yo sé a quién he creído
+y es poderoso para guardarme
+seguro hasta el día
+en que venga Él por mí.
+
+
+113
+
+
+
+I was sinking deep in sin
+Far from the peaceful shore,
+Very deeply stained within,
+Sinking to rise no more.
+But the Master of the sea
+Heard my despairing cry,
+From the waters lifted me;
+Now safe am I.
+
+c
+Love lifted me, love lifted me,
+When nothing else could help,
+Love lifted me.
+Love lifted me, love lifted me,
+When nothing else could help,
+Love lifted me.
+
+All my heart to Him I give,
+Ever to Him I’ll cling;
+In His blessed presence live,
+Ever His praises sing.
+Love so mighty and so true
+Merits my soul’s best songs.
+Faithful, loving service, too
+To Him belongs.
+
+c
+Love lifted me, love lifted me,
+When nothing else could help,
+Love lifted me.
+Love lifted me, love lifted me,
+When nothing else could help,
+Love lifted me.
+
+s
+ Lejos de mi dulce hogar,
+vagaba yo sin Dios,
+a través de tierra y mar,
+sin esperanza y paz;
+mas el tierno Salvador,
+viéndome en aflicción,
+por su infinito amor 
+me levantó.
+
+c
+Su grande amor, me levantó
+de densa oscuridad
+me libertó.
+Su grande amor, me levantó
+de densa oscuridad
+me libertó.
+
+Todo entrego a mi Jesús
+siempre le seguiré;
+he tomado ya la cruz
+y el mundo atrás dejé.
+Tan excelso y grande amor
+requiere la canción,
+y servicio fiel de cada corazón.
+
+c
+Su grande amor, me levantó
+de densa oscuridad
+me libertó.
+Su grande amor, me levantó
+de densa oscuridad
+me libertó.
+
+
+114
+
+Copyright © 1932 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+I would love to tell you what I think of Jesus,
+Since I found in Him a friend so strong and true.
+I would tell you how He changed my life completely;
+He did something no other friend could do.
+
+c
+No one ever cared for me like Jesus;
+There's no other friend so kind as He.
+No one else could take the sin and darkness from me;
+O how much He cared for me.
+
+All my life was full of sin when Jesus found me;
+All my heart was full of misery and woe,
+Jesus placed His strong and loving arms around me,
+And He led me in the way I ought to go.
+
+c
+No one ever cared for me like Jesus;
+There's no other friend so kind as He.
+No one else could take the sin and darkness from me;
+O how much He cared for me.
+
+Ev'ry day He comes to me with new assurance;
+More and more I understand His words of love,
+But I'll never know just why He came to save me,
+Till someday I see His blessèd face above.
+
+c
+No one ever cared for me like Jesus;
+There's no other friend so kind as He.
+No one else could take the sin and darkness from me;
+O how much He cared for me.
+
+s
+Yo quisiera hablarte del amor de Cristo
+pues en Él hallé un amigo fuerte y fiel;
+por su gracia transformó mi vida entera;
+lo que en esta vida soy lo debo a Él.
+
+c
+Nadie pudo amarme como Cristo
+es incomparable su amistad;
+sólo Él pudo redimirme del pecado,
+por su amor y gran bondad.
+
+Mi alma estaba llena de ayes y tristezas,
+llena estaba de miserias y dolor;
+con ternura Cristo me tendió la mano,
+y me guió por el sendero del amor.
+
+c
+Nadie pudo amarme como Cristo
+es incomparable su amistad;
+sólo Él pudo redimirme del pecado,
+por su amor y gran bondad.
+
+ Cada día viene a darme nuevo aliento,
+a mi corazón infunde dulce paz;
+no comprenderé por qué vino a salvarme,
+hasta que en el cielo pueda ver su faz.
+
+c
+Nadie pudo amarme como Cristo
+es incomparable su amistad;
+sólo Él pudo redimirme del pecado,
+por su amor y gran bondad.
+
+
+115
+
+
+
+Just as I am, without one plea
+But that Thy blood was shed for me,
+And that Thou bidst me come to Thee;
+O Lamb of God, I come, I come.
+
+Just as I am, and waiting not
+To rid my soul of one dark blot;
+To Thee whose blood can cleanse each spot,
+O Lamb of God, I come, I come.
+
+Just as I am, Thou wilt receive,
+Wilt welcome, pardon, cleanse, relieve;
+Because Thy promise I believe,
+O Lamb of God, I come, I come.
+
+Just as I am, Thy love unknown
+Hath broken every barrier down;
+Now, to be Thine, yea, Thine alone,
+O Lamb of God, I come, I come.
+
+s
+Tal como soy; sin más decir,
+que a otro yo no puedo ir,
+y Tú me invitas a venir.
+Bendito Cristo, vengo a Ti.
+
+Tal como soy, sin demorar,
+del mal queriéndome librar;
+me puedes sólo Tú salvar.
+Bendito Cristo, vengo a Ti.
+
+Tal como soy; en aflicción,
+expuesto a muerte, perdición,
+buscando vida, paz, perdón.
+Bendito Cristo, vengo a Ti.
+
+Tal como soy; tu grande amor
+me vence, y con grato ardor
+servirte quiero, mi Señor.
+Bendito Cristo, vengo a Ti.
+
+
+116
+
+
+
+If I gained the world, but lost the Savior,
+Were my life worth living for a day?
+Could my yearning heart find rest and comfort
+In the things that soon must pass away?
+If I gained the world but lost the Savior,
+Would my gain be worth the life-long strife?
+Are all earthly pleasures worth comparing
+For a moment with a Christ-filled life?
+
+Had I wealth and love in fullest measure,
+And a name revered both far and near,
+Yet no hope beyond, no harbor waiting
+Where my storm-tossed vessel I could steer;
+If I gained the world, but lost the Savior,
+Who endured the cross and died for me,
+Could then all the world afford a refuge
+Whither, in my anguish, I might flee?
+
+O the joy of having all in Jesus,
+What a balm the broken heart to heal!
+Ne’er a sin so great, but He’ll forgive it,
+Nor a sorrow that He does not feel!
+If I have but Jesus, only Jesus,
+Nothing else in all the world beside-
+O then everything is mine in Jesus;
+For my needs and more He will provide.
+
+s
+Si yo gano el mundo y pierdo a Cristo,
+¿qué provecho para mí será?
+Si en traje mundanal me visto,
+¿cuál loor el mundo me dará?
+Si yo tengo a Cristo por mi amigo,
+si yo estoy confiando en su poder,
+Él promete siempre andar conmigo,
+y lo necesario proveer.
+
+Si tuviera yo mundanos bienes,
+y ganara fama sin igual,
+tú, oh mundo vil, ¿qué premio tienes
+que iguale a vida eternal?
+Por gozar placeres sin medida,
+y amigos, tierra y amor,
+¿debo yo perder, en mi salida
+de la vida aquí, el Salvador?
+
+Sin Jesús, ¡cuán triste está el alma!
+¡cuán vacío el corazón sin Él!
+Sólo Él torna tempestad en calma,
+y desierto seco en un vergel.
+Sin Jesús hay sólo noche oscura,
+miserable, triste soledad.
+¿Qué sería morar en la negrura,
+sin alivio por la eternidad?
+
+
+117
+
+
+
+Life is like a mountain railroad
+With an engineer that's brave;
+We must make the run successful 
+From the cradle to the grave;
+Watch the curves, the fills, the tunnels; 
+Never falter, never fail;
+Keep your hand upon the throttle, 
+And your eye upon the rail.
+
+c
+Blessèd Savior, Thou wilt guide us,
+Till we reach that blissful shore
+Where the angels wait to join us
+In Thy praise forevermore.
+
+You will roll up grades of trial; 
+You will cross the bridge of strife;
+See that Christ is your Conductor 
+On this lightning train of life;
+Always mindful of obstruction, 
+Do your duty, never fail;
+Keep your hand upon the throttle, 
+And your eye upon the rail.
+
+c
+Blessèd Savior, Thou wilt guide us,
+Till we reach that blissful shore
+Where the angels wait to join us
+In Thy praise forevermore.
+
+As you roll across the trestle, 
+Spanning Jordan's swelling tide,
+You behold the Union Depot 
+Into which your train will glide;
+There you'll meet the Superintendent, 
+God the Father, God the Son,
+With the hearty, joyous, plaudit, 
+“Weary pilgrim, welcome home!”
+
+c
+Blessèd Savior, Thou wilt guide us,
+Till we reach that blissful shore
+Where the angels wait to join us
+In Thy praise forevermore.
+
+s
+En el viaje de la vida
+toma mucha precaución.
+¿Vas seguro, de subida,
+a la celestial mansión?
+O, ¿tu senda es de bajada,
+rumbo a la perdición?
+Corres hoy como si nada;
+vas veloz, sin distracción.
+
+c
+Jesucristo es la Vía,
+quiere ser tu Salvador;
+y la Biblia es la guía
+para todo pecador.
+
+Mucho tiempo has perdido
+sin saber a quién seguir.
+Hoy te encuentras confundido,
+en peligro de morir.
+«¿Dónde estoy?», te has preguntado;
+«¿A dónde voy?», quieres saber.
+El Camino señalado
+necesitas escoger.
+
+c
+Jesucristo es la Vía,
+quiere ser tu Salvador;
+y la Biblia es la guía
+para todo pecador.
+
+¡Qué tragedia! ¡qué fracaso!
+cuando al fin escucharás:
+«Prohibido, no hay paso»,
+nunca al cielo entrarás.
+Haz un alto y, sin demora,
+cambia ya de dirección.
+Date vuelta, ¡ven ahora!
+Busca hoy la salvación.
+
+c
+Jesucristo es la Vía,
+quiere ser tu Salvador;
+y la Biblia es la guía
+para todo pecador.
+
+
+118
+
+
+
+Nothing, either great or small,
+Nothing, sinner, no;
+Jesus did it, did it all,
+Long, long ago.
+
+c
+“It is finished!” yes, indeed,
+Finished, ev’ry jot;
+Sinner, this is all you need;
+Tell me, is it not?
+
+Weary, working, burdened one,
+Wherefore toil you so?
+Cease your doing; all was done
+Long, long ago.
+
+c
+“It is finished!” yes, indeed,
+Finished, ev’ry jot;
+Sinner, this is all you need;
+Tell me, is it not?
+
+Till to Jesus’ work you cling
+By a simple faith,
+“Doing” is a deadly thing;
+“Doing” ends in death.
+
+c
+“It is finished!” yes, indeed,
+Finished, ev’ry jot;
+Sinner, this is all you need;
+Tell me, is it not?
+
+Cast your deadly “doing” down,
+Down at Jesus’ feet;
+Stand in Him, in Him alone,
+Gloriously complete.
+
+c
+“It is finished!” yes, indeed,
+Finished, ev’ry jot;
+Sinner, this is all you need;
+Tell me, is it not?
+
+s
+¿Cómo puede el ser humano
+paz con Dios gozar?
+Si sus obras son en vano:
+¿Quién se va a salvar?
+
+c
+“¡Consumado es!” por Cristo,
+todo hecho está.
+Salvación Él ha provisto,
+sí, ¿le aceptas ya?
+
+Satisfecho, Dios ofrece
+su inefable don,
+aunque nadie aquí merece
+esta salvación.
+
+c
+“¡Consumado es!” por Cristo,
+todo hecho está.
+Salvación Él ha provisto,
+sí, ¿le aceptas ya?
+
+Sin dinero, es gratuito,
+nada hay que pagar,
+don eterno, infinito,
+Dios te quiere dar.
+
+c
+“¡Consumado es!” por Cristo,
+todo hecho está.
+Salvación Él ha provisto,
+sí, ¿le aceptas ya?
+
+Basta ya de religiones,
+no te ayudarán.
+Ritos, rezos, tradiciones,
+paz jamás darán.
+
+c
+“¡Consumado es!” por Cristo,
+todo hecho está.
+Salvación Él ha provisto,
+sí, ¿le aceptas ya?
+
+
+119
+
+
+
+O happy day, that fixed my choice
+On Thee, my Savior and my God!
+Well may this glowing heart rejoice
+And tell its raptures all abroad.
+
+c
+Happy day, happy day,
+When Jesus washed my sins away!
+He taught me how to watch and pray
+And live rejoicing every day
+Happy day, happy day,
+When Jesus washed my sins away.
+
+’Tis done: the great transaction’s done!
+I am the Lord’s and He is mine;
+He drew me, and I followed on,
+Charmed to confess the voice divine.
+
+c
+Happy day, happy day,
+When Jesus washed my sins away!
+He taught me how to watch and pray
+And live rejoicing every day
+Happy day, happy day,
+When Jesus washed my sins away.
+
+Now rest, my long divided heart,
+Fixed on this blissful center, rest.
+Nor ever from my Lord depart.
+With Him I’ve every good possessed.
+
+c
+Happy day, happy day,
+When Jesus washed my sins away!
+He taught me how to watch and pray
+And live rejoicing every day
+Happy day, happy day,
+When Jesus washed my sins away.
+
+s
+Día feliz cuando escogí
+servirte, mi Señor y Dios;
+preciso es que mi gozo en Ti
+lo muestre hoy por obra y voz.
+
+c
+¡Soy feliz! ¡Soy feliz!
+y en su favor me gozaré.
+En libertad y luz me vi,
+cuando triunfó en mí la fe,
+y el raudal carmesí
+salud de mi alma enferma fue.
+
+¡Pasó! Mi gran deber cumplí;
+de Cristo soy y mío es Él.
+Me atrajo; con placer seguí;
+su voz conoce todo fiel.
+
+c
+¡Soy feliz! ¡Soy feliz!
+y en su favor me gozaré.
+En libertad y luz me vi,
+cuando triunfó en mí la fe,
+y el raudal carmesí
+salud de mi alma enferma fue.
+
+Reposa, débil corazón,
+a tus contiendas pon ya fin;
+hallé más noble posesión,
+y parte en superior festín.
+
+c
+¡Soy feliz! ¡Soy feliz!
+y en su favor me gozaré.
+En libertad y luz me vi,
+cuando triunfó en mí la fe,
+y el raudal carmesí
+salud de mi alma enferma fue.
+
+
+120
+
+
+
+On a hill far away stood an old rugged cross,
+The emblem of suffering and shame;
+And I love that old cross where the dearest and best
+For a world of lost sinners was slain.
+
+c
+So I’ll cherish the old rugged cross
+Till my trophies at last I lay down;
+I will cling to the old rugged cross
+And exchange it some day for a crown.
+
+O that old rugged cross, 
+so despised by the world,
+Has a wondrous attraction for me;
+For the dear Lamb of God left His glory above
+To bear it to dark Calvary.
+
+c
+So I’ll cherish the old rugged cross
+Till my trophies at last I lay down;
+I will cling to the old rugged cross
+And exchange it some day for a crown.
+
+To the old rugged cross I will ever be true;
+Its shame and reproach gladly bear;
+Then He’ll call me some day to my home far away,
+Where His glory forever I’ll share.
+
+c
+So I’ll cherish the old rugged cross
+Till my trophies at last I lay down;
+I will cling to the old rugged cross
+And exchange it some day for a crown.
+
+s
+ En el monte Calvario estaba una cruz,
+emblema de afrenta y dolor.
+Mas yo amo a Jesús, que murió en la cruz
+por salvar al más vil pecador.
+
+c
+Gloriaréme sólo en la cruz,
+en sus triunfos mi gozo será;
+y en el día de eterna salud
+mi corona Jesús me dará.
+
+Y aunque el mundo
+desprecie la cruz de Jesús,
+para mí tiene suma atracción,
+pues en ella llevó el Cordero de Dios
+de mi alma la condenación.
+
+c
+Gloriaréme sólo en la cruz,
+en sus triunfos mi gozo será;
+y en el día de eterna salud
+mi corona Jesús me dará.
+
+Yo quisiera seguir en pos de Jesús,
+y su menosprecio llevar,
+y algún día feliz con los santos en luz,
+en la gloria con Él he de estar.
+
+c
+Gloriaréme sólo en la cruz,
+en sus triunfos mi gozo será;
+y en el día de eterna salud
+mi corona Jesús me dará.
+
+
+121
+
+
+
+O what a wonderful, wonderful day,
+Day I will never forget;
+After I'd wandered in darkness away,
+Jesus my Savior I met,
+O what a tender, compassionate friend,
+He met the need of my heart;
+Shadows dispelling, with joy I am telling,
+He made all the darkness depart!
+
+c
+Heaven came down and glory filled my soul,
+When at the cross the Savior made me whole;
+My sins were washed away
+And my night was turned to day.
+Heaven came down and glory filled my soul.
+
+Now I've a hope that will surely endure,
+After the passing of time.
+I have a future in Heaven for sure,
+There in those mansions sublime;
+And it's because of that wonderful day,
+When at the cross I believed.
+Riches eternal and blessings supernal,
+From His precious hand I received.
+
+c
+Heaven came down and glory filled my soul,
+When at the cross the Savior made me whole;
+My sins were washed away
+And my night was turned to day.
+Heaven came down and glory filled my soul.
+
+s
+Día tan grande no puedo olvidar.
+Día de gloria sin par:
+cuando en tinieblas al verme andar,
+vino a salvarme el Señor.
+Gran compasión tuvo Cristo de mí,
+de gozo y paz me llenó.
+Quitó las sombras, oh gloria a su Nombre,
+la noche en día cambió.
+
+c
+Dios descendió, de gloria me llenó,
+cuando Jesús por gracia me salvó;
+fui ciego, me hizo ver,
+y en Él renacer.
+Dios descendió, de gloria me llenó.
+
+Tengo esperanza de gloria eternal.
+Me regocijo en Jesús:
+me ha preparado un bello rincón,
+en la mansión celestial.
+Siempre recuerdo con fe y gratitud, 
+al contemplarle en la cruz
+que sus heridas me dieron la vida.
+¡Alabo al bendito Jesús!
+
+c
+Dios descendió, de gloria me llenó,
+cuando Jesús por gracia me salvó;
+fui ciego, me hizo ver,
+y en Él renacer.
+Dios descendió, de gloria me llenó.
+
+
+122
+
+
+
+Redeemed, how I love to proclaim it.
+Redeemed by the blood of the Lamb.
+Redeemed through His infinite mercy;
+His child, and forever I am.
+
+c
+Redeemed, redeemed,
+Redeemed by the blood of the Lamb.
+Redeemed, redeemed,
+His child, and forever I am.
+
+Redeemed, and so happy in Jesus,
+No language my rapture can tell.
+I know that the light of His presence
+With me doth continually dwell.
+
+c
+Redeemed, redeemed,
+Redeemed by the blood of the Lamb.
+Redeemed, redeemed,
+His child, and forever I am.
+
+I think of my blessèd Redeemer,
+I think of Him all the day long.
+I sing for I cannot be silent;
+His love is the theme of my song.
+
+c
+Redeemed, redeemed,
+Redeemed by the blood of the Lamb.
+Redeemed, redeemed,
+His child, and forever I am.
+
+s
+Comprado con sangre por Cristo,
+con gozo al cielo yo voy;
+librado por gracia infinita,
+ya sé que su hijo yo soy.
+
+c
+Lo sé, lo sé,
+comprado con sangre yo soy.
+Lo sé, lo sé,
+con Cristo al cielo yo voy.
+
+Soy libre de pena y culpa,
+su gozo Él me hace sentir.
+Él llena de gracia mi alma,
+con Él es tan dulce vivir.
+
+c
+Lo sé, lo sé,
+comprado con sangre yo soy.
+Lo sé, lo sé,
+con Cristo al cielo yo voy.
+
+En Cristo yo siempre medito,
+y nunca le puedo olvidar;
+callar sus favores no quiero,
+voy siempre a Jesús alabar.
+
+c
+Lo sé, lo sé,
+comprado con sangre yo soy.
+Lo sé, lo sé,
+con Cristo al cielo yo voy.
+
+
+123
+
+
+
+Seeking the lost, yes, kindly entreating
+Wanderers on the mountain astray;
+"Come unto Me," His message repeating,
+Words of the Master speaking today.
+
+c
+Going afar upon the mountain.
+Bringing the wanderer back again.
+Into the fold of my Redeemer.
+Jesus, the Lamb for sinners slain.
+
+Seeking the lost, and pointing to Jesus
+Souls that are weak and hearts that are sore,
+Leading them forth in ways of salvation,
+Showing the path to life evermore.
+
+c
+Going afar upon the mountain.
+Bringing the wanderer back again.
+Into the fold of my Redeemer.
+Jesus, the Lamb for sinners slain.
+
+Thus I would go on missions of mercy,
+Following Christ from day unto day,
+Cheering the faint and raising the fallen,
+Pointing the lost to Jesus, the Way.
+
+c
+Going afar upon the mountain.
+Bringing the wanderer back again.
+Into the fold of my Redeemer.
+Jesus, the Lamb for sinners slain.
+
+s
+Vedle nacer, ¡oh qué maravilla!,
+no en palacio de un gran señor;
+hasta en pesebre Cristo se humilla,
+¡cuánto le cuesta ser Redentor!
+
+c
+Vedle nacer en un establo,
+viene buscando al pecador.
+Vedle morir en el Calvario,
+¡cuánto le cuesta ser Redentor!
+
+Hijo de Dios, Señor de señores,
+burla y desprecio Él padeció.
+Cristo Jesús, varón de dolores,
+¡cuánto le cuesta ser Redentor!
+
+c
+Vedle nacer en un establo,
+viene buscando al pecador.
+Vedle morir en el Calvario,
+¡cuánto le cuesta ser Redentor!
+
+Ved cómo muere entre ladrones,
+puesto en la cruz como un malhechor;
+Cristo su vida da por los hombres,
+¡cuánto le cuesta ser Redentor!
+
+c
+Vedle nacer en un establo,
+viene buscando al pecador.
+Vedle morir en el Calvario,
+¡cuánto le cuesta ser Redentor!
+
+
+124
+
+© Copyright 1932 in "Wonderful Message" by Hartford Music Co. Renewed 1960 by Albert E. Brumley & Sons/SESAC (admin by ClearBox Rights). All rights reserved. Used by permission.
+
+Some glad morning when this life is o’er,
+I’ll fly away
+To a home on God’s celestial shore,
+I’ll fly away.
+
+c
+I’ll fly away, O glory,
+I’ll fly away;
+When I die, hallelujah, bye and bye,
+I’ll fly away.
+
+When the shadows of this life have gone, 
+I'll fly away.
+Like a bird from prison bars has flown, 
+I'll fly away.
+
+c
+I’ll fly away, O glory,
+I’ll fly away;
+When I die, hallelujah, bye and bye,
+I’ll fly away.
+
+Just a few more weary days and then,
+I’ll fly away
+To a land where joys shall never end,
+I’ll fly away.
+
+c
+I’ll fly away, O glory,
+I’ll fly away;
+When I die, hallelujah, bye and bye,
+I’ll fly away.
+
+
+125
+
+
+
+Standing on the promises of Christ my King,
+Through eternal ages, let His praises ring;
+Glory in the highest, I will shout and sing,
+Standing on the promises of God.
+
+c
+Standing, standing,
+Standing on the promises of God my Savior;
+Standing, standing,
+I’m standing on the promises of God.
+
+Standing on the promises, I cannot fail
+When the howling storms of doubt and fear assail;
+By the living Word of God I shall prevail,
+Standing on the promises of God.
+
+c
+Standing, standing,
+Standing on the promises of God my Savior;
+Standing, standing,
+I’m standing on the promises of God.
+
+Standing on the promises of Christ the Lord,
+Bound to Him eternally by love’s strong cord,
+Overcoming daily with the Spirit’s sword,
+Standing on the promises of God.
+
+c
+Standing, standing,
+Standing on the promises of God my Savior;
+Standing, standing,
+I’m standing on the promises of God.
+
+s
+Todas las promesas del Señor Jesús
+son apoyo poderoso de mi fe;
+mientras viva aquí cercado de su luz,
+siempre en sus promesas confiaré.
+
+c
+Grandes, fieles,
+las promesas que el Señor Jesús ha dado.
+Grandes, fieles;
+en ellas para siempre confiaré.
+
+Todas sus promesas para el hombre fiel,
+el Señor, en sus bondades, cumplirá,
+y confiado sé que para siempre en Él
+paz eterna mi alma gozará.
+
+c
+Grandes, fieles,
+las promesas que el Señor Jesús ha dado.
+Grandes, fieles;
+en ellas para siempre confiaré.
+
+Todas las promesas del Señor serán
+gozo y fuerza en nuestra vida terrenal;
+ellas en la dura lid nos sostendrán
+y triunfar podremos sobre el mal.
+
+c
+Grandes, fieles,
+las promesas que el Señor Jesús ha dado.
+Grandes, fieles;
+en ellas para siempre confiaré.
+
+
+126
+
+
+
+The Cross! The Cross! The wondrous Cross,
+‘Twas there the Savior died;
+I gaze upon that thorn-clad brow
+That pierced and bleeding side!
+
+c
+At the Cross! At the Cross! Where I first saw the light,
+And the burden of my heart rolled away.
+It was there by faith I received my sight,
+And now I am happy all the day.
+
+I see the burden of my sin
+By God upon Him laid;
+And He, the spotless Lamb of God
+My sacrifice was made.
+
+c
+At the Cross! At the Cross! Where I first saw the light,
+And the burden of my heart rolled away.
+It was there by faith I received my sight,
+And now I am happy all the day.
+
+The Cross of Christ is all my boast,
+His blood my only plea;
+My passport to the realms of bliss
+Is “Jesus died for me.”
+
+c
+At the Cross! At the Cross! Where I first saw the light,
+And the burden of my heart rolled away.
+It was there by faith I received my sight,
+And now I am happy all the day.
+
+s
+Me hirió el pecado, fui a Jesús,
+mostréle mi dolor.
+Perdido, errante, vi su luz;
+bendíjome en su amor.
+
+c
+En la cruz, en la cruz, do primero vi la luz
+y las manchas de mi alma yo lavé.
+Fue allí por la fe do vi a Jesús,
+y siempre feliz con Él seré.
+
+En una cruz, mi Salvador
+su sangre derramó
+por este pobre pecador,
+a quien así salvó.
+
+c
+En la cruz, en la cruz, do primero vi la luz
+y las manchas de mi alma yo lavé.
+Fue allí por la fe do vi a Jesús,
+y siempre feliz con Él seré.
+
+Vivir en Cristo trae la paz;
+con Él habitaré;
+ya suyo soy, y de hoy en más
+a nadie temeré.
+
+c
+En la cruz, en la cruz, do primero vi la luz
+y las manchas de mi alma yo lavé.
+Fue allí por la fe do vi a Jesús,
+y siempre feliz con Él seré.
+
+
+127
+
+
+
+What can wash away my stain?
+Nothing but the blood of Jesus;
+What can make me whole again?
+Nothing but the blood of Jesus.
+
+c
+O, precious is the flow
+That makes me white as snow;
+No other fount I know,
+Nothing but the blood of Jesus.
+
+Nothing can for sin atone,
+Nothing but the blood of Jesus;
+Naught of good that I have done,
+Nothing but the blood of Jesus.
+
+c
+O, precious is the flow
+That makes me white as snow;
+No other fount I know,
+Nothing but the blood of Jesus.
+
+This is all my hope and peace,
+Nothing but the blood of Jesus;
+This is all my righteousness,
+Nothing but the blood of Jesus.
+
+c
+O, precious is the flow
+That makes me white as snow;
+No other fount I know,
+Nothing but the blood of Jesus.
+
+s
+¿Qué me puede dar perdón?
+Sólo de Jesús la sangre.
+¿Y un nuevo corazón?
+Sólo de Jesús la sangre.
+
+c
+Precioso es el raudal
+que limpia todo mal.
+No hay otro manantial,
+sólo de Jesús la sangre.
+
+Veo para mi salud
+sólo de Jesús la sangre.
+Tiene de sanar virtud
+sólo de Jesús la sangre.
+
+c
+Precioso es el raudal
+que limpia todo mal.
+No hay otro manantial,
+sólo de Jesús la sangre.
+
+Cantaré junto a sus pies:
+«Sólo de Jesús la sangre.
+¡El Cordero digno es!
+Sólo de Jesús la sangre».
+
+c
+Precioso es el raudal
+que limpia todo mal.
+No hay otro manantial,
+sólo de Jesús la sangre.
+
+
+128
+
+
+
+Would you be free from your burden of sin?
+There’s power in the blood, power in the blood;
+Would you o’er evil a victory win?
+There’s wonderful power in the blood.
+
+c
+There is power, power, wonder-working power
+In the blood of the Lamb;
+There is power, power, wonder-working power
+In the precious blood of the Lamb.
+
+Would you be free from your passion and pride?
+There’s power in the blood, power in the blood;
+Come for your cleansing to Calvary’s tide,
+There’s wonderful power in the blood.
+
+c
+There is power, power, wonder-working power
+In the blood of the Lamb;
+There is power, power, wonder-working power
+In the precious blood of the Lamb.
+
+Would you be whiter, much whiter than snow?
+There’s power in the blood, power in the blood;
+Sin stains are lost in its life-giving flow,
+There’s wonderful power in the blood.
+
+c
+There is power, power, wonder-working power
+In the blood of the Lamb;
+There is power, power, wonder-working power
+In the precious blood of the Lamb.
+
+Would you do service for Jesus, your King?
+There’s power in the blood, power in the blood;
+Would you live daily His praises to sing?
+There’s wonderful power in the blood.
+
+c
+There is power, power, wonder-working power
+In the blood of the Lamb;
+There is power, power, wonder-working power
+In the precious blood of the Lamb.
+
+s
+¿Quieres ser libre del vicio y del mal?
+Virtud hay en Él, virtud en Él.
+¿Quieres por Él la victoria ganar?
+Por siempre virtud hay en Él.
+
+c
+Hay poder, sí, sin igual poder
+en Jesús que murió.
+Hay poder, sí, sin igual poder
+por la sangre que vertió.
+
+¿Quieres ser puro, aceptable al Señor?
+Virtud hay en Él, virtud en Él.
+Te limpiará con la sangre que dio.
+Por siempre virtud hay en Él.
+
+c
+Hay poder, sí, sin igual poder
+en Jesús que murió.
+Hay poder, sí, sin igual poder
+por la sangre que vertió.
+
+¿Quieres ser libre de tu vanidad?
+Virtud hay en Él, virtud en Él.
+Pide a Jesús que te dé su humildad,
+Por siempre virtud hay en Él.
+
+c
+Hay poder, sí, sin igual poder
+en Jesús que murió.
+Hay poder, sí, sin igual poder
+por la sangre que vertió.
+
+¿Quieres a Cristo servir y agradar?
+Virtud hay en Él, virtud en Él.
+¿Quieres corona de vida ganar?
+Por siempre virtud hay en Él.
+
+c
+Hay poder, sí, sin igual poder
+en Jesús que murió.
+Hay poder, sí, sin igual poder
+por la sangre que vertió.
+
+
+129
+
+
+
+Years I spent in vanity and pride,
+Caring not my Lord was crucified,
+Knowing not it was for me He died
+On Calvary.
+
+c
+Mercy there was great, and grace was free;
+Pardon there was multiplied to me;
+There my burdened soul found liberty
+At Calvary.
+
+By God’s Word at last my sin I learned;
+Then I trembled at the law I’d spurned,
+Till my guilty soul imploring turned
+To Calvary.
+
+c
+Mercy there was great, and grace was free;
+Pardon there was multiplied to me;
+There my burdened soul found liberty
+At Calvary.
+
+O the love that drew salvation’s plan!
+O the grace that brought it down to man!
+O the mighty gulf that God did span
+At Calvary.
+
+c
+Mercy there was great, and grace was free;
+Pardon there was multiplied to me;
+There my burdened soul found liberty
+At Calvary.
+
+s
+Años mi alma en vanidad vivió,
+ignorando a quien por mí murió,
+o que en el Calvario padeció
+el Salvador.
+
+c
+Mi alma allí divina gracia halló;
+Dios allí perdón y paz me dio.
+Del pecado allí me libertó
+el Salvador.
+
+Por la Biblia miro que pequé,
+y su ley divina quebranté.
+Mi alma entonces contempló por fe
+al Salvador.
+
+c
+Mi alma allí divina gracia halló;
+Dios allí perdón y paz me dio.
+Del pecado allí me libertó
+el Salvador.
+
+En la cruz su amor Dios demostró,
+y de gracia al hombre revistió,
+cuando por nosotros se entregó
+el Salvador.
+
+c
+Mi alma allí divina gracia halló;
+Dios allí perdón y paz me dio.
+Del pecado allí me libertó
+el Salvador.
+
+
+130
+Behold He Comes
+Copyright © 1956 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Behold He comes!
+And every eye shall see Him;
+Friend, will you be ready
+When Jesus comes?
+
+s
+¡Jesús vendrá!
+Y todos le verán
+¿Estarás tú listo,
+cuando Él vendrá?
+
+			 
+131
+
+Copyright © 1940 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Everybody ought to know,
+Everybody ought to know,
+Everybody ought to know
+Who Jesus is.
+
+Everybody ought to know,
+Everybody ought to know,
+Everybody ought to know
+Who Jesus is.
+
+He’s the Lily of the Valley,
+He’s the Bright and Morning Star,
+He’s the fairest of ten thousand,
+Everybody ought to know.
+
+
+132
+
+
+
+Hallelu, Hallelu, Hallelu, Hallelujah,
+Praise ye the Lord.
+Hallelu, Hallelu, Hallelu, Hallelujah,
+Praise ye the Lord.
+
+c
+Praise ye the Lord, Hallelujah,
+Praise ye the Lord, Hallelujah,
+Praise ye the Lord, Hallelujah,
+Praise ye the Lord!
+
+s
+Alelu, alelu, alelu, aleluya,
+Alaba al Señor.
+Alelu, alelu, alelu, aleluya,
+Alaba al Señor.
+
+c
+Alaba al Señor, ¡Aleluya!
+Alaba al Señor, ¡Aleluya!
+Alaba al Señor, ¡Aleluya!
+¡Alaba al Señor!
+
+
+133
+
+
+
+I am so glad that our Father in Heaven
+Tells of His love in the Book He has given;
+Wonderful things in the Bible I see:
+This is the dearest that Jesus loves me.
+
+c
+I am so glad that Jesus loves me,
+Jesus loves me, Jesus loves me.
+I am so glad that Jesus loves me,
+Jesus loves even me.
+
+Though I forget Him and wander away,
+Still He doth love me wherever I stray;
+Back to His dear loving arms would I flee,
+When I remember that Jesus loves me.
+
+c
+I am so glad that Jesus loves me,
+Jesus loves me, Jesus loves me.
+I am so glad that Jesus loves me,
+Jesus loves even me.
+
+O if there’s only one song I can sing
+When in His beauty I see the great King,
+This shall my song in eternity be:
+“O what a wonder that Jesus loves me.”
+
+c
+I am so glad that Jesus loves me,
+Jesus loves me, Jesus loves me.
+I am so glad that Jesus loves me,
+Jesus loves even me.
+
+s
+Gozo la Santa Palabra leer,
+cosas preciosas allí puedo ver;
+y sobre todo que el gran Redentor
+es de los niños el tierno Pastor.
+
+c
+Con alegría yo cantaré
+al Redentor, tierno Pastor,
+que en el Calvario por mí murió.
+Sí, sí, por mí murió.
+
+Me ama Jesús, pues su vida entregó
+por mi salud, y de niños habló:
+«Dejad a los niños que vengan a Mí,
+para salvarlos mi sangre vertí».
+
+c
+Con alegría yo cantaré
+al Redentor, tierno Pastor,
+que en el Calvario por mí murió.
+Sí, sí, por mí murió.
+
+Si alguien pregúntame cómo lo sé,
+«Busca a Jesús, pecador», le diré.
+«Por su Palabra que tienes aquí
+puedes saber que Jesús te ama a ti».
+
+c
+Con alegría yo cantaré
+al Redentor, tierno Pastor,
+que en el Calvario por mí murió.
+Sí, sí, por mí murió.
+
+
+134
+
+Patricia R. Martin<br>© 1994 Word Music, LLC<br>All Rights Rederved. Used By Permission
+
+I may never march in the infantry,
+Ride in the cavalry, shoot the artillery;
+I may never fly o'er the enemy,
+But I'm in the Lord's army.
+I'm in the Lord's army. (2X)
+I may never march in the infantry,
+Ride in the cavalry, shoot the artillery;
+I may never fly o'er the enemy,
+But I'm in the Lord's army. YES SIR!
+
+
+135
+
+
+
+I have the joy, joy, joy, joy
+Down in my heart,
+Down in my heart, 
+Down in my heart;
+I have the joy, joy, joy, joy 
+Down in my heart,
+Down in my heart to stay.
+
+c
+And I'm so happy, so very happy;
+I have the love of Jesus in my heart;
+And I'm so happy, so very happy;
+I have the love of Jesus in my heart.
+
+I have the peace that passeth understanding
+Down in my heart, 
+Down in my heart, 
+Down in my heart;
+I have the peace that passeth understanding
+Down in my heart,
+Down in my heart to stay.
+
+c
+And I'm so happy, so very happy;
+I have the love of Jesus in my heart;
+And I'm so happy, so very happy;
+I have the love of Jesus in my heart.
+
+I have the love of Jesus, love of Jesus
+Down in my heart, 
+Down in my heart, 
+Down in my heart;
+I have the love of Jesus, love of Jesus
+Down in my heart,
+Down in my heart to stay.
+
+c
+And I'm so happy, so very happy;
+I have the love of Jesus in my heart;
+And I'm so happy, so very happy;
+I have the love of Jesus in my heart.
+
+s
+Yo tengo gozo, mucho gozo,
+gozo en mi corazón. ¿Dónde?
+¡En mi corazón! ¿Dónde?
+¡En mi corazón!
+Yo tengo gozo, mucho gozo, gozo
+en mi corazón, ¡sí!
+Pues Jesús ya vive en mí.
+
+c
+Es tan hermoso, siento tanto gozo,
+de que su amor está en mi corazón.
+Es tan hermoso, siento tanto gozo,
+de que su amor está en mi corazón.
+
+Yo tengo paz divina incomprensible
+en mi corazón. ¿Dónde?
+¡En mi corazón! ¿Dónde?
+¡En mi corazón!
+Yo tengo paz divina incomprensible
+en mi corazón, ¡sí!
+y siempre en mí estará.
+
+c
+Es tan hermoso, siento tanto gozo,
+de que su amor está en mi corazón.
+Es tan hermoso, siento tanto gozo,
+de que su amor está en mi corazón.
+
+Yo tengo amor de Dios, amor eterno
+en mi corazón. ¿Dónde?
+¡En mi corazón! ¿Dónde?
+¡En mi corazón!
+Yo tengo amor de Dios, amor eterno
+en mi corazón, ¡sí!
+Porque su amor Él me dio.
+
+c
+Es tan hermoso, siento tanto gozo,
+de que su amor está en mi corazón.
+Es tan hermoso, siento tanto gozo,
+de que su amor está en mi corazón.
+
+
+136
+
+Words: Harry D. Clarke. © 1927, Ren. 1955 Hope Publishing Company, Carol Stream, IL 60188. All rights reserved. Used by permission.
+
+I will make you fishers of men,
+fishers of men, Fishers of men;
+I will make you fishers of men if you follow Me,
+If you follow Me, if you follow Me,
+I will make you fishers of men if you follow Me.
+
+Hear Christ calling come unto Me, 
+Come unto Me, come unto Me;
+Hear Christ calling come unto Me, I will give you rest.
+I will give you rest, I will give you rest;
+Hear Christ calling come unto Me, I will give you rest.
+
+s
+Pescadores Yo os haré, 
+Yo os haré, Yo os haré.
+Pescadores Yo os haré si me siguen hoy.
+Si me siguen hoy, si me siguen hoy.
+Pescadores Yo os haré si me siguen hoy.
+
+
+137
+
+<a target="_blank" href="http://www.jim-mac.com/wonder.html">&copy; 1995 Jimmy Mac Music Company. Available in free version only based on copyright holder's wishes.</a>
+
+(C)
+Isn't He wonderful,
+Wonderful, wonderful?
+Isn't Jesus, my Lord, wonderful?
+Eyes have seen, ears have heard,
+It's recorded in God's Word.
+Isn't Jesus, my Lord, wonderful?
+
+Since that day on the cross,
+Jesus died to save the lost,
+Sinful men turned Him down by the score.
+It's because they don't know
+Jesus washes white as snow.
+Isn't Jesus, my Lord, wonderful?
+
+s
+Admirable es Jesús
+y tan lleno de amor.
+Admiramble es Jesús mi Señor.
+Es su nombre sin par,
+a Jesús quiero alabar.
+Admirable es Jesús mi Señor.
+
+
+138
+
+
+
+Jesus loves me! this I know,
+For the Bible tells me so;
+Little ones to Him belong;
+They are weak, but He is strong.
+
+c
+Yes, Jesus loves me!
+Yes, Jesus loves me!
+Yes, Jesus loves me!
+The Bible tells me so.
+
+Jesus loves me! He who died
+Heaven's gate to open wide;
+He will wash away my sin;
+Let His little child come in.
+
+c
+Yes, Jesus loves me!
+Yes, Jesus loves me!
+Yes, Jesus loves me!
+The Bible tells me so.
+
+Jesus loves me! He will stay
+Close beside me all the way;
+If I trust Him when I die,
+He will take me home on high.
+
+c
+Yes, Jesus loves me!
+Yes, Jesus loves me!
+Yes, Jesus loves me!
+The Bible tells me so.
+
+s
+Cristo me ama, me ama a mí;
+su Palabra dice así.
+Niños pueden ir a Él,
+quien es nuestro amigo fiel.
+
+c
+Sí, Cristo me ama,
+sí, Cristo me ama,
+sí, Cristo me ama,
+la Biblia dice así.
+
+Cristo me ama, Él murió
+y la gloria nos abrió;
+mis pecados borrará,
+me dará la entrada allá.
+
+c
+Sí, Cristo me ama,
+sí, Cristo me ama,
+sí, Cristo me ama,
+la Biblia dice así.
+
+ Cristo me ama, no se va;
+a mi lado siempre está.
+Cuando Él véngame a buscar,
+siempre con Él he de estar.
+
+c
+Sí, Cristo me ama,
+sí, Cristo me ama,
+sí, Cristo me ama,
+la Biblia dice así.
+
+
+139
+
+
+
+Wide, wide as the ocean,
+High as the heavens above,
+Deep, deep as the deepest sea,
+Is my Savior’s love.
+I, though so unworthy,
+Still am a child of His care,
+For His Word teaches me
+That His love reaches me everywhere.
+
+s
+Cual océano inmenso,
+alto cual cielo azul,
+hondo cual profundo mar,
+de Cristo es el amor.
+Aunque soy tan indigno,
+nunca me abandonará.
+Cristo me dice que su amor
+me alcanza doquiera esté.
+
+
+140
+
+
+
+Marvel not that I say unto thee
+Marvel not that I say unto thee
+Marvel not that I say unto thee
+Ye must be born again.
+
+Thou wilt keep him in perfect peace
+Thou wilt keep him in perfect peace
+Thou wilt keep him in perfect peace
+Whose mind is stayed on Thee.
+
+Though your sins as scarlet be
+Though your sins as scarlet be
+Though your sins as scarlet be
+They shall be white as snow.
+
+If the Son shall set you free
+If the Son shall set you free
+If the Son shall set you free
+Ye shall be free indeed.
+
+s
+ Cristo dice: «Ven hoy a Mí»,
+Cristo dice: «Ven hoy a Mí»,
+Cristo dice: «Ven hoy a Mí,
+descanso te daré».
+
+ «No te maravilles que digo a ti».
+«No te maravilles que digo a ti».
+«No te maravilles que digo a ti:
+tendrás que renacer».
+
+«Busca primero el reino de Dios,
+busca primero el reino de Dios,
+busca primero el reino de Dios,
+y Él más te añadirá».
+
+
+141
+
+Credits:<br>My God Is SO Big<br>Ruth Harms Calkin<br>© Nuggets of Truth Publishing
+
+My God is so great, So strong and so mighty,
+There’s nothing my God cannot do.
+My God is so great, So strong and so mighty,
+There’s nothing my God cannot do.
+The mountains are his, the rivers are his,
+The stars are His handiwork, too.
+My God is so great, So strong and so mighty,
+There’s nothing my God cannot do, For you!
+
+s
+Mi Dios es tan fuerte,
+tan poderoso, no hay nada
+que Él no puede hacer.
+Mi Dios es tan fuerte,
+tan poderoso, no hay nada
+que Él no puede hacer.
+Él hizo el mar, 
+los ríos también;
+estrellas y montes creó.
+Mi Dios es tan fuerte,
+tan poderoso, no hay nada
+que Él no puede hacer
+por ti, por ti, por ti, por mí.
+
+
+142
+
+
+
+O I know it! Yes, I know it!
+I know it is Jesus who saves.
+O I know it! Yes, I know it!
+I know it is Jesus who saves.
+He died upon the Cross for me
+And rose again to set me free.
+I know it is Jesus who saves.
+
+s
+Lo sabemos, lo sabemos,
+sí sabemos, sí sabemos,
+que a todos Dios quiere salvar.
+Mandó a Cristo quien murió,
+y en la cruz su vida dio,
+a todos Dios quiere salvar.
+
+Lo sabemos, lo sabemos,
+sí sabemos, sí sabemos,
+que Cristo muy pronto vendrá.
+En cualquier momento
+desde el cielo
+viene en busca de su pueblo;
+Cristo muy pronto vendrá.
+
+
+143
+
+Copyright © 1972 Cccm Music (ASCAP) Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Seek ye first the Kingdom of God
+And His righteousness,
+And all these things shall be added unto you.
+Allelu, Allelujah.
+
+Man shall not live by bread alone,
+But by every word
+That proceedeth from the mouth of God.
+Allelu, Allelujah.
+
+Knock, and the door shall be opened unto you,
+Seek and ye shall find.
+Ask and it shall be given unto you.
+Allelu, Allelujah.
+
+
+144
+
+Copyright © 1940 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Thank You, Lord, for saving my soul,
+Thank You, Lord, for making me whole.
+Thank You, Lord, for giving to me
+Thy great salvation so rich and free.
+
+
+145
+
+Words: Haldor Lillenas. © 1917, Ren. 1945 Hope Publishing Company, Carol Stream, IL 60188. All rights reserved. Used by permission.
+
+The Bible stands like a rock undaunted,
+Mid the raging storms of time;
+Its pages burn with the truth eternal,
+And they glow with a light sublime.
+
+c
+The Bible stands
+Though the hills may tumble,
+It will firmly stand;
+Though the earth shall crumble,
+I will plant my feet on its firm foundation,
+For the Bible stands.
+
+s
+La Biblia es cual la roca firme
+mientras ruge la tempestad;
+es del vivo Dios la verdad eterna
+y por siempre se mantendrá.
+
+La Biblia es cual la roca firme,
+es palabra fiel e inconmovible.
+Es la base que mi fe necesita,
+y la creeré.
+
+
+146
+
+
+
+A robe of white, a crown of gold,
+A harp, a home, a mansion fair,
+A victor's crown, and joys untold
+Are mine when I get there.
+
+c
+For Jesus is my Savior;
+He washed my sins away.
+He paid my debt on Calvary's mountain;
+I'm happy in His dying love,
+I'm singing every day,
+I'm living, yes I'm living, at the fountain!
+
+
+147
+
+
+
+At the cross, at the cross,
+Where I first saw the light,
+And the burden of my heart rolled away,
+It was there by faith I received my sight,
+And now I am happy all the day.
+Allelujah, allelujah,
+Allelujah for the cross!
+Allelujah, alleluja!
+It shall never suffer loss! 
+By and by we're going to see the King,
+By and by we're going to see the King,
+By and by we're going to see the King 
+And crown Him Lord of all,
+And crown Him Lord of all,
+And crown Him Lord of all,
+And crown Him Lord of all,
+And crown Him Lord of all! 
+Away over Jordan with my blessed Savior
+Away over Jordan to wear a starry crown. 
+Bright crown, starry crown,
+Bright crown of victory.
+Shall you, shall I,
+Wear a crown of victory,
+Wear a crown of victory. 
+We're going to spend eternity,
+Singing around the throne,
+Singing around the throne,
+Singing around the throne,
+We're going to spend eternity
+Singing around the throne
+In the new Jerusalem.
+
+
+148
+
+
+
+Be ye steadfast, unmovable,
+Always abounding,
+Always abounding in the work of the Lord!
+
+For as much as ye know that your
+Labor's not in vain, in the Lord.
+
+Be ye steadfast, unmovable,
+Always abounding,
+Always abounding in the work of the Lord.
+
+
+149
+
+Copyright © 1945 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Come listen to my tale,
+Of Jonah and the whale.
+Where? 
+Way down in the middle of the ocean! Ocean!
+O how did he get there?
+Whatever did he wear? Where?
+Way down in the middle of the ocean! Ocean!
+A preaching he should be 
+In Nineveh you see.
+He disobeyed; O what a foolish notion. Notion! 
+But God forgave his sins. 
+Salvation entered in. Where?
+Away down in the middle of the ocean! Ocean!
+
+
+150
+
+Copyright © 1982 Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Create in me a clean heart, O God,
+And renew a right spirit within me.
+Create in me a clean heart, O God,
+And renew a right spirit within me.
+Cast me not away from Thy presence, O Lord.
+And take not Thy Holy Spirit from me.
+Restore unto me the joy of Thy salvation,
+And renew a right spirit within me.
+
+
+151
+
+
+
+Demos gracias al Señor, demos gracias,
+demos gracias por su amor.
+Demos gracias al Señor, demos gracias,
+demos gracias por su amor.
+Por la mañana las aves cantan
+las alabanzas de Cristo el Salvador.
+Y tú, amigo, ¿por qué no cantas
+las alabanzas de Cristo el Salvador?
+
+
+152
+
+Copyright © 1978 Integrity's Hosanna! Music (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Give thanks with a grateful heart;
+Give thanks to the Holy One.
+Give thanks because He's given Jesus Christ, His Son.
+Give thanks with a grateful heart;
+Give thanks to the Holy One.
+Give thanks because He's given Jesus Christ, His Son.
+
+And now let the weak say, "I am strong;"
+Let the poor say, "I am rich
+Because of what the Lord has done for us."
+And now let the weak say, "I am strong;"
+Let the poor say, "I am rich
+Because of what the Lord has done for us."
+
+
+153
+
+
+
+He's my rock, my sword, my shield,
+He's the wheel in the middle of the wheel,
+He's the lily of the valley,
+He's the bright and shining star.
+Makes no difference what you say;
+I'm gonna get on my knees and pray,
+And I'll serve Him till the day
+That Jesus comes. Amen!
+
+
+154
+
+Copyright © 1978 Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+I cast all my cares upon You,
+I lay all of my burdens down at Your feet.
+And any time I don't know what to do,
+I will cast all my cares upon You.
+
+I cast all my cares upon You;
+I lay all of my burdens down at Your feet.
+And any time I don't know what to do,
+I will cast all my cares upon You.
+I will cast all my cares upon You.
+
+
+155
+
+Copyright © 1981 Universal Music Corp. (ASCAP) Sound III, Inc. (ASCAP) (adm. by Universal Music Corp.)<br>All rights reserved. Used by permission.<br>International Copyright Secured.
+
+I will call upon the Lord,
+Who is worthy to be praised;
+So shall I be safe from my enemies
+I will call upon the Lord.
+
+c
+The Lord liveth and blessed be the rock
+And may the God of my salvation be exalted (2X)
+
+
+156
+
+
+
+I am a C-
+I am a C-H
+I am a C-H-R-I-S-T-I-A-N,
+And I have C-H-R-I-S-T
+In my H-E-A-R-T,
+And I will L-I-V-E E-T-E-R-N-A-L-L-Y.
+
+I was an S-
+I was an S-I-
+I was an S-I-N-N-E-R who was lost
+Until J-E-S-U-S showed me His L-O-V-E, love,
+And then He D-I-E-D on the
+R-U-G-G-E-D cross,
+
+I have been P-
+I have been P-U-
+I have been P-U-R-C-H-A-S-E-D
+By the B-L-O-O-D of J-E-S-U-S my Lord,
+And now I L-O-V-E Him
+Because I'm S-A-V-E-D.
+
+
+157
+
+
+
+I'm in-right, out-right, upright, 
+Downright, happy all the time.
+I'm in-right, out-right, upright, 
+Downright, happy all the time.
+Since Jesus Christ came in 
+And cleansed my heart from sin,
+I'm in-right, out-right, upright, 
+Downright, happy all the time.
+
+
+158
+
+
+
+Solamente en Cristo,
+solamente en Él:
+la salvación se encuentra en Él.
+No hay otro nombre,
+dado a los hombres:
+solamente en Cristo,
+solamente en Él.
+
+
+159
+
+Orien Johnson<br>© 1956 Word Music, LLC<br>All Rights Reserved. Used By Permission.
+
+In God's green pastures feeding, 
+By His cool waters lie;
+Soft, in the evening walk my Lord and I.
+All the sheep of His pastures 
+Fare so wondrously fine,
+His sheep am I.
+
+c
+Waters cool (in the valley),
+Pastures green (on the mountain),
+In the evening walk my Lord and I;
+Dark the night (in the valley),
+Rough the way (on the mountain),
+Step by step (step by step)
+My Lord and I.
+
+O, do you know the Shepherd 
+Who has died for the sheep?
+Know of His cleansing blood, 
+His pow'r to keep.
+He's a wonderful Savior and 
+He loves you and me.
+Are you His sheep?
+
+c
+Waters cool (in the valley),
+Pastures green (on the mountain),
+In the evening walk my Lord and I;
+Dark the night (in the valley),
+Rough the way (on the mountain),
+Step by step (step by step)
+My Lord and I.
+
+
+160
+
+Copyright © 1964 Bud John Songs (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+In the stars His handiwork I see,
+On the wind He speaks in majesty,
+Though He ruleth over land and sea,
+What is that to me?
+I will celebrate nativity
+For it has a place in history,
+Sure, He came to set His people free,
+What is that to me?
+
+c
+Till by faith I met Him face to face,
+And I felt the wonder of His grace,
+Then I knew that He was more 
+Than just a God who didn't care, 
+Who lived away out there,
+And now He walks beside me day by day,
+Ever watching o'er me lest I stray,
+Helping me to find that narrow way;
+He's everything to me.
+
+
+161
+
+<a target="_blank" href="http://www.billysloan.co.uk/songs/jesus_love_is_very_wonderful.html">Words: Scripture Union; Music: Public Domain</a>
+
+Jesus' love is very wonderful.
+Jesus' love is very wonderful.
+Jesus' love is very wonderful.
+O wonderful love!
+
+c
+So high, you can't get over it;
+So low, you can't get under it;
+So wide, you can't get around it.
+O wonderful love!
+
+Jesus loved me so He died for me.
+Jesus loved me so He died for me.
+Jesus loved me so He died for me.
+O wonderful love!
+
+c
+So high, you can't get over it;
+So low, you can't get under it;
+So wide, you can't get around it.
+O wonderful love!
+
+We must yield our lives and follow Him.
+We must yield our lives and follow Him.
+We must yield our lives and follow Him.
+O wonderful love!
+
+c
+So high, you can't get over it;
+So low, you can't get under it;
+So wide, you can't get around it.
+O wonderful love!
+
+
+162
+
+Copyright © 2000 Hillsong Music Publishing (APRA) (adm. in the US and Canada at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Jesus lover of my soul,
+Jesus, I will never let You go.
+You've taken me from the miry clay,
+Set my feet upon the rock and now I know.
+
+I love you, I need you,
+Though my world may fall,
+I'll never let you go.
+My Savior, my closest friend,
+I will worship You until the very end.
+
+
+163
+
+Copyright © 1980 Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+King of kings and Lord of lords,
+Glory hallelujah!
+King of kings and Lord of lords,
+Glory hallelujah!
+Jesus, Prince of peace,
+Glory hallelujah!
+Jesus, Prince of peace,
+Glory hallelujah!
+
+
+164
+
+Copyright © 1982 Integrity's Hosanna! Music (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Lord, you are more precious than silver;
+Lord, you are more costly than gold.
+Lord, you are more beautiful than diamonds,
+And nothing I desire compares to You.
+
+For thou, O Lord, art high above all the earth;
+Thou art exalted far above all gods,
+For thou, O Lord, art high above all the earth;
+Thou art exalted far above all gods.
+
+c
+We exalt Thee! We exalt Thee!
+We exalt Thee, O Lord!
+We exalt Thee! We exalt Thee!
+We exalt Thee, O Lord!
+
+
+165
+
+Copyright © 1973 Cccm Music (ASCAP) Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Love one another, for love is of God.
+He who loves is born of God and knows God.
+He who does not love 
+Does not know God,
+For God is love, God is love.
+
+
+166
+
+Copyright 1974 Graeme Stewart. Permission Granted for use in worship, but not for commercial gain. <a target="_blank" href="https://www.godsongs.net/2011/09/love-lord-your-god-round.html">Love the Lord Your God</a>
+
+Love the Lord your God
+With all your heart and all your soul
+And all your mind, and
+Love all humankind [or, mankind]
+As you would love yourself, and
+
+Love
+The Lord your God
+With all your heart
+And all your soul and mind, and love all people [mankind].
+
+We’ve got Christian lives to live,
+We’ve got Jesus’ love to give, 
+We’ve got nothing to hide,
+Because in Him we all abide.
+
+
+167
+
+
+
+Our God is in time, on time, all the time;
+He's never late or wrong or early time. 
+His perfect ways mark constant perfect time; 
+Our God is in time on time all the time.
+
+
+168
+
+
+
+I've got a home in glory land that outshines the sun,
+I've got a home in glory land that outshines the sun,
+I've got a home in glory land that outshines the sun,
+Way beyond the blue.
+
+c
+Do Lord, O, do Lord, O do remember me,
+Do Lord, O, do Lord, O do remember me,
+Do Lord, O, do Lord, O do remember me
+Way beyond the blue.
+
+I took Jesus as my Savior, you take Him too,
+I took Jesus as my Savior, you take Him too,
+I took Jesus as my Savior, you take Him too
+Way beyond the blue.
+
+
+169
+
+Copyright © The Song of One. Administrator contact information unknown.
+
+(C)
+Sing alleluia to the Lord,
+Sing alleluia to the Lord,
+Sing alleluia, sing alleluia,
+Sing alleluia to the Lord.
+
+Jesus is risen from the dead.
+Jesus is risen from the dead.
+Jesus is risen, Jesus is risen, 
+Jesus is risen from the dead.
+
+Jesus is Lord of Heaven and earth.
+Jesus is Lord of Heaven and earth.
+Jesus is Lord, Jesus is Lord,
+Jesus is Lord of Heaven and earth.
+
+Jesus is coming for His own.
+Jesus is coming for His own.
+Jesus is coming, Jesus is coming,
+Jesus is coming for His own.
+
+
+170
+
+
+
+The old, old story, it is ever new!
+The old, old story! Praise the Lord ‘tis true,
+That Jesus died for me as well as you!
+I love the old, old story!
+When the roll is called up yonder
+I'll be walking on the King's highway;
+Tell me the old, old story
+I love Him better everyday, Hallelujah!
+I will make you fishers of men
+If you'll only follow me.
+Now none but Christ can satisfy,
+And there's no other name for me.

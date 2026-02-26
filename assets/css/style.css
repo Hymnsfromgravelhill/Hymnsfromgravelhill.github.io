@@ -1,75 +1,96 @@
-/* Hymns UI — Long Haul-aligned light + dark themes
-   - Light: off-white bg, seagreen links, deep-blue headings
-   - Dark: near-black bg, soft cards, minty seagreen links
+/* Hymns from Gravel Hill — simple, fast, GitHub-hostable
+   Light: off-white bg, seagreen links, deep-blue headings
+   Dark: true black bg, soft panels, minty seagreen links
 */
 
-/* Fonts to match the main site */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,800");
-@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic");
-
-/* ===== Light (default) ==================================================== */
 :root{
-  /* primary: seagreen; secondary: #233E5B */
-  --bg:#fdfdfd;          /* page background (off-white) */
-  --fg:#111111;          /* near-black body text */
-  --muted:#666666;       /* muted/supporting text */
-  --card:#ffffff;        /* white cards/containers */
-  --border:#e8e8e8;      /* light gray borders */
-  --link:#2e8b57;        /* seagreen (primary) */
-  --accent:#2e8b57;      /* reuse seagreen for accents */
-  --heading:#233E5B;     /* deep blue (secondary) */
+  --bg:#fdfdfd;
+  --fg:#111111;
+  --muted:#666666;
+  --card:#ffffff;
+  --border:#e8e8e8;
+  --link:#2e8b57;      /* seagreen */
+  --accent:#2e8b57;
+  --heading:#233E5B;   /* deep blue */
+  --header-h: 56px;
+  --sa-top: env(safe-area-inset-top, 0px);
 }
 
 *{box-sizing:border-box}
+html{color-scheme: light dark;}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;}
 
-html{
-  color-scheme: light dark; /* allow UA controls to theme */
-}
-
-html,body{
-  margin:0;
-  padding:0;
-  background:var(--bg);
-  color:var(--fg);
-  font:16px/1.6 "Open Sans", Helvetica, Arial, sans-serif; /* body font */
-}
-
-h1,h2,h3,h4,h5,h6{
-  font-family:"PT Serif", Georgia, Times, serif;           /* headings font */
-  color:var(--heading);
-  line-height:1.25;
-  margin:.5rem 0 .75rem;
-  font-weight:700;
-}
+h1,h2,h3,h4,h5,h6{color:var(--heading);line-height:1.25;margin:.5rem 0 .75rem;font-weight:700;}
 
 a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline}
+a:visited{color:var(--link);} /* prevent odd visited colors */
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 .topbar{
   display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;justify-content:space-between;
   padding:.75rem 1rem;border-bottom:1px solid var(--border);background:var(--card);
-  position:sticky;top:0;z-index:10
+  position:sticky;top:var(--sa-top);z-index:1003
 }
-.brand{display:flex;gap:.5rem;align-items:center}
-.logo{font-size:1.1rem;color:var(--accent)}
-.title{
-  font-family:"PT Serif", Georgia, Times, serif;
-  font-weight:700;
-  letter-spacing:.2px;
-  color:var(--heading);
-}
+.brand{display:flex;gap:.6rem;align-items:center}
+.logo{height:32px;width:auto;vertical-align:middle}
+.title{font-weight:800;letter-spacing:.2px;color:var(--heading)}
 
 .controls{
   display:flex;gap:.5rem;align-items:center;width:100%;max-width:860px;justify-content:flex-end;flex-wrap:wrap
 }
-.controls select,.controls input,.controls button{
+.controls select,.controls input,.controls button:not(.q-clear){
   background:var(--card);color:var(--fg);border:1px solid var(--border);
-  padding:.45rem .6rem;border-radius:999px   /* pill-like */
+  padding:.45rem .6rem;border-radius:999px
 }
 .controls input{flex:1;min-width:0}
-.controls button{cursor:pointer}
+.controls button:not(.q-clear){cursor:pointer}
+
+.icon-btn{font-weight:700}
+
+/* Inside-the-input search clear */
+.search-wrap{
+  position:relative;
+  flex:1;
+  min-width:0;
+  width:100%;
+}
+.search-wrap #q{
+  width:100%;
+  padding-right:2.2rem; /* room for the clear button */
+}
+
+/* Hide browser’s built-in clear button (Chrome/Safari) so you only have one */
+#q::-webkit-search-cancel-button{
+  -webkit-appearance:none;
+  appearance:none;
+}
+
+/* Clear button inside the input */
+.q-clear{
+  position:absolute;
+  right:0.45rem;
+  top:50%;
+  transform:translateY(-50%);
+  width:1.6rem;
+  height:1.6rem;
+  border:0;
+  border-radius:999px;
+  background:transparent;
+  color:inherit;
+  font-size:1.2rem;
+  line-height:1;
+  cursor:pointer;
+  opacity:0;
+  pointer-events:none;
+}
+.q-clear.is-visible{
+  opacity:0.75;
+  pointer-events:auto;
+}
+.q-clear:hover{opacity:1}
+.q-clear:focus{outline:2px solid rgba(255,255,255,0.25);outline-offset:2px}
 
 .container{max-width:860px;margin:0 auto;padding:1rem}
 .content{
@@ -78,202 +99,101 @@ a:hover{text-decoration:underline}
 }
 .hidden{display:none}
 
-.hymn-list{list-style:none;margin:0;padding:0}
-.hymn-list li{
-  display:grid;grid-template-columns:6ch 1fr;gap:.75rem;padding:.5rem .25rem;
-  border-bottom:1px dashed var(--border);align-items:baseline
+/* subbar (sort + favorites) */
+.subbar{
+  display:flex;align-items:center;justify-content:center;gap:1rem;
+  padding:.5rem 1rem;border-bottom:1px solid var(--border);background:var(--card);
+  position:sticky;top:calc(var(--header-h) + var(--sa-top));z-index:1002;
 }
-.hymn-list li:last-child{border-bottom:none}
-.hymn-no{display:inline-block;min-width:3.5rem;font-variant-numeric:tabular-nums;color:var(--muted)}
-.hymn-title{font-weight:600}
+.subbar select,.subbar button{
+  background:var(--card);color:var(--fg);border:1px solid var(--border);
+  padding:.35rem .6rem;border-radius:.5rem;cursor:pointer
+}
+.subbar button[aria-pressed="true"]{background:var(--accent);color:#000;border-color:var(--accent)}
+
 .muted{color:var(--muted);font-size:.85rem;margin:.25rem 0 .5rem}
 
+/* Hymn list */
+.hymn-list{list-style:none;margin:0;padding:0}
+.hymn-list li{
+  display:flex;align-items:center;gap:.5rem;padding:.5rem .25rem;
+  border-bottom:1px dashed var(--border)
+}
+.hymn-list li:last-child{border-bottom:none}
+
+.fav-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:1.75rem;height:1.75rem;flex:0 0 auto;
+  border:1px solid var(--border);border-radius:.5rem;background:var(--card);cursor:pointer
+}
+.fav-btn svg{width:1rem;height:1rem;display:block;fill:none;stroke:var(--muted);stroke-width:2}
+.fav-btn.filled svg{fill:var(--accent);stroke:var(--accent)}
+.fav-btn:focus{outline:2px solid var(--accent);outline-offset:2px}
+
+.hymn-no{display:inline-block;min-width:3.5rem;font-variant-numeric:tabular-nums;color:var(--muted);flex:0 0 auto}
+.hymn-title{font-weight:650}
+.hymn-title, .hymn-title:visited{color:var(--link);} /* ensure consistent */
+
+/* Detail */
 .detail-nav{display:flex;gap:.5rem;align-items:center;padding:.5rem;border-bottom:1px solid var(--border)}
 .detail-nav .spacer{flex:1}
 .detail-nav button{
   background:var(--card);color:var(--fg);border:1px solid var(--border);
   padding:.35rem .6rem;border-radius:.5rem;cursor:pointer
 }
+#favBtnDetail[aria-pressed="true"]{background:var(--accent);color:#000;border-color:var(--accent)}
 
-.meta{color:var(--muted);font-size:.9rem;margin:.25rem 0 1rem}
 .lyrics{line-height:1.85;font-size:1.05rem}
 .lyrics .stanza{margin:0 0 1rem 0}
-.lyrics .stanza-number{color:var(--muted);font-weight:700;margin-right:.5rem}
+
+/* Match original hymnal formatting cues */
 .lyrics .chorus{
-  border-left:3px solid var(--accent);
-  padding:.25rem .75rem;margin:.75rem 0 .75rem 0;
-  background:linear-gradient(to right, rgba(46,139,87,.08), transparent) /* seagreen glow */
+  font-style: italic;
+  padding-left: 16px;
+  margin: 0 0 1rem 0;
 }
-.lyrics .label{display:block;font-size:.85rem;color:var(--muted);margin-bottom:.25rem}
-
-.footer{
-  max-width:860px;margin:1rem auto;padding:0 1rem;color:var(--muted);
-  text-align:center;border-top:1px solid var(--border);padding-top:.75rem
+.lyrics .addedChorus{
+  color: var(--accent);
+  font-style: italic;
+  padding-left: 16px;
+  margin: 0 0 1rem 0;
 }
+.lyrics .infoTitle{font-weight:700;font-style:italic;margin:.25rem 0}
+.lyrics .author{font-style:italic;color:var(--muted);margin:.25rem 0}
 
-/* ===== Dark mode (auto, like the main site) =============================== */
+/* Dark mode */
 @media (prefers-color-scheme: dark){
   :root{
-    /* Match main site's "black" look */
-    --bg:#000000;        /* page background: true black */
-    --fg:#e6e6e6;        /* body text */
-    --muted:#a0a7b1;     /* secondary text */
-    --card:#0b0b0b;      /* card panels slightly above black */
-    --border:#1a1a1a;    /* subtle dark divider */
-    --link:#7fd4a7;      /* minty seagreen for contrast */
-    --accent:#7fd4a7;    /* keep accent same as link */
-    --heading:#ffffff;   /* headings pop on black */
+    --bg:#000000;
+    --fg:#e6e6e6;
+    --muted:#a0a7b1;
+    --card:#0b0b0b;
+    --border:#1a1a1a;
+    --link:#7fd4a7;
+    --accent:#7fd4a7;
+    --heading:#ffffff;
   }
-
-  .content{ box-shadow:none; }
-
-  .lyrics .chorus{
-    border-left:3px solid var(--accent);
-    background:linear-gradient(to right, rgba(127,212,167,.13), transparent);
-  }
+  .content{box-shadow:none;}
 }
 
-/* ===== Responsive & Print ================================================= */
+/* Responsive */
 @media (max-width:640px){
   .controls{flex-direction:column;align-items:stretch}
-  .controls select,.controls input,.controls button{width:100%}
+  .controls select,.controls .search-wrap{width:100%}
 }
 @media (max-width:600px){
-  .hymn-list li{grid-template-columns:4ch 1fr}
+  .fav-btn{width:1.35rem;height:1.35rem}
+  .fav-btn svg{width:.85rem;height:.85rem}
+  .hymn-no{min-width:2.5rem;font-size:.9rem}
+  .hymn-title{font-size:.95rem;line-height:1.15;min-width:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 }
+
 @media print{
-  .topbar,.detail-nav,.footer{display:none}
+  .topbar,.subbar,.detail-nav{display:none}
   .content{border:none;box-shadow:none}
 }
 
-.logo {
-  height: 32px;   /* adjust size as needed */
-  width: auto;    /* keeps proportions */
-  vertical-align: middle;
-  margin-right: 0.5rem; /* space between logo and text */
-}
-
-/* --- subbar (sort + favorites) --- */
-.subbar{
-  display:flex;
-  align-items:center;
-  justify-content:center;   /* center both controls */
-  gap:1rem;                 /* spacing between dropdown and button */
-  padding:.5rem 1rem;
-  border-bottom:1px solid var(--border);
-  background:var(--card);
-  position:sticky;
-  top:3.25rem;
-  z-index:9;
-}
-.subbar select,
-.subbar button{
-  background:var(--card);
-  color:var(--fg);
-  border:1px solid var(--border);
-  padding:.35rem .6rem;
-  border-radius:.5rem;
-  cursor:pointer;
-}
-.subbar button[aria-pressed="true"]{
-  background:var(--accent);
-  color:#000;
-  border-color:var(--accent);
-}
-
-/* --- star favorite button on each list item --- */
-.hymn-list li{
-  display:flex;
-  align-items:center;
-  gap:.5rem;
-}
-.fav-btn{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:1.75rem;
-  height:1.75rem;
-  border:1px solid var(--border);
-  border-radius:.5rem;
-  background:var(--card);
-  cursor:pointer;
-  flex:0 0 auto;
-}
-.fav-btn .bi{
-  font-size:1rem;
-  line-height:1;
-}
-.fav-btn .bi-star-fill{
-  color:var(--accent);
-}
-.fav-btn:focus{
-  outline:2px solid var(--accent);
-  outline-offset:2px;
-}
-
-/* tighten number/title after we inserted the star button */
-.hymn-no{
-  margin-left:.25rem;
-}
-
-/* --- Mobile tweaks: compact hymn list & reduce wrapping --- */
-@media (max-width: 600px){
-  .hymn-list li{
-    gap:.25rem;                 /* smaller gap between star / number / title */
-  }
-  .fav-btn{
-    width:1.35rem;
-    height:1.35rem;
-  }
-  .fav-btn .bi{
-    font-size:.85rem;
-  }
-  .hymn-no{
-    font-size:.9rem;
-    margin-left:.15rem;         /* tighter than before */
-    flex:0 0 auto;              /* number doesn't stretch */
-  }
-  .hymn-title{
-    font-size:.92rem;           /* slightly smaller on mobile */
-    line-height:1.15;
-    flex:1 1 0;                 /* let title take remaining space */
-    min-width:0;                /* required for flex ellipsis/clamp to work */
-    display:-webkit-box;        /* 2-line clamp on Blink/WebKit */
-    -webkit-line-clamp:2;
-    -webkit-box-orient: vertical;
-    overflow:hidden;            /* hide overflow after 2 lines */
-  }
-}
-
-/* Extra-small phones */
-@media (max-width: 380px){
-  .hymn-title{
-    font-size:.88rem;           /* nudge smaller on very narrow screens */
-  }
-  .hymn-no{
-    font-size:.85rem;
-  }
-}
-
-
-:root{
-  /* fallback; JS below will set the real height */
-  --header-h: 56px;
-  --sa-top: env(safe-area-inset-top, 0px);
-}
-
-/* keep your header sticky if it already is */
-header{
-  position: sticky;
-  position: -webkit-sticky; /* iOS */
-  top: var(--sa-top);
-  z-index: 1003;
-}
-
-/* subbar sticks right under the header, everywhere */
-.subbar{
-  position: sticky;
-  position: -webkit-sticky; /* iOS */
-  top: calc(var(--header-h) + var(--sa-top));
-  z-index: 1002;            /* below header, above content */
-}
+/* Detail meta block */
+.meta-block{color:var(--muted);font-size:.95rem;margin:.25rem 0 1rem}
+.meta-line{margin:.15rem 0; word-break:break-word}
+.meta-line.meter{font-style:italic;font-variant-numeric:tabular-nums}

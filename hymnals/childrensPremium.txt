@@ -1,17 +1,205 @@
 ﻿--title
 The Children's Hymn Book 1987
 --additionalInfo
-<p>The Children's Hymn Book is copyright &copy;1987 Western Gospel Publishing Foundation (Used with permission.)<br>7630 Berg Road<br>Delta, BC V4G 1G4<br>Canada</p><p>The Favorite Hymns/Hymnals Premium app contains most of the copyrighted hymns as well as sheet music with audio.</p>
+<p>The Children's Hymn Book is copyright &copy;1987 Western Gospel Publishing Foundation (Used with permission.)<br>7630 Berg Road<br>Delta, BC V4G 1G4<br>Canada</p><p>The following numbers cannot be displayed due to copyright restrictions: 33, 36, 38, 59 (tune), 76, 85, 119, 120, 149</p>
 --index
-147,1,2,5,6,3,4,7,8,10,9,11,12,13,14,16,17,15,18,19,20,21,22,23,24,25,26,28,29,27,30,33,31,32,35,36,34,37,38,39,40,41,148,42,43,47,44,45,46,48,49,57,50,51,54,52,56,149,150,58,59,53,55,60,63,61,64,62,65,66,67,68,69,71,72,70,151,73,74,75,76,152,77,78,153,80,79,82,83,81,154,155,84,85,86,87,88,156,89,90,91,92,94,95,93,96,97,98,100,101,102,103,104,105,99,106,107,108,109,110,157,111,112,113,114,121,158,115,116,117,118,120,119,122,123,124,125,146,127,126,128,129,159,130,131,132,133,134,136,160,161,135,137,139,138,140,141,142,143,144,145
+147,1,2,5,6,3,4,7,8,10,9,11,12,13,14,16,17,15,18,19,20,21,22,23,162,24,25,26,28,29,27,30,33|copy,31,32,35,36|copy,34,37,38|copy,39,40,41,148,42,43,47,44,45,46,48,49,57,50,51,54,52,56,149|copy,150,58,59,53,55,60,63,61,64,62,65,66,67,68,69,71,72,70,151,73,164,74,75,76,165,152,77,78,153,168,80,79,82,83,81,154,155,84,85|copy,86,87,88,156,89,90,91,92,94,95,166,93,167,96,97,98,100,101,102,103,104,163,105,99,106,107,108,109,110,157,111,112,113,114,121,158,115,116,117,118,120|copy,119,122,123,124,125,146,127,126,128,129,159,130,131,132,133,134,136,160,161,135,137,139,138,140,141,142,143,144,145
+--tags
+Copyrighted & Unavailable|copy
 --firstLineIsTitle
 false
 --useTopText
 true
+--useBottomText
+true
+--audioURL
+https://gospelriver.com/favtest/Music/BHB_Music/
+--audio
+1|Something_More_Than_Gold.abc|Something more than gold
+2|Webb.abc|A little child of seven
+3|All_the_Way_to_Calvary_Chorus.abc|All the Way to Calvary
+4|Glory.abc|Around the Throne
+5|Ye_Must_Be_Born_Again.abc|Ye Must Be Born Again
+6|Tell_It_Again.abc|Abraham went to a mountain one day
+7|Be_Careful_Little_Eyes.abc|Be Careful Little Eyes
+8|Behold_Behold.abc|Behold, Behold
+9|Webb.abc|Can boys and girls be saved from sin
+10|Stephanos.abc|Bitten by the fiery serpents
+11|Pilot.abc|Children, can you tell me why
+12|Christ_Paid_the_Debt.abc|Christ paid the debt [source unknown]
+13|Words_of_Life.abc|Christ the Saviour of sinners came
+14|Hell_Do_Better_for_You.abc|He'll do better for you
+15|Showers_of_Blessing.abc|Come everyone to the Saviour
+16|Come_Children_Let_Us_All_Agree.abc|Come, children, let us all agree [source unknown]
+17|C-O-M-E_Come.abc|C-O-M-E [source unknown]
+18|Minerva.abc|Come, every soul by sin oppressed
+19|Happy_Land.abc|Yet there is room
+20|St_Gertrude.abc|Come, oh come to Jesus
+21|Clementine.abc|Come to Jesus
+22|Invitation.abc|Come to the Savior
+23|Near_the_Cross.abc|Daniel was a man of prayer
+24|Everybody_Ought_to_Know.abc|Everybody Ought To Know
+25|For_God_So_Loved_the_World_Townsend.abc
+26|For_God_So_Loved_the_World.abc|John 3:16
+27|Ellacombe_CHB027.abc|Ellacombe <div class="tuneFor">[A tune for: <span class="tuneForText">I sing the mighty power of God</span>]</div>
+27|.|<div class="info"><div class="infoTitle">Uncertain origin:</div></div>
+27|From_Heaven.abc|*From H-e-a-v-e-n heaven
+28|Beulah_Land_CHB028.abc|For God, the Lord of earth and heaven
+29|One_God_and_One_Mediator.abc|One God And One Mediator
+30|From_the_North_to_the_South.abc|From the north to the south
+31|Hudson_CHB031.abc|Glad Tidings
+32|Happy_Land.abc|God gave His Son for me
+#(c)33|Genesis_Exodus_Leviticus.abc|Genesis, Exodus, Leviticus
+34|Lincolnshire_Chorus.abc|God's love is like the sunshine
+35|God_Has_Blotted_Them_Out.abc|God has blotted them out
+#(c)36|God_is_Love_Sykes.abc|God is Love
+37|God_so_Loved_Me_That_He_Gave.abc|God so loved me that He gave [source unknown]
+(c)38|The_Book_of_Books.abc|God's word is like a hammer
+39|G-U-I-L-T.abc|G-U-I-L-T [source unknown]
+40|Ach_Du_Lieber_Augustin.abc|Happy are the children
+41|Good_Morning_to_All.abc|Happy birthday; yes two;
+42|Room_For_Jesus.abc|Room for Jesus
+43|Washed_in_the_Blood.abc|Are You Washed in the Blood
+44|A_Little_Ship.abc|He did not come to judge the world
+45|He_Sees_All_You_Do.abc|He sees what we do
+46|Hes_Ready.abc|He’s ready, He’s willing [source unknown]
+47|Fishers_of_Men.abc|Fishers of Men
+48|Adeste_Fideles.abc|How kind was our Saviour
+49|Good_News.abc|How many children say
+50|I_Am_So_Glad.abc|Jesus Loves Even Me
+51|I_Am_The_Door.abc|I am the door
+52|Fortitude_Modified.abc|I have a wonderful treasure
+53|If_You_Want_Joy.abc|If you want joy
+54|I_Love_My_Savior.abc|I have a Saviour
+55|Im_So_Happy.abc|I'm so happy
+56|I_Like_to_go_to_the_Sunday_School.abc|I like to go to the Sunday School [source unknown]
+#57|XXscore?|I am not too young to trust in Jesus
+58|If_I_Come_to_Jesus.abc|If I come to Jesus
+#(c)59|Tune only (Stuart Hamblen)|Let the Saviour In
+60|Erie_CHB060.abc|*Erie (Converse) [modified]<div class="tuneFor">[A tune for: <span class="tuneForText">What a Friend we have in Jesus</span>]</div>
+60|Friend_CHB060.abc|*Friendship / Friend [modified] <div class="tuneFor">[A tune for: <span class="tuneForText">I’ve found a Friend; oh such a Friend!</span>]</div>
+61|Tell_It_Again.abc|Tell it Again
+62|Trust_and_Obey_12_9.abc|I’ve a soul to be saved
+#63|XXscore?|A Prodigal Son
+64|Its_A_Grand_Thing_To_Be_Saved.abc|It’s a grand thing to be saved
+65|Jesus_Bids_Us_Shine.abc|Jesus died for boys and girls
+66|Jesus_Gave_Her_Water.abc|Water that was not from the well
+67|Sewell_Chorus_Modified.abc|Jesus included me
+68|Jesus_Loves_Me_China.abc|Jesus loves me
+69|Tramp_Tramp_Tramp_Chorus.abc|Jesus loves the little children
+70|Jesus_Said_Come_Unto_Me.abc|Jesus said, "Come unto Me"
+71|Jesus_Loves_the_Little_Ones.abc|Jesus loves the little ones
+72|Seeking_for_Me_CHB072.abc|Seeking for me
+73|Stille_Nacht_CHB73.abc|John three-sixteen
+74|You_May_Have_the_Joy_Bells_Chorus.abc|The Joy Bells
+75|Near_the_Cross.abc|L-e-a-v-e at once
+#(c)76|(C) Tune|Listen Here
+77|Love_Wonderful_Love.abc|Love, Wonderful Love
+78|Matthew_Mark_Luke_John.abc|Matthew, Mark, Luke and John
+79|Looking_This_Way_Chorus.abc|Nothing to pay
+80|hold_the_fort.abc|Nicodemus came to Jesus
+81|Happy_Day.abc|Oh Happy Day
+82|Come_and_Go_With_Me.abc|Come and Go With Me
+83|Old_Folks_at_Home.abc|Children, won’t you come to Jesus
+84|Verily_Verily.abc|Verily, Verily
+#85(c)One_Door.abc|One Door
+86|Ephraim.abc|Ephraim
+87||I_Am_The_Door.abc|I am the door
+88|Only_a_Boy_Named_David.abc|Only a boy named David
+89|Count_Your_Blessings_Chorus.abc|Read your Bible
+90|Romans_Ten_and_Nine.abc|Romans ten and nine
+91|Webb.abc|Salvation
+92|Sleeper_Awake.abc|Saviour bless our School today
+93|Little_Friends_of_Jesus.abc|They All Were Used of God
+94|Will_You_Be_Ready.abc|Will You Be Ready?
+95|Follow_On_Chorus.abc|Follow On (chorus only)
+96|The_Hem_of_His_Garment.abc|The Hem of His Garment
+97|Words_of_Life.abc|Wonderful Words of Life
+98|Neumeister_CHB098.abc|Christ Receiveth Sinful Men
+99|Hudson_CHB099.abc|At the Cross
+100|Tell_Me_the_Old_Old_Story.abc|The Old, Old Story
+101|Story_of_Jesus.abc|The Precious Story
+102|Trust_and_Obey_12_9.abc|John 3:16
+103|The Best_Friend_to_Have_is_Jesus.abc|The Best
+104|The_Bible_Stands.abc|The Bible Stands
+105|The_B-I-B-L-E.abc|The B-I-B-L-E
+106|The_Gospel_Bells_CHB106.abc|The Gospel Bells
+107|Great_Physician.abc|The Great Physician
+108|Romans_623.abc|Romans 6:23 [source unknown]
+109|The_Wise_Man_and_the_Foolish_Man.abc|The Wise Man and the Foolish Man
+110|I_Do_Believe_Campmeeting_with_Chorus.abc|There is a Fountain
+111|Happy_Land.abc|There is a Happy Land
+112|The_Bright_Forevermore.abc|There is a Land
+113|Dulce_Nomen.abc|The Sweetest Name
+113|Bishopgarth.abc|Bishopgarth <div class="tuneFor">[A tune for: <span class="tuneForText">The night is wearing fast away</span>]</div>
+113|Where_Jesus_Is_Tis_Heaven.abc|*Where Jesus Is, 'Tis Heaven There
+114|Sweet_Bye_and_Bye_CHB114.abc|Salvation
+115|Webb_CHB115.abc|A Friend for Little Children
+116|Ladder_to_Heaven.abc|Ladder to Heaven [source unknown]
+117|Over_Jordan.abc|Oh, Believe It
+118|Let_Him_In_CHB118.abc|Let the Saviour In
+#(c)119|Tune (C) Renewed 1951 |A Way Made Clear to Heaven
+#120(c)|Theres_a_Way_Back_to_God.abc|There's a way back to God
+121|Run_Away.abc|You Can Never Run Away
+122|Lead_Me_To_Calvary.abc|Lead Me to Calvary
+123|Tis_Simple_as_Can_Be.abc|Tis simple as can be
+124|Jesus_Loves_Me_China.abc|T-R-U-S-T spells trust
+125|hold_the_fort.abc|T-R-U-S-T the Saviour
+126|No_No_No.abc|Was there anything that Jesus left undone?
+127|Cantabria_CHB127.abc|Was it for me
+128|Ring_the_Bells_Chorus.abc|Welcome to our Sunday School
+129|Plainfield.abc|Nothing but the Blood
+130|Jewels.abc|When He cometh
+131|Something_More_Than_Gold.abc|When I was lost and dead in sin
+132|Salem.abc|When mothers of Salem
+133|Roll_Call_CHB133.abc|When the Bridegroom comes
+134|Tramp_Tramp_Tramp.abc|Jesus loves the little children
+135|Whosoever.abc|Whosoever Will
+136|Where_Will_You_Spend_Eternity.abc|Eternity!
+137|Wide_Wide_as_the_Ocean.abc|Wide, wide as the ocean
+138|Wonderful_Story_CHB138.abc|Wonderful story of love
+139|Blessed_Assurance_Chorus.abc|Wonderful Saviour
+140|Power_in_the_Blood_CHB140.abc|Power in the Blood
+141|Wounded_for_Me.abc|Wounded for me
+142|Yesterday_Today_Forever_Chorus.abc|Yesterday, Today, Forever
+143|Ammanford.abc|The Way to Heaven
+144|Till_You_Know_Jesus.abc|You’ll never know real peace
+145|Zacchaeus.abc|Zacchaeus was a very little man
+146|I_Am_So_Glad.abc|John 3:16
+147|A-B-C-D-E-F-G.abc|A-B-C-D-E-F-G
+148|Mendelssohn.abc|Hark! the herald angels sing
+#(c)149|I_Met_Jesus_at_the_Crossroads.abc
+150|Sweet_Story.abc|The Sweet Story of Old
+151|Winchester_New.abc|Jesus, who lived above the sky
+151|.|<div class="info"><div class="infoTitle">Unpublished / informal options:</div></div>
+151|The_Solid_Rock_Verse.abc|The Solid Rock
+152|Love_Love_L-O-V-E.abc|Love
+153|Mr_Noah_Built_an_Ark.abc|Mr. Noah
+154|I_Know_It.abc|Oh I know it [source unknown]
+155|St_Louis.abc|O Little Town of Bethlehem
+156|Power_Power_Power.abc|Power, power, power [source unknown]
+157|Green_Hill.abc|There is a green hill far away (use last verse as the chorus)
+157|.|<div class="info"><div class="infoTitle">Unpublished / informal options:</div></div>
+157|Old_Yet_Ever_New_Verse_Only.abc|*There is a story sweet to hear
+158|Harvest.abc|There were twelve disciples
+159|Something_More_Than_Gold.abc|When David was a shepherd boy
+160|Christmas.abc|While shepherds watched their flocks by night
+160|Carol.abc|Carol/It Came Upon a Midnight Clear (combine verses)
+161|Who_At_My_Door_Is_Standing.abc|Who at my door is standing?
+162|Deep_and_Wide_Chorus.abc|Deep and Wide
+163|The_Crayon_Box_Song.abc|The Crayon Box Song
+164|Jonah_and_the_Whale.abc|Jonah and the Whale
+#(c)165|(C) https://hymnary.org/tune/god_is_love_owen|Love one another
+166|Seek_Ye_First.abc|Seek Ye First
+#167|
+168|My_God_is_So_Big.abc|My God is SO great
+169|Thy Word_Have_I_Hid_in_My_Heart.abc|Thy Word Have I Hid
+170|Countdown.abc|Countdown
 --lyrics
 1
 Something more than gold
 Tune - R.S. Choruses 2
+
 
 A certain man of whom we read
 Who lived in days of old,
@@ -29,25 +217,50 @@ This little man was told,
 That Jesus soon would pass that way,
 With something more than gold.
 
+c
+Oh yes, my friend, there's something more,
+Something more than gold;
+To know your sins are all forgiven,
+Is better far than gold.
+
 He climbed a tree above the crowd,
 So that he might behold,
 The blessed One with power to give
 Something more than gold.
+
+c
+Oh yes, my friend, there's something more,
+Something more than gold;
+To know your sins are all forgiven,
+Is better far than gold.
 
 The Saviour came along that way,
 And saw him up the tree,
 Then calling to him, Jesus said,
 "I must abide with thee."
 
+c
+Oh yes, my friend, there's something more,
+Something more than gold;
+To know your sins are all forgiven,
+Is better far than gold.
+
 So he obeyed, and soon he found
 The half had not been told,
 The blessing Jesus brought to him
 Was better far than gold.
 
+c
+Oh yes, my friend, there's something more,
+Something more than gold;
+To know your sins are all forgiven,
+Is better far than gold.
+
 
 2
 A little child of seven
 Tune - R.S. 52 (Stand up for Jesus)
+
 
 A little child of seven,
 Or even three or four
@@ -61,11 +274,11 @@ Salvation through the blood.
 
 3
 All the Way to Calvary
-R.S. 138<br>Copyrighted? If you have contact information for The Tullar-Meredith Co. please let me know.
+R.S. 138
 
-(C)
+
 All the way to Calvary He went for me
-Hc went for me, He went for me;
+He went for me, He went for me;
 All the way to Calvary He went for me,
 He died to set me free.
 
@@ -73,6 +286,7 @@ He died to set me free.
 4
 Around the Throne
 R.S. 674
+
 
 Around the throne of God in heav’n,
 Thousands of children stand,
@@ -88,15 +302,24 @@ To wash away their sin;
 Bathed in that pure and precious flood,
 Behold them white and clean!
 
+c
+Singing Glory, Glory, Glory,
+Singing Glory, Glory, Glory
+
 On earth they sought the Saviour’s grace
 On earth they loved His name;
 So now they see His blessed face,
 And stand before the Lamb.
 
+c
+Singing Glory, Glory, Glory,
+Singing Glory, Glory, Glory
+
 
 5
 Ye Must Be Born Again
 Tune - R.S. 118
+
 
 A ruler once came to Jesus by night,
 To ask Him the way of salvation and light;
@@ -114,15 +337,28 @@ So solemnly uttered by Jesus the Lord;
 And let not this message to you be in vain:
 "Ye must be born again."
 
+c
+"Ye must be born again,"
+"Ye must be born again."
+I verily, verily say unto you -
+"Ye must be born again."
+
 O ye who would enter this glorious rest,
 And sing with the ransomed the song of the blest;
 The life everlasting if ye would obtain,
 “Ye must be born again."
 
+c
+"Ye must be born again,"
+"Ye must be born again."
+I verily, verily say unto you -
+"Ye must be born again."
+
 
 6
 Abraham went to a mountain one day
 Tune - "Into a tent, where a gypsy boy lay" C.H.F. 450 (Tell it again)
+
 
 Abraham went to a mountain one day;
 Isaac went with him and willingly lay
@@ -144,8 +380,9 @@ For all the sins that once o'er us held sway.
 
 
 7
-Be careful
+Be Careful Little Eyes
 
+Copyright © 1998 Universal Music - Brentwood Benson Songs (BMI) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.
 
 Be careful, little eyes what you see,
 Be careful, little eyes what you see,
@@ -166,6 +403,7 @@ Be careful, little tongues what you say. etc.
 Behold, I stand at the door
 
 
+
 Behold! Behold!
 I stand at the door and knock; knock; knock.
 Behold! Behold!
@@ -180,6 +418,7 @@ I will come in.
 Can boys and girls be saved from sin
 Tune - R.S. 52 (Stand up, stand up for Jesus)
 
+
 Can boys and girls be saved from sin,
 Be happy, glad, and free;
 Know that they can with Jesus dwell
@@ -193,6 +432,7 @@ Be saved, and see His face.
 10
 Bitten by the fiery serpents
 Tune - R.S. 152 (Art Thou Weary)
+
 
 Bitten by the fiery serpents
 Many dying lay;
@@ -218,6 +458,7 @@ When He died.
 11
 Children, can you tell me why
 Tune - R.S. 330 (Jesus, Savior Pilot Me)
+
 
 Children, can you tell me why
 Jesus came to bleed and die?
@@ -245,6 +486,7 @@ Jesus came to bleed and die.
 Christ paid the debt
 
 
+
 Christ paid the debt for all the little children,
 Christ paid the debt for them all,
 Christ paid the debt for all the little children
@@ -258,6 +500,7 @@ Let us one and all to the Saviour go.
 13
 Christ the Saviour of sinners came
 Tune - R.S. Choruses 177 (O Turn Ye)
+
 
 Christ the Saviour of sinners came
 Into the world to save;
@@ -282,35 +525,45 @@ Jesus alone can save.
 He'll do better for you
 Tune - R.S. Choruses 87
 
+
 Come away to Jesus, He is willing to forgive;
 His love will shine around you, every moment that you live;
-You'll find Him good and true,
-The pilgrim journey through,
+You'll find Him good and true, The pilgrim journey through,
 He’ll do better for you than this world can do.
 
 c
 He'll do better for you than this world can do,
 He's a mighty Saviour, He is good and true;
-He'll save you by His grace,
-Until you see His face;
+He'll save you by His grace, Until you see His face;
 He’ll do better for you than this world can do.
 
 Come away to Jesus, let illusive trifles go
 For everlasting blessing He is able to bestow;
-He’ll answer when you pray;
-He’ll keep you all the way,
+He’ll answer when you pray; He’ll keep you all the way,
 Lead you up and onward to His perfect day.
+
+c
+He'll do better for you than this world can do,
+He's a mighty Saviour, He is good and true;
+He'll save you by His grace, Until you see His face;
+He’ll do better for you than this world can do.
 
 Come away to Jesus; from your earthly idols part;
 And take His great salvation, for it satisfies the heart;
-He’ll open to your view
-His treasures ever new;
+He’ll open to your view His treasures ever new;
 He'll do better for you than this world can do.
+
+c
+He'll do better for you than this world can do,
+He's a mighty Saviour, He is good and true;
+He'll save you by His grace, Until you see His face;
+He’ll do better for you than this world can do.
 
 
 15
 Come everyone to the Saviour
 Tune - R.S. 10 (Showers of blessing)
+
 
 Come everyone to the Saviour,
 He will not turn you away:
@@ -324,6 +577,7 @@ Come; His salvation is free.
 
 16
 Come, children, let us all agree
+
 
 
 Come, children, let us all agree,
@@ -342,9 +596,16 @@ Wherein the nation’s power lay;
 She very soon was heard to say,
 "It lies within the Bible."
 
+c
+The Bible, the Bible,
+There's no book like the Bible;
+Of all the books I’ve ever read,
+There’s no book like the Bible.
+
 
 17
 C-O-M-E
+
 
 
 C-O-M-E, Come, that’s all He asks of me,
@@ -356,6 +617,7 @@ And all He asks for me to do is C-O-M-E, Come.
 18
 Come, every soul by sin oppressed
 Tune - R.S. 196
+
 
 Come, every soul by sin oppressed,
 There’s mercy with the Lord;
@@ -373,10 +635,17 @@ That leads you into rest;
 Believe on Him without delay,
 And you are fully blest.
 
+c
+Only trust Him, only trust Him;
+Only trust Him now.
+He will save you, He will save you;
+He will save you now.
+
 
 19
 Yet there is room
 Tune - R.S. 569
+
 
 Come, hear the gospel sound -
 "Yet there is room;"
@@ -392,10 +661,17 @@ With joy you now may hear -
 Come, oh come to Jesus
 Tune - R.S. 460 (Onward! Christian Soldiers)
 
-Come, oh come to Jesus, why, oh why delay?
-While He still is calling, come, oh come to-day.
-Now He waits to save you, make you happy too;
-Will you not accept Him? He wants even you.
+
+Come, oh come to Jesus, 
+why, oh why delay?
+While He still is calling, 
+come, oh come to-day.
+Now He waits to save you, 
+make you happy too;
+Will you not accept Him? 
+He wants even you.
+
+c
 Come, oh come to Jesus,
 Do not now delay,
 Hear the invitation
@@ -406,23 +682,37 @@ Now’s salvation’s day.
 Come to Jesus
 Tune - R.S. 105
 
+
 Come to Jesus, come to Jesus,
 Come to Jesus just now.
 Just now come to Jesus,
 Come to Jesus just now.
 
-He will save you. etc.
+He will save you, He will save you,
+He will save you just now.
+Just now He will save you,
+He will save you just now.
 
-Only trust Him. etc.
+Only trust Him, Only trust Him,
+Only trust Him just now.
+Just now only trust Him, 
+Only trust Him just now.
 
-He'll forgive you. etc.
+He'll forgive you, He'll forgive you
+He'll forgive you just now.
+Just now He'll forgive you,
+He'll forgive you just now.
 
-Don’t reject Him. etc.
+Don’t reject Him, Don’t reject Him,
+Don’t reject Him just now.
+Just now don’t reject Him,
+Don’t reject Him just now.
 
 
 22
 Come to the Saviour
 Tune - R.S. 123
+
 
 Come to the Saviour, make no delay;
 Here in His Word He has shown us the way;
@@ -440,14 +730,27 @@ Let every heart leap forth and rejoice;
 And let us freely make Him our choice:
 Do not delay, but come.
 
+c
+Joyful, joyful will the meeting be,
+When from sin our hearts are pure and free;
+And we shall gather, Saviour, with Thee,
+In our eternal home.
+
 Think, once again, He's with us to-day;
 Heed now His blest command, and obey;
 Hear now His accents tenderly say,
 Will you, My children, come?
 
+c
+Joyful, joyful will the meeting be,
+When from sin our hearts are pure and free;
+And we shall gather, Saviour, with Thee,
+In our eternal home.
+
 
 23
 Daniel was a man of prayer
+
 
 
 Daniel was a man of prayer,
@@ -471,9 +774,9 @@ The giant down before him.
 
 24
 Everybody ought to know
-Copyright © 1940 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com)
 
-(c)
+Copyright © 1940 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
 Everybody ought to know, everybody ought to know,
 Everybody ought to know who Jesus is. (repeat)
 On the cross He died for sinners,
@@ -498,9 +801,9 @@ Everybody ought to know.
 
 25
 For God so loved the world
-Tune - C.H.F. 498<br>Copyright Alfred B. Smith
+Tune - C.H.F. 498
+Copyright © 1938 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
 
-(C)
 For God so loved the world
 He gave His only Son,
 To die on Calvary’s tree,
@@ -512,6 +815,7 @@ Wonderful His love to me.
 
 26
 John 3:16
+
 
 
 For God so loved the world,
@@ -527,19 +831,18 @@ But have everlasting life.
 From H-e-a-v-e-n heaven
 Tune - R.S. 533 (The Lord's Anointed)
 
-From H-e-a-v-e-n heaven,
-Up above the sky,
-J-e-s-u-s came down
-For boys and girls to die.
-Just t-r-u-s-t in Him,
-He’ll take you bye and bye
-To h-e-a-v-e-n heaven,
+
+From H-e-a-v-e-n heaven, Up above the sky,
+J-e-s-u-s came down For boys and girls to die.
+Just t-r-u-s-t in Him, He’ll take you bye and bye
+To h-e-a-v-e-n heaven, 
 Up above the sky.
 
 
 28
 For God, the Lord of earth and heaven
 Tune - Beulah Land R.S. 389
+
 
 For God, the Lord of earth and heaven,
 So loved, and longed to see forgiven,
@@ -556,8 +859,8 @@ But have eternal life, in Him.
 29
 One God And One Mediator
 Tune - New Pinebrook Songs 113
+Copyright © 1942 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
 
-(C)
 For there is one God and one Mediator
 Between God and men;
 For there is one God and one Mediator,
@@ -576,6 +879,7 @@ The Man, Christ Jesus.
 From the north to the south
 
 
+
 From the north to the south,
 From the land of east and west,
 The gospel message is the brightest and the best;
@@ -590,13 +894,14 @@ To every poor sinner that is dying.
 
 31
 Glad Tidings
-Tune - C.H.F. 33 (At the cross)
+Tune - C.H.F. 33 (At the cross
 
-Glad T-i-d-i-n-g-s, I b-r-i-n-g,
+
+Glad T-i-d-i-n-g-s, 
+I b-r-i-n-g,
 That J-e-s-u-s has died
 To s-a-v-e me.
-Jesus calls, yes He calls
-All the g-i-r-l-s,
+Jesus calls, yes He calls All the g-i-r-l-s,
 And He wants all the b-o-y-s too;
 To t-r-u-s-t in Him,
 And h-a-p-p-y be.
@@ -606,11 +911,11 @@ And h-a-p-p-y be.
 God gave His Son for me
 Tune - R.S. 680 (There is a Happy Land)
 
+
 God gave His Son for me,
 Oh, wondrous love!
 That I might ransomed be.
 Oh, wondrous love!
-
 A guilty sinner I,
 Doomed and condemned to die;
 God did not pass me by,
@@ -619,7 +924,8 @@ Oh, wondrous love!
 
 33
 Genesis, Exodus, Leviticus
-#78 is New Testament<br>Tune - C.H.F. 442<br>Copyright 1931 Alfred P. Gibbs - if you have contact information please let me know.
+#78 is New Testament<br>Tune - C.H.F. 442
+Copyright 1931 Alfred P. Gibbs - if you have contact information please let me know.
 
 (C)
 Genesis, Exodus, Leviticus,
@@ -644,6 +950,7 @@ And then comes Malachi.
 God's love is like the sunshine
 Tune - R.S. Chorus of 793 (The Pearly Gates, I have giv'n up all)
 
+
 God's love is like the sunshine,
 It covers land and sea,
 It fills my heart with gladness,
@@ -654,13 +961,15 @@ For I know that God loves me.
 God has blotted them out
 
 
+
 God has blotted them out;
 I’m happy, and glad, and free:
 God has blotted them out;
 I’ll turn to Isaiah and see;
 Chapter forty-four,
 Twenty-two and three;
-He’s blotted them out, and now I can shout,
+He’s blotted them out, 
+and now I can shout,
 For that means me.
 
 
@@ -668,6 +977,8 @@ For that means me.
 God is love
 
 
+
+(c)
 "God is love,"
 I feel it in the air around me.
 "God is love,"
@@ -681,6 +992,7 @@ Of His love to me is Calvary.
 37
 God so loved me that He gave
 Author: Grover Kettlewell
+
 
 God so loved me that He gave
 His own blessed Son,
@@ -698,20 +1010,39 @@ From the Sunday School,
 And I always in my play
 Mind the golden rule.
 
+c
+Still my heart must opened be,
+And the Saviour I must see,
+Must believe He died for me,
+Me a little child.
+
 Though I always learn a verse,
 From God’s blessed Book,
 Read about the sin and curse,
 That the Saviour took.
+
+c
+Still my heart must opened be,
+And the Saviour I must see,
+Must believe He died for me,
+Me a little child.
 
 Though I never lie or steal,
 And am well behaved,
 As a sinner I must find
 That I must be saved.
 
+c
+Still my heart must opened be,
+And the Saviour I must see,
+Must believe He died for me,
+Me a little child.
+
 
 38
 God’s Word is like a hammer
-Tune - C.H.F. 444<br>Copyright Alfred P. Gibbs - If you have contact information for the publisher, please let me know.
+Tune - C.H.F. 444
+Copyright Alfred P. Gibbs - If you have contact information for the publisher, please let me know.
 
 (C)
 God’s Word is like a hammer,
@@ -735,6 +1066,7 @@ The B-I-B-L-E.
 
 39
 G-U-I-L-T
+
 
 
 G-U-I-L-T
@@ -767,6 +1099,7 @@ G-L-O-R-Y.
 Happy are the children
 
 
+
 Happy are the children
 Who trust in the Saviour;
 Whose sins are all forgiven,
@@ -780,6 +1113,7 @@ That trust in the Lord.
 41
 Happy birthday; yes two;
 Tune - Happy Birthday to you
+
 
 Happy birthday; yes two;
 Only one will not do;
@@ -795,6 +1129,7 @@ And happiness too.
 42
 Room for Jesus
 Tune - R.S. 122
+
 
 Have you any room for Jesus,
 He who bore your load of sin?
@@ -817,6 +1152,7 @@ And the Saviour’s pleading cease.
 Are You Washed in the Blood
 Tune - C.H.F. 68
 
+
 Have you trusted Jesus for the cleansing power?
 Are you washed in the blood of the Lamb?
 Are you fully trusting in His grace this hour?
@@ -834,9 +1170,17 @@ Are you washed in the blood of the Lamb?
 Will your soul be ready for the mansions bright?
 Are you washed in the blood of the Lamb?
 
+c
+Are you washed, in the blood,
+In the soul-cleansing blood of the Lamb?
+Are your garments spotless?
+Are they white as snow?
+Are you washed in the blood of the Lamb?
+
 
 44
 He did not come to judge the world
+
 
 
 He did not come to judge the world,
@@ -853,10 +1197,10 @@ We call Him by His Name.
 He sees what we do
 
 
+
 He sees what we do,
 He hears what we say,
-The Lord is writing
-All the time, time, time;
+The Lord is writing all the time, time, time;
 He sees what we do,
 He hears what we say,
 The Lord is writing all the time.
@@ -864,6 +1208,7 @@ The Lord is writing all the time.
 
 46
 He’s ready, He’s willing
+
 
 
 He’s ready, He’s willing,
@@ -884,8 +1229,8 @@ Only believe His Word.
 47
 Fishers of Men
 
+Words: Harry D. Clarke. © 1927, Ren. 1955 Hope Publishing Company, Carol Stream, IL 60188. All rights reserved. Used by permission.
 
-(C)
 Hear Christ calling, Come unto Me,
 Come unto Me, Come unto Me,
 Hear Christ calling, Come unto Me;
@@ -899,11 +1244,10 @@ I will give you rest.
 How kind was our Saviour
 Tune - R.S. 40 (O Come, all ye Faithful)
 
-How kind was our Saviour,
-How great was His Love,
+
+How kind was our Saviour, How great was His Love,
 In coming to earth from the glory above;
-To weep in the garden,
-To die on the tree,
+To weep in the garden, To die on the tree,
 And purchase salvation,
 And purchase salvation,
 And purchase salvation for you and for me.
@@ -912,6 +1256,7 @@ And purchase salvation for you and for me.
 49
 How many children say
 Tune - R.S. 162 (The Gospel of Thy Grace)
+
 
 How many children say,
 "I’d like to go to heaven,"
@@ -934,6 +1279,7 @@ No other grounds of entrance there.
 Jesus Loves Even Me
 Tune - R.S. 671
 
+
 I am so glad that our Father in heaven,
 Tells of His love in the Book He has given:
 Wonderful things in the Bible I see,
@@ -950,15 +1296,28 @@ When in His beauty I see the great King.
 This shall my song in eternity be,
 Oh, what a wonder that Jesus loves me.
 
+c
+I am so glad that Jesus loves me,
+Jesus loves me, Jesus loves me;
+I am so glad that Jesus loves me,
+Jesus loves even me.
+
 Jesus loves me, and I know I love Him,
 Love brought Him down my lost soul to redeem;
 Yes, it was love made Him die on the tree,
 Oh, I am certain that Jcsus loves me.
 
+c
+I am so glad that Jesus loves me,
+Jesus loves me, Jesus loves me;
+I am so glad that Jesus loves me,
+Jesus loves even me.
+
 
 51
 I am the door
 Tune - R.S. Choruses 1
+
 
 I am the door, I am the door,
 By me, if any man enter in,
@@ -974,6 +1333,7 @@ And thou shalt be saved.
 52
 I have a wonderful treasure
 Tune - R.S. Chorus of 679 (Little Children Weak)
+
 
 I have a wonderful treasure;
 The gift of God without measure;
@@ -995,11 +1355,12 @@ My Saviour and I.
 If you want joy
 
 
-(C)
+
 If you want joy, real joy, wonderful joy,
-Let Jesus come into your heart. (repeat)
-Your sins He‘ll put away,
-Your night He’ll turn to day;
+Let Jesus come into your heart.
+If you want joy, real joy, wonderful joy,
+Let Jesus come into your heart.
+Your sins He‘ll put away, Your night He’ll turn to day;
 Your life, He'll make it over new.
 If you want joy, real joy, wonderful joy,
 Let Jesus come into your heart.
@@ -1009,14 +1370,13 @@ Let Jesus come into your heart.
 I have a Saviour
 Tune - C.H.F. 512 (I Love My Savior)<br>Note: Also adapts to "You are my sunshine"
 
-I have a Saviour,
-A precious Saviour,
+
+I have a Saviour, A precious Saviour,
 He died on Calvary’s cross for me;
 And now He’s risen, Gone back to heaven:
 Some day He’s coming back for me.
 
-Oh, trust my Saviour,
-My precious Saviour:
+Oh, trust my Saviour, My precious Saviour:
 He died for you as well as me;
 He’ll keep you ever, forsake you never;
 He’ll make you glad eternally.
@@ -1025,8 +1385,8 @@ He’ll make you glad eternally.
 55
 I’m so happy
 
+Copyright © 1936 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
 
-(C)
 I’m so happy, and here’s the reason why;
 Jesus took my burden all away.
 Now I'm singing as the days go by,
@@ -1039,6 +1399,7 @@ Jesus took my burden all away.
 
 56
 I like to go to the Sunday School
+
 
 
 I like to go to the Sunday School,
@@ -1055,6 +1416,7 @@ To the Sunday School.
 I am not too young to trust in Jesus
 
 
+
 I am not too young to trust in Jesus,
 For He loves a little child.
 I need Him, and He needs me,
@@ -1066,23 +1428,45 @@ If I come now.
 If I come to Jesus
 Tune - C.H.F. 454
 
-If I come to Jesus, He will make me glad;
-He will give me pleasure when my heart is sad.
+
+If I come to Jesus, 
+He will make me glad;
+He will give me pleasure 
+when my heart is sad.
 
 c
-If I come to Jesus, happy I shall be,
-He is gently calling little ones like me.
+If I come to Jesus, 
+happy I shall be,
+He is gently calling 
+little ones like me.
 
-If I come to Jesus, He will save my soul;
-Seal me by His Spirit; cleanse and make me whole.
+If I come to Jesus, 
+He will save my soul;
+Seal me by His Spirit; 
+cleanse and make me whole.
 
-There with happy children; robed in snowy white;
-I shall see my Saviour, in that world so bright.
+c
+If I come to Jesus, 
+happy I shall be,
+He is gently calling 
+little ones like me.
+
+There with happy children; 
+robed in snowy white;
+I shall see my Saviour, 
+in that world so bright.
+
+c
+If I come to Jesus, 
+happy I shall be,
+He is gently calling 
+little ones like me.
 
 
 59
 Let the Saviour In
 Tune - Let the sunshine in
+
 
 If your heart is troubled
 And you have no peace at all,
@@ -1113,9 +1497,20 @@ Either up in heav’n or down in hell,
 What will your answer be
 So, let the Saviour in. etc.
 
+c
+So, let the Saviour in,
+He’ll banish every sin,
+Troubles, doubts, and fears
+That have burdened you for years;
+Heaven will be yours,
+Eternity with Him,
+If you’ll open up your heart
+And let the Saviour in.
+
 
 60
 In days of old
+
 
 
 In days of old, when Noah lived,
@@ -1134,20 +1529,39 @@ They lived when all were dead;
 The ark in which they safely sailed,
 Endured the wrath instead.
 
+c
+Trust the Saviour here to-day,
+He is waiting patiently.
+Trust Him now while you may,
+Soon He’s coming, oh, do not delay
+
 Another day of wrath will come,
 Upon the sons of men,
 When all who have God’s love despised,
 Must feel His anger then.
+
+c
+Trust the Saviour here to-day,
+He is waiting patiently.
+Trust Him now while you may,
+Soon He’s coming, oh, do not delay
 
 But Jesus is the ark of God,
 Where all who will may fly.
 To find in Him salvation now,
 And glory bye and bye.
 
+c
+Trust the Saviour here to-day,
+He is waiting patiently.
+Trust Him now while you may,
+Soon He’s coming, oh, do not delay
+
 
 61
 Tell it Again
 Tune - C.H.F. 450
+
 
 Into a tent where a gypsy boy lay,
 Dying alone at the close of the day,
@@ -1165,20 +1579,39 @@ And send to me the good tidings of joy?
 Need I not perish? my hand will He hold?
 Nobody to me the story has told.
 
+c
+Tell it again, tell it again
+Salvation’s story repeat o’er and o’er,
+Till none can say of the children of men,
+Nobody ever told me it before.
+
 Bending, we caught the last words of his breath,
 Just as he entered the valley of death;
 "God sent His Son, whosoever, said He;
 Then I am sure that He sent Him for me."
+
+c
+Tell it again, tell it again
+Salvation’s story repeat o’er and o’er,
+Till none can say of the children of men,
+Nobody ever told me it before.
 
 Smiling, he said, as his last sigh was spent,
 "I am so glad that for me He was sent."
 Whispered, while low sank the sun in the west,
 "Lord, I believe; tell it now to the rest."
 
+c
+Tell it again, tell it again
+Salvation’s story repeat o’er and o’er,
+Till none can say of the children of men,
+Nobody ever told me it before.
+
 
 62
 I’ve a soul to be saved
 Tune - R.S. 459 (Trust and Obey)
+
 
 I’ve a soul to be saved, may this truth be engraved,
 On my mind and my heart, while I’m young;
@@ -1199,6 +1632,7 @@ Lost, guilty, and helpless, I’ll just come as I am.
 A Prodigal Son
 Published on or before 1922
 
+
 In the Bible we read, you all know,
 Of a prodigal son here below;
 If you open your Book at the Gospel of Luke,
@@ -1218,6 +1652,7 @@ Glory to God, he’s come home.
 It’s a grand thing to be saved
 
 
+
 It’s a grand thing to be saved,
 It’s a grand thing to be saved;
 And to know it too, and to show it too;
@@ -1232,6 +1667,7 @@ It’s a sad thing to he lost.
 65
 Jesus died for boys and girls
 Tune - R.S. 660 (Jesus bids us shine)
+
 
 Jesus died for boys and girls, upon the tree,
 That they might not perish for eternity;
@@ -1253,6 +1689,7 @@ And you miss the way to heaven’s golden street.
 Water that was not from the well
 Tune - New Pine Brook 153 
 
+
 Jesus gave her water that was not from the well;
 Jesus gave her water that was not from the well;
 She went away singing, she came back bringing,
@@ -1273,6 +1710,7 @@ So, just like Nicodemus, ye must be born again.
 Jesus included me
 <a target="_blank" href="http://www.hymntime.com/tch/htm/h/e/i/heinclme.htm">Hymnary.org</a>
 
+
 Jesus included me,
 Yes, He included me,
 When the Lord said, "Whosoever,"
@@ -1283,6 +1721,7 @@ Yes, He included me.
 68
 Jesus loves me
 Tune - R.S. 670 
+
 
 Jesus loves me! This I know,
 For the Bible tells me so;
@@ -1298,20 +1737,33 @@ Heaven’s gates to open wide;
 He will wash away my sin;
 Let His ransomed one come in.
 
+c
+Yes, Jesus loves me: Yes, Jesus loves me;
+Yes, Jesus loves me; the Bible tells me so.
+
 Jesus loves me! He will stay
 Close beside me all the way;
 When He comes, or when I die,
 He will take me home on high.
+
+c
+Yes, Jesus loves me: Yes, Jesus loves me;
+Yes, Jesus loves me; the Bible tells me so.
 
 Saviour, take this heart of mine;
 Make it pure and wholly Thine;
 Thou hast bled and died for me,
 May I henceforth live for Thee.
 
+c
+Yes, Jesus loves me: Yes, Jesus loves me;
+Yes, Jesus loves me; the Bible tells me so.
+
 
 69
 Jesus loves the little children
 Tune - C.H.F Chorus of 445<br><a target="_blank" href="http://www.hymntime.com/tch/htm/j/e/s/l/jesloves.htm">Cyberhymnal</a>
+
 
 Jesus loves the little children,
 All the children of the world;
@@ -1330,6 +1782,7 @@ Jesus loves the little children of the street.
 Jesus said, "Come unto Me"
 
 
+
 Jesus said, "Come unto Me,"
 Jesus said, "Come unto Me,"
 Jesus said, "Come unto Me,
@@ -1344,8 +1797,8 @@ Marvel not that I said unto thee;
 71
 Jesus loves the little ones like me
 
+Copyright © 1944 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
 
-(C)
 Jesus loves the little ones like me,
 Jesus loves the little ones like me;
 Little ones like me sat upon His knee;
@@ -1360,6 +1813,7 @@ Jesus died for sinners great and small.
 72
 Seeking for me
 Tune - R.S. 115
+
 
 Jesus, my Saviour, to Bethlehem came,
 Born in a manger to sorrow and shame;
@@ -1388,6 +1842,7 @@ Dying for me! for me!
 John three-sixteen
 Tune - C.H.F. 523 (Silent Night, adapted)
 
+
 John three-sixteen, John three-sixteen,
 For God so loved the world, that He
 Gave His only begotten Son,
@@ -1400,6 +1855,7 @@ Everlasting life.
 The Joy-Bells
 Tune - R.S. Chorus of 79 (The Joy-Bells)
 
+
 Joy bells ringing in your heart,
 Joy bells ringing in your heart;
 Take the Saviour here below,
@@ -1410,7 +1866,8 @@ Ringing in your heart.
 
 75
 L-e-a-v-e at once
-Tune - R.S. 390 
+Tune - R.S. 390
+
 
 L-e-a-v-e at once,
 S-i-n and sorrow;
@@ -1428,10 +1885,17 @@ While you now are singing,
 L-e-t Him in your heart,
 And start the joy bells ringing.
 
+c
+J-o-y, j-o-y,
+Joy instead of sorrow;
+Come to J-e-s-u-s,
+Joy will surely follow.
+
 
 76
 Listen here
-Tune - The Old Spinning Wheel
+Tune - The Old Spinning Wheel (Billy Hill)
+
 
 Listen here, children dear, to my story
 Of a Saviour who loved you so well;
@@ -1447,7 +1911,7 @@ Never more from His presence to roam.
 Love, wonderful love
 Tune - C.H.F. 127
 
-(C)
+
 Love, wonderful love,
 The love of God to me;
 Love, wonderful love,
@@ -1461,8 +1925,8 @@ His love to me.
 78
 Matthew, Mark, Luke, and John
 
+John Purifoy<br>© 1982 Word Music, LLC<br>All Rights Reserved. Used By Permission.
 
-(C)
 Matthew, Mark, Luke, and John
 The Acts, and Epistle to the Romans,
 First and Second Corinthians,
@@ -1480,17 +1944,20 @@ Jude, and Revelation.
 Nothing to pay
 Tune - S.S. 1017
 
+
 Nothing to pay, there’s nothing to pay,
 Straight is the gate, and narrow the way;
 Book on the up-line; start off to-day,
-to glory, and nothing to pay.
+__(location)__ to glory, and nothing to pay.
 
 
 80
 Nicodemus came to Jesus
 Tune - S.S. 669
 
-Nicodemus came to Jesus one night long ago,
+
+Nicodemus came to Jesus 
+one night long ago,
 And the Saviour told him something
 Everyone should know.
 Listen to the words of Jesus, 
@@ -1498,7 +1965,8 @@ spoken clear and plain:
 If you want to go to heaven,
 "Ye must be born again."
 
-Nicodemus, though a ruler, said "Lord make it plain,"
+Nicodemus, though a ruler, 
+said "Lord make it plain,"
 How a man though old and sinful,
 Can be born again.
 Jesus spoke of Moses’ serpent
@@ -1511,6 +1979,7 @@ Makes a sinner whole.
 Oh Happy Day
 Tune - R.S. 622
 
+
 Oh happy day that fixed my choice,
 On Thee, my Saviour and my God,
 Well may this glowing heart rejoice,
@@ -1519,37 +1988,51 @@ And tell its raptures all abroad.
 c
 Happy day! happy day!
 When Jesus washed my sins away.
+[ He taught me how to watch and pray
+and live rejoicing every day.
+Happy day! happy day!
+When Jesus washed my sins away. ]
 
 ’Tis done the great transaction's done;
 I am my Lord’s, and He is mine;
 He drew me and I followed on,
 Charmed to confess the voice Divine.
 
+c
+Happy day! happy day!
+When Jesus washed my sins away.
+[ He taught me how to watch and pray
+and live rejoicing every day.
+Happy day! happy day!
+When Jesus washed my sins away. ]
+
 
 82
 Children will you come
 
 
-Oh children will you come,
-To my Father’s house,
-To my Father’s house,
-To my Father’s house,
-Oh, children will you come.
-To my Father’s house,
-In that happy land above.
 
-The door is open wide,
+Oh children will you come
 To my Father’s house,
 To my Father’s house,
+To my Father’s house?
+Oh, children will you come
 To my Father’s house,
-Oh, children will you come,
+In that happy land above?
+
+The door is open wide
 To my Father’s house,
-In that happy land above.
+To my Father’s house,
+To my Father’s house.
+Oh, children will you come
+To my Father’s house,
+In that happy land above?
 
 
 83
 Children, won’t you come to Jesus
 Tune - Swanee River
+
 
 Oh, children, won’t you come to Jesus?
 He died for thee,
@@ -1567,15 +2050,28 @@ And unforgiven;
 The Saviour’s blood alone can cleanse them,
 And make you fit for heaven.
 
+c
+Children, won’t you come to Jesus?
+Come, oh come to-day.
+You may not see to-morrow’s sunrise
+Now is salvation’s day.
+
 How many children are neglecting
 His wondrous love?
 Will you with them be lost forever
 While others dwell above?
 
+c
+Children, won’t you come to Jesus?
+Come, oh come to-day.
+You may not see to-morrow’s sunrise
+Now is salvation’s day.
+
 
 84
 Verily, Verily
 Tune - R.S. 173
+
 
 Oh, what a Saviour, that He died for me;
 From condemnation He hath made me free;
@@ -1593,15 +2089,28 @@ All my indebtedness by Him was paid;
 All who believe on Him, the Lord hath said,
 "Have everlasting life."
 
+c
+Verily, verily, I say unto you
+Verily, verily, message ever new,
+He that believeth on the Son, ’tis true,
+"Hath everlasting life."
+
 Though poor and needy, I can trust my Lord;
 Though weak and sinful, I believe His Word;
 Oh, glad message, every child of God,
+"Hath everlasting life."
+
+c
+Verily, verily, I say unto you
+Verily, verily, message ever new,
+He that believeth on the Son, ’tis true,
 "Hath everlasting life."
 
 
 85
 One door and only one
 
+Copyright uncertain
 
 (C)
 One door and only one,
@@ -1616,6 +2125,7 @@ On which side are you?
 
 86
 Counting
+
 
 
 1-2-3-4-5-6-7,
@@ -1643,6 +2153,7 @@ Tell the story o’er and o’er.
 One, two, three, four
 
 
+
 One, two, three, four,
 I am the door,
 By Me if any man enter in,
@@ -1660,6 +2171,7 @@ Enter the door.
 
 88
 Only a lad called David
+
 
 
 Only a lad called David,
@@ -1686,15 +2198,16 @@ And the giant fell to the ground.
 Read your Bible
 Tune - R.S. Chorus of 5 (Count your blessings)
 
+
 Read your Bible, read it through and through;
 Read your Bible, see what God can do;
 He will save you, bless and keep you too;
-If you’ll only trust Him
-He’ll do this for you.
+If you’ll only trust Him He’ll do this for you.
 
 
 90
 Romans ten and nine
+
 
 
 Romans ten and nine
@@ -1718,22 +2231,30 @@ Romans three and ten.
 Salvation
 Tune - R.S. 52 (Stand up for Jesus)
 
-Salvation! Oh, salvation! endearing precious sound,
+
+Salvation! Oh, salvation! 
+endearing precious sound,
 Shout, shout the word "Salvation".
 To earth’s remotest bound.
-Salvation for the guilty, salvation for the lost;
-Salvation for the wretched. the sad and sorrow-tossed.
+Salvation for the guilty, 
+salvation for the lost;
+Salvation for the wretched,
+the sad and sorrow-tossed.
 
-Salvation for the aged, salvation for the young;
+Salvation for the aged, 
+salvation for the young;
 Salvation e’en for children,
 Proclaim with joyful tongue;
-Salvation for the wealthy, salvation for the poor;
-Salvation for the lowly, e’en life for evermore.
+Salvation for the wealthy, 
+salvation for the poor;
+Salvation for the lowly, 
+e’en life for evermore.
 
 
 92
 Saviour bless our School today
 Tune - S.S. 433
+
 
 Saviour bless our School today,
 Lead us to the narrow way;
@@ -1750,14 +2271,20 @@ And Thy great salvation see.
 They All Were Used of God
 Tune - C.H.F. 471 (Little Friends of Jesus)
 
-Shamgar had an ox-goad, David had a sling;
-Dorcas had a needle, Rahab had some string;
-Samson had a jaw bone, Moses had a rod;
-Mary had some ointment; All were used for God's.
+
+Shamgar had an ox-goad, 
+David had a sling;
+Dorcas had a needle, 
+Rahab had some string;
+Samson had a jaw bone, 
+Moses had a rod;
+Mary had some ointment; 
+All were used for God.
 
 
 94
 Will You Be Ready?
+
 
 
 Say, will you be ready when Jesus comes?
@@ -1775,28 +2302,22 @@ Will you be ready when Jesus comes?
 Scarlet
 
 
-Scarlet, scarlet,
-Though your sins be scarlet,
-They shall be white as snow,
-In the precious blood.
-Crimson, crimson,
-Though your sins be crimson,
-By the grace of God
-They shall be white as snow.
 
-Calvary, Calvary,
-Jesus went to Calvary;
-There He died on the cross,
-That we might be free.
-Finished, finished,
-Jesus cried, "’Tis iinished;"
-Now there's nothing left
-For me to do, but come.
+Scarlet, scarlet, Though your sins be scarlet,
+They shall be white as snow, In the precious blood.
+Crimson, crimson, Though your sins be crimson,
+By the grace of God They shall be white as snow.
+
+Calvary, Calvary, Jesus went to Calvary;
+There He died on the cross, That we might be free.
+Finished, finished, Jesus cried, "’Tis iinished;"
+Now there's nothing left For me to do, but come.
 
 
 96
 The Hem of His Garment
 Tune - R.S. 140
+
 
 She only touched the hem of His garment,
 As to His side she stole,
@@ -1811,6 +2332,7 @@ Shall give new life to thee.
 97
 Wonderful Words of Life
 Tune - R.S. 177
+
 
 Sing them over again to me,
 Wonderful words of life;
@@ -1834,6 +2356,7 @@ Wonderful words of life.
 Christ Receiveth Sinful Men
 Tune - C.H.F. 158
 
+
 Sinners, Jesus will receive,
 Sound this word of grace to all,
 Who the heavenly pathway leave,
@@ -1850,10 +2373,18 @@ Trust Him, for His Word is plain;
 He will take the sinfulest;
 Christ receiveth sinful men.
 
+c
+Sing it o’er . . . and o’er again,
+Christ receiv . . . eth sinful men;
+Make the mes . . . sage clear and plain,
+Christ receiveth sinful men.
+
+
 
 99
 At the Cross
 Tune - C.H.F. 33
+
 
 The cross; the cross; the wondrous cross,
 ’Twas there the Saviour died;
@@ -1868,6 +2399,7 @@ And now I am happy all the day.
 100
 The Old, Old Story
 Tune - R.S. 132
+
 
 Tell me the old, old story,
 Of unseen things above,
@@ -1893,10 +2425,17 @@ For I forget so soon!
 The "early dew" of morning
 Has passed away at noon.
 
+c
+Tell me the old, old story,
+Tell me the old, old story,
+Tell me the old, old story,
+Of Jesus and His love.
+
 
 101
 The Precious Story
 Tune - R.S. 456
+
 
 Tell me the story of Jesus,
 Write on my heart ev’ry word,
@@ -1922,42 +2461,51 @@ Clearer than ever I see,
 Love for the guilty and helpless,
 Love for a sinner like me.
 
+c
+Tell me the story of Jesus
+Write on my heart ev’ry word,
+Tell me the story most precious,
+Sweetest that ever was heard.
+
 
 102
 John 3:16
 Tune - R.S. 459 (Trust and Obey)
 
-Tell the merry and sad,
-Tell the good and the bad,
+
+Tell the merry and sad, Tell the good and the bad,
 Tell the captives as well as the free,
-Tell the weak and the strong,
-They may all come along
+Tell the weak and the strong, They may all come along
 Just because of Verse 16, John 3.
 
 c
-Now I can see,
-Whosoever means me,
-Oh, I'm ever so thankful
-For that verse in John 3.
+Now I can see, Whosoever means me,
+Oh, I'm ever so thankful For that verse in John 3.
 
-All the folks of high birth,
-All the outcasts of earth,
+All the folks of high birth, All the outcasts of earth,
 May be saved and right happy may be,
-It‘s for all, don't you see,
-And includes you and me,
+It‘s for all, don't you see, And includes you and me,
 Just because of Verse 16, John 3.
 
-Then if God for each one,
-Gave His well beloved Son,
+c
+Now I can see, Whosoever means me,
+Oh, I'm ever so thankful For that verse in John 3.
+
+
+Then if God for each one, Gave His well beloved Son,
 We ought ever to thank Him and be
-Full of praise and delight,
-And be evermore bright,
+Full of praise and delight, And be evermore bright,
 Just because of Verse 16, John 3.
+
+c
+Now I can see, Whosoever means me,
+Oh, I'm ever so thankful For that verse in John 3.
 
 
 103
 The Best
 Tune - R.S. Chorus of 88 (The Best Friend)
+
 
 The best book to read is the Bible,
 The best book to read is the Bible;
@@ -1981,18 +2529,16 @@ Oh, the best thing to do is to trust Him.
 104
 The Bible Stands
 Tune - C.H.F. 465
+Words: Haldor Lillenas. © 1917, Ren. 1945 Hope Publishing Company, Carol Stream, IL 60188. All rights reserved. Used by permission.
 
-(C)
 The Bible stands like a rock undaunted,
 ’Mid the raging storms of time;
 Its pages burn with the truth eternal,
 And they glow with a light sublime.
 
 c
-The Bible stands
-Though the hills may tumble,
-It will firmly stand
-Though the earth shall crumble,
+The Bible stands Though the hills may tumble,
+It will firmly stand Though the earth shall crumble,
 I will plant my feet on its firm foundation,
 For the Bible stands.
 
@@ -2001,10 +2547,17 @@ Far above the works of men:
 Its truth by none ever was refuted,
 And destroy it none ever can.
 
+c
+The Bible stands Though the hills may tumble,
+It will firmly stand Though the earth shall crumble,
+I will plant my feet on its firm foundation,
+For the Bible stands.
+
 
 105
 The B-I-B-L-E
 Tune - C.H.F. 436
+
 
 The B-I-B-L-E,
 Yes, that’s the Book for me;
@@ -2020,6 +2573,7 @@ The B-L-O-O-D.
 106
 The Gospel Bells
 Tune - R.S. 151
+
 
 The Gospel bells are ringing
 Over land, from sea to sea;
@@ -2045,10 +2599,17 @@ Tarry not in all the plain;
 Nor behind thee look, oh, never,
 Lest thou be consumed in pain."
 
+c
+Gospel bells! . . . how they ring
+Over land, from sea to sea!
+Gospel bells! . . . freely bring
+Blessed news to you and me.
+
 
 107
 The Great Physician
 Tune - R.S. 291
+
 
 The great Physician now is near,
 The sympathizing Jesus;
@@ -2066,14 +2627,27 @@ Oh hear the voice of Jesus;
 Go on your way in peace to heaven,
 And wear a crown with Jesus.
 
+c
+Sweetest note in seraph song,
+Sweetest name on mortal tongue;
+Sweetest carol ever sung,
+Jesus, Blessed Jesus.
+
 All glory to the dying Lamb!
 I now believe in Jesus;
 I love the blessed Saviour’s name,
 I love the name of Jesus.
 
+c
+Sweetest note in seraph song,
+Sweetest name on mortal tongue;
+Sweetest carol ever sung,
+Jesus, Blessed Jesus.
+
 
 108
 Romans 6:23
+
 
 
 The wages of sin is death,
@@ -2092,6 +2666,7 @@ The wonderful gift of God is Jesus.
 
 109
 The Wise Man and the Foolish Man
+
 
 
 The wise man built his house upon the rock,
@@ -2117,6 +2692,7 @@ And the house on the sand fell flat.
 There is a Fountain
 Tune - R.S. 137
 
+
 There is a fountain filled with blood,
 Drawn from Immanuel’s veins;
 And sinners plunged beneath that flood,
@@ -2133,15 +2709,28 @@ That fountain in his day;
 And there may I, though vile as he,
 Wash all my sins away.
 
+c
+I do believe, I will believe
+That Jesus died for me!
+That on the cross He shed His blood,
+From sin to set me free.
+
 Dear dying Lamb! Thy precious blood
 Shall never lose its power,
 Till all the ransomed Church of God
 Be saved to sin no more.
 
+c
+I do believe, I will believe
+That Jesus died for me!
+That on the cross He shed His blood,
+From sin to set me free.
+
 
 111
 There is a Happy Land
 Tune - R.S. 680
+
 
 There is a happy land,
 Far, far away;
@@ -2166,6 +2755,7 @@ Blest, blest for aye.
 There is a Land
 Tune - S.S. 984
 
+
 There is a land, a happy land,
 Whose skies are ever bright,
 Where evening shadows never fall;
@@ -2180,12 +2770,19 @@ In that bright for evermore.
 There is a home, a glorious home,
 A heavenly mansion fair:
 And all who know the Saviour here,
-Will hid us welcome there.
+Will bid us welcome there.
+
+c
+If we trust the Saviour here,
+We shall dwell in glory there,
+In that happy land so fair.
+In that bright for evermore.
 
 
 113
 The Sweetest Name
 Tune - R.S. 70
+
 
 There is no name so sweet on earth,
 No name so sweet in heaven,
@@ -2203,20 +2800,33 @@ They wrote this name above Him,
 That all might see the reasons we
 For evermore must love Him.
 
+c
+We love to sing of Christ the King,
+And hail Him blessed Jesus;
+For there’s no word ear ever heard,
+So dear, so sweet, as Jesus.
+
 Oh Jesus; by that matchless Name,
 Thy grace shall fail us never;
 To-day as yesterday the same,
 Thou art the same for ever.
+
+c
+We love to sing of Christ the King,
+And hail Him blessed Jesus;
+For there’s no word ear ever heard,
+So dear, so sweet, as Jesus.
 
 
 114
 Salvation
 (No You Can't Get To Heaven) Tune - C.H.F. 425 (Sweet by and by)
 
+
 There is no satisfaction without
-S-A-L-V-A-T-I-O-N,
+Salvation, S-A-L-V-A-T-I-O-N,
 Those who know of its power gladly shout
-S-A-L-V-A-T-I-O-N,
+Salvation, S-A-L-V-A-T-I-O-N,
 Shout it out. loud and clear,
 S-A-L-V-A-T-I-O-N,
 Never doubt, grace is near,
@@ -2226,6 +2836,7 @@ S-A-L-V-A-T-I-O-N.
 115
 A Friend for Little Children
 Tune - R.S. 657
+
 
 There’s a Friend for little children,
 Above the bright blue sky,
@@ -2259,6 +2870,7 @@ And love His name below.
 Ladder to Heaven
 
 
+
 There’s a ladder to heaven for me,
 There’s a ladder to heaven for me;
 ’Tis Jesus, the Saviour, who died on the tree,
@@ -2278,6 +2890,7 @@ He’s the ladder to heaven for me.
 117
 Oh, Believe It
 Tune - C.H.F. 176
+
 
 There’s a story ever new,
 It is wonderful and true,
@@ -2300,6 +2913,7 @@ Jesus died for you and me; Oh, believe it.
 Let the Saviour In
 Tune - R.S. 102
 
+
 There's a Stranger at the door,
 Let Him in:
 He has been there oft before:
@@ -2321,7 +2935,8 @@ Let Him in.
 
 119
 A Way Made Clear to Heaven
-Tune - "Springtime in the Rockies"
+Tune - "Springtime in the Rockies" chorus
+
 
 There’s a way made clear to Heaven,
 Through the precious crimson tide;
@@ -2343,8 +2958,9 @@ He has cleansing full and free.
 
 
 120
-There's a way back to God (E. Swinstead)
+There's a way back to God
 
+E. Swinstead
 
 (C)
 There’s a way back to God
@@ -2357,6 +2973,7 @@ When you come as a sinner to Jesus.
 
 121
 You Can Never Run Away
+
 
 
 There was a man of old,
@@ -2376,9 +2993,9 @@ Oh, poor sinner, you can never run away.
 
 122
 Lead Me to Calvary
-Tune - C.H.F. 315
+(Modification of King of My Life) Tune - C.H.F. 315
+Words: Jennie Evelyn Hussey. © Hope Publishing Company, Carol Stream, IL 60188. All rights reserved. Used by permission.
 
-(C)
 Three crosses standing side by side,
 Of broken law a sign;
 Two for their own transgressions died;
@@ -2393,39 +3010,39 @@ Lead me to Calvary.
 'Tis simple as can be
 
 
+
 ’Tis simple as can be,
 As plain as A-B-C,
-He came to save,
-His life He gave,
-To ransom you and me;
+He came to save, His life He gave, To ransom you and me;
 Don’t wait until you’re older,
 But trust while Christ is nigh;
-And by His grace you’ll see His face,
-In G-L-O-R-Y.
+And by His grace you’ll see His face, In G-L-O-R-Y.
 
 
 124
 T-R-U-S-T spells trust
 Tune - R.S. 670 (Jesus Loves Me)
 
+
 T-R-U-S-T spells trust,
 Trust the Son of God I must;
 Not one soul shall heaven see,
 But through T-R-U-S-T.
-Yes, I must trust Him,
-Yes, I must trust Him,
-Start now for heaven
-Through T-R-U-S-T.
+Yes, I must trust Him, Yes, I must trust Him,
+Start now for heaven Through T-R-U-S-T.
 
 
 125
 T-R-U-S-T the Saviour
 Tune - C.H.F. 404 (Midst the Darkness)
 
-T-R-U-S-T the Saviour, J-E-S-U-S,
+
+T-R-U-S-T the Saviour, 
+J-E-S-U-S,
 He L-O-V-E-S children,
 Loves to save and bless,
-C-O-M-E now to Jesus with your S-I-N;
+C-O-M-E now to Jesus 
+with your S-I-N;
 He who S-A-V-E-T-H
 Waits your heart to win.
 
@@ -2434,22 +3051,26 @@ Waits your heart to win.
 Was there anything that Jesus left undone?
 
 
+
 Was there anything that Jesus left undone, left undone,
-When He came to earth to save us every one,
-every one?
+When He came to earth to save us every one, every one?
 
 c
 Oh, no, no, no, there was nothing left undone;
 Oh, no, no, no, there was nothing left undone.
 
 See Him on the cross suspended, agony, agony,
-It was all that He might rescue such as we, such
-as we.
+It was all that He might rescue such as we, such as we.
+
+c
+Oh, no, no, no, there was nothing left undone;
+Oh, no, no, no, there was nothing left undone.
 
 
 127
 Was it for me
 Tune - R.S. 81
+
 
 Was it for me, for me alone,
 The Saviour left His glorious throne;
@@ -2467,21 +3088,28 @@ Upon the Cross, and freely shed
 His precious blood - that crimson tide,
 Was it for me, the Saviour died?
 
+c
+It was for me, yes all for me,
+Oh love of God, so great so free,
+Oh wondrous love, I’ll shout and sing,
+He died for me, my Lord and King.
+
 
 128
 Welcome to our Sunday School
 Tune - R.S. Chorus of 285 (Ring the Bells of Heaven)
 
+
 Welcome, welcome to our Sunday School;
 Jesus loves you, and we love you too.
-Won’t you bring your Bible and say
-a verse each week?
+Won’t you bring your Bible and say a verse each week?
 For you’re welcome to our Sunday School.
 
 
 129
 Nothing but the Blood
 Tune - R.S. 99
+
 
 What can wash away my stain?
 Nothing but the blood of Jesus!
@@ -2499,15 +3127,28 @@ Nothing but the blood of Jesus!
 For my pardon this my plea;
 Nothing but the blood of Jesus!
 
+c
+Oh, precious is the flow,
+That cleanses white as snow!
+No other fount I know
+Nothing but the blood of Jesus.
+
 Nothing can for sin atone,
 Nothing but the blood of Jesus!
 Naught of good that I have done,
 Nothing but the blood of Jesus!
 
+c
+Oh, precious is the flow,
+That cleanses white as snow!
+No other fount I know
+Nothing but the blood of Jesus.
+
 
 130
 When He cometh
 Tune - R.S. 99
+
 
 When He cometh, when He cometh,
 To make up His jewels;
@@ -2525,15 +3166,28 @@ The gems for His kingdom,
 All the saved ones, all the bright ones,
 His loved and His own.
 
+c
+Like the stars of the morning,
+His bright crown adorning,
+They shall shine in their beauty,
+Bright gems for His crown.
+
 Little children, little children,
 Who love their Redeemer,
 Are the jewels, precious jewels,
 His loved and His own.
 
+c
+Like the stars of the morning,
+His bright crown adorning,
+They shall shine in their beauty,
+Bright gems for His crown.
+
 
 131
 When I was lost and dead in sin
 Tune - R.S. Choruses 2 (A Certain Man)
+
 
 When I was lost and dead in sin,
 And judgment lay before,
@@ -2548,6 +3202,7 @@ John five and twenty-four.
 132
 When mothers of Salem
 Tune - R.S. 683
+
 
 When mothers of Salem
 Their children brought to Jesus,
@@ -2578,6 +3233,7 @@ They know not that the Saviour said,
 When the Bridegroom comes
 Tune - C.H.F. 202 (When the Roll is Called up Yonder)
 
+
 When the Bridegroom comes from glory bright
 To call His own away,
 Caught away to meet their Saviour in the sky,
@@ -2597,10 +3253,17 @@ Now the precious blood will cleanse you,
 And will make your title clear;
 To those bright celestial mansions in the sky.
 
+c
+Can the boys say "We’ll be ready"?
+Can the girls say, "We’ll be ready"?
+Can we all say, "We’ll be ready"?
+When the Saviour comes to call His ransomed home.
+
 
 134
 Jesus loves the little children
 Tune - C.H.F. 445
+
 
 When the Son of God was here,
 How He loved the children dear,
@@ -2623,10 +3286,18 @@ Boys and girls across the foam,
 Nevermore again shall roam,
 Gathered safely, in His presence shall sit down.
 
+c
+Jesus loves the little children,
+All the children of the world,
+Brown and yellow, black and white,
+All are precious in His sight,
+Jesus loves the little children of the world.
+
 
 135
 Whosoever Will
 Tune - R.S. 93
+
 
 "Whosoever heareth," shout, shout the sound!
 Send the blessed tidings all the world around;
@@ -2643,11 +3314,19 @@ Whosoever cometh must not delay,
 Now the door is open, enter while you may;
 Jesus is the true, the only living way;
 "Whosoevcr will may come,"
+"Whosoever will may come."
+
+c
+"Whosoever will," "whosoever will,"
+Send the proclamation over vale and hill.
+’Tis a loving Father calls the wanderer home:
+"Whosoever will may come."
 
 
 136
 Eternity!
 Tune - R.S. 260
+
 
 Where will you spend eternity?
 This question comes to you and me:
@@ -2661,6 +3340,7 @@ Where will you spend eternity?
 Wide, wide as the ocean
 Tune - Red Pinebrook
 
+
 Wide, wide as the ocean,
 High as the heavens above,
 Deep, deep as the deepest sea,
@@ -2668,7 +3348,8 @@ Is my Saviour's love;
 I, though so unworthy,
 Still am a child of His care,
 For His Word teaches me,
-That His love reaches me, everywhere.
+That His love reaches me, 
+everywhere.
 
 Sweet message of mercy,
 I will in no wise cast out,
@@ -2676,13 +3357,15 @@ Jesus says, "Come unto Me;"
 And bid farewell to doubt.
 Love led Him to Calvary,
 His blood as a ransom He gave,
-And now in the glory, how sweet
-Is the story that Jesus saves.
+And_now in the glory, 
+How_sweet is the story that
+Jesus saves.
 
 
 138
 Wonderful story of love
 Tune - C.H.F. 208
+
 
 Wonderful story of love,
 Tell it to me again;
@@ -2706,10 +3389,15 @@ Down from the crystal bright fountain,
 E’en from the dawn of creation,
 Wonderful story of love.
 
+c
+Won-der-ful! Won-der-ful!
+Won-der-ful! Wonderful story of love!
+
 
 139
 Wonderful Saviour
 Tune - C.H.F. Chorus of 41 (Blessed Assurance)
+
 
 Wonderful Saviour, wonderful friend,
 Wonderful love that never shall end;
@@ -2720,6 +3408,7 @@ Wonder of wonders, I shall be there.
 140
 Power in the Blood
 Tune - R.S. 78
+
 
 Would you be free from your burden of sin?
 There’s power in the blood;
@@ -2737,10 +3426,17 @@ There’s power in the blood;
 Sin stains are lost in its life giving flow,
 There’s wonderful power in the Blood.
 
+c
+There is power, . . . power, wonder-working power,
+In the blood . . . of the Lamb . . .
+There is power, . . . power, wonder-working power,
+In the precious blood of the Lamb.
+
 
 141
 Wounded for me
 Tune - C.H.F. 505
+
 
 Wounded for me, wounded for me,
 There on the cross He was wounded for me;
@@ -2762,6 +3458,7 @@ All because Jesus has risen for me.
 Yesterday, Today, Forever
 
 
+
 Yesterday, today, forever, Jesus is the same;
 All may change, but Jesus never, Glory to His Name!
 Glory to His Name; Glory to His Name!
@@ -2772,13 +3469,16 @@ All may change, hut Jesus never, Glory to His Name!
 The Way to Heaven
 Tune - C.H.F. 474
 
+
 You may keep on working till your life’s last hour,
 But you’ll never get to heaven that way;
 You may keep on praying till you can’t pray more,
 But you’ll never get to heaven that way.
 You may keep on hoping, you may keep on weeping,
 While your soul lies still in darkness sleeping,
-But you’ll never get to heaven. that way.
+But you’ll never, never
+never, never
+never get to heaven that way.
 
 You must come to Jesus, and His Name confess,
 You will surely get to heaven that way.
@@ -2786,14 +3486,16 @@ You must trust His blood, and take His proffered grace,
 You will surely get to heaven that way.
 You must leave off trying, and believe Him only,
 He will freely pardon, and cleanse you wholly;
-You will surely get to heaven that way.
+You will surely, surely
+surely, surely
+surely get to heaven that way.
 
 
 144
 You’ll never know real peace
 Tune - New Pinebrook 5
+Words: Wendell P. Loveless. © 1934, Ren. 1962 Hope Publishing Company, Carol Stream, IL 60188. All rights reserved. Used by permission.
 
-(C)
 You’ll never know real peace,
 Till you know Jesus,
 No matter how or where you try;
@@ -2808,6 +3510,7 @@ To reign with Him on high.
 
 145
 Zacchaeus was a very little man
+
 
 
 Zacchaeus was a very little man,
@@ -2826,19 +3529,20 @@ I must abide with thee."
 John 3:16
 Tune: Jesus loves even me
 
-Twenty five words in John three sixteen;
+
+Twenty five words in John and three sixteen;
 No greater gift has ever been seen:
 Twelve about God, and twelve about me;
 Son in the center, verse sixteen John three.
 That "whosoever" surely means me;
-Surely means me,
-Surely means me,
+Surely means me, Surely means me,
 That "whosoever" surely means me;
 Surely means you and me.
 
 
 147
 A-B-C-D-E-F-G
+
 
 
 A-B-C-D-E-F-G,
@@ -2866,6 +3570,7 @@ I’ll be with Him some day!
 148
 Hark! the herald angels sing
 Tune - C.H.F. 520 R.S. 42
+
 
 Hark! the herald angels sing,
 "Glory to the newborn King;
@@ -2905,6 +3610,7 @@ Hark! the herald angels sing
 I met Jesus at the crossroads
 Copyright Phil Burt
 
+
 (C)
 I met Jesus at the crossroads
 Where the two ways meet.
@@ -2923,10 +3629,12 @@ Praise God! That’s the way for me."
 The Sweet Story of Old
 Tune - R.S. 675
 
-I Think, when I read that sweet story of old,
+
+I think, when I read that sweet story of old,
 When Jesus was here among men,
 How He called little children as lambs to His fold,
 I should like to have been with Him then;
+
 I wish that His hands had been placed on my head,
 That His arm had been thrown around me,
 And that I might have seen His kind look when He said,
@@ -2936,6 +3644,7 @@ And that I might have seen His kind look when He said,
 151
 Jesus, who lived above the sky
 Tune - R.S. 678 (Little Children Weak)
+
 
 Jesus, who lived above the sky,
 Came down to be a man, and die;
@@ -2960,6 +3669,7 @@ That we might have our sins forgiven.
 
 152
 Love, Love
+
 
 
 Love, love, L-O-V-E
@@ -2987,6 +3697,7 @@ To be mine, mine, mine.
 Mr. Noah
 
 
+
 Mr. Noah built an ark,
 The people thought it was a lark.
 Mr. Noah pleaded so
@@ -3001,7 +3712,15 @@ But only eight were saved.
 In went the animals two by two
 The elephant, giraffe, and the kangaroo
 All were safely stored away
-Against God’s terrible judgment day. 3. Jesus suffered on the tree
+Against God’s terrible judgment day. 
+
+c
+Down came the rain in torrents,
+Down came the rain in torrents,
+Down came the rain in torrents,
+But only eight were saved.
+
+Jesus suffered on the tree
 Bore the wrath for you and me
 Make Him your ark and you will be
 Safe through all Eternity.
@@ -3017,6 +3736,7 @@ Remember God loves you.
 Oh I know it
 
 
+
 Oh I know it (Oh I know it)
 Yes, I know it (Yes, I know it)
 I know it is Jesus who saves.
@@ -3028,11 +3748,11 @@ And rose again to set me free.
 I know it is Jesus who saves.
 
 Oh I know it (Oh I know it)
-Yes I know it (Yes, I know it)
+Yes, I know it (Yes, I know it)
 I know He is coming again.
 Oh I know it (Oh I know it)
-Yes I know it (Yes, I know it)
-I know He is coming again
+Yes, I know it (Yes, I know it)
+I know He is coming again.
 It may be morning, night or noon
 But this I know He’s coming soon
 I know He is coming again.
@@ -3040,6 +3760,7 @@ I know He is coming again.
 
 155
 O Little Town of Bethlehem
+
 
 
 O Little Town of Bethlehem,
@@ -3074,6 +3795,7 @@ The dear Christ enters in.
 Power, power, power
 
 
+
 Power, power, power,
 There is power in Jesus’ name.
 The power that cleansed the leper
@@ -3086,6 +3808,7 @@ There is power in the precious name of Jesus.
 157
 There is a green hill far away
 Tune - Believers' Hymn Book 455
+
 
 There is a green hill far away,
 Without a city wall,
@@ -3117,26 +3840,23 @@ And try His works to do.
 There were twelve disciples
 
 
-There were twelve disciples
-Jesus called to help Him
+
+There were twelve disciples Jesus called to help Him
 Simon-Peter, Andrew, James, his brother John,
-Philip, Thomas, Matthew,
-James the son of Alphaeus,
+Philip, Thomas, Matthew, James the son of Alphaeus,
 Thaddaeus, Simon, Judas and Bartholomew.
 
-He has called you, too,
-He has called you, too,
-To be His disciple,
-And His work to do.
-He has called you, too,
-He has called you too,
-To be His disciple,
-And His work to do.
+c
+He has called you, too, He has called you, too,
+To be His disciple, And His work to do.
+He has called you, too, He has called you too,
+To be His disciple, And His work to do.
 
 
 159
 When David was a shepherd boy
 Tune - R.S. Choruses 2 (A Certain Man)
+
 
 When David was a shepherd boy
 He did as he was told.
@@ -3154,15 +3874,28 @@ And then the hungry bear,
 He asked the Lord to give him help
 And slew them then and there.
 
+c
+But Jesus fought a greater fight
+Upon Mount Calvary
+He conquered sin and death and Hell
+By dying on the tree.
+
 He also slew Goliath bold
 With simple stone and sling
 So God chose out this shepherd boy
 To be His people’s king.
 
+c
+But Jesus fought a greater fight
+Upon Mount Calvary
+He conquered sin and death and Hell
+By dying on the tree.
+
 
 160
 While shepherds watched their flocks by night
 Tune - R.S. 501
+
 
 While shepherds watched their flocks by night,
 All seated on the ground,
@@ -3189,6 +3922,7 @@ And in a manger laid."
 Who at my door is standing?
 
 
+
 Who at my door is standing,
 Patiently drawing near,
 Entrance within demanding,
@@ -3205,12 +3939,243 @@ Lonely within am I,
 While I am still delaying,
 Will He not pass me by?
 
+c
+Sweetly the tones are falling,
+Open the door to Me.
+If thou wilt heed my calling,
+I will abide with thee.
+
 All through the dark hours dreary,
 Knocking again is He,
 Jesus, art Thou not weary
 Waiting so long for me?
 
+c
+Sweetly the tones are falling,
+Open the door to Me.
+If thou wilt heed my calling,
+I will abide with thee.
+
 Door of my heart I hasten,
 Thee will I open wide,
 Though He rebuke and chasten
 He shall with me abide.
+
+c
+Sweetly the tones are falling,
+Open the door to Me.
+If thou wilt heed my calling,
+I will abide with thee.
+
+
+162
+(Added) Deep and Wide
+
+Copyright © 1957 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>Note: Lyrics may not be original.
+
+Deep and wide, Deep and wide,
+There's a fountain flowing Deep and wide.
+Deep and wide, Deep and wide,
+There's a fountain flowing Deep and wide.
+
+For you, for me Jesus died
+There's a fountain flowing deep and wide.
+For you, for me, for all mankind
+There's a fountain flowing deep and wide.
+
+
+163
+(Added) The Crayon Box Song
+
+Words: William V. Mason. Copyright © 1972 Designer Music (SESAC) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+When I was just a little boy, 
+no higher than your knee,
+My mother bought a box of crayons just for me;
+I picked 'em up, and I opened 'em up, 
+I looked 'way down inside,
+And the colors there reminded me 
+of Jesus when He died.
+
+c
+Red is the color of the blood that He shed;
+Brown's for the crown that they laid upon His head;
+Blue is for royalty, within Him did dwell;
+And yellow is for the Christian 
+who's afraid to tell!
+
+I colored and I colored 
+'til the crayons were all gone,
+But though I've grown much older now, the mem'ry lingers on;
+So when I see a little boy 
+with crayon box in hand,
+I tell him what they mean to me, 
+so I hope he'll understand.
+
+c
+Red is the color of the blood that He shed;
+Brown's for the crown that they laid upon His head;
+Blue is for royalty, within Him did dwell;
+And yellow is for the Christian 
+who's afraid to tell!
+
+Afraid to tell of a Savior 
+who died on Calvary,
+Who died for lowly sinners just like you and me;
+And some day He is coming back 
+to be our King;
+And the colors in the crayon box 
+you will sing.
+
+c
+Red is the color of the blood that He shed;
+Brown's for the crown that they laid upon His head;
+Blue is for royalty, within Him did dwell;
+And yellow is for the Christian 
+who's afraid to tell!
+
+
+164
+(Added) Jonah and the Whale
+
+Copyright © 1945 New Spring Publishing Inc. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Come listen to my tale,
+Of Jonah and the whale.
+Where? 
+Way down in the middle of the ocean! Ocean!
+O how did he get there?
+Whatever did he wear? Where?
+Way down in the middle of the ocean! Ocean!
+A preaching he should be 
+In Nineveh you see.
+He disobeyed; O what a foolish notion. Notion! 
+But God forgave his sins. 
+Salvation entered in. Where?
+Away down in the middle of the ocean! Ocean!
+
+
+165
+(Added) Love one another
+
+Copyright © 1973 Cccm Music (ASCAP) Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Love one another, for love is of God.
+He who loves is born of God and knows God.
+He who does not love 
+does not know God,
+For God is love, God is love.
+
+
+166
+(Added) Seek Ye First
+
+Copyright © 1972 Cccm Music (ASCAP) Universal Music - Brentwood Benson Publ. (ASCAP) (adm. at CapitolCMGPublishing.com) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+Seek ye first the Kingdom of God
+And His righteousness,
+And all these things shall be added unto you.
+Allelu, Allelujah.
+
+Man shall not live by bread alone,
+But by every word,
+That proceedeth from the mouth of God.
+Allelu, Allelujah.
+
+Knock, and the door shall be opened unto you,
+Seek and ye shall find.
+Ask and it shall be given unto you.
+Allelu, Allelujah.
+
+
+167
+(Added) Thy Word
+
+Copyright © 1984 Meadowgreen Music Company (ASCAP) (adm. at CapitolCMGPublishing.com) / Word Music (ASCAP) All rights reserved. Used by permission.<br>International Copyright Secured.
+
+c
+Thy Word is a lamp unto my feet
+and a light unto my path.
+Thy Word is a lamp unto my feet
+and a light unto my path.
+
+When I feel afraid, think I've lost my way,
+Still You're there right beside me.
+And nothing will I fear as long as You are near,
+Please be near me to the end.
+
+I will not forget Your love for me and yet,
+My heart forever is wandering.
+Jesus, be my guide and hold me to Your side
+And I will love You to the end.
+
+Nothing will I fear as long as You are near;
+Please be near me to the end.
+Nothing will I fear as long as You are near;
+Please be near me to the end.
+
+
+168
+(Added) My God is SO great
+
+Credits:<br>My God Is SO Big<br>Ruth Harms Calkin<br>© Nuggets of Truth Publishing
+
+My God is so great,
+So strong and so mighty,
+There’s nothing my God cannot do.
+My God is so great,
+So strong and so mighty,
+There’s nothing my God cannot do.
+The mountains are His, 
+the rivers are His,
+The stars are His handiwork, too.
+My God is so great,
+So strong and so mighty,
+There’s nothing my God cannot do! For you!
+
+s
+Mi Dios es tan fuerte,
+tan poderoso, no hay nada
+que Él no puede hacer.
+Mi Dios es tan fuerte,
+tan poderoso, no hay nada
+que Él no puede hacer.
+Él hizo el mar, los ríos también;
+estrellas y montes creó.
+Mi Dios es tan fuerte,
+tan poderoso, no hay nada
+que Él no puede hacer
+por ti, por ti, por ti, por mí.
+
+
+169
+(Added) Thy Word Have I Hid In My Heart
+
+
+
+Thy Word have I hid in my heart
+that I might not sin against Thee.
+That I might not sin,
+that I might not sin,
+Thy Word have I hid in my heart.
+
+
+170
+(Added) Countdown
+
+
+
+10...9...8...7...6...5...4...3...2...1... Blastoff!
+Somewhere in outer space
+God has prepared a place
+For those who trust Him and obey.
+Jesus will come again,
+Although we don't know when-
+The Countdown's getting lower every day.
+Ten and nine, eight and seven
+Six and five and four.
+Call upon the Savior while you may.
+Three and two, coming through
+The clouds in bright array.
+The countdown's getting lower everyday.
+

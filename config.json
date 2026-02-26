@@ -1,143 +1,85 @@
 {
-  "baseUrl": "/hymns",
+  "name": "Hymns from Gravel Hill",
   "datasets": [
     {
-      "name": "Believers Hymn Book",
-      "path": "data/bhb_songs.json",
-      "mapping": {
-        "id": "id",
-        "number": "id",
-        "title": "title",
-        "lyrics": {
-          "joinArrays": [
-            "verses",
-            "chorus",
-            "addedChorus"
-          ],
-          "labels": {
-            "chorus": "Chorus:"
-          },
-          "separator": "\n"
-        },
-        "author": "author",
-        "tune": "tuneName",
-        "meter": "meter"
-      }
+      "name": "The Believers Hymn Book",
+      "path": "hymnals/BHB.txt",
+      "type": "txt"
+    },
+    { 
+      "name": "The New Believers Hymnbook",
+      "path": "hymnals/BHB_new.txt",
+      "type": "txt"
     },
     {
-      "name": "New Believers Hymn Book",
-      "path": "data/NBHB.json",
-      "mapping": {
-        "id": "id",
-        "number": "id",
-        "title": "title",
-        "lyrics": {
-          "joinArrays": [
-            "verses",
-            "chorus",
-            "addedChorus"
-          ],
-          "labels": {
-            "chorus": "Chorus:"
-          },
-          "separator": "\n"
-        },
-        "author": "author",
-        "tune": "tuneName",
-        "meter": "meter"
-      }
+      "name": "The Gospel Hymn Book (2001)",
+      "path": "hymnals/2001_GHB_Premium_NBHB.txt",
+      "type": "txt"
+    },
+    {
+      "name": "The Gospel Hymn Book (1989)",
+      "path": "hymnals/1989_GHB.txt",
+      "type": "txt"
+    },
+    {
+      "name": "Gospel Hymn Book UK (1996)",
+      "path": "hymnals/UKGHB-1996-premium_NBHB.txt",
+      "type": "txt"
+    },
+    {
+      "name": "UK Gospel Hymn Book (1897)",
+      "path": "hymnals/UK-gospel-hb_1897.txt",
+      "type": "txt"
+    },
+    {
+      "name": "Gospel Hymns [modern English]",
+      "path": "hymnals/Gospel_Hymns_Premium.txt",
+      "type": "txt"
+    },
+    {
+      "name": "Good Old Gospel Hymns",
+      "path": "hymnals/Old_Gospel_premium.txt",
+      "type": "txt"
+    },
+    {
+      "name": "Choice Hymns of the Faith",
+      "path": "hymnals/choice_hymns.txt",
+      "type": "txt"
+    },
+    {
+      "name": "Favorite Hymns",
+      "path": "hymnals/favoritehymnsPremium.txt",
+      "type": "txt"
+    },
+    {
+      "name": "The Children's Hymn Book 1987",
+      "path": "hymnals/childrensPremium.txt",
+      "type": "txt"
+    },
+    {
+      "name": "Seed Sowers Hymnal 2015 Premium — SS2",
+      "path": "hymnals/SS2_premium.txt",
+      "type": "txt"
+    },
+    {
+      "name": "Sacred Songs and Solos",
+      "path": "hymnals/sacred_songs_solos.txt",
+      "type": "txt"
     },
     {
       "name": "Sacred Songs for Singing Saints (Songs of Thanksgiving & Praise)",
-      "path": "data/ssfss_songs.min.json",
-      "mapping": {
-        "id": "id",
-        "number": "id",
-        "title": "title",
-        "lyrics": {
-          "joinArrays": [
-            "verses",
-            "chorus",
-            "addedChorus"
-          ],
-          "labels": {
-            "chorus": "Chorus:"
-          },
-          "separator": "\n"
-        },
-        "author": "author",
-        "tune": "tuneName",
-        "meter": "meter"
-      }
+      "path": "hymnals/SSFSS.txt",
+      "type": "txt"
     },
     {
-      "name": "Gospel Hymn Book (2001)",
-      "path": "data/ghb2001_songs.json",
-      "mapping": {
-        "id": "id",
-        "number": "id",
-        "title": "title",
-        "lyrics": {
-          "joinArrays": [
-            "verses",
-            "chorus",
-            "addedChorus"
-          ],
-          "labels": {
-            "chorus": "Chorus:"
-          },
-          "separator": "\n"
-        },
-        "author": "author",
-        "tune": "tuneName",
-        "meter": "meter"
-      }
+      "name": "Songs of Praise and Thanksgiving (Updated)",
+      "path": "hymnals/Songs_of_Praise_and_Thanksgiving.txt",
+      "type": "txt"
     },
     {
-      "name": "The Children’s Hymn Book (1987)",
-      "path": "data/childrens_hymn_book_1987.json",
-      "mapping": {
-        "id": "id",
-        "number": "id",
-        "title": "title",
-        "lyrics": {
-          "joinArrays": [
-            "verses",
-            "chorus",
-            "addedChorus"
-          ],
-          "labels": {
-            "chorus": "Chorus:"
-          },
-          "separator": "\n"
-        },
-        "author": "author",
-        "tune": "tuneName",
-        "meter": "meter"
-      }
-    },
-    {
-      "name": "Songs of Praise and Thanksgiving",
-      "path": "data/songs_of_praise_and_thanksgiving.json",
-      "mapping": {
-        "id": "id",
-        "number": "id",
-        "title": "title",
-        "lyrics": {
-          "joinArrays": [
-            "verses",
-            "chorus",
-            "addedChorus"
-          ],
-          "labels": {
-            "chorus": "Chorus:"
-          },
-          "separator": "\n"
-        },
-        "author": "author",
-        "tune": "tuneName",
-        "meter": "meter"
-      }
+      "name": "Christian Teen Camp (PEI)",
+      "path": "hymnals/Christian_Teen_Camp_PEI.txt",
+      "type": "txt"
     }
   ]
 }

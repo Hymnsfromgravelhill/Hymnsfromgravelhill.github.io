@@ -1,5 +1,5 @@
 import {Router} from './router.js';
-import {html, escapeHTML, splitStanzas, $, $$} from './utils.js';
+import {html, escapeHTML, $, decodeEntities} from './utils.js';
 import {buildIndex, search} from './search.js';
 
 const state = {
@@ -8,66 +8,29 @@ const state = {
   currentDatasetIndex: 0,
   rows: [],
   index: null,
-  baseUrl: '',
-  sortMode: 'number',       // 'number' | 'alpha'
-  viewFavorites: false,     // false = all, true = favorites-only
-  favs: new Set(),          // current dataset favorites (ids)
+  sortMode: 'number',        // book | number | alpha
+  viewFavorites: false,
+  favs: new Set(),
+  datasetMeta: {
+    title: '',
+    additionalInfoHtml: '',
+    firstLineIsTitle: false,
+    useTopText: false,
+    useBottomText: false,
+    useMeter: false,
+    indexOrder: [],
+  },
 };
 
-// Opt out of SPA scroll memory so we control it explicitly
-if ('scrollRestoration' in history) {
-  history.scrollRestoration = 'manual';
-}
-
-function normalizeRow(row, map){
-  const resolve = (spec) => {
-    if (!spec) return null;
-    if (typeof spec === 'string'){
-      const parts = spec.split('.'); let v = row; for (const p of parts) v = v?.[p];
-      return v ?? null;
-    }
-    if (typeof spec === 'object' && spec.joinArrays){
-      const arrFields = Array.isArray(spec.joinArrays) ? spec.joinArrays : [];
-      const labels = spec.labels || {};
-      const blocks = [];
-      for (const key of arrFields){
-        const block = row?.[key];
-        if (Array.isArray(block)){
-          if (block.length && Array.isArray(block[0])){
-            for (const stanza of block){ blocks.push(stanza.join('\n')); }
-          } else {
-            const label = labels[key]; if (label) blocks.push(label);
-            blocks.push(block.join('\n'));
-          }
-        }
-      }
-      return blocks.join('\n\n').trim();
-    }
-    return null;
-  };
-  const toArray = (v) => Array.isArray(v) ? v : (v ? [v] : []);
-  return {
-    id: (resolve(map.id) ?? resolve(map.number) ?? resolve(map.title) ?? crypto.randomUUID()).toString(),
-    number: resolve(map.number)?.toString() || '',
-    title: resolve(map.title) || '',
-    lyrics: resolve(map.lyrics) || '',
-    author: resolve(map.author) || '',
-    tune: resolve(map.tune) || resolve(map.tuneName) || '',
-    meter: resolve(map.meter) || '',
-    scripture: resolve(map.scripture) || '',
-    topics: toArray(resolve(map.topics) ?? []),
-    _raw: row
-  };
-}
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 
 function datasetKey(){
   const ds = state.datasets[state.currentDatasetIndex] || {};
   return 'fav_' + (ds.path || String(state.currentDatasetIndex));
 }
 function loadFavorites(){
-  try{
-    state.favs = new Set(JSON.parse(localStorage.getItem(datasetKey()) || '[]'));
-  }catch{ state.favs = new Set(); }
+  try{ state.favs = new Set(JSON.parse(localStorage.getItem(datasetKey()) || '[]')); }
+  catch{ state.favs = new Set(); }
 }
 function saveFavorites(){
   localStorage.setItem(datasetKey(), JSON.stringify(Array.from(state.favs)));
@@ -77,6 +40,7 @@ function toggleFav(id){
   if (state.favs.has(id)) state.favs.delete(id); else state.favs.add(id);
   saveFavorites();
 }
+
 function normalizeTitle(t=''){ return (t||'').toString().trim().toLowerCase(); }
 
 function sortRows(rows){
@@ -85,28 +49,28 @@ function sortRows(rows){
     out.sort((a,b)=>{
       const at = normalizeTitle(a.title), bt = normalizeTitle(b.title);
       if (at !== bt) return at < bt ? -1 : 1;
-      const an = parseInt(a.number || '0',10), bn = parseInt(b.number || '0',10);
+      const an = parseInt(a.number||'0',10), bn = parseInt(b.number||'0',10);
       return an - bn;
     });
+  } else if (state.sortMode === 'number'){
+    out.sort((a,b)=> (parseInt(a.number||'0',10) - parseInt(b.number||'0',10)));
   } else {
-    out.sort((a,b)=>{
-      const an = parseInt(a.number || '0',10), bn = parseInt(b.number || '0',10);
-      return an - bn;
-    });
+    // book order (default)
+    out.sort((a,b)=> ( (a._order ?? 1e9) - (b._order ?? 1e9) ));
   }
   return out;
 }
 
 function filterFavorites(rows){
-  return state.viewFavorites ? rows.filter(r => state.favs.has(r.id)) : rows;
+  return state.viewFavorites ? rows.filter(r=> state.favs.has(r.id)) : rows;
 }
 
 function updateFavButtonLabel(){
-  const btn = document.getElementById('favoritesToggle');
+  const btn = $('#favoritesToggle');
   if (!btn) return;
   const count = state.favs.size;
   if (state.viewFavorites){
-    btn.textContent = `Show All`;
+    btn.textContent = 'Show All';
     btn.setAttribute('aria-pressed','true');
   } else {
     btn.textContent = `Show Favorites (${count})`;
@@ -114,69 +78,386 @@ function updateFavButtonLabel(){
   }
 }
 
-function currentQuery(){
-  const input = document.getElementById('q');
-  return input ? input.value.trim() : '';
-}
+function currentQuery(){ return ($('#q')?.value || '').trim(); }
 
-/** Compute rows based on query + favorites + sort and paint UI */
 function renderFromState(){
   const q = currentQuery();
-  let base = q ? search(state.index, state.rows, q) : state.rows;
+  const shouldSearch = q && (/^\d+$/.test(q) || q.length >= 2);
+  let base = shouldSearch ? search(state.index, state.rows, q) : state.rows;
   base = filterFavorites(base);
   base = sortRows(base);
   drawList(base);
 
-  const stats = document.getElementById('resultStats');
-  if (q && stats) stats.textContent = `${base.length} results for “${q}”${state.viewFavorites ? ' (favorites)' : ''}`;
-  else if (stats) stats.textContent = `${base.length} hymn${base.length===1?'':'s'}${state.viewFavorites ? ' (favorites)' : ''}`;
+  const stats = $('#resultStats');
+  if (stats){
+    if (q) stats.textContent = `${base.length} results for “${q}”${state.viewFavorites ? ' (favorites)' : ''}`;
+    else stats.textContent = `${base.length} hymn${base.length===1?'':'s'}${state.viewFavorites ? ' (favorites)' : ''}`;
+  }
 
   updateFavButtonLabel();
 }
 
 async function loadConfig(){
-  const res = await fetch('config.json'); state.config = await res.json();
-  state.baseUrl = state.config.baseUrl || '';
+  try{
+    const res = await fetch('config.json');
+    state.config = await res.json();
+  }catch{
+    state.config = window.__HFG_CONFIG__ || {datasets: []};
+  }
   state.datasets = state.config.datasets || [];
   renderDatasetPicker();
 }
 
 function renderDatasetPicker(){
   const sel = $('#datasetSelect');
-  sel.innerHTML = state.datasets.map((d,i)=> html`<option value="${i}">${escapeHTML(d.name)}</option>`).join('');
+  sel.innerHTML = state.datasets.map((d,i)=> html`<option value="${i}">${escapeHTML(d.name || d.path)}</option>`).join('');
   sel.value = String(state.currentDatasetIndex);
   sel.addEventListener('change', ()=>{
-    state.currentDatasetIndex = parseInt(sel.value,10);
-    hydrate();
+    const next = parseInt(sel.value,10);
+    if (Number.isNaN(next) || next === state.currentDatasetIndex) return;
+
+    const parts = router.parse();
+    const wasDetail = (parts[0] === 'hymn');
+    if (wasDetail) history.replaceState(null, '', '#');
+
+    state.currentDatasetIndex = next;
+    hydrate().then(()=>{
+      if (wasDetail) showList();
+    });
   });
 }
 
-async function hydrate(){
-  const ds = state.datasets[state.currentDatasetIndex];
-  document.getElementById('sourceLink').href = ds.path;
+function getEmbedded(path){
+  try{
+    const m = window.__HYMNALS_EMBED__ || null;
+    return m ? (m[path] || null) : null;
+  }catch{ return null; }
+}
 
-  const res = await fetch(ds.path);
-  const data = await res.json();
-  const arr = Array.isArray(data) ? data : (data.hymns || data.items || data.rows || []);
-  state.rows = arr.map(r => normalizeRow(r, ds.mapping||{}));
+async function fetchTextWithFallback(path){
+  if (location.protocol === 'file:'){
+    const emb = getEmbedded(path);
+    if (emb != null) return emb;
+  }
+  try{
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.text();
+  }catch(err){
+    const emb = getEmbedded(path);
+    if (emb != null) return emb;
+    throw err;
+  }
+}
 
-  // (re)build search index with simpler precompute
-  state.index = buildIndex(state.rows);
+function normalizeNewlines(s=''){
+  return String(s)
+    .replace(/^\uFEFF/, '')
+    .replace(/\r\n/g,'\n')
+    .replace(/\r/g,'\n');
+}
 
-  // load favorites for this dataset and render
-  loadFavorites();
-  renderFromState();
+function stripTags(s=''){
+  return s.replace(/<[^>]*>/g,'');
+}
 
-  // apply route if needed (e.g., deep link)
-  router.handle();
+function sanitizeInlineHtml(s=''){
+  let out = String(s);
+  out = out.replace(/<span\b[^>]*fa-pause-circle[^>]*><\/span>/gi, '');
+  out = out.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
+  out = out.replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, '');
+  out = out.replace(/\s(href|src)\s*=\s*(['"])\s*javascript:[^'\"]*\2/gi, ' $1="#"');
+  // Strip links but keep inner text
+  out = out.replace(/<a\b[^>]*>/gi, '').replace(/<\/a>/gi, '');
+  return out;
+}
+
+function removeEndingPunctuation(line){
+  const s = (line ?? '').toString();
+  if (!s) return s;
+  const last = s.slice(-1);
+  if (last === ',' || last === '-' || last === ':' || last === ';') return s.slice(0,-1);
+  return s;
+}
+
+function parseBool(s){
+  return String(s||'').trim().toLowerCase() === 'true';
+}
+
+function parseSections(fullText){
+  const t = normalizeNewlines(fullText);
+  const lines = t.split('\n');
+  const sections = Object.create(null);
+  let cur = null;
+
+  for (const raw of lines){
+    const line = raw ?? '';
+    if (line.startsWith('--')){
+      cur = line.slice(2).trim();
+      const key = cur.toLowerCase();
+      if (!(key in sections)) sections[key] = '';
+      continue;
+    }
+    if (cur){
+      sections[cur.toLowerCase()] += line + '\n';
+    }
+  }
+
+  for (const k of Object.keys(sections)){
+    // trim one trailing newline
+    if (sections[k].endsWith('\n')) sections[k] = sections[k].slice(0,-1);
+  }
+  return sections;
+}
+
+function parseIndexOrder(indexSectionText=''){
+  const raw = (indexSectionText || '').trim();
+  if (!raw) return [];
+  const parts = raw.split(',').map(x=>x.trim()).filter(Boolean);
+  const out = [];
+  const seen = new Set();
+  for (const p of parts){
+    const songNum = p.split('|')[0].replace(/[\s\.]/g,'');
+    if (!songNum || !/^\d+$/.test(songNum) || songNum === '0') continue;
+    if (seen.has(songNum)) continue;
+    seen.add(songNum);
+    out.push(songNum);
+  }
+  return out;
+}
+
+function computeOffsets(meta){
+  // Mirrors the APK logic (convertSong): fixed offsets after hymn number line.
+  let topTextIndex = 1;
+  let bottomTextIndex = 1;
+  let meterIndex = 1;
+  let firstLyricIndex = 2;
+
+  if (!meta.firstLineIsTitle){
+    firstLyricIndex++; topTextIndex++; bottomTextIndex++; meterIndex++;
+  }
+  if (meta.useTopText){
+    firstLyricIndex++; bottomTextIndex++; meterIndex++;
+  }
+  if (meta.useBottomText){
+    firstLyricIndex++; meterIndex++;
+  }
+  if (meta.useMeter){
+    firstLyricIndex++;
+  }
+  return { topTextIndex, bottomTextIndex, meterIndex, firstLyricIndex };
+}
+
+function isHymnNumberLine(rawLine, prevLine){
+  // Hymn numbers in these files are digits-only on their own line (no meters like 10.6.10.6.).
+  // Guard against false positives by requiring: digits only, not 0, reasonable range, and preceded by a blank line (or start of file).
+  const t = (rawLine ?? '').toString().trim();
+  if (!t) return null;
+  if (!/^\d+$/.test(t)) return null;
+  if (t === '0') return null;
+  const n = parseInt(t, 10);
+  if (!Number.isFinite(n) || n < 1 || n > 2000) return null;
+  const prev = (prevLine ?? '').toString().trim();
+  if (prev !== '') return null;
+  return t;
+}
+
+function buildLyricsHtml(lyricsLines){
+  // Original app behavior: chorus triggered by line that is only "c" or "chorus".
+  const out = [];
+  let buf = [];
+  let mode = 'stanza';
+
+  const flush = ()=>{
+    if (!buf.length) return;
+    const block = buf.map(l=>sanitizeInlineHtml(l)).join('<br>');
+    out.push(`<div class="${mode}">${block}</div>`);
+    buf = [];
+  };
+
+  for (const rawLine of lyricsLines){
+    const line = (rawLine ?? '').replace(/\r/g,'');
+    const trimmed = line.trim();
+    const lower = trimmed.toLowerCase();
+
+    if (!trimmed){
+      flush();
+      mode = 'stanza';
+      continue;
+    }
+
+    if (lower === 'c' || lower === 'chorus' || lower === 'chorus:' || lower === 'c.'){
+      flush();
+      mode = 'chorus';
+      continue;
+    }
+
+    buf.push(line);
+  }
+  flush();
+  return out.join('\n');
+}
+
+function extractTitleFromLyricsLines(lyricsLines){
+  // Skip blank lines, copyright marker "(C)", and chorus markers at the very top.
+  let i = 0;
+  let prefix = '';
+  while (i < lyricsLines.length){
+    const raw = (lyricsLines[i] ?? '').toString();
+    const t = decodeEntities(stripTags(raw)).trim();
+    const up = t.toUpperCase();
+
+    if (!t){ i++; continue; }
+
+    // Copyright marker line (C) => title is the next meaningful line, prefixed with ©
+    if (up.includes('(C)')){
+      prefix = '© ';
+      i++;
+      continue;
+    }
+
+    // Chorus markers
+    const low = t.toLowerCase();
+    if (low === 'c' || low === 'chorus' || low === 'chorus:' || low === 'c.'){
+      i++;
+      continue;
+    }
+
+    return prefix + removeEndingPunctuation(t);
+  }
+  return '';
+}
+
+function parseHymnal(fullText){
+  const sections = parseSections(fullText);
+
+  // Header meta
+  const meta = {
+    title: (sections['title'] || '').trim(),
+    additionalInfoHtml: sanitizeInlineHtml(sections['additionalinfo'] || sections['additionalInfo'] || ''),
+    firstLineIsTitle: parseBool(sections['firstlineistitle']),
+    useTopText: parseBool(sections['usetoptext']),
+    useBottomText: parseBool(sections['usebottomtext']),
+    useMeter: parseBool(sections['usemeter']),
+    indexOrder: parseIndexOrder(sections['index'] || ''),
+  };
+  state.datasetMeta = meta;
+
+  const lyricsText = normalizeNewlines(sections['lyrics'] || '');
+  const lines = lyricsText.split('\n');
+
+  const offsets = computeOffsets(meta);
+
+  // Collect hymn chunks
+  const chunks = [];
+  let cur = null;
+
+  for (let i = 0; i < lines.length; i++){
+    const n = isHymnNumberLine(lines[i], i>0 ? lines[i-1] : "");
+    if (n){
+      if (cur) chunks.push(cur);
+      cur = { number: n, lines: [lines[i]] };
+      continue;
+    }
+    if (cur) cur.lines.push(lines[i]);
+  }
+  if (cur) chunks.push(cur);
+
+  const byNumber = new Map();
+
+  for (const c of chunks){
+    const hymnLines = c.lines;
+    const number = c.number;
+
+    // Defensive: ensure we have enough lines
+    const getLine = (idx)=> (idx >= 0 && idx < hymnLines.length) ? hymnLines[idx] : '';
+
+    let title = '';
+    if (!meta.firstLineIsTitle){
+      // Title is supplied on the line right after hymn number
+      title = removeEndingPunctuation(decodeEntities(stripTags(getLine(1))).trim());
+    }
+
+    const topTextRaw = meta.useTopText ? getLine(offsets.topTextIndex) : '';
+    const bottomTextRaw = meta.useBottomText ? getLine(offsets.bottomTextIndex) : '';
+    const meterRaw = meta.useMeter ? getLine(offsets.meterIndex) : '';
+
+    const lyricsLines = hymnLines.slice(offsets.firstLyricIndex);
+
+    if (meta.firstLineIsTitle){
+      title = extractTitleFromLyricsLines(lyricsLines) || `Hymn ${number}`;
+    }
+
+    // Plain-text fields for search/copy
+    const topTextPlain = decodeEntities(stripTags(topTextRaw)).replace(/\s+/g,' ').trim();
+    const bottomTextPlain = decodeEntities(stripTags(bottomTextRaw)).replace(/\s+/g,' ').trim();
+    const meterPlain = decodeEntities(stripTags(meterRaw)).replace(/\s+/g,' ').trim();
+
+    const lyricsPlain = decodeEntities(stripTags(lyricsLines.join('\n')))
+      .replace(/\n{3,}/g,'\n\n')
+      .trim();
+
+    const lyricsHtml = buildLyricsHtml(lyricsLines);
+
+    const metaSearch = [topTextPlain, bottomTextPlain].filter(Boolean).join(' • ');
+
+    byNumber.set(number, {
+      id: `${number}`,
+      number,
+      title: title || `Hymn ${number}`,
+      // Reuse existing search weights by storing meta under author
+      author: metaSearch,
+      tune: '',
+      meter: meterPlain,
+      scripture: '',
+      lyrics: lyricsPlain,
+      _raw: {
+        topTextHtml: sanitizeInlineHtml(topTextRaw || ''),
+        bottomTextHtml: sanitizeInlineHtml(bottomTextRaw || ''),
+        meterText: meterPlain,
+        lyricsHtml,
+      }
+    });
+  }
+
+  // Order hymns: prefer --index order if provided.
+  const ordered = [];
+  const seen = new Set();
+
+  if (meta.indexOrder && meta.indexOrder.length){
+    let pos = 0;
+    for (const n of meta.indexOrder){
+      const h = byNumber.get(n);
+      if (!h) continue;
+      if (seen.has(n)) continue;
+      seen.add(n);
+      h._order = pos++;
+      ordered.push(h);
+    }
+    // Add anything not in index at the end (stable numeric)
+    const rest = Array.from(byNumber.values()).filter(h=>!seen.has(h.number));
+    rest.sort((a,b)=>parseInt(a.number,10)-parseInt(b.number,10));
+    for (const h of rest){ h._order = pos++; ordered.push(h); }
+  } else {
+    const all = Array.from(byNumber.values());
+    all.sort((a,b)=>parseInt(a.number,10)-parseInt(b.number,10));
+    all.forEach((h,idx)=> h._order = idx);
+    ordered.push(...all);
+  }
+
+  return ordered;
+}
+
+function starSvg(){
+  return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.18 3.25 1.18-6.88L1 8.99l6.91-1L12 1.75l3.09 6.24 6.91 1-5 4.68 1.18 6.88z"/></svg>`;
 }
 
 function drawList(rows){
-  const ul = document.getElementById('results');
+  const ul = $('#results');
   ul.innerHTML = rows.map(r => html`
     <li data-id="${escapeHTML(r.id)}">
-      <button class="fav-btn" data-id="${escapeHTML(r.id)}" title="${isFav(r.id) ? 'Unfavorite' : 'Favorite'}" aria-label="${isFav(r.id) ? 'Unfavorite' : 'Favorite'}">
-        <i class="bi ${isFav(r.id) ? 'bi-star-fill' : 'bi-star'}"></i>
+      <button class="fav-btn ${isFav(r.id) ? 'filled' : ''}" data-id="${escapeHTML(r.id)}" title="${isFav(r.id) ? 'Unfavorite' : 'Favorite'}" aria-label="${isFav(r.id) ? 'Unfavorite' : 'Favorite'}">
+        ${starSvg()}
       </button>
       <span class="hymn-no">${escapeHTML(r.number || '—')}</span>
       <a href="#/hymn/${state.currentDatasetIndex}/${encodeURIComponent(r.id)}" class="hymn-title">${escapeHTML(r.title || '(Untitled)')}</a>
@@ -186,49 +467,29 @@ function drawList(rows){
 
 function renderDetail(h){
   $('#hymnTitle').textContent = (h.number ? h.number + '. ' : '') + (h.title || '(Untitled)');
-  const metaBits = [];
-  if (h.author) metaBits.push('Author: ' + escapeHTML(h.author));
-  if (h.tune) metaBits.push('Tune: ' + escapeHTML(h.tune));
-  if (h.meter) metaBits.push('Meter: ' + escapeHTML(h.meter));
-  if (h.scripture) metaBits.push('Scripture: ' + escapeHTML(h.scripture));
-  $('#hymnMeta').innerHTML = metaBits.join(' • ');
 
-  const raw = h._raw || {};
-  const verses = Array.isArray(raw.verses) ? raw.verses : null;
-  const chorus = Array.isArray(raw.chorus) && raw.chorus.length ? raw.chorus : null;
-  const addChorus = Array.isArray(raw.addedChorus) && raw.addedChorus.length ? raw.addedChorus : null;
+  const top = h._raw?.topTextHtml || '';
+  const bottom = h._raw?.bottomTextHtml || '';
+  const meter = h._raw?.meterText || '';
 
-  const hasStructured = Array.isArray(verses);
-  const container = $('#hymnLyrics');
-  container.innerHTML = '';
+  const topEl = $('#hymnTopText');
+  const bottomEl = $('#hymnBottomText');
+  const meterEl = $('#hymnMeter');
 
-  if (hasStructured){
-    verses.forEach((stanza, i)=>{
-      const p = document.createElement('p'); p.className = 'stanza';
-      const strong = document.createElement('strong'); strong.className='stanza-number'; strong.textContent = (i+1)+'.';
-      p.appendChild(strong);
-      const stanzaHtml = escapeHTML(stanza.join('\n')).replace(/\n/g,'<br>');
-      const span = document.createElement('span'); span.innerHTML = ' ' + stanzaHtml;
-      p.appendChild(span);
-      container.appendChild(p);
+  topEl.innerHTML = top ? top : '';
+  bottomEl.innerHTML = bottom ? bottom : '';
+  meterEl.textContent = meter ? meter : '';
 
-      if (chorus){
-        const c = document.createElement('div'); c.className='chorus';
-        c.innerHTML = '<span class="label">Chorus</span>' + escapeHTML(chorus.join('\n')).replace(/\n/g,'<br>');
-        container.appendChild(c);
-      }
-      if (addChorus){
-        const c2 = document.createElement('div'); c2.className='chorus';
-        c2.innerHTML = '<span class="label">Refrain</span>' + escapeHTML(addChorus.join('\n')).replace(/\n/g,'<br>');
-        container.appendChild(c2);
-      }
-    });
-  } else {
-    const stanzas = splitStanzas(h.lyrics || '');
-    container.innerHTML = stanzas.map((s,i)=> html`
-      <p class="stanza"><strong class="stanza-number">${i+1}.</strong> ${escapeHTML(s).replace(/\n/g,'<br>')}</p>
-    `).join('');
-  }
+  topEl.classList.toggle('hidden', !top);
+  bottomEl.classList.toggle('hidden', !bottom);
+  meterEl.classList.toggle('hidden', !meter);
+
+  $('#hymnLyrics').innerHTML = h._raw?.lyricsHtml || escapeHTML(h.lyrics || '').replace(/\n/g,'<br>');
+
+  const favBtn = $('#favBtnDetail');
+  const pressed = isFav(h.id);
+  favBtn.setAttribute('aria-pressed', pressed ? 'true' : 'false');
+  favBtn.textContent = pressed ? '★' : '☆';
 }
 
 function showList(){
@@ -236,103 +497,138 @@ function showList(){
   $('#listView').classList.remove('hidden');
   history.replaceState(null, '', '#');
 }
-function showDetail(id, push=true){
-  const h = state.rows.find(r=> r.id===id);
-  if (!h) { showList(); return; }
+
+function showDetail(id){
+  const h = state.rows.find(r => r.id === id);
+  if (!h){ showList(); return; }
   renderDetail(h);
   $('#listView').classList.add('hidden');
   $('#detailView').classList.remove('hidden');
-
-  // NEW: always open lyrics at the top of the page
-  requestAnimationFrame(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
-  });
-
-  if (push) location.hash = `#/hymn/${state.currentDatasetIndex}/${encodeURIComponent(id)}`;
+  window.scrollTo(0,0);
 }
 
-function setupSubbarControls(){
-  const sortSelect = document.getElementById('sortSelect');
-  const favToggle  = document.getElementById('favoritesToggle');
+async function hydrate(){
+  const ds = state.datasets[state.currentDatasetIndex];
+  if (!ds) return;
 
-  // initialize from defaults
-  if (sortSelect) sortSelect.value = state.sortMode;
+  const txt = await fetchTextWithFallback(ds.path);
+  state.rows = parseHymnal(txt);
+  state.index = buildIndex(state.rows);
 
-  sortSelect?.addEventListener('change', ()=>{
-    state.sortMode = sortSelect.value === 'alpha' ? 'alpha' : 'number';
-    renderFromState();
-  });
-
-  favToggle?.addEventListener('click', ()=>{
-    state.viewFavorites = !state.viewFavorites;
-    renderFromState();
-  });
-
-  updateFavButtonLabel();
+  loadFavorites();
+  renderFromState();
+  router.handle();
 }
 
-function setupListInteractions(){
-  const ul = document.getElementById('results');
-  ul.addEventListener('click', (e)=>{
+function setupUI(){
+  // Inside-input clear button wiring
+  const q = $('#q');
+  const qClear = $('#qClear');
+
+  function syncClear(){
+    if (!qClear) return;
+    const hasText = (q?.value || '').trim().length > 0;
+    qClear.classList.toggle('is-visible', hasText);
+  }
+
+  let _renderTimer = null;
+  q.addEventListener('input', () => {
+    syncClear();
+    clearTimeout(_renderTimer);
+    _renderTimer = setTimeout(() => renderFromState(), 80); // 60–120ms feels good
+  });
+
+  if (qClear){
+    qClear.addEventListener('click', () => {
+      q.value = '';
+      syncClear();
+      renderFromState();
+      q.focus();
+    });
+  }
+
+  // Initialize visibility on load (in case input is prefilled)
+  syncClear();
+
+  $('#sortSelect').addEventListener('change', (e)=>{ state.sortMode = e.target.value; renderFromState(); });
+  $('#sortSelect').value = state.sortMode;
+
+  $('#favoritesToggle').addEventListener('click', ()=>{ state.viewFavorites = !state.viewFavorites; renderFromState(); });
+
+  // Favorite toggles in list
+  $('#results').addEventListener('click', (e)=>{
     const btn = e.target.closest('.fav-btn');
     if (!btn) return;
-    e.preventDefault(); e.stopPropagation();
-
     const id = btn.getAttribute('data-id');
     toggleFav(id);
+    renderFromState();
 
-    // If we’re in favorites view and it was unfavorited, remove it from the list
-    // Easiest: just re-render respecting current query/sort/filter
+    const parts = router.parse();
+    if (parts[0]==='hymn' && parts[2]){
+      const curId = decodeURIComponent(parts[2]);
+      const h = state.rows.find(r=> r.id===curId);
+      if (h) renderDetail(h);
+    }
+  });
+
+  $('#backBtn').addEventListener('click', ()=> history.back());
+
+  $('#favBtnDetail').addEventListener('click', ()=>{
+    const parts = router.parse();
+    if (!(parts[0]==='hymn' && parts[2])) return;
+    const id = decodeURIComponent(parts[2]);
+    toggleFav(id);
+    const h = state.rows.find(r=> r.id===id);
+    if (h) renderDetail(h);
     renderFromState();
   });
-}
 
-function setupSearch(){
-  const input = document.getElementById('q');
-  const clearBtn = document.getElementById('clearBtn');
-
-  const run = ()=> renderFromState();
-
-  input.addEventListener('input', run);
-  clearBtn.addEventListener('click', ()=>{
-    input.value=''; run(); input.focus();
-  });
-}
-
-function setupDetailButtons(){
-  $('#backBtn').addEventListener('click', showList);
   $('#copyBtn').addEventListener('click', async ()=>{
-    const title = $('#hymnTitle').textContent;
-    const text = title + '\n\n' + $('#hymnLyrics').innerText;
-    try{ await navigator.clipboard.writeText(text); alert('Copied hymn to clipboard.'); }
-    catch{ alert('Copy failed. Select text and copy manually.'); }
+    const parts = router.parse();
+    if (!(parts[0]==='hymn' && parts[2])) return;
+    const id = decodeURIComponent(parts[2]);
+    const h = state.rows.find(r=> r.id===id);
+    if (!h) return;
+
+    const lines = [];
+    lines.push(`${h.number}. ${h.title}`);
+
+    const topPlain = decodeEntities(stripTags(h._raw?.topTextHtml || '')).trim();
+    const bottomPlain = decodeEntities(stripTags(h._raw?.bottomTextHtml || '')).trim();
+    const meterPlain = (h._raw?.meterText || '').trim();
+
+    if (topPlain) lines.push(topPlain);
+    if (bottomPlain) lines.push(bottomPlain);
+    if (meterPlain) lines.push(meterPlain);
+
+    lines.push('');
+    lines.push(h.lyrics || '');
+
+    const text = lines.join('\n');
+    try{ await navigator.clipboard.writeText(text); }catch{ /* ignore */ }
   });
+
   $('#printBtn').addEventListener('click', ()=> window.print());
 }
 
-let headerResizeObs;
-
+// Keep subbar pinned correctly even if header wraps on mobile
+let headerResizeObs = null;
 function updateHeaderHeight(){
   const header = document.querySelector('header');
   if (!header) return;
-  // Use device pixels (rounded) to avoid sub-pixel drift on zoom
-  const h = Math.ceil(header.getBoundingClientRect().height);
-  document.documentElement.style.setProperty('--header-h', h + 'px');
+  const h = Math.max(0, Math.round(header.getBoundingClientRect().height));
+  document.documentElement.style.setProperty('--header-h', `${h}px`);
 }
-
 function watchHeader(){
   updateHeaderHeight();
-  // Update on resize/orientation + whenever the header’s height changes
-  window.addEventListener('resize', updateHeaderHeight, { passive: true });
-  window.addEventListener('orientationchange', updateHeaderHeight);
-  if ('fonts' in document) document.fonts.ready.then(updateHeaderHeight).catch(()=>{});
+  const header = document.querySelector('header');
+  if (!header) return;
+  headerResizeObs?.disconnect?.();
   if ('ResizeObserver' in window){
-    headerResizeObs?.disconnect?.();
-    const header = document.querySelector('header');
-    if (header){
-      headerResizeObs = new ResizeObserver(updateHeaderHeight);
-      headerResizeObs.observe(header);
-    }
+    headerResizeObs = new ResizeObserver(updateHeaderHeight);
+    headerResizeObs.observe(header);
+  } else {
+    addEventListener('resize', updateHeaderHeight);
   }
 }
 
@@ -344,10 +640,10 @@ router.onRoute = (parts)=>{
     if (!Number.isNaN(ds) && ds !== state.currentDatasetIndex){
       state.currentDatasetIndex = Math.max(0, Math.min(ds, state.datasets.length-1));
       $('#datasetSelect').value = String(state.currentDatasetIndex);
-      hydrate().then(()=> showDetail(id, false));
+      hydrate().then(()=> showDetail(id));
       return;
     }
-    showDetail(id, false);
+    showDetail(id);
   } else {
     showList();
   }
@@ -355,11 +651,8 @@ router.onRoute = (parts)=>{
 
 (async function init(){
   await loadConfig();
-  await hydrate();
-  setupSearch();
-  setupDetailButtons();
-  setupSubbarControls();
-  setupListInteractions();
+  setupUI();
   watchHeader();
+  await hydrate();
   router.start();
 })();
