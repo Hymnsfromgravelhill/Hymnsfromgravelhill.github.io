@@ -218,7 +218,8 @@ function parseIndexOrder(indexSectionText=''){
   const seen = new Set();
   for (const p of parts){
     const songNum = p.split('|')[0].replace(/[\s\.]/g,'');
-    if (!songNum || !/^\d+$/.test(songNum) || songNum === '0') continue;
+    // Allow hymn 0 (cover) as well as 1..N
+    if (!songNum || !/^\d+$/.test(songNum)) continue;
     if (seen.has(songNum)) continue;
     seen.add(songNum);
     out.push(songNum);
@@ -249,16 +250,18 @@ function computeOffsets(meta){
 }
 
 function isHymnNumberLine(rawLine, prevLine){
-  // Hymn numbers in these files are digits-only on their own line (no meters like 10.6.10.6.).
-  // Guard against false positives by requiring: digits only, not 0, reasonable range, and preceded by a blank line (or start of file).
+  // Hymn numbers are digits-only lines (no meters like 10.6.10.6.).
+  // Allow hymn 0 for "cover" entries. Keep blank-line guard to avoid false positives.
   const t = (rawLine ?? '').toString().trim();
   if (!t) return null;
   if (!/^\d+$/.test(t)) return null;
-  if (t === '0') return null;
+
   const n = parseInt(t, 10);
-  if (!Number.isFinite(n) || n < 1 || n > 2000) return null;
+  if (!Number.isFinite(n) || n < 0 || n > 2000) return null;
+
   const prev = (prevLine ?? '').toString().trim();
   if (prev !== '') return null;
+
   return t;
 }
 
@@ -443,6 +446,14 @@ function parseHymnal(fullText){
     all.sort((a,b)=>parseInt(a.number,10)-parseInt(b.number,10));
     all.forEach((h,idx)=> h._order = idx);
     ordered.push(...all);
+  }
+
+  // Ensure hymn 0 (cover) is always first if present
+  const coverIdx = ordered.findIndex(h => h.number === '0');
+  if (coverIdx >= 0){
+    const [cover] = ordered.splice(coverIdx, 1);
+    ordered.unshift(cover);
+    ordered.forEach((h,i)=> h._order = i);
   }
 
   return ordered;

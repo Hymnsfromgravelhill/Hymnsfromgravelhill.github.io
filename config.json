@@ -80,6 +80,11 @@
       "name": "Christian Teen Camp (PEI)",
       "path": "hymnals/Christian_Teen_Camp_PEI.txt",
       "type": "txt"
+    },
+    {
+      "name": "Songs of Salvation (Revised)",
+      "path": "hymnals/Songs_of_Salvation_Revised.txt",
+      "type": "txt"
     }
   ]
 }
