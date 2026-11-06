@@ -44,24 +44,6 @@ jobs:
           cp hymnals/*.txt "$dest/hymnals/"
           du -sh "$dest"
 
-      - name: Launcher icon from the website icon
-        run: |
-          pip install --quiet pillow
-          python3 - <<'PY'
-          import os
-          from PIL import Image
-          src = next((p for p in ('icon-512.png', 'assets/img/icon.png') if os.path.exists(p)), None)
-          if src:
-              res = 'android/app/src/main/res'
-              os.remove(res + '/mipmap-anydpi-v26/ic_launcher.xml')
-              os.rmdir(res + '/mipmap-anydpi-v26')
-              img = Image.open(src).convert('RGBA')
-              for name, px in (('mdpi', 48), ('hdpi', 72), ('xhdpi', 96), ('xxhdpi', 144), ('xxxhdpi', 192)):
-                  d = f'{res}/mipmap-{name}'; os.makedirs(d, exist_ok=True)
-                  img.resize((px, px), Image.LANCZOS).save(d + '/ic_launcher.png')
-              print('icon from', src)
-          PY
-
       # A signing key is needed so each new APK can be installed over the previous one.
       # Best: add the four ANDROID_* secrets (see README). Otherwise a key is generated once and cached.
       - name: Restore cached signing key

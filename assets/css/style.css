@@ -214,3 +214,7 @@ a:visited{color:var(--link);} /* prevent odd visited colors */
 .meta-block{color:var(--muted);font-size:.95rem;margin:.25rem 0 1rem}
 .meta-line{margin:.15rem 0; word-break:break-word}
 .meta-line.meter{font-style:italic;font-variant-numeric:tabular-nums}
+/* Credit line */
+.site-credit{max-width:900px;margin:0 auto;padding:1rem 1rem 2rem;text-align:center;color:var(--muted);font-size:.85rem}
+.site-credit a{color:var(--link)}
+@media print{.site-credit{display:none}}

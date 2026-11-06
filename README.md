@@ -13,6 +13,9 @@ This repository is a **static website** (no backend) designed for **GitHub Pages
 - Results update as you type, even while a hymn is open
 - Android app (see `android/`): the same hymn books with a phone-first layout, works offline
 
+## Credits
+Built and maintained by [From Gravel Hill Enterprises](https://fromgravelhill.ca/).
+
 ## Local testing
 This site supports two ways to test locally:
 
