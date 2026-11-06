@@ -45,7 +45,7 @@ let books = [];
 let cur = null;           // current book
 let curHymn = null;
 let query = '';
-let sort = ['book', 'number', 'alpha'].includes(store.get('sort', 'book')) ? store.get('sort', 'book') : 'book';
+let sort = ['book', 'number', 'alpha'].includes(store.get('sort', 'number')) ? store.get('sort', 'number') : 'number';
 const norm = (t) => String(t).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 let favOnly = false;
 let shown = PAGE;

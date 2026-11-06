@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.04
+- Hymn lists now open sorted by hymn number in every book (Alphabetical and Book order are still available).
+
 ## 0.03
 - New launcher icon: the book-and-note symbol on a navy background (it was showing as a solid white tile). Supports round, squircle and themed icons.
 
