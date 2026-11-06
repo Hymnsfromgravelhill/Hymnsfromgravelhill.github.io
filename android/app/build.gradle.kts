@@ -1,13 +1,14 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
 
 // Version comes from android/version.properties: releaseNumber 1 -> 0.01, 2 -> 0.02, ...
-val releaseNumber: Int = java.util.Properties().let { props ->
-    rootProject.file("version.properties").inputStream().use { props.load(it) }
-    props.getProperty("releaseNumber").trim().toInt()
-}
+val releaseNumber: Int = Properties().apply {
+    rootProject.file("version.properties").inputStream().use { load(it) }
+}.getProperty("releaseNumber").trim().toInt()
 
 android {
     namespace = "ca.fromgravelhill.hymns"
