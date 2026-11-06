@@ -1,6 +1,7 @@
 import {Router} from './router.js';
 import {html, escapeHTML, $, decodeEntities} from './utils.js';
 import {buildIndex, search} from './search.js';
+import './theme.js';
 
 const state = {
   config: null,
@@ -165,6 +166,7 @@ function sanitizeInlineHtml(s=''){
   let out = String(s);
   out = out.replace(/<span\b[^>]*fa-pause-circle[^>]*><\/span>/gi, '');
   out = out.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
+  out = out.replace(/<\/?(iframe|object|embed|style|link|meta|base|form|svg|math)\b[^>]*>/gi, '');
   out = out.replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, '');
   out = out.replace(/\s(href|src)\s*=\s*(['"])\s*javascript:[^'\"]*\2/gi, ' $1="#"');
   // Strip links but keep inner text
@@ -184,6 +186,8 @@ function parseBool(s){
   return String(s||'').trim().toLowerCase() === 'true';
 }
 
+const SECTION_NAMES = new Set(['title','additionalinfo','index','firstlineistitle','usetoptext','usebottomtext','usemeter','lyrics','tags','categories','audiourl','audio']);
+
 function parseSections(fullText){
   const t = normalizeNewlines(fullText);
   const lines = t.split('\n');
@@ -192,7 +196,9 @@ function parseSections(fullText){
 
   for (const raw of lines){
     const line = raw ?? '';
-    if (line.startsWith('--')){
+    // Only real section names start a section. A verse line that happens to begin with "--"
+    // (e.g. "--Nothing else in all the world beside--") is part of the lyrics.
+    if (line.startsWith('--') && SECTION_NAMES.has(line.slice(2).trim().toLowerCase())){
       cur = line.slice(2).trim();
       const key = cur.toLowerCase();
       if (!(key in sections)) sections[key] = '';
@@ -545,6 +551,8 @@ function setupUI(){
   let _renderTimer = null;
   q.addEventListener('input', () => {
     syncClear();
+    // Typing while a hymn is open goes straight to the results (no need to press Back first).
+    if (!$('#detailView').classList.contains('hidden')) showList();
     clearTimeout(_renderTimer);
     _renderTimer = setTimeout(() => renderFromState(), 80); // 60–120ms feels good
   });
@@ -553,6 +561,7 @@ function setupUI(){
     qClear.addEventListener('click', () => {
       q.value = '';
       syncClear();
+      if (!$('#detailView').classList.contains('hidden')) showList();
       renderFromState();
       q.focus();
     });

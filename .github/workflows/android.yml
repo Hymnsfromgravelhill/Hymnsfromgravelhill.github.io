@@ -1,0 +1,120 @@
+name: Build Android app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'android/**'
+      - 'config.json'
+      - 'assets/js/search.js'
+      - 'assets/js/utils.js'
+      - 'assets/img/**'
+      - 'hymnals/**'
+      - '.github/workflows/android.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
+
+      - name: Bundle the hymn books and app screens into the app
+        run: |
+          dest=android/app/src/main/assets/www
+          rm -rf "$dest" && mkdir -p "$dest/assets/js" "$dest/assets/img" "$dest/hymnals"
+          cp android/app-ui/index.html "$dest/"
+          cp -r android/app-ui/assets/css "$dest/assets/css"
+          cp android/app-ui/assets/js/*.js "$dest/assets/js/"
+          cp assets/js/search.js assets/js/utils.js "$dest/assets/js/"
+          cp assets/img/icon.png "$dest/assets/img/"
+          cp config.json "$dest/"
+          cp hymnals/*.txt "$dest/hymnals/"
+          du -sh "$dest"
+
+      - name: Launcher icon from the website icon
+        run: |
+          pip install --quiet pillow
+          python3 - <<'PY'
+          import os
+          from PIL import Image
+          src = next((p for p in ('icon-512.png', 'assets/img/icon.png') if os.path.exists(p)), None)
+          if src:
+              res = 'android/app/src/main/res'
+              os.remove(res + '/mipmap-anydpi-v26/ic_launcher.xml')
+              os.rmdir(res + '/mipmap-anydpi-v26')
+              img = Image.open(src).convert('RGBA')
+              for name, px in (('mdpi', 48), ('hdpi', 72), ('xhdpi', 96), ('xxhdpi', 144), ('xxxhdpi', 192)):
+                  d = f'{res}/mipmap-{name}'; os.makedirs(d, exist_ok=True)
+                  img.resize((px, px), Image.LANCZOS).save(d + '/ic_launcher.png')
+              print('icon from', src)
+          PY
+
+      # A signing key is needed so each new APK can be installed over the previous one.
+      # Best: add the four ANDROID_* secrets (see README). Otherwise a key is generated once and cached.
+      - name: Restore cached signing key
+        id: keycache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ci-keystore.jks
+            ci-keystore.pw
+          key: hymns-ci-keystore-v1
+
+      - name: Prepare signing key
+        env:
+          KS_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KS_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KS_KEYPASS: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          if [ -n "$KS_B64" ]; then
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
+            echo "KEYSTORE_PATH=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
+            echo "KEYSTORE_PASSWORD=$KS_PASS" >> "$GITHUB_ENV"
+            echo "KEY_ALIAS=$KS_ALIAS" >> "$GITHUB_ENV"
+            echo "KEY_PASSWORD=${KS_KEYPASS:-$KS_PASS}" >> "$GITHUB_ENV"
+          else
+            if [ ! -f ci-keystore.jks ] || [ ! -f ci-keystore.pw ]; then
+              rm -f ci-keystore.jks ci-keystore.pw
+              pw=$(openssl rand -hex 16)
+              keytool -genkeypair -keystore ci-keystore.jks -storepass "$pw" -keypass "$pw" -alias hymns \
+                -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Hymns from Gravel Hill"
+              echo "$pw" > ci-keystore.pw
+            fi
+            echo "KEYSTORE_PATH=$GITHUB_WORKSPACE/ci-keystore.jks" >> "$GITHUB_ENV"
+            echo "KEYSTORE_PASSWORD=$(cat ci-keystore.pw)" >> "$GITHUB_ENV"
+            echo "KEY_ALIAS=hymns" >> "$GITHUB_ENV"
+            echo "KEY_PASSWORD=$(cat ci-keystore.pw)" >> "$GITHUB_ENV"
+          fi
+
+      - name: Build release APK
+        run: gradle -p android assembleRelease -PversionCode=${{ github.run_number }} -PversionName=1.${{ github.run_number }}
+
+      - name: Name the APK
+        run: cp android/app/build/outputs/apk/release/app-release.apk HymnsFromGravelHill.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HymnsFromGravelHill-apk
+          path: HymnsFromGravelHill.apk
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: app-v1.${{ github.run_number }}
+          name: Hymns app 1.${{ github.run_number }}
+          files: HymnsFromGravelHill.apk
+          body: Android app build 1.${{ github.run_number }}. Download HymnsFromGravelHill.apk and open it on your phone.

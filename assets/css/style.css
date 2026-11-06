@@ -161,9 +161,9 @@ a:visited{color:var(--link);} /* prevent odd visited colors */
 .lyrics .infoTitle{font-weight:700;font-style:italic;margin:.25rem 0}
 .lyrics .author{font-style:italic;color:var(--muted);margin:.25rem 0}
 
-/* Dark mode */
+/* Dark mode: follows the device unless the theme button picked light/dark */
 @media (prefers-color-scheme: dark){
-  :root{
+  :root:not([data-theme="light"]){
     --bg:#000000;
     --fg:#e6e6e6;
     --muted:#a0a7b1;
@@ -172,9 +172,26 @@ a:visited{color:var(--link);} /* prevent odd visited colors */
     --link:#7fd4a7;
     --accent:#7fd4a7;
     --heading:#ffffff;
+    color-scheme:dark;
   }
-  .content{box-shadow:none;}
+  :root:not([data-theme="light"]) .content{box-shadow:none;}
 }
+:root[data-theme="dark"]{
+    --bg:#000000;
+    --fg:#e6e6e6;
+    --muted:#a0a7b1;
+    --card:#0b0b0b;
+    --border:#1a1a1a;
+    --link:#7fd4a7;
+    --accent:#7fd4a7;
+    --heading:#ffffff;
+    color-scheme:dark;
+}
+:root[data-theme="dark"] .content{box-shadow:none;}
+:root[data-theme="light"]{color-scheme:light}
+
+.controls .theme-btn{min-width:2.6rem;font-size:1.1rem;line-height:1}
+@media (max-width:640px){ .controls .theme-btn{align-self:flex-end} }
 
 /* Responsive */
 @media (max-width:640px){

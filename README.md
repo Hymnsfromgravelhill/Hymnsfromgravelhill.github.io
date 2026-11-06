@@ -9,6 +9,9 @@ This repository is a **static website** (no backend) designed for **GitHub Pages
 - Favorites (stored locally in your browser)
 - Clean list view + hymn detail view
 - Copy + Print
+- Light / dark / match-device theme (button in the header, remembered)
+- Results update as you type, even while a hymn is open
+- Android app (see `android/`): the same hymn books with a phone-first layout, works offline
 
 ## Local testing
 This site supports two ways to test locally:

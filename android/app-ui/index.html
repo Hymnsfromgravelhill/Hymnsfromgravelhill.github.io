@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" data-mode="web">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#233E5B" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>Hymns from Gravel Hill</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" type="image/png" href="assets/img/icon.png">
+<script src="assets/js/theme-init.js"></script>
+</head>
+<body>
+<header class="topbar" role="banner">
+  <a class="brand" href="#" id="brandLink" aria-label="Hymns from Gravel Hill, home">
+    <img src="assets/img/icon.png" alt="" class="logo" width="36" height="36">
+    <span class="title">Hymns from Gravel Hill</span>
+  </a>
+  <div class="controls">
+    <label class="sr-only" for="datasetSelect">Hymn book</label>
+    <select id="datasetSelect"></select>
+    <div class="search-wrap" role="search">
+      <label class="sr-only" for="q">Search</label>
+      <input id="q" type="search" inputmode="search" enterkeyhint="search" placeholder="Search number, title, lyrics, author…" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <button id="qClear" class="q-clear" type="button" aria-label="Clear search" hidden>×</button>
+    </div>
+    <button id="themeBtn" class="icon-btn" type="button" aria-label="Switch colour theme">◐</button>
+  </div>
+</header>
+
+<nav class="subbar" id="sortFavBar" aria-label="List controls">
+  <div class="left">
+    <label for="sortSelect" class="sr-only">Sort</label>
+    <select id="sortSelect">
+      <option value="book">Sort: Book order (default)</option>
+      <option value="number">Sort: Number</option>
+      <option value="alpha">Sort: Alphabetical</option>
+    </select>
+  </div>
+  <div class="right">
+    <button id="favoritesToggle" type="button" aria-pressed="false" title="Show only favorites">Show Favorites (0)</button>
+  </div>
+</nav>
+
+<main class="container" id="main">
+  <section class="content hidden" id="homeView" aria-label="Hymn books">
+    <h2 class="screen-title">Hymn books</h2>
+    <div id="bookGrid" class="book-grid"></div>
+  </section>
+
+  <section class="content" id="listView" aria-label="Hymn list">
+    <h2 class="screen-title" id="listTitle"></h2>
+    <div id="resultStats" class="muted" role="status" aria-live="polite"></div>
+    <ul id="results" class="hymn-list" aria-label="Results"></ul>
+    <button id="moreBtn" class="more-btn hidden" type="button">Show more</button>
+    <details id="aboutBook" class="about hidden"><summary>About this hymn book</summary><div id="aboutText"></div></details>
+  </section>
+
+  <section class="content hidden" id="favView" aria-label="Favorites">
+    <h2 class="screen-title">Favorites</h2>
+    <ul id="favList" class="hymn-list"></ul>
+    <p id="favEmpty" class="muted hidden">No favorites yet. Open a hymn and tap the star.</p>
+  </section>
+
+  <section class="content hidden" id="settingsView" aria-label="Settings">
+    <h2 class="screen-title">Settings</h2>
+    <div class="setting"><label for="setTheme">Colour theme</label>
+      <select id="setTheme"><option value="auto">Match device</option><option value="light">Light</option><option value="dark">Dark</option></select></div>
+    <div class="setting"><label for="setSize">Lyrics text size</label>
+      <input id="setSize" type="range" min="0.85" max="1.8" step="0.05" value="1"></div>
+    <div class="setting"><label for="setAwake">Keep screen on while reading</label>
+      <input id="setAwake" type="checkbox"></div>
+    <p class="muted">Hymns from Gravel Hill — hymn books are stored in the app and work without internet.</p>
+  </section>
+
+  <section class="content hidden" id="detailView" aria-label="Hymn detail">
+    <nav class="detail-nav" aria-label="Hymn actions">
+      <button id="backBtn" type="button">← Back</button>
+      <button id="prevBtn" type="button" aria-label="Previous hymn">‹</button>
+      <button id="nextBtn" type="button" aria-label="Next hymn">›</button>
+      <div class="spacer"></div>
+      <button id="smallerBtn" type="button" aria-label="Smaller text">A−</button>
+      <button id="biggerBtn" type="button" aria-label="Larger text">A+</button>
+      <button id="copyBtn" type="button" title="Copy hymn">Copy</button>
+      <button id="shareBtn" type="button" title="Share hymn" class="hidden">Share</button>
+      <button id="printBtn" type="button" title="Print hymn">Print</button>
+      <button id="favBtnDetail" type="button" aria-pressed="false" title="Favorite">☆</button>
+    </nav>
+    <article id="hymnArticle">
+      <p id="hymnBook" class="hymn-book"></p>
+      <h1 id="hymnTitle"></h1>
+      <div class="meta-block">
+        <div id="hymnTopText" class="meta-line"></div>
+        <div id="hymnBottomText" class="meta-line"></div>
+        <div id="hymnMeter" class="meta-line meter"></div>
+      </div>
+      <div id="hymnLyrics" class="lyrics"></div>
+    </article>
+  </section>
+</main>
+
+<nav id="tabbar" class="tabbar" aria-label="Main">
+  <button type="button" data-tab="books"><span aria-hidden="true">📖</span>Books</button>
+  <button type="button" data-tab="search"><span aria-hidden="true">🔍</span>Search</button>
+  <button type="button" data-tab="favs"><span aria-hidden="true">★</span>Favorites</button>
+  <button type="button" data-tab="settings"><span aria-hidden="true">⚙</span>Settings</button>
+</nav>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><p style="padding:1rem">This hymn browser needs JavaScript.</p></noscript>
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
