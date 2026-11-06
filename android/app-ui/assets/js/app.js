@@ -12,7 +12,7 @@ const FALLBACK_BOOKS = [
   ['Gospel Hymn Book UK (1996)', 'hymnals/UKGHB-1996.txt'], ['UK Gospel Hymn Book (1897)', 'hymnals/UK-gospel-hb_1897.txt'],
   ['Gospel Hymns [modern English]', 'hymnals/Gospel_Hymns.txt'], ['Good Old Gospel Hymns', 'hymnals/Old_Gospel.txt'],
   ['Choice Hymns of the Faith', 'hymnals/choice_hymns.txt'], ['Favorite Hymns', 'hymnals/favoritehymns.txt'],
-  ["The Children's Hymn Book 1987", 'hymnals/childrens.txt'], ['Seed Sowers Hymnal 2015 Premium \u2014 SS2', 'hymnals/SS2.txt'],
+  ["The Children's Hymn Book 1987", 'hymnals/childrens.txt'], ['Seed Sowers Hymnal (2015)', 'hymnals/SS2.txt'],
   ['Sacred Songs and Solos', 'hymnals/sacred_songs_solos.txt'],
   ['Sacred Songs for Singing Saints (Songs of Thanksgiving & Praise)', 'hymnals/SSFSS.txt'],
   ['Songs of Praise and Thanksgiving (Updated)', 'hymnals/Songs_of_Praise_and_Thanksgiving.txt'],
@@ -343,6 +343,7 @@ function wire() {
   for (const b of books) { const o = document.createElement('option'); o.value = b.slug; o.textContent = b.name; sel.appendChild(o); }
   $('sortSelect').value = sort; $('setAwake').checked = store.get('awake', '0') === '1';
   $('tabbar').classList.toggle('hidden', !APP);
+  try { if (NATIVE && NATIVE.appVersion) $('appVersion').textContent = 'Version ' + NATIVE.appVersion(); } catch (e) { /* ignore */ }
   setTheme(store.get('theme', 'auto')); applyScale(); wire();
   if (store.get('awake', '0') === '1') setAwake(true);
   await route();

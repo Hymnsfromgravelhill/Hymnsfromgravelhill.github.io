@@ -3,6 +3,12 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
+// Version comes from android/version.properties: releaseNumber 1 -> 0.01, 2 -> 0.02, ...
+val releaseNumber: Int = java.util.Properties().let { props ->
+    rootProject.file("version.properties").inputStream().use { props.load(it) }
+    props.getProperty("releaseNumber").trim().toInt()
+}
+
 android {
     namespace = "ca.fromgravelhill.hymns"
     compileSdk = 34
@@ -11,8 +17,8 @@ android {
         applicationId = "ca.fromgravelhill.hymns"
         minSdk = 26
         targetSdk = 34
-        versionCode = (findProperty("versionCode") as String?)?.toIntOrNull() ?: 1
-        versionName = (findProperty("versionName") as String?) ?: "1.0"
+        versionCode = releaseNumber
+        versionName = "0." + releaseNumber.toString().padStart(2, '0')
     }
 
     // Signing: real key from environment (CI secrets) when present, otherwise the debug key so local builds still install.

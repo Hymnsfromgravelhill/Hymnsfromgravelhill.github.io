@@ -102,6 +102,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         @JavascriptInterface
+        fun appVersion(): String = try {
+            packageManager.getPackageInfo(packageName, 0).versionName ?: ""
+        } catch (e: Exception) {
+            ""
+        }
+
+        @JavascriptInterface
         fun keepScreenOn(on: Boolean) {
             runOnUiThread {
                 if (on) window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)

@@ -81,6 +81,9 @@ jobs:
           KS_KEYPASS: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           if [ -n "$KS_B64" ]; then
+            if [ -z "$KS_PASS" ] || [ -z "$KS_ALIAS" ]; then
+              echo "ANDROID_KEYSTORE_BASE64 is set but ANDROID_KEYSTORE_PASSWORD or ANDROID_KEY_ALIAS is missing" >&2; exit 1
+            fi
             echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
             echo "KEYSTORE_PATH=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
             echo "KEYSTORE_PASSWORD=$KS_PASS" >> "$GITHUB_ENV"
@@ -100,11 +103,25 @@ jobs:
             echo "KEY_PASSWORD=$(cat ci-keystore.pw)" >> "$GITHUB_ENV"
           fi
 
+      - name: Read app version
+        run: |
+          n=$(grep '^releaseNumber=' android/version.properties | cut -d= -f2 | tr -d '\r ')
+          v=$(printf '0.%02d' "$n")
+          echo "APP_VERSION=$v" >> "$GITHUB_ENV"
+          awk -v v="$v" '/^## /{p=($2==v)} p' android/CHANGELOG.md > release-notes.md
+          [ -s release-notes.md ] || echo "Hymns app $v" > release-notes.md
+          echo "Building version $v"
+
       - name: Build release APK
-        run: gradle -p android assembleRelease -PversionCode=${{ github.run_number }} -PversionName=1.${{ github.run_number }}
+        run: gradle -p android assembleRelease
 
       - name: Name the APK
         run: cp android/app/build/outputs/apk/release/app-release.apk HymnsFromGravelHill.apk
+
+      - name: Show signing certificate (must be identical on every build)
+        run: |
+          apksigner=$(ls "$ANDROID_HOME"/build-tools/*/apksigner 2>/dev/null | sort -V | tail -1)
+          [ -n "$apksigner" ] && "$apksigner" verify --print-certs HymnsFromGravelHill.apk | grep -E "Signer #1 certificate SHA-256" || true
 
       - uses: actions/upload-artifact@v4
         with:
@@ -114,7 +131,7 @@ jobs:
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: app-v1.${{ github.run_number }}
-          name: Hymns app 1.${{ github.run_number }}
+          tag_name: app-v${{ env.APP_VERSION }}
+          name: Hymns app ${{ env.APP_VERSION }}
+          body_path: release-notes.md
           files: HymnsFromGravelHill.apk
-          body: Android app build 1.${{ github.run_number }}. Download HymnsFromGravelHill.apk and open it on your phone.

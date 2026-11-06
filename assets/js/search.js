@@ -75,6 +75,9 @@ export function buildIndex(rows){
 
     const nTitle      = normalize(titleRaw);
     const nLyrics     = normalize(lyricsRaw);
+    // Whole-word text with punctuation/line breaks flattened to single spaces (stopwords kept) for phrase checks.
+    const pTitle      = ' ' + simpleWords(titleRaw) + ' ';
+    const pLyrics     = ' ' + simpleWords(lyricsRaw) + ' ';
     const tfTitle     = countTokens(tokenize(titleRaw));
     const tfLyrics    = countTokens(tokenize(lyricsRaw));
     const tfAuthor    = countTokens(tokenize(authorRaw));
@@ -96,7 +99,7 @@ export function buildIndex(rows){
       id: r.id,
       row: r,
       num: (r.number ?? '').toString().toLowerCase(),
-      nTitle, nLyrics,
+      nTitle, nLyrics, pTitle, pLyrics,
       tfTitle, tfLyrics, tfAuthor, tfTune, tfScripture, tfMeter,
       terms: seen,
     });
@@ -264,10 +267,21 @@ export function search(index, rows, q){
     // If we matched via gating but still have a 0 score (rare), keep it with a tiny baseline
     if (score <= 0 && (qTerms.length || nQuotedPhrases.length)) score = 0.0001;
 
-    results.push({ row: doc.row, score });
+    results.push({ row: doc.row, score, doc });
   }
 
   results.sort((a,b)=> b.score - a.score || numAsc(a.row,b.row) || titleAsc(a.row,b.row));
+
+  // Phrase-first: when several words are typed, hymns that contain those words together, in that
+  // order (stopwords included, e.g. "Thine the glory"), are the answer. Only when no hymn contains the
+  // phrase do we fall back to "all the words appear somewhere". The last word may still be partial,
+  // so results stay sensible while typing.
+  const typed = simpleWords(rest);
+  if (!nQuotedPhrases.length && typed.indexOf(' ') !== -1){
+    const needle = ' ' + typed;
+    const together = results.filter(r => strIncludes(r.doc.pTitle, needle) || strIncludes(r.doc.pLyrics, needle));
+    if (together.length) return together.map(r => r.row);
+  }
   return results.map(r => r.row);
 }
 
