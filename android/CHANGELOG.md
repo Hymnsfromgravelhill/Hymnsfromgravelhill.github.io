@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.05
+- Settings: new "Book shelf layout" option to show the hymn books as tiles or as a list of long bars.
+
 ## 0.04
 - Hymn lists now open sorted by hymn number in every book (Alphabetical and Book order are still available).
 

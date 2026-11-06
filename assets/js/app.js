@@ -567,6 +567,21 @@ function setupUI(){
     });
   }
 
+  // Clicking the logo / title returns to the plain hymn list (clears search and the favorites filter).
+  const brand = $('#brandLink');
+  if (brand){
+    brand.addEventListener('click', (e) => {
+      e.preventDefault();
+      clearTimeout(_renderTimer);
+      q.value = '';
+      syncClear();
+      state.viewFavorites = false;
+      showList();
+      renderFromState();
+      window.scrollTo(0, 0);
+    });
+  }
+
   // Initialize visibility on load (in case input is prefilled)
   syncClear();
 

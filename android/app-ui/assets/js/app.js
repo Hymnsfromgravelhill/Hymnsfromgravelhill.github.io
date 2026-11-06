@@ -50,6 +50,7 @@ const norm = (t) => String(t).toLowerCase().normalize('NFD').replace(/[\u0300-\u
 let favOnly = false;
 let shown = PAGE;
 let results = [];
+let layout = store.get('layout', 'tiles') === 'list' ? 'list' : 'tiles';
 let scale = Math.min(1.8, Math.max(0.85, parseFloat(store.get('scale', '1')) || 1));
 
 const slugOf = (p) => p.split('/').pop().replace(/\.txt$/i, '');
@@ -172,7 +173,7 @@ function updateFavCount() {
 function refresh(resetPaging = true) { if (resetPaging) shown = PAGE; computeResults(); renderList(); }
 
 function renderHome() {
-  const g = $('bookGrid'); g.textContent = '';
+  const g = $('bookGrid'); g.textContent = ''; g.classList.toggle('list', layout === 'list');
   books.forEach((b, i) => {
     const a = document.createElement('a'); a.className = 'book-card'; a.href = '#' + encodeURIComponent(b.slug);
     a.style.setProperty('--h', String((i * 47) % 360));
@@ -318,6 +319,7 @@ function wire() {
   $('themeBtn').addEventListener('click', () => { const o = ['auto', 'light', 'dark']; setTheme(o[(o.indexOf(store.get('theme', 'auto')) + 1) % 3]); });
   $('setTheme').addEventListener('change', (e) => setTheme(e.target.value));
   $('setSize').addEventListener('input', (e) => { scale = parseFloat(e.target.value) || 1; store.set('scale', String(scale)); applyScale(); });
+  $('setLayout').addEventListener('change', (e) => { layout = e.target.value === 'list' ? 'list' : 'tiles'; store.set('layout', layout); renderHome(); });
   $('setAwake').addEventListener('change', (e) => setAwake(e.target.checked));
   document.querySelectorAll('#tabbar button').forEach((b) => b.addEventListener('click', () => {
     const t = b.dataset.tab;
@@ -341,7 +343,7 @@ function wire() {
   books = cfg.map((b) => { let slug = slugOf(b.path), i = 2; while (seen.has(slug)) slug = slugOf(b.path) + i++; seen.add(slug); return { ...b, slug, data: null, promise: null }; });
   const sel = $('datasetSelect');
   for (const b of books) { const o = document.createElement('option'); o.value = b.slug; o.textContent = b.name; sel.appendChild(o); }
-  $('sortSelect').value = sort; $('setAwake').checked = store.get('awake', '0') === '1';
+  $('sortSelect').value = sort; $('setLayout').value = layout; $('setAwake').checked = store.get('awake', '0') === '1';
   $('tabbar').classList.toggle('hidden', !APP);
   try { if (NATIVE && NATIVE.appVersion) $('appVersion').textContent = 'Version ' + NATIVE.appVersion(); } catch (e) { /* ignore */ }
   setTheme(store.get('theme', 'auto')); applyScale(); wire();
