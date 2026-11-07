@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.06
+- The downloaded file is now named with its version (HymnsFromGravelHill-0.06.apk) so an older download is never opened by mistake.
+
 ## 0.05
 - Settings: new "Book shelf layout" option to show the hymn books as tiles or as a list of long bars.
 

@@ -97,18 +97,29 @@ jobs:
       - name: Build release APK
         run: gradle -p android assembleRelease
 
-      - name: Name the APK
-        run: cp android/app/build/outputs/apk/release/app-release.apk HymnsFromGravelHill.apk
+      - name: Name the APK (version is part of the file name)
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk "HymnsFromGravelHill-${APP_VERSION}.apk"
+          echo "APK_FILE=HymnsFromGravelHill-${APP_VERSION}.apk" >> "$GITHUB_ENV"
+
+      - name: Verify the APK really is this version
+        run: |
+          aapt2=$(ls "$ANDROID_HOME"/build-tools/*/aapt2 | sort -V | tail -1)
+          info=$("$aapt2" dump badging "$APK_FILE" | grep -m1 '^package:')
+          echo "$info"
+          echo "$info" | grep -q "versionName='${APP_VERSION}'" || { echo "APK version does not match ${APP_VERSION}" >&2; exit 1; }
+          echo "### Built Hymns app ${APP_VERSION}" >> "$GITHUB_STEP_SUMMARY"
+          echo "File: ${APK_FILE}" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Show signing certificate (must be identical on every build)
         run: |
           apksigner=$(ls "$ANDROID_HOME"/build-tools/*/apksigner 2>/dev/null | sort -V | tail -1)
-          [ -n "$apksigner" ] && "$apksigner" verify --print-certs HymnsFromGravelHill.apk | grep -E "Signer #1 certificate SHA-256" || true
+          [ -n "$apksigner" ] && "$apksigner" verify --print-certs "$APK_FILE" | grep -E "Signer #1 certificate SHA-256" || true
 
       - uses: actions/upload-artifact@v4
         with:
-          name: HymnsFromGravelHill-apk
-          path: HymnsFromGravelHill.apk
+          name: HymnsFromGravelHill-${{ env.APP_VERSION }}
+          path: ${{ env.APK_FILE }}
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
@@ -116,4 +127,4 @@ jobs:
           tag_name: app-v${{ env.APP_VERSION }}
           name: Hymns app ${{ env.APP_VERSION }}
           body_path: release-notes.md
-          files: HymnsFromGravelHill.apk
+          files: ${{ env.APK_FILE }}
