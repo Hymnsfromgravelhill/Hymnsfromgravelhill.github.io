@@ -1,34 +1,24 @@
 <!doctype html>
-<html lang="en" data-mode="web">
+<html lang="en" data-mode="app">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#233E5B" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <title>Hymns from Gravel Hill</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/app.css">
-<link rel="icon" type="image/png" href="assets/img/icon.png">
 <script src="assets/js/theme-init.js"></script>
 </head>
 <body>
 <header class="topbar" role="banner">
-  <a class="brand" href="#" id="brandLink" aria-label="Hymns from Gravel Hill, home">
-    <img src="assets/img/icon.png" alt="" class="logo" width="36" height="36">
-    <span class="title">Hymns from Gravel Hill</span>
-  </a>
   <div class="controls">
-    <label class="sr-only" for="datasetSelect">Hymn book</label>
-    <select id="datasetSelect"></select>
     <div class="search-wrap" role="search">
       <label class="sr-only" for="q">Search</label>
       <input id="q" type="search" inputmode="search" enterkeyhint="search" placeholder="Search number, title, lyrics, author…" autocomplete="off" autocapitalize="off" spellcheck="false">
       <button id="qClear" class="q-clear" type="button" aria-label="Clear search" hidden>×</button>
     </div>
-    <button id="themeBtn" class="icon-btn" type="button" aria-label="Switch colour theme">◐</button>
   </div>
 </header>
 
@@ -74,7 +64,7 @@
       <input id="setSize" type="range" min="0.85" max="1.8" step="0.05" value="1"></div>
     <div class="setting"><label for="setLayout">Book shelf layout</label>
       <select id="setLayout"><option value="tiles">Tiles</option><option value="list">List</option></select></div>
-    <div class="setting"><label for="setAwake">Keep screen on while reading</label>
+    <div class="setting"><label for="setAwake">Keep screen on while reading a hymn</label>
       <input id="setAwake" type="checkbox"></div>
     <p id="appVersion" class="muted"></p>
     <p class="muted">Hymns from Gravel Hill — hymn books are stored in the app and work without internet.</p>
@@ -91,7 +81,6 @@
       <button id="biggerBtn" type="button" aria-label="Larger text">A+</button>
       <button id="copyBtn" type="button" title="Copy hymn">Copy</button>
       <button id="shareBtn" type="button" title="Share hymn" class="hidden">Share</button>
-      <button id="printBtn" type="button" title="Print hymn">Print</button>
       <button id="favBtnDetail" type="button" aria-pressed="false" title="Favorite">☆</button>
     </nav>
     <article id="hymnArticle">

@@ -15,7 +15,6 @@ html[data-mode="app"][data-theme="dark"]{
 }
 html[data-mode="app"] body{padding-bottom:calc(4.2rem + env(safe-area-inset-bottom));font-family:"Georgia",ui-serif,serif;-webkit-tap-highlight-color:transparent}
 html[data-mode="app"] .topbar{position:sticky;background:var(--bg);color:var(--text);padding-top:calc(.6rem + env(safe-area-inset-top))}
-html[data-mode="app"] .brand,html[data-mode="app"] .controls select,html[data-mode="app"] #themeBtn{display:none}
 html[data-mode="app"] .controls{flex-basis:100%}
 html[data-mode="app"] .search-wrap input{border-radius:999px;border:0;background:var(--surface);box-shadow:0 1px 6px rgba(0,0,0,.12);padding:.75rem 1.1rem;font-size:1rem;min-height:3rem}
 html[data-mode="app"] .subbar{background:var(--bg);border:0;padding-top:0}
@@ -38,7 +37,6 @@ html[data-mode="app"] .lyrics{text-align:left;max-width:30rem;margin-left:auto;m
 html[data-mode="app"] .stanza.chorus{border:0;background:var(--accent-soft);border-radius:16px;padding:.8rem 1rem;margin-left:0}
 html[data-mode="app"] .detail-nav{position:sticky;top:0;background:var(--bg);padding:.4rem .25rem;z-index:5;overflow-x:auto;flex-wrap:nowrap}
 html[data-mode="app"] .detail-nav button{border-radius:999px;white-space:nowrap}
-html[data-mode="app"] #printBtn,html[data-mode="app"] #brandLink{display:none}
 
 .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
 .tabbar button{flex:1;display:flex;flex-direction:column;align-items:center;gap:.1rem;padding:.5rem 0 .4rem;border:0;background:transparent;color:var(--muted);font-size:.72rem;cursor:pointer;min-height:3.4rem}

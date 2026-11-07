@@ -34,13 +34,14 @@ jobs:
       - name: Bundle the hymn books and app screens into the app
         run: |
           dest=android/app/src/main/assets/www
-          rm -rf "$dest" && mkdir -p "$dest/assets/js" "$dest/assets/img" "$dest/hymnals"
+          rm -rf "$dest" && mkdir -p "$dest/assets/js" "$dest/hymnals"
           cp android/app-ui/index.html "$dest/"
           cp -r android/app-ui/assets/css "$dest/assets/css"
           cp android/app-ui/assets/js/*.js "$dest/assets/js/"
           cp assets/js/search.js assets/js/utils.js "$dest/assets/js/"
-          cp assets/img/icon.png "$dest/assets/img/"
           cp config.json "$dest/"
+          cp android/app-ui/assets/js/parser.js "$RUNNER_TEMP/parser.mjs"
+          node android/tools/make-counts.mjs "$RUNNER_TEMP/parser.mjs" "$dest/counts.json"
           cp hymnals/*.txt "$dest/hymnals/"
           du -sh "$dest"
 

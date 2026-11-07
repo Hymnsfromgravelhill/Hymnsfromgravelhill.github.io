@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.07
+- Book shelf shows the number of hymns in each book (instead of "Tap to open").
+- Battery: page timers and drawing pause whenever the app is hidden, search waits for a pause in typing, and keep-screen-on now applies only while a hymn is open.
+- Removed unused code: website-only buttons and styles inside the app, an unused build file and an unused colour.
+
 ## 0.06
 - The downloaded file is now named with its version (HymnsFromGravelHill-0.06.apk) so an older download is never opened by mistake.
 

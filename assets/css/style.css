@@ -48,8 +48,6 @@ a:visited{color:var(--link);} /* prevent odd visited colors */
 .controls input{flex:1;min-width:0}
 .controls button:not(.q-clear){cursor:pointer}
 
-.icon-btn{font-weight:700}
-
 /* Inside-the-input search clear */
 .search-wrap{
   position:relative;
@@ -153,13 +151,6 @@ a:visited{color:var(--link);} /* prevent odd visited colors */
   padding-left: 16px;
   margin: 0 0 1rem 0;
 }
-.lyrics .addedChorus{
-  color: var(--accent);
-  font-style: italic;
-  padding-left: 16px;
-  margin: 0 0 1rem 0;
-}
-.lyrics .infoTitle{font-weight:700;font-style:italic;margin:.25rem 0}
 .lyrics .author{font-style:italic;color:var(--muted);margin:.25rem 0}
 
 /* Dark mode: follows the device unless the theme button picked light/dark */

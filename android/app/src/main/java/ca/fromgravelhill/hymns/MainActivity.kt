@@ -77,6 +77,19 @@ class MainActivity : AppCompatActivity() {
         else web.restoreState(savedInstanceState)
     }
 
+    // Battery: stop page timers and drawing whenever the app is not on screen.
+    override fun onPause() {
+        web.onPause()
+        web.pauseTimers()
+        super.onPause()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        web.resumeTimers()
+        web.onResume()
+    }
+
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         web.saveState(outState)

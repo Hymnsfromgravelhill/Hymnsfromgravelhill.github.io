@@ -103,7 +103,7 @@ async function loadConfig(){
     const res = await fetch('config.json');
     state.config = await res.json();
   }catch{
-    state.config = window.__HFG_CONFIG__ || {datasets: []};
+    state.config = {datasets: []};
   }
   state.datasets = state.config.datasets || [];
   renderDatasetPicker();

@@ -2,7 +2,6 @@ import { parseBook } from './parser.js';
 import { buildIndex, search } from './search.js';
 
 const $ = (id) => document.getElementById(id);
-const APP = document.documentElement.getAttribute('data-mode') === 'app';
 const NATIVE = window.HymnNative || null;
 const PAGE = 150;
 
@@ -74,6 +73,7 @@ function appendHtml(parent, html) {
 function show(id) {
   for (const v of ['homeView', 'listView', 'favView', 'settingsView', 'detailView']) $(v).classList.toggle('hidden', v !== id);
   document.body.dataset.view = id;
+  applyAwake();
   const showTools = id === 'listView';
   $('sortFavBar').classList.toggle('hidden', !showTools);
   document.querySelectorAll('#tabbar button').forEach((b) => {
@@ -172,13 +172,17 @@ function updateFavCount() {
 }
 function refresh(resetPaging = true) { if (resetPaging) shown = PAGE; computeResults(); renderList(); }
 
+function bookCount(b) {
+  const n = b.data ? b.data.hymns.filter((h) => h.number !== '0').length : b.count;
+  return n ? `${n} hymn${n === 1 ? '' : 's'}` : '';
+}
 function renderHome() {
   const g = $('bookGrid'); g.textContent = ''; g.classList.toggle('list', layout === 'list');
   books.forEach((b, i) => {
     const a = document.createElement('a'); a.className = 'book-card'; a.href = '#' + encodeURIComponent(b.slug);
     a.style.setProperty('--h', String((i * 47) % 360));
     const t = document.createElement('span'); t.className = 'book-name'; t.textContent = b.name;
-    const c = document.createElement('span'); c.className = 'book-count'; c.textContent = b.data ? `${b.data.hymns.length} hymns` : 'Tap to open';
+    const c = document.createElement('span'); c.className = 'book-count'; c.textContent = bookCount(b);
     a.append(t, c); g.appendChild(a);
   });
 }
@@ -230,7 +234,7 @@ function applyScale() { document.documentElement.style.setProperty('--lyric-scal
 // ---------- routing ----------
 async function selectBook(slug) {
   const b = books.find((x) => x.slug === slug) || books[0];
-  cur = b; store.set('book', b.slug); $('datasetSelect').value = b.slug;
+  cur = b; store.set('book', b.slug);
   if (!b.data) {
     $('listTitle').textContent = b.name; $('results').textContent = '';
     $('resultStats').textContent = 'Loading\u2026'; $('moreBtn').classList.add('hidden');
@@ -245,7 +249,7 @@ async function route() {
   document.title = 'Hymns from Gravel Hill';
   if (h === 'settings') { show('settingsView'); return; }
   if (h === 'favs') { show('favView'); await renderFavs(); return; }
-  if (h === '' && APP) { renderHome(); show('homeView'); return; }
+  if (h === '') { renderHome(); show('homeView'); return; }
   const [slug, numStr] = h.split('/');
   const target = slug || store.get('book', books[0].slug);
   show('listView');
@@ -269,17 +273,12 @@ function setTheme(t) {
   store.set('theme', t);
   if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); else document.documentElement.removeAttribute('data-theme');
   $('setTheme').value = t;
-  const eff = t === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t;
-  $('themeBtn').textContent = t === 'auto' ? '\u25D0' : eff === 'dark' ? '\u263E' : '\u2600';
-  $('themeBtn').title = 'Theme: ' + (t === 'auto' ? 'match device' : t);
 }
-async function setAwake(on) {
-  store.set('awake', on ? '1' : '0');
-  if (NATIVE && NATIVE.keepScreenOn) { try { NATIVE.keepScreenOn(!!on); } catch (e) { /* ignore */ } return; }
-  try {
-    if (on && navigator.wakeLock) setAwake.lock = await navigator.wakeLock.request('screen');
-    else if (setAwake.lock) { await setAwake.lock.release(); setAwake.lock = null; }
-  } catch (e) { /* unsupported */ }
+// Keep the screen on only while a hymn is open (and only if the setting is on). Native side clears it when the app is hidden.
+let awakeSetting = false;
+function applyAwake() {
+  const on = awakeSetting && document.body.dataset.view === 'detailView';
+  try { if (NATIVE && NATIVE.keepScreenOn) NATIVE.keepScreenOn(on); } catch (e) { /* ignore */ }
 }
 
 function wire() {
@@ -291,36 +290,33 @@ function wire() {
       selectBook(cur.slug).then(() => { goList(); refresh(); }).catch(() => {});
       return;
     }
-    refresh();
+    clearTimeout(wire.timer);                                   // one search per pause in typing, not per key
+    wire.timer = setTimeout(refresh, 100);
   });
   q.addEventListener('keydown', (e) => { if (e.key === 'Escape') { q.value = ''; q.dispatchEvent(new Event('input')); } });
   $('qClear').addEventListener('click', () => { q.value = ''; q.dispatchEvent(new Event('input')); q.focus(); });
-  $('datasetSelect').addEventListener('change', (e) => { favOnly = false; location.hash = '#' + encodeURIComponent(e.target.value); });
   $('sortSelect').addEventListener('change', (e) => { sort = e.target.value; store.set('sort', sort); if (cur && cur.data) refresh(); });
   $('favoritesToggle').addEventListener('click', () => { favOnly = !favOnly; refresh(); });
   $('moreBtn').addEventListener('click', () => { shown += PAGE; renderList(); });
-  $('brandLink').addEventListener('click', (e) => { e.preventDefault(); location.hash = APP ? '' : '#' + encodeURIComponent((cur || books[0]).slug); });
   $('backBtn').addEventListener('click', () => { if (history.length > 1 && document.referrer.startsWith(location.origin)) history.back(); else goList(); });
   const step = (d) => { if (!cur || !curHymn) return; const arr = cur.data.hymns, i = arr.indexOf(curHymn) + d; if (arr[i]) history.replaceState(null, '', '#' + encodeURIComponent(cur.slug) + '/' + encodeURIComponent(arr[i].id)), renderDetail(cur, arr[i]), window.scrollTo(0, 0); };
   $('prevBtn').addEventListener('click', () => step(-1)); $('nextBtn').addEventListener('click', () => step(1));
   $('copyBtn').addEventListener('click', async () => toast((await copyText(hymnToText(cur, curHymn))) ? 'Copied' : 'Copy failed'));
-  $('printBtn').addEventListener('click', () => window.print());
-  if (NATIVE && NATIVE.share || navigator.share) {
+  if (NATIVE && NATIVE.share) {
     $('shareBtn').classList.remove('hidden');
     $('shareBtn').addEventListener('click', async () => {
       const text = hymnToText(cur, curHymn);
-      try { if (NATIVE && NATIVE.share) NATIVE.share(curHymn.title, text); else await navigator.share({ title: curHymn.title, text }); } catch (e) { /* cancelled */ }
+      try { NATIVE.share(curHymn.title, text); } catch (e) { /* ignore */ }
     });
   }
   const fav = () => { if (!curHymn) return; toggleFav(cur, curHymn.id); updateDetailFav(); updateFavCount(); };
   $('favBtnDetail').addEventListener('click', fav);
   const bump = (d) => { scale = Math.min(1.8, Math.max(0.85, Math.round((scale + d) * 100) / 100)); store.set('scale', String(scale)); applyScale(); };
   $('smallerBtn').addEventListener('click', () => bump(-0.1)); $('biggerBtn').addEventListener('click', () => bump(0.1));
-  $('themeBtn').addEventListener('click', () => { const o = ['auto', 'light', 'dark']; setTheme(o[(o.indexOf(store.get('theme', 'auto')) + 1) % 3]); });
   $('setTheme').addEventListener('change', (e) => setTheme(e.target.value));
   $('setSize').addEventListener('input', (e) => { scale = parseFloat(e.target.value) || 1; store.set('scale', String(scale)); applyScale(); });
   $('setLayout').addEventListener('change', (e) => { layout = e.target.value === 'list' ? 'list' : 'tiles'; store.set('layout', layout); renderHome(); });
-  $('setAwake').addEventListener('change', (e) => setAwake(e.target.checked));
+  $('setAwake').addEventListener('change', (e) => { awakeSetting = e.target.checked; store.set('awake', awakeSetting ? '1' : '0'); applyAwake(); });
   document.querySelectorAll('#tabbar button').forEach((b) => b.addEventListener('click', () => {
     const t = b.dataset.tab;
     if (t === 'books') location.hash = '';
@@ -341,12 +337,14 @@ function wire() {
   const cfg = await loadConfig();
   const seen = new Set();
   books = cfg.map((b) => { let slug = slugOf(b.path), i = 2; while (seen.has(slug)) slug = slugOf(b.path) + i++; seen.add(slug); return { ...b, slug, data: null, promise: null }; });
-  const sel = $('datasetSelect');
-  for (const b of books) { const o = document.createElement('option'); o.value = b.slug; o.textContent = b.name; sel.appendChild(o); }
-  $('sortSelect').value = sort; $('setLayout').value = layout; $('setAwake').checked = store.get('awake', '0') === '1';
-  $('tabbar').classList.toggle('hidden', !APP);
+  awakeSetting = store.get('awake', '0') === '1';
+  $('sortSelect').value = sort; $('setLayout').value = layout; $('setAwake').checked = awakeSetting;
+  // Hymn counts for the book shelf come from a small file made at build time, so no book has to be opened to show them.
+  fetch('counts.json').then((r) => (r.ok ? r.json() : {})).catch(() => ({})).then((c) => {
+    for (const b of books) b.count = c[b.path] || 0;
+    if (document.body.dataset.view === 'homeView') renderHome();
+  });
   try { if (NATIVE && NATIVE.appVersion) $('appVersion').textContent = 'Version ' + NATIVE.appVersion(); } catch (e) { /* ignore */ }
   setTheme(store.get('theme', 'auto')); applyScale(); wire();
-  if (store.get('awake', '0') === '1') setAwake(true);
   await route();
 })();
